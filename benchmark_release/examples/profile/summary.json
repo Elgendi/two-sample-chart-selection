@@ -1,0 +1,13 @@
+{
+  "task": "profile",
+  "observer": "hard",
+  "selected": "Line chart",
+  "all_reference_ties": [
+    "Line chart"
+  ],
+  "default": "Dot plot",
+  "default_test_loss": 0.023746964943718425,
+  "selected_test_loss": 0.02786629284782951,
+  "gain": -0.004119327904111084,
+  "interpretation": "Positive gain favors selection for this computational task and decoder; no inference about human understanding. The default was trained on the bundled empirical benchmark."
+}

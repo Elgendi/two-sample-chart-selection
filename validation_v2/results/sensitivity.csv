@@ -1,0 +1,5 @@
+axis,H,observer,changed_families,cases
+zero,128,threshold,13,127
+zero,512,threshold,7,127
+zero,256,alpha,14,127
+tight,256,threshold,2,127

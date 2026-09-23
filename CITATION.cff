@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this computational benchmark and the original datasets used."
+type: software
+title: "Choosing scientific visualizations through task-first optimization"
+version: "5.0.1"
+date-released: "2026-09-23"
+authors:
+  - family-names: Elgendi
+    given-names: Mohamed
+abstract: "Task-specific pixel-recovery benchmark with strong-default comparisons, clustered transfer evaluation and complete reproducibility inputs. Human comprehension is not evaluated."
+keywords:
+  - data visualization
+  - computational benchmark
+  - reproducibility
+repository-code: "https://github.com/Elgendi/two-sample-chart-selection"

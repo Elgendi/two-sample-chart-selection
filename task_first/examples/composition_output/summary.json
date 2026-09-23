@@ -1,0 +1,30 @@
+{
+  "task": "composition",
+  "case": {
+    "key": "user_input",
+    "task": "composition",
+    "kind": "user",
+    "dataset": "User",
+    "values": [
+      0.6789297658862876,
+      0.3210702341137124
+    ],
+    "labels": [
+      "Survived",
+      "Died"
+    ]
+  },
+  "selected": "Pie chart",
+  "reference_score": 99.95024323078222,
+  "transfer_score": 99.95425024673742,
+  "all_tied_best": [
+    "Pie chart"
+  ],
+  "eligible_candidates": [
+    "Bar chart",
+    "Pie chart",
+    "Donut chart",
+    "Stacked bar"
+  ],
+  "interpretation": "Computational task recovery. Do not compare scores across different questions or infer human comprehension."
+}

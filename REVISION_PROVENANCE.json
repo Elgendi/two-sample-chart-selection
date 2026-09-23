@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-23",
+  "source_manuscript_sha256": "317ccae43f4a67b35fc9247883d569911a177505593914328b7948e15a003067",
+  "recovered_reproducibility_sha256": "8d2b4922ff449bf39d1a6bd7a3b61fbb22544aa7c8c4325222552df17e1079bb",
+  "public_repository_inspected_commit": "c41bd28f5bc858585278db4cb7658612bff37855",
+  "public_repository_entry_point": "failed: rendered_study/checks.py absent",
+  "remote_repository_modified": false,
+  "human_data_collected": false,
+  "new_external_empirical_data_collected": false,
+  "numerical_analysis_code_changed": false,
+  "presentation_changes": [
+    "Main-text evidence integration",
+    "Figure headings, captions and numbering",
+    "Atomic validated figure writes",
+    "Expanded prospective reader-study protocol",
+    "Recent chart-understanding related work"
+  ]
+}

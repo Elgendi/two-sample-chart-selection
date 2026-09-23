@@ -1,0 +1,81 @@
+key,dataset,family,setting,candidate,H,phase,observer,error,task,loss
+user,User,Bar chart,means,Bar chart / means,256,0.0,threshold,,spread,0.8609751283889647
+user,User,Bar chart,means,Bar chart / means,256,0.25,threshold,,spread,0.8609751283889647
+user,User,Bar chart,means,Bar chart / means,256,0.5,threshold,,spread,0.8609751283889647
+user,User,Bar chart,means,Bar chart / means,256,0.75,threshold,,spread,0.8609751283889647
+user,User,Box plot,five,Box plot / five,256,0.0,threshold,,spread,0.002177335668052423
+user,User,Box plot,five,Box plot / five,256,0.25,threshold,,spread,0.002177335668052423
+user,User,Box plot,five,Box plot / five,256,0.5,threshold,,spread,0.002177335668052423
+user,User,Box plot,five,Box plot / five,256,0.75,threshold,,spread,0.048340181550824236
+user,User,Interval plot,five,Interval plot / five,256,0.0,threshold,,spread,0.002177335668052423
+user,User,Interval plot,five,Interval plot / five,256,0.25,threshold,,spread,0.002177335668052423
+user,User,Interval plot,five,Interval plot / five,256,0.5,threshold,,spread,0.002177335668052423
+user,User,Interval plot,five,Interval plot / five,256,0.75,threshold,,spread,0.05269485288692965
+user,User,Dot plot,raw,Dot plot / raw,256,0.0,threshold,,spread,0.08074792422095363
+user,User,Dot plot,raw,Dot plot / raw,256,0.25,threshold,,spread,0.062173994781306516
+user,User,Dot plot,raw,Dot plot / raw,256,0.5,threshold,,spread,0.02779315098299453
+user,User,Dot plot,raw,Dot plot / raw,256,0.75,threshold,,spread,0.05757032890279999
+user,User,Histogram,16,Histogram / 16,256,0.0,threshold,,spread,0.1963160484066736
+user,User,Histogram,16,Histogram / 16,256,0.25,threshold,,spread,0.2066311217608908
+user,User,Histogram,16,Histogram / 16,256,0.5,threshold,,spread,0.22747225053869868
+user,User,Histogram,16,Histogram / 16,256,0.75,threshold,,spread,0.25512280362746764
+user,User,Heatmap,16,Heatmap / 16,256,0.0,threshold,,spread,0.19813638255834295
+user,User,Heatmap,16,Heatmap / 16,256,0.25,threshold,,spread,0.19813638255834295
+user,User,Heatmap,16,Heatmap / 16,256,0.5,threshold,,spread,0.19813638255834295
+user,User,Heatmap,16,Heatmap / 16,256,0.75,threshold,,spread,0.19813638255834295
+user,User,Violin plot,64,Violin plot / 64,256,0.0,threshold,,spread,0.10366075234519304
+user,User,Violin plot,64,Violin plot / 64,256,0.25,threshold,,spread,0.10291842693512132
+user,User,Violin plot,64,Violin plot / 64,256,0.5,threshold,,spread,0.10520803068511804
+user,User,Violin plot,64,Violin plot / 64,256,0.75,threshold,,spread,0.10474368890246614
+user,User,ECDF,full,ECDF / full,256,0.0,threshold,,spread,0.02308142294138477
+user,User,ECDF,full,ECDF / full,256,0.25,threshold,,spread,0.023081422941384204
+user,User,ECDF,full,ECDF / full,256,0.5,threshold,,spread,0.0021773356680535576
+user,User,ECDF,full,ECDF / full,256,0.75,threshold,,spread,0.02308142294138534
+user,User,Quantile plot,five,Quantile plot / five,256,0.0,threshold,,spread,0.02743609427749132
+user,User,Quantile plot,five,Quantile plot / five,256,0.25,threshold,,spread,0.004558333294463822
+user,User,Quantile plot,five,Quantile plot / five,256,0.5,threshold,,spread,0.02855870577124469
+user,User,Quantile plot,five,Quantile plot / five,256,0.75,threshold,,spread,0.007790393136816434
+user,User,Quantile plot,nineteen,Quantile plot / nineteen,256,0.0,threshold,,spread,0.02743609427749132
+user,User,Quantile plot,nineteen,Quantile plot / nineteen,256,0.25,threshold,,spread,0.004558333294463822
+user,User,Quantile plot,nineteen,Quantile plot / nineteen,256,0.5,threshold,,spread,0.02855870577124469
+user,User,Quantile plot,nineteen,Quantile plot / nineteen,256,0.75,threshold,,spread,0.007790393136816434
+user,User,Bar chart,means,Bar chart / means,384,0.125,threshold,,spread,0.8609751283889647
+user,User,Bar chart,means,Bar chart / means,384,0.375,threshold,,spread,0.8609751283889647
+user,User,Bar chart,means,Bar chart / means,384,0.625,threshold,,spread,0.8609751283889647
+user,User,Bar chart,means,Bar chart / means,384,0.875,threshold,,spread,0.8609751283889647
+user,User,Box plot,five,Box plot / five,384,0.125,threshold,,spread,0.0056185834350071665
+user,User,Box plot,five,Box plot / five,384,0.375,threshold,,spread,0.027279745217069128
+user,User,Box plot,five,Box plot / five,384,0.625,threshold,,spread,0.027279745217069128
+user,User,Box plot,five,Box plot / five,384,0.875,threshold,,spread,0.005618583435006316
+user,User,Interval plot,five,Interval plot / five,384,0.125,threshold,,spread,0.03851691208708232
+user,User,Interval plot,five,Interval plot / five,384,0.375,threshold,,spread,0.027279745217069128
+user,User,Interval plot,five,Interval plot / five,384,0.625,threshold,,spread,0.005618583435006316
+user,User,Interval plot,five,Interval plot / five,384,0.875,threshold,,spread,0.005618583435006316
+user,User,Dot plot,raw,Dot plot / raw,384,0.125,threshold,,spread,0.07273457175832514
+user,User,Dot plot,raw,Dot plot / raw,384,0.375,threshold,,spread,0.016580155428901892
+user,User,Dot plot,raw,Dot plot / raw,384,0.625,threshold,,spread,0.013606717114798453
+user,User,Dot plot,raw,Dot plot / raw,384,0.875,threshold,,spread,0.022805400172924505
+user,User,Histogram,16,Histogram / 16,384,0.125,threshold,,spread,0.197988309456852
+user,User,Histogram,16,Histogram / 16,384,0.375,threshold,,spread,0.23885733668740053
+user,User,Histogram,16,Histogram / 16,384,0.625,threshold,,spread,0.232229078852056
+user,User,Histogram,16,Histogram / 16,384,0.875,threshold,,spread,0.2268243081712482
+user,User,Heatmap,16,Heatmap / 16,384,0.125,threshold,,spread,0.19813638255834295
+user,User,Heatmap,16,Heatmap / 16,384,0.375,threshold,,spread,0.19813638255834295
+user,User,Heatmap,16,Heatmap / 16,384,0.625,threshold,,spread,0.19813638255834295
+user,User,Heatmap,16,Heatmap / 16,384,0.875,threshold,,spread,0.19813638255834295
+user,User,Violin plot,64,Violin plot / 64,384,0.125,threshold,,spread,0.10186249733495498
+user,User,Violin plot,64,Violin plot / 64,384,0.375,threshold,,spread,0.10219441986737057
+user,User,Violin plot,64,Violin plot / 64,384,0.625,threshold,,spread,0.10192488499655228
+user,User,Violin plot,64,Violin plot / 64,384,0.875,threshold,,spread,0.10191130660996803
+user,User,ECDF,full,ECDF / full,384,0.125,threshold,,spread,0.010830580891031547
+user,User,ECDF,full,ECDF / full,384,0.375,threshold,,spread,0.010830580891029847
+user,User,ECDF,full,ECDF / full,384,0.625,threshold,,spread,0.02727974521706714
+user,User,ECDF,full,ECDF / full,384,0.875,threshold,,spread,0.010830580891029562
+user,User,Quantile plot,five,Quantile plot / five,384,0.125,threshold,,spread,0.01083058089103098
+user,User,Quantile plot,five,Quantile plot / five,384,0.375,threshold,,spread,0.008542879315190982
+user,User,Quantile plot,five,Quantile plot / five,384,0.625,threshold,,spread,0.00817734233016921
+user,User,Quantile plot,five,Quantile plot / five,384,0.875,threshold,,spread,0.01658469298569832
+user,User,Quantile plot,nineteen,Quantile plot / nineteen,384,0.125,threshold,,spread,0.01083058089103098
+user,User,Quantile plot,nineteen,Quantile plot / nineteen,384,0.375,threshold,,spread,0.008542879315190982
+user,User,Quantile plot,nineteen,Quantile plot / nineteen,384,0.625,threshold,,spread,0.00817734233016921
+user,User,Quantile plot,nineteen,Quantile plot / nineteen,384,0.875,threshold,,spread,0.01658469298569832

@@ -1,0 +1,30 @@
+observer,task,family,wins
+alpha,dense19,Dot plot,10
+alpha,dense19,ECDF,112
+alpha,dense19,Quantile plot,5
+alpha,five,ECDF,11
+alpha,five,Quantile plot,116
+alpha,median,Box plot,12
+alpha,median,Dot plot,1
+alpha,median,ECDF,35
+alpha,median,Heatmap,6
+alpha,median,Histogram,1
+alpha,median,Interval plot,14
+alpha,median,Quantile plot,80
+alpha,median,Violin plot,9
+threshold,dense19,Dot plot,6
+threshold,dense19,ECDF,114
+threshold,dense19,Quantile plot,7
+threshold,five,Dot plot,1
+threshold,five,ECDF,2
+threshold,five,Heatmap,1
+threshold,five,Quantile plot,123
+threshold,median,Bar chart,1
+threshold,median,Box plot,19
+threshold,median,Dot plot,2
+threshold,median,ECDF,17
+threshold,median,Heatmap,10
+threshold,median,Histogram,4
+threshold,median,Interval plot,70
+threshold,median,Quantile plot,23
+threshold,median,Violin plot,12

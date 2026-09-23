@@ -1,0 +1,71 @@
+observer,task,candidate,memberships
+alpha,asymmetry,Bar chart / means,4
+alpha,asymmetry,Dot plot / raw,1
+alpha,asymmetry,ECDF / full,14
+alpha,asymmetry,Heatmap / 16,2
+alpha,asymmetry,Quantile plot / five,79
+alpha,asymmetry,Quantile plot / nineteen,85
+alpha,asymmetry,Violin plot / 64,6
+alpha,dense19,ECDF / full,1
+alpha,dense19,Quantile plot / nineteen,126
+alpha,five,ECDF / full,8
+alpha,five,Quantile plot / five,89
+alpha,five,Quantile plot / nineteen,100
+alpha,median,Box plot / five,10
+alpha,median,Dot plot / raw,2
+alpha,median,ECDF / full,31
+alpha,median,Heatmap / 16,6
+alpha,median,Histogram / 16,2
+alpha,median,Interval plot / five,14
+alpha,median,Quantile plot / five,70
+alpha,median,Quantile plot / nineteen,70
+alpha,median,Violin plot / 64,6
+alpha,spread,Bar chart / means,3
+alpha,spread,Box plot / five,12
+alpha,spread,Dot plot / raw,2
+alpha,spread,ECDF / full,17
+alpha,spread,Interval plot / five,9
+alpha,spread,Quantile plot / five,81
+alpha,spread,Quantile plot / nineteen,84
+alpha,spread,Violin plot / 64,5
+alpha,upper_tail,Dot plot / raw,2
+alpha,upper_tail,ECDF / full,8
+alpha,upper_tail,Heatmap / 16,2
+alpha,upper_tail,Quantile plot / five,4
+alpha,upper_tail,Quantile plot / nineteen,113
+threshold,asymmetry,Bar chart / means,4
+threshold,asymmetry,Dot plot / raw,4
+threshold,asymmetry,ECDF / full,7
+threshold,asymmetry,Heatmap / 16,2
+threshold,asymmetry,Histogram / 16,2
+threshold,asymmetry,Quantile plot / five,80
+threshold,asymmetry,Quantile plot / nineteen,89
+threshold,asymmetry,Violin plot / 64,10
+threshold,dense19,Quantile plot / nineteen,127
+threshold,five,ECDF / full,3
+threshold,five,Quantile plot / five,96
+threshold,five,Quantile plot / nineteen,103
+threshold,median,Box plot / five,13
+threshold,median,Dot plot / raw,2
+threshold,median,ECDF / full,13
+threshold,median,Heatmap / 16,10
+threshold,median,Histogram / 16,2
+threshold,median,Interval plot / five,66
+threshold,median,Quantile plot / five,28
+threshold,median,Quantile plot / nineteen,29
+threshold,median,Violin plot / 64,10
+threshold,spread,Bar chart / means,3
+threshold,spread,Box plot / five,6
+threshold,spread,ECDF / full,9
+threshold,spread,Heatmap / 16,3
+threshold,spread,Histogram / 16,4
+threshold,spread,Interval plot / five,12
+threshold,spread,Quantile plot / five,65
+threshold,spread,Quantile plot / nineteen,74
+threshold,spread,Violin plot / 64,10
+threshold,upper_tail,Dot plot / raw,3
+threshold,upper_tail,ECDF / full,6
+threshold,upper_tail,Heatmap / 16,6
+threshold,upper_tail,Quantile plot / five,2
+threshold,upper_tail,Quantile plot / nineteen,107
+threshold,upper_tail,Violin plot / 64,4

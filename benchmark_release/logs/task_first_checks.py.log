@@ -1,0 +1,3 @@
+/workspace/scratch/d747eeb608aa/recovered/code/task_first/benchmark.py:110: RuntimeWarning: invalid value encountered in divide
+  w=np.asarray(w,float);w/=w.sum();x=np.asarray(x);y=np.asarray(y);dx=x-np.sum(w*x);dy=y-np.sum(w*y);den=np.sqrt(np.sum(w*dx**2)*np.sum(w*dy**2))
+20 fixture contracts; unit-rescaling invariance checked

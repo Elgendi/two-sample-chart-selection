@@ -1,0 +1,10 @@
+{
+  "audit_cases": 149,
+  "configurations": 2086,
+  "finite": 2082,
+  "unavailable": 4,
+  "unchanged_selections": 149,
+  "raw_baseline_zero": true,
+  "descending_scores": true,
+  "boundary_checks_passed": true
+}

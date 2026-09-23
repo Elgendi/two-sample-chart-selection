@@ -1,0 +1,13 @@
+task,observer,candidate
+median,hard,Interval plot / five
+median,soft,Quantile plot / nineteen
+spread,hard,Quantile plot / five
+spread,soft,Quantile plot / five
+five,hard,Quantile plot / five
+five,soft,Quantile plot / five
+composition,hard,Pie chart
+composition,soft,Pie chart
+profile,hard,Dot plot
+profile,soft,Dot plot
+association,hard,Heatmap
+association,soft,Heatmap

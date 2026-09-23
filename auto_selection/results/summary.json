@@ -1,0 +1,20 @@
+{
+  "comparisons": 149,
+  "resources": 10,
+  "family_records": 2235,
+  "variant_records": 2484,
+  "strata": {
+    "Mean summary sufficient": 78,
+    "Quartile summary sufficient": 39,
+    "Distribution detail required": 32
+  },
+  "selected_sets": {
+    "Bar; Dot": 78,
+    "Box": 39,
+    "Heatmap; Histogram": 31,
+    "Dot; Raincloud": 1
+  },
+  "bootstrap_agreement_median": 0.898989898989899,
+  "bootstrap_agreement_below_080": 48,
+  "bootstrap_draws": 99
+}

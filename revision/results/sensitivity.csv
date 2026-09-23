@@ -1,0 +1,1342 @@
+key,dataset,feature,primary,n_A,n_B,setting,configuration,detail,tolerance
+WDBC__00,WDBC,mean radius,True,357,212,percentile_0.8,bins_8,Distribution,1.4999052132701447
+WDBC__00,WDBC,mean radius,True,357,212,percentile_0.9,bins_8,Distribution,1.6744943820224716
+WDBC__00,WDBC,mean radius,True,357,212,percentile_0.95,bins_8,Distribution,1.874611374407581
+WDBC__00,WDBC,mean radius,True,357,212,percentile_0.99,bins_4,Quartiles,2.407820853080566
+WDBC__00,WDBC,mean radius,True,357,212,band_0.01_0.99,bins_4,Quartiles,3.310308104265391
+WDBC__00,WDBC,mean radius,True,357,212,band_0.1_0.9,bins_8,Distribution,1.1230304595558878
+WDBC__00,WDBC,mean radius,True,357,212,fixed_0.05,raw,Distribution,0.12052583268539566
+WDBC__00,WDBC,mean radius,True,357,212,fixed_0.1,raw,Distribution,0.2410516653707913
+WDBC__00,WDBC,mean radius,True,357,212,fixed_0.2,raw,Distribution,0.4821033307415826
+WDBC__01,WDBC,mean texture,True,357,212,percentile_0.8,means,Mean,2.491943820224721
+WDBC__01,WDBC,mean texture,True,357,212,percentile_0.9,means,Mean,2.9189213483146097
+WDBC__01,WDBC,mean texture,True,357,212,percentile_0.95,means,Mean,3.2257984450716193
+WDBC__01,WDBC,mean texture,True,357,212,percentile_0.99,means,Mean,3.6944224719101144
+WDBC__01,WDBC,mean texture,True,357,212,band_0.01_0.99,means,Mean,6.280599999999932
+WDBC__01,WDBC,mean texture,True,357,212,band_0.1_0.9,means,Mean,2.6203258426966283
+WDBC__01,WDBC,mean texture,True,357,212,fixed_0.05,raw,Distribution,0.19581298670475344
+WDBC__01,WDBC,mean texture,True,357,212,fixed_0.1,raw,Distribution,0.3916259734095069
+WDBC__01,WDBC,mean texture,True,357,212,fixed_0.2,density_16,Distribution,0.7832519468190138
+WDBC__02,WDBC,mean perimeter,True,357,212,percentile_0.8,bins_8,Distribution,9.561715639810428
+WDBC__02,WDBC,mean perimeter,True,357,212,percentile_0.9,bins_8,Distribution,10.99233984770222
+WDBC__02,WDBC,mean perimeter,True,357,212,percentile_0.95,bins_8,Distribution,13.034710900473918
+WDBC__02,WDBC,mean perimeter,True,357,212,percentile_0.99,bins_4,Quartiles,17.48690157090365
+WDBC__02,WDBC,mean perimeter,True,357,212,band_0.01_0.99,bins_4,Quartiles,21.41403791469194
+WDBC__02,WDBC,mean perimeter,True,357,212,band_0.1_0.9,bins_8,Distribution,7.671639810426536
+WDBC__02,WDBC,mean perimeter,True,357,212,fixed_0.05,raw,Distribution,0.8143634672922819
+WDBC__02,WDBC,mean perimeter,True,357,212,fixed_0.1,raw,Distribution,1.6287269345845639
+WDBC__02,WDBC,mean perimeter,True,357,212,fixed_0.2,bins_16,Distribution,3.2574538691691277
+WDBC__03,WDBC,mean area,True,357,212,percentile_0.8,bins_4,Distribution,200.13200000000003
+WDBC__03,WDBC,mean area,True,357,212,percentile_0.9,bins_4,Distribution,256.2448909952607
+WDBC__03,WDBC,mean area,True,357,212,percentile_0.95,bins_4,Distribution,271.91739336492896
+WDBC__03,WDBC,mean area,True,357,212,percentile_0.99,bins_4,Distribution,310.9180113744076
+WDBC__03,WDBC,mean area,True,357,212,band_0.01_0.99,bins_4,Quartiles,566.0799052132693
+WDBC__03,WDBC,mean area,True,357,212,band_0.1_0.9,bins_8,Distribution,138.7294877256508
+WDBC__03,WDBC,mean area,True,357,212,fixed_0.05,raw,Distribution,12.4198651286463
+WDBC__03,WDBC,mean area,True,357,212,fixed_0.1,raw,Distribution,24.8397302572926
+WDBC__03,WDBC,mean area,True,357,212,fixed_0.2,raw,Distribution,49.6794605145852
+WDBC__04,WDBC,mean smoothness,True,357,212,percentile_0.8,means,Mean,0.005561764044943818
+WDBC__04,WDBC,mean smoothness,True,357,212,percentile_0.9,means,Mean,0.006475958517492939
+WDBC__04,WDBC,mean smoothness,True,357,212,percentile_0.95,means,Mean,0.00756055647265563
+WDBC__04,WDBC,mean smoothness,True,357,212,percentile_0.99,means,Mean,0.009733267298578157
+WDBC__04,WDBC,mean smoothness,True,357,212,band_0.01_0.99,means,Mean,0.01538769999999991
+WDBC__04,WDBC,mean smoothness,True,357,212,band_0.1_0.9,means,Mean,0.0052226460674157284
+WDBC__04,WDBC,mean smoothness,True,357,212,fixed_0.05,raw,Distribution,0.0006570265126781715
+WDBC__04,WDBC,mean smoothness,True,357,212,fixed_0.1,bins_32,Distribution,0.001314053025356343
+WDBC__04,WDBC,mean smoothness,True,357,212,fixed_0.2,bins_8,Distribution,0.002628106050712686
+WDBC__05,WDBC,mean compactness,True,357,212,percentile_0.8,five_number,Quartiles,0.02672030337078645
+WDBC__05,WDBC,mean compactness,True,357,212,percentile_0.9,five_number,Quartiles,0.03300532701421803
+WDBC__05,WDBC,mean compactness,True,357,212,percentile_0.95,five_number,Quartiles,0.03806545023696684
+WDBC__05,WDBC,mean compactness,True,357,212,percentile_0.99,means,Mean,0.043787228846051414
+WDBC__05,WDBC,mean compactness,True,357,212,band_0.01_0.99,means,Mean,0.06233499336492877
+WDBC__05,WDBC,mean compactness,True,357,212,band_0.1_0.9,five_number,Quartiles,0.022830280898876433
+WDBC__05,WDBC,mean compactness,True,357,212,fixed_0.05,raw,Distribution,0.0021212124967787084
+WDBC__05,WDBC,mean compactness,True,357,212,fixed_0.1,bins_64,Distribution,0.004242424993557417
+WDBC__05,WDBC,mean compactness,True,357,212,fixed_0.2,bins_16,Distribution,0.008484849987114833
+WDBC__06,WDBC,mean concavity,True,357,212,percentile_0.8,bins_4,Distribution,0.04360793918739017
+WDBC__06,WDBC,mean concavity,True,357,212,percentile_0.9,bins_4,Distribution,0.05136514723893709
+WDBC__06,WDBC,mean concavity,True,357,212,percentile_0.95,bins_4,Distribution,0.06240066350710902
+WDBC__06,WDBC,mean concavity,True,357,212,percentile_0.99,bins_4,Distribution,0.07093745098780546
+WDBC__06,WDBC,mean concavity,True,357,212,band_0.01_0.99,means,Mean,0.14593455056179794
+WDBC__06,WDBC,mean concavity,True,357,212,band_0.1_0.9,bins_8,Distribution,0.03720199999999996
+WDBC__06,WDBC,mean concavity,True,357,212,fixed_0.05,raw,Distribution,0.0028632387672211873
+WDBC__06,WDBC,mean concavity,True,357,212,fixed_0.1,raw,Distribution,0.005726477534442375
+WDBC__06,WDBC,mean concavity,True,357,212,fixed_0.2,bins_32,Distribution,0.01145295506888475
+WDBC__07,WDBC,mean concave points,True,357,212,percentile_0.8,bins_4,Quartiles,0.01705361137440764
+WDBC__07,WDBC,mean concave points,True,357,212,percentile_0.9,bins_4,Quartiles,0.019313292560839242
+WDBC__07,WDBC,mean concave points,True,357,212,percentile_0.95,bins_4,Quartiles,0.02105628744874596
+WDBC__07,WDBC,mean concave points,True,357,212,percentile_0.99,bins_4,Quartiles,0.025674735124341003
+WDBC__07,WDBC,mean concave points,True,357,212,band_0.01_0.99,five_number,Quartiles,0.030008834123222736
+WDBC__07,WDBC,mean concave points,True,357,212,band_0.1_0.9,bins_4,Quartiles,0.018871857819905226
+WDBC__07,WDBC,mean concave points,True,357,212,fixed_0.05,raw,Distribution,0.0012233222136983396
+WDBC__07,WDBC,mean concave points,True,357,212,fixed_0.1,raw,Distribution,0.0024466444273966792
+WDBC__07,WDBC,mean concave points,True,357,212,fixed_0.2,bins_16,Distribution,0.0048932888547933585
+WDBC__08,WDBC,mean symmetry,True,357,212,percentile_0.8,means,Mean,0.013411316364023592
+WDBC__08,WDBC,mean symmetry,True,357,212,percentile_0.9,means,Mean,0.01572146067415729
+WDBC__08,WDBC,mean symmetry,True,357,212,percentile_0.95,means,Mean,0.018083080568720385
+WDBC__08,WDBC,mean symmetry,True,357,212,percentile_0.99,means,Mean,0.022703658767772507
+WDBC__08,WDBC,mean symmetry,True,357,212,band_0.01_0.99,means,Mean,0.04026082808988768
+WDBC__08,WDBC,mean symmetry,True,357,212,band_0.1_0.9,means,Mean,0.013403159912668385
+WDBC__08,WDBC,mean symmetry,True,357,212,fixed_0.05,raw,Distribution,0.0012948291596429852
+WDBC__08,WDBC,mean symmetry,True,357,212,fixed_0.1,bins_64,Distribution,0.0025896583192859704
+WDBC__08,WDBC,mean symmetry,True,357,212,fixed_0.2,bins_8,Distribution,0.005179316638571941
+WDBC__09,WDBC,mean fractal dimension,True,357,212,percentile_0.8,means,Mean,0.003978028089887631
+WDBC__09,WDBC,mean fractal dimension,True,357,212,percentile_0.9,means,Mean,0.004584224719101122
+WDBC__09,WDBC,mean fractal dimension,True,357,212,percentile_0.95,means,Mean,0.005147545023696683
+WDBC__09,WDBC,mean fractal dimension,True,357,212,percentile_0.99,means,Mean,0.0063092109137866835
+WDBC__09,WDBC,mean fractal dimension,True,357,212,band_0.01_0.99,means,Mean,0.01396101999999971
+WDBC__09,WDBC,mean fractal dimension,True,357,212,band_0.1_0.9,means,Mean,0.003908820238031844
+WDBC__09,WDBC,mean fractal dimension,True,357,212,fixed_0.05,raw,Distribution,0.0003533001898415591
+WDBC__09,WDBC,mean fractal dimension,True,357,212,fixed_0.1,raw,Distribution,0.0007066003796831182
+WDBC__09,WDBC,mean fractal dimension,True,357,212,fixed_0.2,bins_16,Distribution,0.0014132007593662364
+WDBC__10,WDBC,radius error,True,357,212,percentile_0.8,bins_8,Distribution,0.13299640449438205
+WDBC__10,WDBC,radius error,True,357,212,percentile_0.9,bins_8,Distribution,0.15591582938388648
+WDBC__10,WDBC,radius error,True,357,212,percentile_0.95,bins_8,Distribution,0.17649163483146055
+WDBC__10,WDBC,radius error,True,357,212,percentile_0.99,bins_8,Distribution,0.2099169275254274
+WDBC__10,WDBC,radius error,True,357,212,band_0.01_0.99,means,Mean,1.3339367999999838
+WDBC__10,WDBC,radius error,True,357,212,band_0.1_0.9,bins_8,Distribution,0.15024143138612275
+WDBC__10,WDBC,radius error,True,357,212,fixed_0.05,raw,Distribution,0.011430160342306192
+WDBC__10,WDBC,radius error,True,357,212,fixed_0.1,raw,Distribution,0.022860320684612384
+WDBC__10,WDBC,radius error,True,357,212,fixed_0.2,bins_32,Distribution,0.04572064136922477
+WDBC__11,WDBC,texture error,True,357,212,percentile_0.8,means,Mean,0.3111797752808987
+WDBC__11,WDBC,texture error,True,357,212,percentile_0.9,means,Mean,0.3710247191011238
+WDBC__11,WDBC,texture error,True,357,212,percentile_0.95,means,Mean,0.43198289099525417
+WDBC__11,WDBC,texture error,True,357,212,percentile_0.99,means,Mean,0.5396551123595515
+WDBC__11,WDBC,texture error,True,357,212,band_0.01_0.99,means,Mean,1.2812999999999986
+WDBC__11,WDBC,texture error,True,357,212,band_0.1_0.9,means,Mean,0.30097595718621845
+WDBC__11,WDBC,texture error,True,357,212,fixed_0.05,raw,Distribution,0.027605780343047948
+WDBC__11,WDBC,texture error,True,357,212,fixed_0.1,raw,Distribution,0.055211560686095895
+WDBC__11,WDBC,texture error,True,357,212,fixed_0.2,bins_16,Distribution,0.11042312137219179
+WDBC__12,WDBC,perimeter error,True,357,212,percentile_0.8,bins_8,Distribution,1.1500644549763033
+WDBC__12,WDBC,perimeter error,True,357,212,percentile_0.9,bins_8,Distribution,1.2565188242185419
+WDBC__12,WDBC,perimeter error,True,357,212,percentile_0.95,bins_8,Distribution,1.3863299999999998
+WDBC__12,WDBC,perimeter error,True,357,212,percentile_0.99,bins_8,Distribution,1.6205665930028208
+WDBC__12,WDBC,perimeter error,True,357,212,band_0.01_0.99,means,Mean,10.331581999999948
+WDBC__12,WDBC,perimeter error,True,357,212,band_0.1_0.9,bins_8,Distribution,1.319676404494387
+WDBC__12,WDBC,perimeter error,True,357,212,fixed_0.05,raw,Distribution,0.08409102474239526
+WDBC__12,WDBC,perimeter error,True,357,212,fixed_0.1,raw,Distribution,0.1681820494847905
+WDBC__12,WDBC,perimeter error,True,357,212,fixed_0.2,bins_32,Distribution,0.336364098969581
+WDBC__13,WDBC,area error,True,357,212,percentile_0.8,bins_16,Distribution,21.356170616113747
+WDBC__13,WDBC,area error,True,357,212,percentile_0.9,bins_16,Distribution,24.19999999999999
+WDBC__13,WDBC,area error,True,357,212,percentile_0.95,bins_16,Distribution,27.48239810426537
+WDBC__13,WDBC,area error,True,357,212,percentile_0.99,bins_16,Distribution,35.19543999999975
+WDBC__13,WDBC,area error,True,357,212,band_0.01_0.99,means,Mean,323.83829383886257
+WDBC__13,WDBC,area error,True,357,212,band_0.1_0.9,bins_16,Distribution,18.335549763033168
+WDBC__13,WDBC,area error,True,357,212,fixed_0.05,raw,Distribution,1.9039370725097289
+WDBC__13,WDBC,area error,True,357,212,fixed_0.1,raw,Distribution,3.8078741450194578
+WDBC__13,WDBC,area error,True,357,212,fixed_0.2,bins_64,Distribution,7.6157482900389155
+WDBC__14,WDBC,smoothness error,True,357,212,percentile_0.8,bins_8,Distribution,0.001483269662921348
+WDBC__14,WDBC,smoothness error,True,357,212,percentile_0.9,bins_8,Distribution,0.001724143820224733
+WDBC__14,WDBC,smoothness error,True,357,212,percentile_0.95,bins_4,Distribution,0.001959723595505616
+WDBC__14,WDBC,smoothness error,True,357,212,percentile_0.99,means,Mean,0.0023455758426966277
+WDBC__14,WDBC,smoothness error,True,357,212,band_0.01_0.99,means,Mean,0.015574469999999748
+WDBC__14,WDBC,smoothness error,True,357,212,band_0.1_0.9,means,Mean,0.0015134952606635067
+WDBC__14,WDBC,smoothness error,True,357,212,fixed_0.05,raw,Distribution,0.00014992042953714042
+WDBC__14,WDBC,smoothness error,True,357,212,fixed_0.1,bins_64,Distribution,0.00029984085907428084
+WDBC__14,WDBC,smoothness error,True,357,212,fixed_0.2,density_32,Distribution,0.0005996817181485617
+WDBC__15,WDBC,compactness error,True,357,212,percentile_0.8,means,Mean,0.011612532584269655
+WDBC__15,WDBC,compactness error,True,357,212,percentile_0.9,means,Mean,0.014656798876404505
+WDBC__15,WDBC,compactness error,True,357,212,percentile_0.95,means,Mean,0.017328799052132644
+WDBC__15,WDBC,compactness error,True,357,212,percentile_0.99,means,Mean,0.021826090047393384
+WDBC__15,WDBC,compactness error,True,357,212,band_0.01_0.99,means,Mean,0.036749042559241524
+WDBC__15,WDBC,compactness error,True,357,212,band_0.1_0.9,means,Mean,0.010047185393258428
+WDBC__15,WDBC,compactness error,True,357,212,fixed_0.05,raw,Distribution,0.0008568664760536049
+WDBC__15,WDBC,compactness error,True,357,212,fixed_0.1,bins_64,Distribution,0.0017137329521072098
+WDBC__15,WDBC,compactness error,True,357,212,fixed_0.2,bins_8,Distribution,0.0034274659042144197
+WDBC__16,WDBC,concavity error,True,357,212,percentile_0.8,means,Mean,0.017242696629213496
+WDBC__16,WDBC,concavity error,True,357,212,percentile_0.9,means,Mean,0.020977579104318644
+WDBC__16,WDBC,concavity error,True,357,212,percentile_0.95,means,Mean,0.024739228651685315
+WDBC__16,WDBC,concavity error,True,357,212,percentile_0.99,means,Mean,0.029792910449438208
+WDBC__16,WDBC,concavity error,True,357,212,band_0.01_0.99,means,Mean,0.11671067999999962
+WDBC__16,WDBC,concavity error,True,357,212,band_0.1_0.9,means,Mean,0.013129450236966862
+WDBC__16,WDBC,concavity error,True,357,212,fixed_0.05,raw,Distribution,0.0014611981261700706
+WDBC__16,WDBC,concavity error,True,357,212,fixed_0.1,bins_64,Distribution,0.0029223962523401413
+WDBC__16,WDBC,concavity error,True,357,212,fixed_0.2,bins_32,Distribution,0.0058447925046802825
+WDBC__17,WDBC,concave points error,True,357,212,percentile_0.8,means,Mean,0.0034530587677725033
+WDBC__17,WDBC,concave points error,True,357,212,percentile_0.9,means,Mean,0.004017431279620853
+WDBC__17,WDBC,concave points error,True,357,212,percentile_0.95,means,Mean,0.00453000087864103
+WDBC__17,WDBC,concave points error,True,357,212,percentile_0.99,means,Mean,0.006591305355450233
+WDBC__17,WDBC,concave points error,True,357,212,band_0.01_0.99,means,Mean,0.01283674719101123
+WDBC__17,WDBC,concave points error,True,357,212,band_0.1_0.9,means,Mean,0.003065936018957359
+WDBC__17,WDBC,concave points error,True,357,212,fixed_0.05,raw,Distribution,0.000281910375623715
+WDBC__17,WDBC,concave points error,True,357,212,fixed_0.1,raw,Distribution,0.00056382075124743
+WDBC__17,WDBC,concave points error,True,357,212,fixed_0.2,bins_16,Distribution,0.00112764150249486
+WDBC__18,WDBC,symmetry error,True,357,212,percentile_0.8,means,Mean,0.011001557537675068
+WDBC__18,WDBC,symmetry error,True,357,212,percentile_0.9,means,Mean,0.013279599999999994
+WDBC__18,WDBC,symmetry error,True,357,212,percentile_0.95,means,Mean,0.013870130331753544
+WDBC__18,WDBC,symmetry error,True,357,212,percentile_0.99,means,Mean,0.015769714044943824
+WDBC__18,WDBC,symmetry error,True,357,212,band_0.01_0.99,means,Mean,0.020638299999999762
+WDBC__18,WDBC,symmetry error,True,357,212,band_0.1_0.9,means,Mean,0.0059271042654028445
+WDBC__18,WDBC,symmetry error,True,357,212,fixed_0.05,raw,Distribution,0.0004136740965963586
+WDBC__18,WDBC,symmetry error,True,357,212,fixed_0.1,raw,Distribution,0.0008273481931927172
+WDBC__18,WDBC,symmetry error,True,357,212,fixed_0.2,raw,Distribution,0.0016546963863854345
+WDBC__19,WDBC,fractal dimension error,True,357,212,percentile_0.8,means,Mean,0.0017009703711592743
+WDBC__19,WDBC,fractal dimension error,True,357,212,percentile_0.9,means,Mean,0.002070325955056182
+WDBC__19,WDBC,fractal dimension error,True,357,212,percentile_0.95,means,Mean,0.0025986853370786444
+WDBC__19,WDBC,fractal dimension error,True,357,212,percentile_0.99,means,Mean,0.003515923279620846
+WDBC__19,WDBC,fractal dimension error,True,357,212,band_0.01_0.99,means,Mean,0.01051800947867299
+WDBC__19,WDBC,fractal dimension error,True,357,212,band_0.1_0.9,means,Mean,0.001297600000000017
+WDBC__19,WDBC,fractal dimension error,True,357,212,fixed_0.05,raw,Distribution,0.00013201701575741502
+WDBC__19,WDBC,fractal dimension error,True,357,212,fixed_0.1,raw,Distribution,0.00026403403151483004
+WDBC__19,WDBC,fractal dimension error,True,357,212,fixed_0.2,bins_32,Distribution,0.0005280680630296601
+WDBC__20,WDBC,worst radius,True,357,212,percentile_0.8,bins_8,Distribution,1.9493744075829398
+WDBC__20,WDBC,worst radius,True,357,212,percentile_0.9,bins_8,Distribution,2.321434123222749
+WDBC__20,WDBC,worst radius,True,357,212,percentile_0.95,bins_8,Distribution,2.5850710900473897
+WDBC__20,WDBC,worst radius,True,357,212,percentile_0.99,bins_8,Distribution,3.0284083146067426
+WDBC__20,WDBC,worst radius,True,357,212,band_0.01_0.99,five_number,Quartiles,3.2704241972416006
+WDBC__20,WDBC,worst radius,True,357,212,band_0.1_0.9,bins_8,Distribution,1.9252203791469247
+WDBC__20,WDBC,worst radius,True,357,212,fixed_0.05,raw,Distribution,0.15242344340471098
+WDBC__20,WDBC,worst radius,True,357,212,fixed_0.1,raw,Distribution,0.30484688680942196
+WDBC__20,WDBC,worst radius,True,357,212,fixed_0.2,bins_16,Distribution,0.6096937736188439
+WDBC__21,WDBC,worst texture,True,357,212,percentile_0.8,means,Mean,2.813559081953245
+WDBC__21,WDBC,worst texture,True,357,212,percentile_0.9,means,Mean,3.2239213483145996
+WDBC__21,WDBC,worst texture,True,357,212,percentile_0.95,means,Mean,3.7967778635710028
+WDBC__21,WDBC,worst texture,True,357,212,percentile_0.99,means,Mean,4.682097630331734
+WDBC__21,WDBC,worst texture,True,357,212,band_0.01_0.99,means,Mean,6.554725118483377
+WDBC__21,WDBC,worst texture,True,357,212,band_0.1_0.9,means,Mean,2.6868769370041
+WDBC__21,WDBC,worst texture,True,357,212,fixed_0.05,raw,Distribution,0.27360086631466635
+WDBC__21,WDBC,worst texture,True,357,212,fixed_0.1,bins_32,Distribution,0.5472017326293327
+WDBC__21,WDBC,worst texture,True,357,212,fixed_0.2,bins_8,Distribution,1.0944034652586654
+WDBC__22,WDBC,worst perimeter,True,357,212,percentile_0.8,density_8,Distribution,13.443905213270133
+WDBC__22,WDBC,worst perimeter,True,357,212,percentile_0.9,density_8,Distribution,15.537251184834128
+WDBC__22,WDBC,worst perimeter,True,357,212,percentile_0.95,density_8,Distribution,17.583933649289065
+WDBC__22,WDBC,worst perimeter,True,357,212,percentile_0.99,bins_4,Distribution,22.200009478672975
+WDBC__22,WDBC,worst perimeter,True,357,212,band_0.01_0.99,bins_4,Distribution,28.25759999999959
+WDBC__22,WDBC,worst perimeter,True,357,212,band_0.1_0.9,bins_8,Distribution,11.43999999999999
+WDBC__22,WDBC,worst perimeter,True,357,212,fixed_0.05,raw,Distribution,1.0461784362582511
+WDBC__22,WDBC,worst perimeter,True,357,212,fixed_0.1,raw,Distribution,2.0923568725165023
+WDBC__22,WDBC,worst perimeter,True,357,212,fixed_0.2,bins_16,Distribution,4.1847137450330045
+WDBC__23,WDBC,worst area,True,357,212,percentile_0.8,bins_8,Distribution,304.13592417061614
+WDBC__23,WDBC,worst area,True,357,212,percentile_0.9,bins_8,Distribution,350.3748815165877
+WDBC__23,WDBC,worst area,True,357,212,percentile_0.95,bins_4,Distribution,406.944075829384
+WDBC__23,WDBC,worst area,True,357,212,percentile_0.99,bins_4,Distribution,514.2768151658767
+WDBC__23,WDBC,worst area,True,357,212,band_0.01_0.99,bins_4,Distribution,923.0479999999893
+WDBC__23,WDBC,worst area,True,357,212,band_0.1_0.9,bins_4,Distribution,308.86600000000067
+WDBC__23,WDBC,worst area,True,357,212,fixed_0.05,raw,Distribution,19.356353248171033
+WDBC__23,WDBC,worst area,True,357,212,fixed_0.1,raw,Distribution,38.712706496342065
+WDBC__23,WDBC,worst area,True,357,212,fixed_0.2,bins_16,Distribution,77.42541299268413
+WDBC__24,WDBC,worst smoothness,True,357,212,percentile_0.8,means,Mean,0.00942019809361519
+WDBC__24,WDBC,worst smoothness,True,357,212,percentile_0.9,means,Mean,0.010537725118483358
+WDBC__24,WDBC,worst smoothness,True,357,212,percentile_0.95,means,Mean,0.011645780898876343
+WDBC__24,WDBC,worst smoothness,True,357,212,percentile_0.99,means,Mean,0.013770599999999949
+WDBC__24,WDBC,worst smoothness,True,357,212,band_0.01_0.99,means,Mean,0.03254606741573035
+WDBC__24,WDBC,worst smoothness,True,357,212,band_0.1_0.9,means,Mean,0.010490535305394334
+WDBC__24,WDBC,worst smoothness,True,357,212,fixed_0.05,raw,Distribution,0.0010361859554172358
+WDBC__24,WDBC,worst smoothness,True,357,212,fixed_0.1,raw,Distribution,0.0020723719108344716
+WDBC__24,WDBC,worst smoothness,True,357,212,fixed_0.2,bins_8,Distribution,0.004144743821668943
+WDBC__25,WDBC,worst compactness,True,357,212,percentile_0.8,bins_4,Distribution,0.08271644943820225
+WDBC__25,WDBC,worst compactness,True,357,212,percentile_0.9,bins_4,Distribution,0.09554932701421784
+WDBC__25,WDBC,worst compactness,True,357,212,percentile_0.95,bins_4,Quartiles,0.10756496208530704
+WDBC__25,WDBC,worst compactness,True,357,212,percentile_0.99,bins_4,Quartiles,0.12761346919431274
+WDBC__25,WDBC,worst compactness,True,357,212,band_0.01_0.99,five_number,Quartiles,0.1863589099526063
+WDBC__25,WDBC,worst compactness,True,357,212,band_0.1_0.9,bins_4,Distribution,0.079310546354971
+WDBC__25,WDBC,worst compactness,True,357,212,fixed_0.05,raw,Distribution,0.006351547290104957
+WDBC__25,WDBC,worst compactness,True,357,212,fixed_0.1,raw,Distribution,0.012703094580209915
+WDBC__25,WDBC,worst compactness,True,357,212,fixed_0.2,bins_16,Distribution,0.02540618916041983
+WDBC__26,WDBC,worst concavity,True,357,212,percentile_0.8,means,Mean,0.09564085393258426
+WDBC__26,WDBC,worst concavity,True,357,212,percentile_0.9,means,Mean,0.11750142180094805
+WDBC__26,WDBC,worst concavity,True,357,212,percentile_0.95,means,Mean,0.13074056872037929
+WDBC__26,WDBC,worst concavity,True,357,212,percentile_0.99,means,Mean,0.16462729999999923
+WDBC__26,WDBC,worst concavity,True,357,212,band_0.01_0.99,means,Mean,0.3241841848341231
+WDBC__26,WDBC,worst concavity,True,357,212,band_0.1_0.9,bins_8,Distribution,0.07487289099526077
+WDBC__26,WDBC,worst concavity,True,357,212,fixed_0.05,raw,Distribution,0.007847093116440301
+WDBC__26,WDBC,worst concavity,True,357,212,fixed_0.1,raw,Distribution,0.015694186232880603
+WDBC__26,WDBC,worst concavity,True,357,212,fixed_0.2,density_16,Distribution,0.031388372465761205
+WDBC__27,WDBC,worst concave points,True,357,212,percentile_0.8,means,Mean,0.019800000000000012
+WDBC__27,WDBC,worst concave points,True,357,212,percentile_0.9,means,Mean,0.023000999999999994
+WDBC__27,WDBC,worst concave points,True,357,212,percentile_0.95,means,Mean,0.025817102606635042
+WDBC__27,WDBC,worst concave points,True,357,212,percentile_0.99,means,Mean,0.030700983146067392
+WDBC__27,WDBC,worst concave points,True,357,212,band_0.01_0.99,means,Mean,0.039748900000000004
+WDBC__27,WDBC,worst concave points,True,357,212,band_0.1_0.9,means,Mean,0.023172668246445517
+WDBC__27,WDBC,worst concave points,True,357,212,fixed_0.05,raw,Distribution,0.0020016171934091062
+WDBC__27,WDBC,worst concave points,True,357,212,fixed_0.1,bins_64,Distribution,0.0040032343868182125
+WDBC__27,WDBC,worst concave points,True,357,212,fixed_0.2,bins_8,Distribution,0.008006468773636425
+WDBC__28,WDBC,worst symmetry,True,357,212,percentile_0.8,bins_8,Distribution,0.03977289099526066
+WDBC__28,WDBC,worst symmetry,True,357,212,percentile_0.9,bins_8,Distribution,0.0461514960860536
+WDBC__28,WDBC,worst symmetry,True,357,212,percentile_0.95,bins_8,Distribution,0.05215373595505617
+WDBC__28,WDBC,worst symmetry,True,357,212,percentile_0.99,bins_4,Distribution,0.06269429383886259
+WDBC__28,WDBC,worst symmetry,True,357,212,band_0.01_0.99,bins_4,Quartiles,0.100017999999999
+WDBC__28,WDBC,worst symmetry,True,357,212,band_0.1_0.9,bins_8,Distribution,0.03760175355450236
+WDBC__28,WDBC,worst symmetry,True,357,212,fixed_0.05,raw,Distribution,0.002815066769954288
+WDBC__28,WDBC,worst symmetry,True,357,212,fixed_0.1,raw,Distribution,0.005630133539908576
+WDBC__28,WDBC,worst symmetry,True,357,212,fixed_0.2,raw,Distribution,0.011260267079817152
+WDBC__29,WDBC,worst fractal dimension,True,357,212,percentile_0.8,bins_8,Distribution,0.009937312955961454
+WDBC__29,WDBC,worst fractal dimension,True,357,212,percentile_0.9,bins_4,Distribution,0.011913370786516875
+WDBC__29,WDBC,worst fractal dimension,True,357,212,percentile_0.95,means,Mean,0.013429265402843584
+WDBC__29,WDBC,worst fractal dimension,True,357,212,percentile_0.99,means,Mean,0.016799485308056875
+WDBC__29,WDBC,worst fractal dimension,True,357,212,band_0.01_0.99,means,Mean,0.05720599999999973
+WDBC__29,WDBC,worst fractal dimension,True,357,212,band_0.1_0.9,bins_4,Distribution,0.011291473933649297
+WDBC__29,WDBC,worst fractal dimension,True,357,212,fixed_0.05,raw,Distribution,0.0008551421108978561
+WDBC__29,WDBC,worst fractal dimension,True,357,212,fixed_0.1,bins_32,Distribution,0.0017102842217957123
+WDBC__29,WDBC,worst fractal dimension,True,357,212,fixed_0.2,density_16,Distribution,0.0034205684435914246
+Cleveland__00,Cleveland,age,True,164,139,percentile_0.8,bins_4,Quartiles,5.0
+Cleveland__00,Cleveland,age,True,164,139,percentile_0.9,bins_4,Quartiles,5.0
+Cleveland__00,Cleveland,age,True,164,139,percentile_0.95,means,Mean,6.0
+Cleveland__00,Cleveland,age,True,164,139,percentile_0.99,means,Mean,7.0
+Cleveland__00,Cleveland,age,True,164,139,band_0.01_0.99,means,Mean,8.110000000000014
+Cleveland__00,Cleveland,age,True,164,139,band_0.1_0.9,means,Mean,6.0
+Cleveland__00,Cleveland,age,True,164,139,fixed_0.05,raw,Distribution,0.44127149078173344
+Cleveland__00,Cleveland,age,True,164,139,fixed_0.1,raw,Distribution,0.8825429815634669
+Cleveland__00,Cleveland,age,True,164,139,fixed_0.2,bins_16,Distribution,1.7650859631269338
+Cleveland__01,Cleveland,trestbps,True,164,139,percentile_0.8,means,Mean,14.0
+Cleveland__01,Cleveland,trestbps,True,164,139,percentile_0.9,means,Mean,15.251533742331276
+Cleveland__01,Cleveland,trestbps,True,164,139,percentile_0.95,means,Mean,15.719999999999969
+Cleveland__01,Cleveland,trestbps,True,164,139,percentile_0.99,means,Mean,19.399999999999977
+Cleveland__01,Cleveland,trestbps,True,164,139,band_0.01_0.99,means,Mean,24.259366942295713
+Cleveland__01,Cleveland,trestbps,True,164,139,band_0.1_0.9,means,Mean,15.47826086956519
+Cleveland__01,Cleveland,trestbps,True,164,139,fixed_0.05,raw,Distribution,0.8713645441294843
+Cleveland__01,Cleveland,trestbps,True,164,139,fixed_0.1,raw,Distribution,1.7427290882589686
+Cleveland__01,Cleveland,trestbps,True,164,139,fixed_0.2,bins_64,Distribution,3.485458176517937
+Cleveland__02,Cleveland,chol,True,164,139,percentile_0.8,means,Mean,27.0
+Cleveland__02,Cleveland,chol,True,164,139,percentile_0.9,means,Mean,31.0
+Cleveland__02,Cleveland,chol,True,164,139,percentile_0.95,means,Mean,34.701779141104296
+Cleveland__02,Cleveland,chol,True,164,139,percentile_0.99,means,Mean,41.03202453987727
+Cleveland__02,Cleveland,chol,True,164,139,band_0.01_0.99,means,Mean,141.13312269938646
+Cleveland__02,Cleveland,chol,True,164,139,band_0.1_0.9,means,Mean,31.439877300613507
+Cleveland__02,Cleveland,chol,True,164,139,fixed_0.05,raw,Distribution,2.5837217809524957
+Cleveland__02,Cleveland,chol,True,164,139,fixed_0.1,bins_64,Distribution,5.167443561904991
+Cleveland__02,Cleveland,chol,True,164,139,fixed_0.2,bins_32,Distribution,10.334887123809983
+Cleveland__03,Cleveland,thalach,True,164,139,percentile_0.8,means,Mean,12.0
+Cleveland__03,Cleveland,thalach,True,164,139,percentile_0.9,means,Mean,14.0
+Cleveland__03,Cleveland,thalach,True,164,139,percentile_0.95,means,Mean,16.0
+Cleveland__03,Cleveland,thalach,True,164,139,percentile_0.99,means,Mean,19.710920245398764
+Cleveland__03,Cleveland,thalach,True,164,139,band_0.01_0.99,means,Mean,22.0
+Cleveland__03,Cleveland,thalach,True,164,139,band_0.1_0.9,means,Mean,14.0
+Cleveland__03,Cleveland,thalach,True,164,139,fixed_0.05,raw,Distribution,1.041199622921775
+Cleveland__03,Cleveland,thalach,True,164,139,fixed_0.1,raw,Distribution,2.08239924584355
+Cleveland__03,Cleveland,thalach,True,164,139,fixed_0.2,bins_16,Distribution,4.1647984916871
+Cleveland__04,Cleveland,oldpeak,True,164,139,percentile_0.8,five_number,Quartiles,0.6949693251533748
+Cleveland__04,Cleveland,oldpeak,True,164,139,percentile_0.9,five_number,Quartiles,0.7115942028985502
+Cleveland__04,Cleveland,oldpeak,True,164,139,percentile_0.95,five_number,Quartiles,0.8
+Cleveland__04,Cleveland,oldpeak,True,164,139,percentile_0.99,means,Mean,1.0002944785276073
+Cleveland__04,Cleveland,oldpeak,True,164,139,band_0.01_0.99,means,Mean,2.0999999999999996
+Cleveland__04,Cleveland,oldpeak,True,164,139,band_0.1_0.9,five_number,Quartiles,0.7999999999999998
+Cleveland__04,Cleveland,oldpeak,True,164,139,fixed_0.05,raw,Distribution,0.052650452856583985
+Cleveland__04,Cleveland,oldpeak,True,164,139,fixed_0.1,raw,Distribution,0.10530090571316797
+Cleveland__04,Cleveland,oldpeak,True,164,139,fixed_0.2,bins_32,Distribution,0.21060181142633594
+HeartFailure__00,HeartFailure,age,True,203,96,percentile_0.8,means,Mean,8.0
+HeartFailure__00,HeartFailure,age,True,203,96,percentile_0.9,means,Mean,9.0
+HeartFailure__00,HeartFailure,age,True,203,96,percentile_0.95,means,Mean,10.0
+HeartFailure__00,HeartFailure,age,True,203,96,percentile_0.99,means,Mean,12.00247524752475
+HeartFailure__00,HeartFailure,age,True,203,96,band_0.01_0.99,means,Mean,11.248035435122457
+HeartFailure__00,HeartFailure,age,True,203,96,band_0.1_0.9,means,Mean,9.86237623762376
+HeartFailure__00,HeartFailure,age,True,203,96,fixed_0.05,raw,Distribution,0.576245516665133
+HeartFailure__00,HeartFailure,age,True,203,96,fixed_0.1,raw,Distribution,1.152491033330266
+HeartFailure__00,HeartFailure,age,True,203,96,fixed_0.2,raw,Distribution,2.304982066660532
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,percentile_0.8,means,Mean,1635.7473684210545
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,percentile_0.9,means,Mean,2278.099999999996
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,percentile_0.95,means,Mean,3716.859999999997
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,percentile_0.99,means,Mean,5506.659999999997
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,band_0.01_0.99,means,Mean,5699.924210526314
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,band_0.1_0.9,means,Mean,1216.178947368421
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,fixed_0.05,raw,Distribution,48.5002969239691
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,fixed_0.1,raw,Distribution,97.0005938479382
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,fixed_0.2,bins_16,Distribution,194.0011876958764
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,percentile_0.8,means,Mean,10.841584158415856
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,percentile_0.9,means,Mean,15.0
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,percentile_0.95,means,Mean,15.0
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,percentile_0.99,means,Mean,17.00257425742574
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,band_0.01_0.99,means,Mean,19.90099999999981
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,band_0.1_0.9,means,Mean,15.0
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,fixed_0.05,raw,Distribution,0.5709548216807593
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,fixed_0.1,raw,Distribution,1.1419096433615186
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,fixed_0.2,raw,Distribution,2.283819286723037
+HeartFailure__03,HeartFailure,platelets,True,203,96,percentile_0.8,means,Mean,69273.68421052629
+HeartFailure__03,HeartFailure,platelets,True,203,96,percentile_0.9,means,Mean,79034.35643564361
+HeartFailure__03,HeartFailure,platelets,True,203,96,percentile_0.95,means,Mean,92318.4210526312
+HeartFailure__03,HeartFailure,platelets,True,203,96,percentile_0.99,means,Mean,118554.99999999981
+HeartFailure__03,HeartFailure,platelets,True,203,96,band_0.01_0.99,means,Mean,305039.99999999907
+HeartFailure__03,HeartFailure,platelets,True,203,96,band_0.1_0.9,means,Mean,63581.44867118292
+HeartFailure__03,HeartFailure,platelets,True,203,96,fixed_0.05,raw,Distribution,4892.520077614262
+HeartFailure__03,HeartFailure,platelets,True,203,96,fixed_0.1,raw,Distribution,9785.040155228524
+HeartFailure__03,HeartFailure,platelets,True,203,96,fixed_0.2,density_16,Distribution,19570.080310457048
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,percentile_0.8,means,Mean,1.680000000000001
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,percentile_0.9,means,Mean,2.3999999999999995
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,percentile_0.95,means,Mean,2.977157894736842
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,percentile_0.99,means,Mean,5.191684210526319
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,band_0.01_0.99,means,Mean,5.204399999999982
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,band_0.1_0.9,means,Mean,1.0819999999999994
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,fixed_0.05,raw,Distribution,0.049518252021725974
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,fixed_0.1,raw,Distribution,0.09903650404345195
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,fixed_0.2,raw,Distribution,0.1980730080869039
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,percentile_0.8,means,Mean,3.8999999999999773
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,percentile_0.9,means,Mean,4.000000000000014
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,percentile_0.95,means,Mean,4.999999999999988
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,percentile_0.99,means,Mean,6.0
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,band_0.01_0.99,means,Mean,12.800000000000011
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,band_0.1_0.9,means,Mean,3.5
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,fixed_0.05,raw,Distribution,0.21674363540003705
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,fixed_0.1,raw,Distribution,0.4334872708000741
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,fixed_0.2,raw,Distribution,0.8669745416001482
+CKD__00,CKD,age,True,149,242,percentile_0.8,bins_4,Quartiles,13.0
+CKD__00,CKD,age,True,149,242,percentile_0.9,bins_4,Quartiles,15.0
+CKD__00,CKD,age,True,149,242,percentile_0.95,bins_4,Quartiles,16.0
+CKD__00,CKD,age,True,149,242,percentile_0.99,means,Mean,19.494605809128625
+CKD__00,CKD,age,True,149,242,band_0.01_0.99,five_number,Quartiles,16.0
+CKD__00,CKD,age,True,149,242,band_0.1_0.9,means,Mean,14.719999999999978
+CKD__00,CKD,age,True,149,242,fixed_0.05,raw,Distribution,0.837095045904332
+CKD__00,CKD,age,True,149,242,fixed_0.1,raw,Distribution,1.674190091808664
+CKD__00,CKD,age,True,149,242,fixed_0.2,bins_32,Distribution,3.348380183617328
+CKD__01,CKD,bp,True,148,240,percentile_0.8,bins_8,Distribution,10.0
+CKD__01,CKD,bp,True,148,240,percentile_0.9,bins_8,Distribution,10.0
+CKD__01,CKD,bp,True,148,240,percentile_0.95,bins_8,Distribution,10.0
+CKD__01,CKD,bp,True,148,240,percentile_0.99,means,Mean,20.0
+CKD__01,CKD,bp,True,148,240,band_0.01_0.99,means,Mean,40.49999999999926
+CKD__01,CKD,bp,True,148,240,band_0.1_0.9,bins_8,Distribution,10.0
+CKD__01,CKD,bp,True,148,240,fixed_0.05,raw,Distribution,0.6547751054095237
+CKD__01,CKD,bp,True,148,240,fixed_0.1,raw,Distribution,1.3095502108190473
+CKD__01,CKD,bp,True,148,240,fixed_0.2,raw,Distribution,2.6191004216380946
+CKD__02,CKD,bgr,True,144,212,percentile_0.8,bins_4,Distribution,58.999999999999986
+CKD__02,CKD,bgr,True,144,212,percentile_0.9,bins_4,Distribution,64.99999999999983
+CKD__02,CKD,bgr,True,144,212,percentile_0.95,bins_4,Distribution,73.00999999999998
+CKD__02,CKD,bgr,True,144,212,percentile_0.99,bins_4,Quartiles,105.17327014218009
+CKD__02,CKD,bgr,True,144,212,band_0.01_0.99,bins_4,Quartiles,98.33744075829381
+CKD__02,CKD,bgr,True,144,212,band_0.1_0.9,bins_4,Distribution,43.00900473933649
+CKD__02,CKD,bgr,True,144,212,fixed_0.05,raw,Distribution,3.6031829597249736
+CKD__02,CKD,bgr,True,144,212,fixed_0.1,raw,Distribution,7.206365919449947
+CKD__02,CKD,bgr,True,144,212,fixed_0.2,bins_16,Distribution,14.412731838899894
+CKD__03,CKD,bu,True,144,237,percentile_0.8,bins_8,Distribution,28.30677966101695
+CKD__03,CKD,bu,True,144,237,percentile_0.9,bins_8,Distribution,35.8813559322034
+CKD__03,CKD,bu,True,144,237,percentile_0.95,bins_4,Distribution,38.09999999999991
+CKD__03,CKD,bu,True,144,237,percentile_0.99,bins_4,Distribution,51.0
+CKD__03,CKD,bu,True,144,237,band_0.01_0.99,bins_4,Distribution,87.0
+CKD__03,CKD,bu,True,144,237,band_0.1_0.9,bins_8,Distribution,30.0
+CKD__03,CKD,bu,True,144,237,fixed_0.05,raw,Distribution,2.3381807295425348
+CKD__03,CKD,bu,True,144,237,fixed_0.1,raw,Distribution,4.6763614590850695
+CKD__03,CKD,bu,True,144,237,fixed_0.2,bins_16,Distribution,9.352722918170139
+CKD__04,CKD,sc,True,145,238,percentile_0.8,density_32,Distribution,3.1000000000000014
+CKD__04,CKD,sc,True,145,238,percentile_0.9,density_32,Distribution,3.8200000000000056
+CKD__04,CKD,sc,True,145,238,percentile_0.95,bins_16,Distribution,4.300000000000002
+CKD__04,CKD,sc,True,145,238,percentile_0.99,bins_16,Distribution,4.700000000000001
+CKD__04,CKD,sc,True,145,238,band_0.01_0.99,means,Mean,30.7319999999998
+CKD__04,CKD,sc,True,145,238,band_0.1_0.9,bins_16,Distribution,3.8000000000000007
+CKD__04,CKD,sc,True,145,238,fixed_0.05,raw,Distribution,0.2741961514729762
+CKD__04,CKD,sc,True,145,238,fixed_0.1,raw,Distribution,0.5483923029459524
+CKD__04,CKD,sc,True,145,238,fixed_0.2,bins_64,Distribution,1.0967846058919049
+CKD__05,CKD,sod,True,145,168,percentile_0.8,bins_16,Distribution,7.0
+CKD__05,CKD,sod,True,145,168,percentile_0.9,means,Mean,8.0
+CKD__05,CKD,sod,True,145,168,percentile_0.95,means,Mean,9.0
+CKD__05,CKD,sod,True,145,168,percentile_0.99,means,Mean,10.0
+CKD__05,CKD,sod,True,145,168,band_0.01_0.99,means,Mean,106.5
+CKD__05,CKD,sod,True,145,168,band_0.1_0.9,means,Mean,5.0
+CKD__05,CKD,sod,True,145,168,fixed_0.05,raw,Distribution,0.48309142991285986
+CKD__05,CKD,sod,True,145,168,fixed_0.1,raw,Distribution,0.9661828598257197
+CKD__05,CKD,sod,True,145,168,fixed_0.2,raw,Distribution,1.9323657196514394
+CKD__06,CKD,pot,True,145,167,percentile_0.8,bins_64,Distribution,0.5000000000000009
+CKD__06,CKD,pot,True,145,167,percentile_0.9,bins_32,Distribution,0.5999999999999996
+CKD__06,CKD,pot,True,145,167,percentile_0.95,bins_32,Distribution,0.5999999999999996
+CKD__06,CKD,pot,True,145,167,percentile_0.99,bins_32,Distribution,0.7000000000000002
+CKD__06,CKD,pot,True,145,167,band_0.01_0.99,means,Mean,39.4
+CKD__06,CKD,pot,True,145,167,band_0.1_0.9,bins_64,Distribution,0.5
+CKD__06,CKD,pot,True,145,167,fixed_0.05,raw,Distribution,0.15937994203646766
+CKD__06,CKD,pot,True,145,167,fixed_0.1,raw,Distribution,0.3187598840729353
+CKD__06,CKD,pot,True,145,167,fixed_0.2,bins_32,Distribution,0.6375197681458706
+CKD__07,CKD,hemo,True,144,204,percentile_0.8,bins_8,Distribution,1.1040000000000005
+CKD__07,CKD,hemo,True,144,204,percentile_0.9,bins_8,Distribution,1.2850000000000013
+CKD__07,CKD,hemo,True,144,204,percentile_0.95,bins_8,Distribution,1.3999999999999995
+CKD__07,CKD,hemo,True,144,204,percentile_0.99,bins_8,Distribution,1.6975862068965517
+CKD__07,CKD,hemo,True,144,204,band_0.01_0.99,bins_4,Distribution,2.3520000000000003
+CKD__07,CKD,hemo,True,144,204,band_0.1_0.9,bins_8,Distribution,0.980788177339904
+CKD__07,CKD,hemo,True,144,204,fixed_0.05,raw,Distribution,0.09324197438945887
+CKD__07,CKD,hemo,True,144,204,fixed_0.1,bins_64,Distribution,0.18648394877891775
+CKD__07,CKD,hemo,True,144,204,fixed_0.2,bins_16,Distribution,0.3729678975578355
+CKD__08,CKD,pcv,True,146,183,percentile_0.8,bins_8,Distribution,3.1499999999999986
+CKD__08,CKD,pcv,True,146,183,percentile_0.9,bins_8,Distribution,4.0
+CKD__08,CKD,pcv,True,146,183,percentile_0.95,bins_8,Distribution,4.0
+CKD__08,CKD,pcv,True,146,183,percentile_0.99,bins_8,Distribution,5.0006593406593405
+CKD__08,CKD,pcv,True,146,183,band_0.01_0.99,bins_4,Distribution,7.0
+CKD__08,CKD,pcv,True,146,183,band_0.1_0.9,means,Mean,4.0
+CKD__08,CKD,pcv,True,146,183,fixed_0.05,raw,Distribution,0.30209378407317156
+CKD__08,CKD,pcv,True,146,183,fixed_0.1,raw,Distribution,0.6041875681463431
+CKD__08,CKD,pcv,True,146,183,fixed_0.2,bins_32,Distribution,1.2083751362926862
+CKD__09,CKD,wc,True,143,151,percentile_0.8,bins_8,Distribution,2000.0
+CKD__09,CKD,wc,True,143,151,percentile_0.9,bins_8,Distribution,2300.0
+CKD__09,CKD,wc,True,143,151,percentile_0.95,bins_4,Distribution,2500.0
+CKD__09,CKD,wc,True,143,151,percentile_0.99,means,Mean,3957.333333333332
+CKD__09,CKD,wc,True,143,151,band_0.01_0.99,bins_4,Distribution,7300.0
+CKD__09,CKD,wc,True,143,151,band_0.1_0.9,means,Mean,2127.599999999995
+CKD__09,CKD,wc,True,143,151,fixed_0.05,raw,Distribution,143.45466660265436
+CKD__09,CKD,wc,True,143,151,fixed_0.1,raw,Distribution,286.9093332053087
+CKD__09,CKD,wc,True,143,151,fixed_0.2,raw,Distribution,573.8186664106174
+CKD__10,CKD,rc,True,143,126,percentile_0.8,bins_8,Distribution,0.40000000000000036
+CKD__10,CKD,rc,True,143,126,percentile_0.9,means,Mean,0.5
+CKD__10,CKD,rc,True,143,126,percentile_0.95,means,Mean,0.5683802816901417
+CKD__10,CKD,rc,True,143,126,percentile_0.99,means,Mean,0.7999999999999998
+CKD__10,CKD,rc,True,143,126,band_0.01_0.99,means,Mean,2.0
+CKD__10,CKD,rc,True,143,126,band_0.1_0.9,means,Mean,0.4999999999999991
+CKD__10,CKD,rc,True,143,126,fixed_0.05,raw,Distribution,0.036725676782759765
+CKD__10,CKD,rc,True,143,126,fixed_0.1,raw,Distribution,0.07345135356551953
+CKD__10,CKD,rc,True,143,126,fixed_0.2,bins_64,Distribution,0.14690270713103906
+ILPD__00,ILPD,age,True,167,416,percentile_0.8,means,Mean,7.520000000000003
+ILPD__00,ILPD,age,True,167,416,percentile_0.9,means,Mean,8.010000000000003
+ILPD__00,ILPD,age,True,167,416,percentile_0.95,means,Mean,9.0
+ILPD__00,ILPD,age,True,167,416,percentile_0.99,means,Mean,10.200999999999999
+ILPD__00,ILPD,age,True,167,416,band_0.01_0.99,means,Mean,14.0
+ILPD__00,ILPD,age,True,167,416,band_0.1_0.9,means,Mean,9.0
+ILPD__00,ILPD,age,True,167,416,fixed_0.05,raw,Distribution,0.8025094382526854
+ILPD__00,ILPD,age,True,167,416,fixed_0.1,bins_64,Distribution,1.6050188765053708
+ILPD__00,ILPD,age,True,167,416,fixed_0.2,bins_8,Distribution,3.2100377530107416
+ILPD__01,ILPD,total_bilirubin,True,167,416,percentile_0.8,bins_16,Distribution,4.1
+ILPD__01,ILPD,total_bilirubin,True,167,416,percentile_0.9,bins_16,Distribution,4.640000000000002
+ILPD__01,ILPD,total_bilirubin,True,167,416,percentile_0.95,bins_16,Distribution,5.203999999999996
+ILPD__01,ILPD,total_bilirubin,True,167,416,percentile_0.99,bins_16,Distribution,5.940799999999993
+ILPD__01,ILPD,total_bilirubin,True,167,416,band_0.01_0.99,bins_8,Distribution,9.219999999999988
+ILPD__01,ILPD,total_bilirubin,True,167,416,band_0.1_0.9,bins_16,Distribution,4.325999999999993
+ILPD__01,ILPD,total_bilirubin,True,167,416,fixed_0.05,raw,Distribution,0.30311536181778553
+ILPD__01,ILPD,total_bilirubin,True,167,416,fixed_0.1,bins_64,Distribution,0.6062307236355711
+ILPD__01,ILPD,total_bilirubin,True,167,416,fixed_0.2,bins_64,Distribution,1.2124614472711421
+ILPD__02,ILPD,direct_bilirubin,True,167,416,percentile_0.8,bins_8,Distribution,2.0999999999999996
+ILPD__02,ILPD,direct_bilirubin,True,167,416,percentile_0.9,bins_8,Distribution,2.5999999999999996
+ILPD__02,ILPD,direct_bilirubin,True,167,416,percentile_0.95,bins_8,Distribution,2.781999999999999
+ILPD__02,ILPD,direct_bilirubin,True,167,416,percentile_0.99,bins_8,Distribution,3.160399999999998
+ILPD__02,ILPD,direct_bilirubin,True,167,416,band_0.01_0.99,bins_4,Distribution,4.305700000000002
+ILPD__02,ILPD,direct_bilirubin,True,167,416,band_0.1_0.9,bins_8,Distribution,2.581999999999999
+ILPD__02,ILPD,direct_bilirubin,True,167,416,fixed_0.05,raw,Distribution,0.13622503053942767
+ILPD__02,ILPD,direct_bilirubin,True,167,416,fixed_0.1,raw,Distribution,0.27245006107885533
+ILPD__02,ILPD,direct_bilirubin,True,167,416,fixed_0.2,bins_32,Distribution,0.5449001221577107
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,percentile_0.8,five_number,Quartiles,158.0
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,percentile_0.9,five_number,Quartiles,191.3999999999998
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,percentile_0.95,five_number,Quartiles,216.35499999999976
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,percentile_0.99,five_number,Quartiles,287.0280000000002
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,band_0.01_0.99,means,Mean,950.0
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,band_0.1_0.9,five_number,Quartiles,124.41000000000018
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,fixed_0.05,raw,Distribution,11.947802049160577
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,fixed_0.1,raw,Distribution,23.895604098321154
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,fixed_0.2,bins_32,Distribution,47.79120819664231
+ILPD__04,ILPD,ALT,True,167,416,percentile_0.8,bins_16,Distribution,143.20000000000005
+ILPD__04,ILPD,ALT,True,167,416,percentile_0.9,bins_16,Distribution,160.4399999999999
+ILPD__04,ILPD,ALT,True,167,416,percentile_0.95,bins_16,Distribution,171.2
+ILPD__04,ILPD,ALT,True,167,416,percentile_0.99,bins_16,Distribution,193.80399999999972
+ILPD__04,ILPD,ALT,True,167,416,band_0.01_0.99,bins_4,Distribution,661.9999999999999
+ILPD__04,ILPD,ALT,True,167,416,band_0.1_0.9,bins_32,Distribution,46.16999999999993
+ILPD__04,ILPD,ALT,True,167,416,fixed_0.05,raw,Distribution,9.016020643149565
+ILPD__04,ILPD,ALT,True,167,416,fixed_0.1,bins_64,Distribution,18.03204128629913
+ILPD__04,ILPD,ALT,True,167,416,fixed_0.2,bins_32,Distribution,36.06408257259826
+ILPD__05,ILPD,AST,True,167,416,percentile_0.8,bins_32,Distribution,159.3799999999999
+ILPD__05,ILPD,AST,True,167,416,percentile_0.9,bins_32,Distribution,181.63999999999984
+ILPD__05,ILPD,AST,True,167,416,percentile_0.95,density_16,Distribution,212.0999999999999
+ILPD__05,ILPD,AST,True,167,416,percentile_0.99,density_16,Distribution,283.53199999999987
+ILPD__05,ILPD,AST,True,167,416,band_0.01_0.99,bins_8,Distribution,680.5599999999984
+ILPD__05,ILPD,AST,True,167,416,band_0.1_0.9,means,Mean,136.06999999999996
+ILPD__05,ILPD,AST,True,167,416,fixed_0.05,raw,Distribution,14.290501408291266
+ILPD__05,ILPD,AST,True,167,416,fixed_0.1,raw,Distribution,28.581002816582533
+ILPD__05,ILPD,AST,True,167,416,fixed_0.2,bins_64,Distribution,57.162005633165066
+ILPD__06,ILPD,total_protein,True,167,416,percentile_0.8,means,Mean,0.5000000000000009
+ILPD__06,ILPD,total_protein,True,167,416,percentile_0.9,means,Mean,0.6000000000000005
+ILPD__06,ILPD,total_protein,True,167,416,percentile_0.95,means,Mean,0.7000000000000002
+ILPD__06,ILPD,total_protein,True,167,416,percentile_0.99,means,Mean,0.8208999999999995
+ILPD__06,ILPD,total_protein,True,167,416,band_0.01_0.99,means,Mean,1.2000000000000006
+ILPD__06,ILPD,total_protein,True,167,416,band_0.1_0.9,means,Mean,0.5999999999999996
+ILPD__06,ILPD,total_protein,True,167,416,fixed_0.05,raw,Distribution,0.05428596388371729
+ILPD__06,ILPD,total_protein,True,167,416,fixed_0.1,bins_64,Distribution,0.10857192776743459
+ILPD__06,ILPD,total_protein,True,167,416,fixed_0.2,means,Mean,0.21714385553486917
+ILPD__07,ILPD,albumin,True,167,416,percentile_0.8,means,Mean,0.3999999999999999
+ILPD__07,ILPD,albumin,True,167,416,percentile_0.9,means,Mean,0.40000000000000036
+ILPD__07,ILPD,albumin,True,167,416,percentile_0.95,means,Mean,0.49999999999999956
+ILPD__07,ILPD,albumin,True,167,416,percentile_0.99,means,Mean,0.5403999999999997
+ILPD__07,ILPD,albumin,True,167,416,band_0.01_0.99,means,Mean,0.6607999999999993
+ILPD__07,ILPD,albumin,True,167,416,band_0.1_0.9,means,Mean,0.40199999999999847
+ILPD__07,ILPD,albumin,True,167,416,fixed_0.05,raw,Distribution,0.039288287362363644
+ILPD__07,ILPD,albumin,True,167,416,fixed_0.1,raw,Distribution,0.07857657472472729
+ILPD__07,ILPD,albumin,True,167,416,fixed_0.2,density_32,Distribution,0.15715314944945458
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,percentile_0.8,means,Mean,0.20000000000000018
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,percentile_0.9,means,Mean,0.27679999999999827
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,percentile_0.95,means,Mean,0.30000000000000004
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,percentile_0.99,means,Mean,0.3399999999999992
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,band_0.01_0.99,means,Mean,0.8292736077481837
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,band_0.1_0.9,means,Mean,0.20000000000000018
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,fixed_0.05,raw,Distribution,0.015779204042828156
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,fixed_0.1,raw,Distribution,0.03155840808565631
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,fixed_0.2,raw,Distribution,0.06311681617131262
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,percentile_0.8,means,Mean,85.06864285714286
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,percentile_0.9,means,Mean,95.03185714285716
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,percentile_0.95,means,Mean,100.5907649068323
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,percentile_0.99,means,Mean,118.69230198757761
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,band_0.01_0.99,means,Mean,100.5907649068323
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,band_0.1_0.9,means,Mean,100.56903571428572
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,fixed_0.05,raw,Distribution,1.942164081979807
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,fixed_0.1,raw,Distribution,3.884328163959614
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,fixed_0.2,raw,Distribution,7.768656327919228
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,percentile_0.8,means,Mean,168.41864999999964
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,percentile_0.9,means,Mean,180.16664999999963
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,percentile_0.95,means,Mean,220.183
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,percentile_0.99,means,Mean,229.77478695652167
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,band_0.01_0.99,means,Mean,220.8983239130434
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,band_0.1_0.9,means,Mean,163.35519999999985
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,fixed_0.05,raw,Distribution,3.230645000512024
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,fixed_0.1,raw,Distribution,6.461290001024048
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,fixed_0.2,raw,Distribution,12.922580002048097
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,percentile_0.8,means,Mean,76.34644285714289
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,percentile_0.9,means,Mean,91.54625714285717
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,percentile_0.95,means,Mean,106.19204285714284
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,percentile_0.99,means,Mean,119.74302999999996
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,band_0.01_0.99,means,Mean,106.19204285714284
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,band_0.1_0.9,means,Mean,105.13531428571419
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,fixed_0.05,raw,Distribution,1.9188879799924614
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,fixed_0.1,raw,Distribution,3.837775959984923
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,fixed_0.2,raw,Distribution,7.675551919969846
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,percentile_0.8,means,Mean,0.008102608695652175
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,percentile_0.9,means,Mean,0.008884999999999988
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,percentile_0.95,means,Mean,0.009330000000000001
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,percentile_0.99,means,Mean,0.010321404347826087
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,band_0.01_0.99,means,Mean,0.009747826086956523
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,band_0.1_0.9,means,Mean,0.009263913043478261
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,fixed_0.05,raw,Distribution,0.0001704287233408246
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,fixed_0.1,raw,Distribution,0.0003408574466816492
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,fixed_0.2,raw,Distribution,0.0006817148933632984
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,percentile_0.8,means,Mean,3.899999999999991e-05
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,percentile_0.9,means,Mean,4.3999999999999924e-05
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,percentile_0.95,means,Mean,4.999999999999999e-05
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,percentile_0.99,means,Mean,6.500000000000001e-05
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,band_0.01_0.99,bins_4,Quartiles,5.4565217391304336e-05
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,band_0.1_0.9,means,Mean,4.099999999999997e-05
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,fixed_0.05,raw,Distribution,1.2534885348276802e-06
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,fixed_0.1,raw,Distribution,2.5069770696553604e-06
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,fixed_0.2,raw,Distribution,5.013954139310721e-06
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,percentile_0.8,means,Mean,0.0054399999999999995
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,percentile_0.9,means,Mean,0.005864565217391305
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,percentile_0.95,means,Mean,0.0059458695652173914
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,percentile_0.99,means,Mean,0.006610869565217392
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,band_0.01_0.99,means,Mean,0.006229565217391306
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,band_0.1_0.9,means,Mean,0.005915
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,fixed_0.05,raw,Distribution,0.00010275784852763209
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,fixed_0.1,raw,Distribution,0.00020551569705526418
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,fixed_0.2,raw,Distribution,0.00041103139411052835
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,percentile_0.8,five_number,Quartiles,0.004204949999999998
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,percentile_0.9,means,Mean,0.00472325
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,percentile_0.95,means,Mean,0.005127804347826085
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,percentile_0.99,means,Mean,0.005834808695652173
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,band_0.01_0.99,means,Mean,0.005344565217391303
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,band_0.1_0.9,means,Mean,0.004820869565217391
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,fixed_0.05,raw,Distribution,0.00010209260502112776
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,fixed_0.1,raw,Distribution,0.00020418521004225552
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,fixed_0.2,raw,Distribution,0.00040837042008451104
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,percentile_0.8,means,Mean,0.01561394999999997
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,percentile_0.9,means,Mean,0.01765195652173913
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,percentile_0.95,means,Mean,0.01868673913043479
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,percentile_0.99,means,Mean,0.019647608695652175
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,band_0.01_0.99,means,Mean,0.01874760869565218
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,band_0.1_0.9,means,Mean,0.01775673913043478
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,fixed_0.05,raw,Distribution,0.0003081976499038402
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,fixed_0.1,raw,Distribution,0.0006163952998076804
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,fixed_0.2,raw,Distribution,0.0012327905996153607
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,percentile_0.8,bins_4,Quartiles,0.015464999999999996
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,percentile_0.9,bins_4,Quartiles,0.017960521739130434
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,percentile_0.95,bins_4,Quartiles,0.019857900621118016
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,percentile_0.99,bins_4,Quartiles,0.02341851304347826
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,band_0.01_0.99,bins_4,Quartiles,0.02099359999999999
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,band_0.1_0.9,means,Mean,0.01820223913043478
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,fixed_0.05,raw,Distribution,0.0007327726284462321
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,fixed_0.1,raw,Distribution,0.0014655452568924643
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,fixed_0.2,raw,Distribution,0.0029310905137849286
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,percentile_0.8,bins_4,Quartiles,0.18907499999999983
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,percentile_0.9,bins_4,Quartiles,0.2309434782608696
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,percentile_0.95,means,Mean,0.3215
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,percentile_0.99,means,Mean,0.37321739130434783
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,band_0.01_0.99,bins_4,Quartiles,0.33435499999999996
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,band_0.1_0.9,means,Mean,0.25366804347826005
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,fixed_0.05,raw,Distribution,0.007704728661672648
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,fixed_0.1,raw,Distribution,0.015409457323345296
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,fixed_0.2,raw,Distribution,0.030818914646690593
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,percentile_0.8,five_number,Quartiles,0.0076854347826087
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,percentile_0.9,five_number,Quartiles,0.008984782608695655
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,percentile_0.95,five_number,Quartiles,0.010312218478260865
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,percentile_0.99,five_number,Quartiles,0.011686585652173913
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,band_0.01_0.99,five_number,Quartiles,0.010426260869565215
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,band_0.1_0.9,means,Mean,0.01008347826086957
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,fixed_0.05,raw,Distribution,0.00038778988003689295
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,fixed_0.1,raw,Distribution,0.0007755797600737859
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,fixed_0.2,raw,Distribution,0.0015511595201475718
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,percentile_0.8,bins_4,Quartiles,0.011630217391304348
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,percentile_0.9,bins_4,Quartiles,0.013594739130434798
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,percentile_0.95,bins_4,Quartiles,0.01489630434782609
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,percentile_0.99,means,Mean,0.018427214347826088
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,band_0.01_0.99,bins_4,Quartiles,0.015119700000000002
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,band_0.1_0.9,means,Mean,0.014324565217391307
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,fixed_0.05,raw,Distribution,0.0004793397397578372
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,fixed_0.1,raw,Distribution,0.0009586794795156744
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,fixed_0.2,raw,Distribution,0.0019173589590313488
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,percentile_0.8,bins_4,Quartiles,0.015860000000000003
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,percentile_0.9,bins_4,Quartiles,0.018946826086956536
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,percentile_0.95,means,Mean,0.02546
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,percentile_0.99,means,Mean,0.029379355652173905
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,band_0.01_0.99,bins_4,Quartiles,0.026267249999999992
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,band_0.1_0.9,means,Mean,0.022579999999999985
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,fixed_0.05,raw,Distribution,0.0006380267064355536
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,fixed_0.1,raw,Distribution,0.0012760534128711072
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,fixed_0.2,raw,Distribution,0.0025521068257422144
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,percentile_0.8,five_number,Quartiles,0.022716086956521744
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,percentile_0.9,five_number,Quartiles,0.026585304347826088
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,percentile_0.95,five_number,Quartiles,0.02983217934782608
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,percentile_0.99,five_number,Quartiles,0.033732554347826085
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,band_0.01_0.99,five_number,Quartiles,0.03024586956521739
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,band_0.1_0.9,means,Mean,0.02767782608695652
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,fixed_0.05,raw,Distribution,0.0011633552368923523
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,fixed_0.1,raw,Distribution,0.0023267104737847047
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,fixed_0.2,raw,Distribution,0.004653420947569409
+Parkinsons__14,Parkinsons,NHR,False,8,24,percentile_0.8,means,Mean,0.056216860869565385
+Parkinsons__14,Parkinsons,NHR,False,8,24,percentile_0.9,means,Mean,0.07554124999999987
+Parkinsons__14,Parkinsons,NHR,False,8,24,percentile_0.95,means,Mean,0.09469500000000002
+Parkinsons__14,Parkinsons,NHR,False,8,24,percentile_0.99,means,Mean,0.1089217304347826
+Parkinsons__14,Parkinsons,NHR,False,8,24,band_0.01_0.99,means,Mean,0.09469500000000002
+Parkinsons__14,Parkinsons,NHR,False,8,24,band_0.1_0.9,means,Mean,0.06881204999999989
+Parkinsons__14,Parkinsons,NHR,False,8,24,fixed_0.05,raw,Distribution,0.001377390207077168
+Parkinsons__14,Parkinsons,NHR,False,8,24,fixed_0.1,raw,Distribution,0.002754780414154336
+Parkinsons__14,Parkinsons,NHR,False,8,24,fixed_0.2,raw,Distribution,0.005509560828308672
+Parkinsons__15,Parkinsons,HNR,False,8,24,percentile_0.8,means,Mean,6.12759192546584
+Parkinsons__15,Parkinsons,HNR,False,8,24,percentile_0.9,means,Mean,6.923217391304345
+Parkinsons__15,Parkinsons,HNR,False,8,24,percentile_0.95,means,Mean,7.501173913043477
+Parkinsons__15,Parkinsons,HNR,False,8,24,percentile_0.99,means,Mean,8.4285
+Parkinsons__15,Parkinsons,HNR,False,8,24,band_0.01_0.99,means,Mean,7.501173913043477
+Parkinsons__15,Parkinsons,HNR,False,8,24,band_0.1_0.9,means,Mean,7.501173913043477
+Parkinsons__15,Parkinsons,HNR,False,8,24,fixed_0.05,raw,Distribution,0.19963317186536855
+Parkinsons__15,Parkinsons,HNR,False,8,24,fixed_0.1,raw,Distribution,0.3992663437307371
+Parkinsons__15,Parkinsons,HNR,False,8,24,fixed_0.2,raw,Distribution,0.7985326874614742
+Parkinsons__16,Parkinsons,RPDE,False,8,24,percentile_0.8,means,Mean,0.11241972499999991
+Parkinsons__16,Parkinsons,RPDE,False,8,24,percentile_0.9,means,Mean,0.12960687142857144
+Parkinsons__16,Parkinsons,RPDE,False,8,24,percentile_0.95,means,Mean,0.1449521857142857
+Parkinsons__16,Parkinsons,RPDE,False,8,24,percentile_0.99,means,Mean,0.18616174347826087
+Parkinsons__16,Parkinsons,RPDE,False,8,24,band_0.01_0.99,means,Mean,0.14555530962732896
+Parkinsons__16,Parkinsons,RPDE,False,8,24,band_0.1_0.9,means,Mean,0.14180380717391308
+Parkinsons__16,Parkinsons,RPDE,False,8,24,fixed_0.05,raw,Distribution,0.004731182668776366
+Parkinsons__16,Parkinsons,RPDE,False,8,24,fixed_0.1,raw,Distribution,0.009462365337552733
+Parkinsons__16,Parkinsons,RPDE,False,8,24,fixed_0.2,raw,Distribution,0.018924730675105465
+Parkinsons__17,Parkinsons,DFA,False,8,24,percentile_0.8,means,Mean,0.08384254285714289
+Parkinsons__17,Parkinsons,DFA,False,8,24,percentile_0.9,means,Mean,0.096239604347826
+Parkinsons__17,Parkinsons,DFA,False,8,24,percentile_0.95,means,Mean,0.10880097826086954
+Parkinsons__17,Parkinsons,DFA,False,8,24,percentile_0.99,means,Mean,0.12507062956521733
+Parkinsons__17,Parkinsons,DFA,False,8,24,band_0.01_0.99,means,Mean,0.10880097826086954
+Parkinsons__17,Parkinsons,DFA,False,8,24,band_0.1_0.9,means,Mean,0.10880097826086954
+Parkinsons__17,Parkinsons,DFA,False,8,24,fixed_0.05,raw,Distribution,0.0026537465682836183
+Parkinsons__17,Parkinsons,DFA,False,8,24,fixed_0.1,raw,Distribution,0.005307493136567237
+Parkinsons__17,Parkinsons,DFA,False,8,24,fixed_0.2,raw,Distribution,0.010614986273134473
+Parkinsons__18,Parkinsons,spread1,False,8,24,percentile_0.8,means,Mean,1.0662792521739124
+Parkinsons__18,Parkinsons,spread1,False,8,24,percentile_0.9,means,Mean,1.1494624521739123
+Parkinsons__18,Parkinsons,spread1,False,8,24,percentile_0.95,means,Mean,1.21181572173913
+Parkinsons__18,Parkinsons,spread1,False,8,24,percentile_0.99,means,Mean,1.577713768260867
+Parkinsons__18,Parkinsons,spread1,False,8,24,band_0.01_0.99,means,Mean,1.2144900391304332
+Parkinsons__18,Parkinsons,spread1,False,8,24,band_0.1_0.9,means,Mean,1.207885785714284
+Parkinsons__18,Parkinsons,spread1,False,8,24,fixed_0.05,raw,Distribution,0.0400094883350997
+Parkinsons__18,Parkinsons,spread1,False,8,24,fixed_0.1,raw,Distribution,0.0800189766701994
+Parkinsons__18,Parkinsons,spread1,False,8,24,fixed_0.2,raw,Distribution,0.1600379533403988
+Parkinsons__19,Parkinsons,spread2,False,8,24,percentile_0.8,means,Mean,0.08511807142857147
+Parkinsons__19,Parkinsons,spread2,False,8,24,percentile_0.9,means,Mean,0.10064825217391314
+Parkinsons__19,Parkinsons,spread2,False,8,24,percentile_0.95,means,Mean,0.11022057142857145
+Parkinsons__19,Parkinsons,spread2,False,8,24,percentile_0.99,means,Mean,0.12749610869565217
+Parkinsons__19,Parkinsons,spread2,False,8,24,band_0.01_0.99,means,Mean,0.11142266304347812
+Parkinsons__19,Parkinsons,spread2,False,8,24,band_0.1_0.9,means,Mean,0.109426
+Parkinsons__19,Parkinsons,spread2,False,8,24,fixed_0.05,raw,Distribution,0.0029544158004863154
+Parkinsons__19,Parkinsons,spread2,False,8,24,fixed_0.1,raw,Distribution,0.005908831600972631
+Parkinsons__19,Parkinsons,spread2,False,8,24,fixed_0.2,raw,Distribution,0.011817663201945262
+Parkinsons__20,Parkinsons,D2,False,8,24,percentile_0.8,means,Mean,0.4448793478260866
+Parkinsons__20,Parkinsons,D2,False,8,24,percentile_0.9,means,Mean,0.4867060652173911
+Parkinsons__20,Parkinsons,D2,False,8,24,percentile_0.95,means,Mean,0.5135662826086955
+Parkinsons__20,Parkinsons,D2,False,8,24,percentile_0.99,means,Mean,0.6363803478260865
+Parkinsons__20,Parkinsons,D2,False,8,24,band_0.01_0.99,means,Mean,0.522837239130435
+Parkinsons__20,Parkinsons,D2,False,8,24,band_0.1_0.9,means,Mean,0.48988858975155253
+Parkinsons__20,Parkinsons,D2,False,8,24,fixed_0.05,raw,Distribution,0.015159997783521185
+Parkinsons__20,Parkinsons,D2,False,8,24,fixed_0.1,raw,Distribution,0.03031999556704237
+Parkinsons__20,Parkinsons,D2,False,8,24,fixed_0.2,raw,Distribution,0.06063999113408474
+Parkinsons__21,Parkinsons,PPE,False,8,24,percentile_0.8,means,Mean,0.09211397826086959
+Parkinsons__21,Parkinsons,PPE,False,8,24,percentile_0.9,means,Mean,0.10127183478260866
+Parkinsons__21,Parkinsons,PPE,False,8,24,percentile_0.95,means,Mean,0.12256900000000001
+Parkinsons__21,Parkinsons,PPE,False,8,24,percentile_0.99,means,Mean,0.14223880434782615
+Parkinsons__21,Parkinsons,PPE,False,8,24,band_0.01_0.99,means,Mean,0.12256900000000001
+Parkinsons__21,Parkinsons,PPE,False,8,24,band_0.1_0.9,means,Mean,0.11317126499999998
+Parkinsons__21,Parkinsons,PPE,False,8,24,fixed_0.05,raw,Distribution,0.0034248367136588717
+Parkinsons__21,Parkinsons,PPE,False,8,24,fixed_0.1,raw,Distribution,0.006849673427317743
+Parkinsons__21,Parkinsons,PPE,False,8,24,fixed_0.2,raw,Distribution,0.013699346854635487
+Retinopathy__00,Retinopathy,feature_2,True,540,611,percentile_0.8,bins_8,Distribution,7.365573770491835
+Retinopathy__00,Retinopathy,feature_2,True,540,611,percentile_0.9,bins_4,Distribution,8.545245901639376
+Retinopathy__00,Retinopathy,feature_2,True,540,611,percentile_0.95,bins_4,Distribution,9.5
+Retinopathy__00,Retinopathy,feature_2,True,540,611,percentile_0.99,bins_4,Distribution,11.473245901639373
+Retinopathy__00,Retinopathy,feature_2,True,540,611,band_0.01_0.99,means,Mean,29.444262295082126
+Retinopathy__00,Retinopathy,feature_2,True,540,611,band_0.1_0.9,bins_8,Distribution,8.0
+Retinopathy__00,Retinopathy,feature_2,True,540,611,fixed_0.05,raw,Distribution,1.2255123835521522
+Retinopathy__00,Retinopathy,feature_2,True,540,611,fixed_0.1,bins_64,Distribution,2.4510247671043044
+Retinopathy__00,Retinopathy,feature_2,True,540,611,fixed_0.2,bins_8,Distribution,4.902049534208609
+Retinopathy__01,Retinopathy,feature_3,True,540,611,percentile_0.8,bins_8,Distribution,6.04655737704917
+Retinopathy__01,Retinopathy,feature_3,True,540,611,percentile_0.9,bins_4,Distribution,7.0
+Retinopathy__01,Retinopathy,feature_3,True,540,611,percentile_0.95,bins_4,Distribution,8.0
+Retinopathy__01,Retinopathy,feature_3,True,540,611,percentile_0.99,bins_4,Distribution,9.0
+Retinopathy__01,Retinopathy,feature_3,True,540,611,band_0.01_0.99,means,Mean,22.920999999999765
+Retinopathy__01,Retinopathy,feature_3,True,540,611,band_0.1_0.9,means,Mean,8.0
+Retinopathy__01,Retinopathy,feature_3,True,540,611,fixed_0.05,raw,Distribution,1.162250979430125
+Retinopathy__01,Retinopathy,feature_3,True,540,611,fixed_0.1,bins_16,Distribution,2.32450195886025
+Retinopathy__01,Retinopathy,feature_3,True,540,611,fixed_0.2,bins_8,Distribution,4.6490039177205
+Retinopathy__02,Retinopathy,feature_4,True,540,611,percentile_0.8,bins_8,Distribution,6.037704918032786
+Retinopathy__02,Retinopathy,feature_4,True,540,611,percentile_0.9,bins_4,Distribution,7.0
+Retinopathy__02,Retinopathy,feature_4,True,540,611,percentile_0.95,means,Mean,8.0
+Retinopathy__02,Retinopathy,feature_4,True,540,611,percentile_0.99,means,Mean,9.540721311475444
+Retinopathy__02,Retinopathy,feature_4,True,540,611,band_0.01_0.99,means,Mean,16.95157699443418
+Retinopathy__02,Retinopathy,feature_4,True,540,611,band_0.1_0.9,means,Mean,8.0
+Retinopathy__02,Retinopathy,feature_4,True,540,611,fixed_0.05,raw,Distribution,1.1089044883185835
+Retinopathy__02,Retinopathy,feature_4,True,540,611,fixed_0.1,bins_32,Distribution,2.217808976637167
+Retinopathy__02,Retinopathy,feature_4,True,540,611,fixed_0.2,bins_8,Distribution,4.435617953274334
+Retinopathy__03,Retinopathy,feature_5,True,540,611,percentile_0.8,five_number,Quartiles,6.0
+Retinopathy__03,Retinopathy,feature_5,True,540,611,percentile_0.9,means,Mean,7.0
+Retinopathy__03,Retinopathy,feature_5,True,540,611,percentile_0.95,means,Mean,7.9999999999999485
+Retinopathy__03,Retinopathy,feature_5,True,540,611,percentile_0.99,means,Mean,9.0
+Retinopathy__03,Retinopathy,feature_5,True,540,611,band_0.01_0.99,means,Mean,15.329999999999927
+Retinopathy__03,Retinopathy,feature_5,True,540,611,band_0.1_0.9,means,Mean,7.939508196721288
+Retinopathy__03,Retinopathy,feature_5,True,540,611,fixed_0.05,raw,Distribution,1.035391289323404
+Retinopathy__03,Retinopathy,feature_5,True,540,611,fixed_0.1,bins_32,Distribution,2.070782578646808
+Retinopathy__03,Retinopathy,feature_5,True,540,611,fixed_0.2,five_number,Quartiles,4.141565157293616
+Retinopathy__04,Retinopathy,feature_6,True,540,611,percentile_0.8,means,Mean,6.0
+Retinopathy__04,Retinopathy,feature_6,True,540,611,percentile_0.9,means,Mean,7.0
+Retinopathy__04,Retinopathy,feature_6,True,540,611,percentile_0.95,means,Mean,7.026065573770505
+Retinopathy__04,Retinopathy,feature_6,True,540,611,percentile_0.99,means,Mean,9.0
+Retinopathy__04,Retinopathy,feature_6,True,540,611,band_0.01_0.99,means,Mean,13.0
+Retinopathy__04,Retinopathy,feature_6,True,540,611,band_0.1_0.9,means,Mean,7.0
+Retinopathy__04,Retinopathy,feature_6,True,540,611,fixed_0.05,raw,Distribution,0.9630541292256871
+Retinopathy__04,Retinopathy,feature_6,True,540,611,fixed_0.1,bins_16,Distribution,1.9261082584513742
+Retinopathy__04,Retinopathy,feature_6,True,540,611,fixed_0.2,five_number,Quartiles,3.8522165169027485
+Retinopathy__05,Retinopathy,feature_7,True,540,611,percentile_0.8,means,Mean,5.0
+Retinopathy__05,Retinopathy,feature_7,True,540,611,percentile_0.9,means,Mean,5.431867149244183
+Retinopathy__05,Retinopathy,feature_7,True,540,611,percentile_0.95,means,Mean,6.0
+Retinopathy__05,Retinopathy,feature_7,True,540,611,percentile_0.99,means,Mean,7.0
+Retinopathy__05,Retinopathy,feature_7,True,540,611,band_0.01_0.99,means,Mean,10.79276437847868
+Retinopathy__05,Retinopathy,feature_7,True,540,611,band_0.1_0.9,means,Mean,6.0
+Retinopathy__05,Retinopathy,feature_7,True,540,611,fixed_0.05,raw,Distribution,0.7492062471896583
+Retinopathy__05,Retinopathy,feature_7,True,540,611,fixed_0.1,bins_64,Distribution,1.4984124943793167
+Retinopathy__05,Retinopathy,feature_7,True,540,611,fixed_0.2,bins_8,Distribution,2.9968249887586333
+Retinopathy__06,Retinopathy,feature_8,True,540,611,percentile_0.8,bins_8,Distribution,24.128041736885194
+Retinopathy__06,Retinopathy,feature_8,True,540,611,percentile_0.9,bins_8,Distribution,29.15628333999991
+Retinopathy__06,Retinopathy,feature_8,True,540,611,percentile_0.95,bins_4,Distribution,33.57905280779221
+Retinopathy__06,Retinopathy,feature_8,True,540,611,percentile_0.99,bins_4,Distribution,41.03715459185097
+Retinopathy__06,Retinopathy,feature_8,True,540,611,band_0.01_0.99,means,Mean,57.69876498399999
+Retinopathy__06,Retinopathy,feature_8,True,540,611,band_0.1_0.9,bins_4,Distribution,24.518916376065466
+Retinopathy__06,Retinopathy,feature_8,True,540,611,fixed_0.05,raw,Distribution,2.920609294490932
+Retinopathy__06,Retinopathy,feature_8,True,540,611,fixed_0.1,bins_64,Distribution,5.841218588981864
+Retinopathy__06,Retinopathy,feature_8,True,540,611,fixed_0.2,bins_8,Distribution,11.682437177963727
+Retinopathy__07,Retinopathy,feature_9,True,540,611,percentile_0.8,bins_4,Distribution,11.533892326141922
+Retinopathy__07,Retinopathy,feature_9,True,540,611,percentile_0.9,bins_4,Quartiles,13.289467697051622
+Retinopathy__07,Retinopathy,feature_9,True,540,611,percentile_0.95,bins_4,Quartiles,14.878360684230108
+Retinopathy__07,Retinopathy,feature_9,True,540,611,percentile_0.99,means,Mean,17.26714835881967
+Retinopathy__07,Retinopathy,feature_9,True,540,611,band_0.01_0.99,means,Mean,31.09836941001855
+Retinopathy__07,Retinopathy,feature_9,True,540,611,band_0.1_0.9,means,Mean,8.480317465245905
+Retinopathy__07,Retinopathy,feature_9,True,540,611,fixed_0.05,raw,Distribution,1.080604588731799
+Retinopathy__07,Retinopathy,feature_9,True,540,611,fixed_0.1,raw,Distribution,2.161209177463598
+Retinopathy__07,Retinopathy,feature_9,True,540,611,fixed_0.2,bins_32,Distribution,4.322418354927196
+Retinopathy__08,Retinopathy,feature_10,True,540,611,percentile_0.8,bins_4,Distribution,5.645275049289838
+Retinopathy__08,Retinopathy,feature_10,True,540,611,percentile_0.9,bins_4,Distribution,6.868725938360653
+Retinopathy__08,Retinopathy,feature_10,True,540,611,percentile_0.95,bins_4,Distribution,7.77873467040984
+Retinopathy__08,Retinopathy,feature_10,True,540,611,percentile_0.99,means,Mean,9.713338310000072
+Retinopathy__08,Retinopathy,feature_10,True,540,611,band_0.01_0.99,means,Mean,25.512907759999987
+Retinopathy__08,Retinopathy,feature_10,True,540,611,band_0.1_0.9,means,Mean,5.286660875901645
+Retinopathy__08,Retinopathy,feature_10,True,540,611,fixed_0.05,raw,Distribution,0.5782069676940385
+Retinopathy__08,Retinopathy,feature_10,True,540,611,fixed_0.1,bins_16,Distribution,1.156413935388077
+Retinopathy__08,Retinopathy,feature_10,True,540,611,fixed_0.2,bins_8,Distribution,2.312827870776154
+Retinopathy__09,Retinopathy,feature_11,True,540,611,percentile_0.8,density_16,Distribution,1.816189175139143
+Retinopathy__09,Retinopathy,feature_11,True,540,611,percentile_0.9,density_16,Distribution,2.2572612644374836
+Retinopathy__09,Retinopathy,feature_11,True,540,611,percentile_0.95,means,Mean,2.5882556619672124
+Retinopathy__09,Retinopathy,feature_11,True,540,611,percentile_0.99,means,Mean,3.758366124393449
+Retinopathy__09,Retinopathy,feature_11,True,540,611,band_0.01_0.99,means,Mean,10.404634372295089
+Retinopathy__09,Retinopathy,feature_11,True,540,611,band_0.1_0.9,means,Mean,1.5558104642622965
+Retinopathy__09,Retinopathy,feature_11,True,540,611,fixed_0.05,raw,Distribution,0.19517710808958227
+Retinopathy__09,Retinopathy,feature_11,True,540,611,fixed_0.1,raw,Distribution,0.39035421617916455
+Retinopathy__09,Retinopathy,feature_11,True,540,611,fixed_0.2,bins_32,Distribution,0.7807084323583291
+Retinopathy__10,Retinopathy,feature_12,True,540,611,percentile_0.8,density_32,Distribution,1.1466481117558334
+Retinopathy__10,Retinopathy,feature_12,True,540,611,percentile_0.9,density_8,Distribution,1.3663646514334389
+Retinopathy__10,Retinopathy,feature_12,True,540,611,percentile_0.95,density_8,Distribution,1.5847792828688532
+Retinopathy__10,Retinopathy,feature_12,True,540,611,percentile_0.99,density_8,Distribution,1.921526579695973
+Retinopathy__10,Retinopathy,feature_12,True,540,611,band_0.01_0.99,density_8,Distribution,7.258667680000024
+Retinopathy__10,Retinopathy,feature_12,True,540,611,band_0.1_0.9,density_32,Distribution,0.7583250513114755
+Retinopathy__10,Retinopathy,feature_12,True,540,611,fixed_0.05,raw,Distribution,0.12299556615527717
+Retinopathy__10,Retinopathy,feature_12,True,540,611,fixed_0.1,raw,Distribution,0.24599113231055433
+Retinopathy__10,Retinopathy,feature_12,True,540,611,fixed_0.2,raw,Distribution,0.49198226462110867
+Retinopathy__11,Retinopathy,feature_13,True,540,611,percentile_0.8,density_32,Distribution,0.4838926777049183
+Retinopathy__11,Retinopathy,feature_13,True,540,611,percentile_0.9,density_32,Distribution,0.5715411055737706
+Retinopathy__11,Retinopathy,feature_13,True,540,611,percentile_0.95,density_32,Distribution,0.674411875409836
+Retinopathy__11,Retinopathy,feature_13,True,540,611,percentile_0.99,density_32,Distribution,0.8275935125081969
+Retinopathy__11,Retinopathy,feature_13,True,540,611,band_0.01_0.99,density_8,Distribution,3.640698747704916
+Retinopathy__11,Retinopathy,feature_13,True,540,611,band_0.1_0.9,density_32,Distribution,0.30911251442622945
+Retinopathy__11,Retinopathy,feature_13,True,540,611,fixed_0.05,raw,Distribution,0.05226952375860299
+Retinopathy__11,Retinopathy,feature_13,True,540,611,fixed_0.1,raw,Distribution,0.10453904751720598
+Retinopathy__11,Retinopathy,feature_13,True,540,611,fixed_0.2,raw,Distribution,0.20907809503441196
+Retinopathy__12,Retinopathy,feature_14,True,540,611,percentile_0.8,bins_32,Distribution,0.2592220327868854
+Retinopathy__12,Retinopathy,feature_14,True,540,611,percentile_0.9,bins_32,Distribution,0.2997639737704919
+Retinopathy__12,Retinopathy,feature_14,True,540,611,percentile_0.95,bins_16,Distribution,0.36692679016393337
+Retinopathy__12,Retinopathy,feature_14,True,540,611,percentile_0.99,bins_16,Distribution,0.5544646712459015
+Retinopathy__12,Retinopathy,feature_14,True,540,611,band_0.01_0.99,bins_4,Distribution,1.396301735409834
+Retinopathy__12,Retinopathy,feature_14,True,540,611,band_0.1_0.9,bins_32,Distribution,0.1881041613114754
+Retinopathy__12,Retinopathy,feature_14,True,540,611,fixed_0.05,raw,Distribution,0.019601120084237804
+Retinopathy__12,Retinopathy,feature_14,True,540,611,fixed_0.1,raw,Distribution,0.03920224016847561
+Retinopathy__12,Retinopathy,feature_14,True,540,611,fixed_0.2,raw,Distribution,0.07840448033695122
+Retinopathy__13,Retinopathy,feature_15,True,540,611,percentile_0.8,bins_32,Distribution,0.09712786229508201
+Retinopathy__13,Retinopathy,feature_15,True,540,611,percentile_0.9,bins_32,Distribution,0.11707698098360667
+Retinopathy__13,Retinopathy,feature_15,True,540,611,percentile_0.95,bins_32,Distribution,0.1390811980327868
+Retinopathy__13,Retinopathy,feature_15,True,540,611,percentile_0.99,bins_32,Distribution,0.17428107881967214
+Retinopathy__13,Retinopathy,feature_15,True,540,611,band_0.01_0.99,density_8,Distribution,0.5663260898360651
+Retinopathy__13,Retinopathy,feature_15,True,540,611,band_0.1_0.9,bins_32,Distribution,0.09213772295081961
+Retinopathy__13,Retinopathy,feature_15,True,540,611,fixed_0.05,raw,Distribution,0.008809993586864278
+Retinopathy__13,Retinopathy,feature_15,True,540,611,fixed_0.1,raw,Distribution,0.017619987173728556
+Retinopathy__13,Retinopathy,feature_15,True,540,611,fixed_0.2,raw,Distribution,0.03523997434745711
+Retinopathy__14,Retinopathy,feature_16,True,540,611,percentile_0.8,means,Mean,0.007223337049180346
+Retinopathy__14,Retinopathy,feature_16,True,540,611,percentile_0.9,means,Mean,0.008122223606557434
+Retinopathy__14,Retinopathy,feature_16,True,540,611,percentile_0.95,means,Mean,0.009065805751391442
+Retinopathy__14,Retinopathy,feature_16,True,540,611,percentile_0.99,means,Mean,0.011626529610389584
+Retinopathy__14,Retinopathy,feature_16,True,540,611,band_0.01_0.99,means,Mean,0.029637941081967163
+Retinopathy__14,Retinopathy,feature_16,True,540,611,band_0.1_0.9,means,Mean,0.008766816678731049
+Retinopathy__14,Retinopathy,feature_16,True,540,611,fixed_0.05,raw,Distribution,0.0014033277133201712
+Retinopathy__14,Retinopathy,feature_16,True,540,611,fixed_0.1,bins_32,Distribution,0.0028066554266403423
+Retinopathy__14,Retinopathy,feature_16,True,540,611,fixed_0.2,bins_4,Distribution,0.005613310853280685
+Retinopathy__15,Retinopathy,feature_17,True,540,611,percentile_0.8,means,Mean,0.005185229313543619
+Retinopathy__15,Retinopathy,feature_17,True,540,611,percentile_0.9,means,Mean,0.0059196803278688545
+Retinopathy__15,Retinopathy,feature_17,True,540,611,percentile_0.95,means,Mean,0.00653249128014845
+Retinopathy__15,Retinopathy,feature_17,True,540,611,percentile_0.99,means,Mean,0.008567381230329359
+Retinopathy__15,Retinopathy,feature_17,True,540,611,band_0.01_0.99,means,Mean,0.025518197612244928
+Retinopathy__15,Retinopathy,feature_17,True,540,611,band_0.1_0.9,means,Mean,0.005433020791386611
+Retinopathy__15,Retinopathy,feature_17,True,540,611,fixed_0.05,raw,Distribution,0.0008972050939296721
+Retinopathy__15,Retinopathy,feature_17,True,540,611,fixed_0.1,bins_16,Distribution,0.0017944101878593442
+Retinopathy__15,Retinopathy,feature_17,True,540,611,fixed_0.2,means,Mean,0.0035888203757186883
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,percentile_0.8,five_number,Quartiles,0.007057869999999966
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,percentile_0.9,five_number,Quartiles,0.007314222999999988
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,percentile_0.95,five_number,Quartiles,0.00805984500000001
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,percentile_0.99,five_number,Quartiles,0.008458845000000048
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,band_0.01_0.99,five_number,Quartiles,0.008239595000000044
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,band_0.1_0.9,means,Mean,0.00719799649999997
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,fixed_0.05,raw,Distribution,0.00023081932691561155
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,fixed_0.1,raw,Distribution,0.0004616386538312231
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,fixed_0.2,raw,Distribution,0.0009232773076624462
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,percentile_0.8,means,Mean,0.0020565197999999987
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,percentile_0.9,means,Mean,0.0023744069000000002
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,percentile_0.95,means,Mean,0.0026366875
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,percentile_0.99,means,Mean,0.0028972909999999998
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,band_0.01_0.99,means,Mean,0.0026366875
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,band_0.1_0.9,means,Mean,0.002583843500000002
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,fixed_0.05,raw,Distribution,9.07380514562279e-05
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,fixed_0.1,raw,Distribution,0.0001814761029124558
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,fixed_0.2,raw,Distribution,0.0003629522058249116
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,percentile_0.8,means,Mean,0.0064257292000000025
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,percentile_0.9,means,Mean,0.007212037999999988
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,percentile_0.95,means,Mean,0.007767631485000001
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,percentile_0.99,means,Mean,0.008551951957000023
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,band_0.01_0.99,means,Mean,0.008261687200000003
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,band_0.1_0.9,means,Mean,0.006703264699999995
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,fixed_0.05,raw,Distribution,0.0001968427521204807
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,fixed_0.1,raw,Distribution,0.0003936855042409614
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,fixed_0.2,raw,Distribution,0.0007873710084819228
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,percentile_0.8,five_number,Quartiles,0.13224890450000004
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,percentile_0.9,five_number,Quartiles,0.1555678910000001
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,percentile_0.95,five_number,Quartiles,0.15947749699999986
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,percentile_0.99,five_number,Quartiles,0.1814650029999999
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,band_0.01_0.99,five_number,Quartiles,0.16794094221820002
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,band_0.1_0.9,means,Mean,0.14579316450000002
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,fixed_0.05,raw,Distribution,0.0043686303463260625
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,fixed_0.1,raw,Distribution,0.008737260692652125
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,fixed_0.2,raw,Distribution,0.01747452138530425
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,percentile_0.8,five_number,Quartiles,0.18053666499999976
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,percentile_0.9,five_number,Quartiles,0.22450988500000024
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,percentile_0.95,five_number,Quartiles,0.22849422499999994
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,percentile_0.99,five_number,Quartiles,0.2481494170000001
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,band_0.01_0.99,five_number,Quartiles,0.23720296500000027
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,band_0.1_0.9,means,Mean,0.2278547435
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,fixed_0.05,raw,Distribution,0.005918562288398683
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,fixed_0.1,raw,Distribution,0.011837124576797366
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,fixed_0.2,raw,Distribution,0.023674249153594732
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,percentile_0.8,five_number,Quartiles,0.18905457170000012
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,percentile_0.9,five_number,Quartiles,0.20204654350000006
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,percentile_0.95,five_number,Quartiles,0.20841680350000003
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,percentile_0.99,five_number,Quartiles,0.26251894261999964
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,band_0.01_0.99,five_number,Quartiles,0.21347097361000011
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,band_0.1_0.9,five_number,Quartiles,0.20204654350000006
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,fixed_0.05,raw,Distribution,0.006871402813952431
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,fixed_0.1,raw,Distribution,0.013742805627904862
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,fixed_0.2,raw,Distribution,0.027485611255809724
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,percentile_0.8,means,Mean,0.10619092500000005
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,percentile_0.9,means,Mean,0.12777078500000005
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,percentile_0.95,means,Mean,0.14089841000000003
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,percentile_0.99,means,Mean,0.17989115500000008
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,band_0.01_0.99,means,Mean,0.15012088999999995
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,band_0.1_0.9,means,Mean,0.11382604500000004
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,fixed_0.05,raw,Distribution,0.002583931847564921
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,fixed_0.1,raw,Distribution,0.005167863695129842
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,fixed_0.2,raw,Distribution,0.010335727390259683
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,percentile_0.8,means,Mean,0.10740701000000008
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,percentile_0.9,means,Mean,0.121144315
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,percentile_0.95,means,Mean,0.13747115935000004
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,percentile_0.99,means,Mean,0.15904539776
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,band_0.01_0.99,means,Mean,0.1395241227
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,band_0.1_0.9,means,Mean,0.12312887500000003
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,fixed_0.05,raw,Distribution,0.005327599585987081
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,fixed_0.1,raw,Distribution,0.010655199171974161
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,fixed_0.2,five_number,Quartiles,0.021310398343948322
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,percentile_0.8,means,Mean,0.10880225913999997
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,percentile_0.9,means,Mean,0.13308604472000005
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,percentile_0.95,means,Mean,0.151444845
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,percentile_0.99,means,Mean,0.1771687081999999
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,band_0.01_0.99,means,Mean,0.15196543123499992
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,band_0.1_0.9,means,Mean,0.13129420999999997
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,fixed_0.05,raw,Distribution,0.006954565919029314
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,fixed_0.1,raw,Distribution,0.013909131838058628
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,fixed_0.2,raw,Distribution,0.027818263676117255
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,percentile_0.8,means,Mean,0.004462364999999857
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,percentile_0.9,means,Mean,0.005160694999999937
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,percentile_0.95,means,Mean,0.005524454999999873
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,percentile_0.99,means,Mean,0.006355044999999948
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,band_0.01_0.99,means,Mean,0.006128835000000055
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,band_0.1_0.9,means,Mean,0.005169936499999894
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,fixed_0.05,raw,Distribution,0.00015310025709104242
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,fixed_0.1,raw,Distribution,0.00030620051418208484
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,fixed_0.2,raw,Distribution,0.0006124010283641697
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,percentile_0.8,means,Mean,0.004431363099999941
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,percentile_0.9,means,Mean,0.005814107249999893
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,percentile_0.95,means,Mean,0.00814808999999983
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,percentile_0.99,means,Mean,0.00814808999999983
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,band_0.01_0.99,means,Mean,0.00814808999999983
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,band_0.1_0.9,means,Mean,0.005242390000000041
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,fixed_0.05,raw,Distribution,0.00022146564315051842
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,fixed_0.1,raw,Distribution,0.00044293128630103684
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,fixed_0.2,raw,Distribution,0.0008858625726020737
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,percentile_0.8,means,Mean,0.010368894999999934
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,percentile_0.9,means,Mean,0.011698609999999943
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,percentile_0.95,means,Mean,0.013377007849999957
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,percentile_0.99,means,Mean,0.01944937357000003
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,band_0.01_0.99,means,Mean,0.01377233199999987
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,band_0.1_0.9,means,Mean,0.011727193500000196
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,fixed_0.05,raw,Distribution,0.0004345096329261991
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,fixed_0.1,raw,Distribution,0.0008690192658523982
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,fixed_0.2,bins_16,Distribution,0.0017380385317047964
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,percentile_0.8,bins_4,Quartiles,0.02598927649999999
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,percentile_0.9,bins_4,Quartiles,0.028644477
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,percentile_0.95,bins_4,Quartiles,0.030780347499999992
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,percentile_0.99,bins_4,Quartiles,0.03557454647
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,band_0.01_0.99,bins_4,Quartiles,0.030780347499999992
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,band_0.1_0.9,five_number,Quartiles,0.028553823000000006
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,fixed_0.05,raw,Distribution,0.0010284804817986565
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,fixed_0.1,raw,Distribution,0.002056960963597313
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,fixed_0.2,raw,Distribution,0.004113921927194626
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,percentile_0.8,five_number,Quartiles,0.026284319799999997
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,percentile_0.9,five_number,Quartiles,0.0276748965
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,percentile_0.95,five_number,Quartiles,0.031330337244999985
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,percentile_0.99,five_number,Quartiles,0.040056398196
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,band_0.01_0.99,five_number,Quartiles,0.031330337244999985
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,band_0.1_0.9,five_number,Quartiles,0.030855058885
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,fixed_0.05,raw,Distribution,0.0010936741499054865
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,fixed_0.1,raw,Distribution,0.002187348299810973
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,fixed_0.2,raw,Distribution,0.004374696599621946
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,percentile_0.8,five_number,Quartiles,0.030077264161999996
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,percentile_0.9,five_number,Quartiles,0.04109196927999999
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,percentile_0.95,five_number,Quartiles,0.04408659013
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,percentile_0.99,means,Mean,0.053817392841049985
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,band_0.01_0.99,five_number,Quartiles,0.049112662169999995
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,band_0.1_0.9,means,Mean,0.040413872344999935
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,fixed_0.05,raw,Distribution,0.0010202602390611622
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,fixed_0.1,raw,Distribution,0.0020405204781223244
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,fixed_0.2,raw,Distribution,0.004081040956244649
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,percentile_0.8,five_number,Quartiles,0.13531788780000018
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,percentile_0.9,five_number,Quartiles,0.1696506550000001
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,percentile_0.95,five_number,Quartiles,0.18080063720000009
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,percentile_0.99,five_number,Quartiles,0.20291348409999996
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,band_0.01_0.99,five_number,Quartiles,0.18157233299999986
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,band_0.1_0.9,five_number,Quartiles,0.18080063720000009
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,fixed_0.05,raw,Distribution,0.005652786679123056
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,fixed_0.1,raw,Distribution,0.011305573358246113
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,fixed_0.2,raw,Distribution,0.022611146716492225
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,percentile_0.8,five_number,Quartiles,0.15915479499999985
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,percentile_0.9,five_number,Quartiles,0.17404781159999988
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,percentile_0.95,five_number,Quartiles,0.18263750309699986
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,percentile_0.99,five_number,Quartiles,0.20087565400000013
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,band_0.01_0.99,five_number,Quartiles,0.18751866714999993
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,band_0.1_0.9,five_number,Quartiles,0.17966796350000003
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,fixed_0.05,raw,Distribution,0.00607877678791129
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,fixed_0.1,raw,Distribution,0.01215755357582258
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,fixed_0.2,raw,Distribution,0.02431510715164516
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,percentile_0.8,five_number,Quartiles,0.17969114399999986
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,percentile_0.9,five_number,Quartiles,0.20411758300000007
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,percentile_0.95,five_number,Quartiles,0.22373674814999941
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,percentile_0.99,five_number,Quartiles,0.28377851899999995
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,band_0.01_0.99,five_number,Quartiles,0.26052675614
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,band_0.1_0.9,means,Mean,0.20411010000000007
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,fixed_0.05,raw,Distribution,0.005934298585228818
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,fixed_0.1,raw,Distribution,0.011868597170457636
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,fixed_0.2,raw,Distribution,0.02373719434091527
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,percentile_0.8,means,Mean,0.01371284115249993
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,percentile_0.9,means,Mean,0.013971042802499927
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,percentile_0.95,means,Mean,0.025188186474999995
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,percentile_0.99,means,Mean,0.030647831049999998
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,band_0.01_0.99,bins_4,Quartiles,0.02532656455
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,band_0.1_0.9,means,Mean,0.01092686100000001
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,fixed_0.05,raw,Distribution,0.0003454571045539902
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,fixed_0.1,raw,Distribution,0.0006909142091079804
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,fixed_0.2,raw,Distribution,0.0013818284182159609
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,percentile_0.8,five_number,Quartiles,0.012681174090000004
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,percentile_0.9,five_number,Quartiles,0.013848765999999998
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,percentile_0.95,five_number,Quartiles,0.015115994650000016
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,percentile_0.99,five_number,Quartiles,0.017626663499999987
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,band_0.01_0.99,five_number,Quartiles,0.016439498712999993
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,band_0.1_0.9,means,Mean,0.013854580399999993
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,fixed_0.05,raw,Distribution,0.0003855767368327377
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,fixed_0.1,raw,Distribution,0.0007711534736654754
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,fixed_0.2,raw,Distribution,0.001542306947330951
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,percentile_0.8,five_number,Quartiles,0.005528197900000009
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,percentile_0.9,five_number,Quartiles,0.007062686499999998
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,percentile_0.95,five_number,Quartiles,0.008264713500000007
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,percentile_0.99,five_number,Quartiles,0.00866666704
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,band_0.01_0.99,five_number,Quartiles,0.0083455645
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,band_0.1_0.9,five_number,Quartiles,0.006387895149999988
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,fixed_0.05,raw,Distribution,0.0002572800552493287
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,fixed_0.1,raw,Distribution,0.0005145601104986574
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,fixed_0.2,raw,Distribution,0.0010291202209973148
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,percentile_0.8,five_number,Quartiles,0.17640650000000002
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,percentile_0.9,five_number,Quartiles,0.18448655999999997
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,percentile_0.95,five_number,Quartiles,0.20279007319999964
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,percentile_0.99,means,Mean,0.2646907679999999
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,band_0.01_0.99,five_number,Quartiles,0.22884357599999988
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,band_0.1_0.9,means,Mean,0.1834161099999999
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,fixed_0.05,raw,Distribution,0.0050299815731061305
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,fixed_0.1,raw,Distribution,0.010059963146212261
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,fixed_0.2,raw,Distribution,0.020119926292424522
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,percentile_0.8,five_number,Quartiles,0.21458024797900005
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,percentile_0.9,five_number,Quartiles,0.25044434551799993
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,percentile_0.95,five_number,Quartiles,0.2550663484500001
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,percentile_0.99,five_number,Quartiles,0.276828952684
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,band_0.01_0.99,five_number,Quartiles,0.2560332477200001
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,band_0.1_0.9,five_number,Quartiles,0.25015672499999986
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,fixed_0.05,raw,Distribution,0.008225185038297493
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,fixed_0.1,raw,Distribution,0.016450370076594986
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,fixed_0.2,raw,Distribution,0.03290074015318997
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,percentile_0.8,five_number,Quartiles,0.09898081999999997
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,percentile_0.9,five_number,Quartiles,0.12379814000000003
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,percentile_0.95,five_number,Quartiles,0.15242260500000004
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,percentile_0.99,five_number,Quartiles,0.19195789000000008
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,band_0.01_0.99,five_number,Quartiles,0.1590847203000001
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,band_0.1_0.9,five_number,Quartiles,0.12119254000000013
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,fixed_0.05,raw,Distribution,0.0050361069174266054
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,fixed_0.1,raw,Distribution,0.010072213834853211
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,fixed_0.2,raw,Distribution,0.020144427669706422
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,percentile_0.8,five_number,Quartiles,0.027565023499999994
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,percentile_0.9,five_number,Quartiles,0.040507466000000006
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,percentile_0.95,five_number,Quartiles,0.040756498
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,percentile_0.99,means,Mean,0.04517167550000001
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,band_0.01_0.99,five_number,Quartiles,0.040900509999999994
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,band_0.1_0.9,five_number,Quartiles,0.029819044899999987
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,fixed_0.05,raw,Distribution,0.001062750579707694
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,fixed_0.1,raw,Distribution,0.002125501159415388
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,fixed_0.2,raw,Distribution,0.004251002318830776
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,percentile_0.8,five_number,Quartiles,0.009394199500000006
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,percentile_0.9,five_number,Quartiles,0.0110720994
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,percentile_0.95,five_number,Quartiles,0.011861612100000009
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,percentile_0.99,five_number,Quartiles,0.013939328080000006
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,band_0.01_0.99,five_number,Quartiles,0.011861612100000009
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,band_0.1_0.9,five_number,Quartiles,0.011861612100000009
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,fixed_0.05,raw,Distribution,0.00045879747205036466
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,fixed_0.1,raw,Distribution,0.0009175949441007293
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,fixed_0.2,bins_16,Distribution,0.0018351898882014587
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,percentile_0.8,bins_4,Distribution,0.02140132439999999
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,percentile_0.9,bins_4,Distribution,0.024004718600000006
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,percentile_0.95,means,Mean,0.03919063999999999
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,percentile_0.99,means,Mean,0.04420605344
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,band_0.01_0.99,bins_4,Quartiles,0.03919063999999999
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,band_0.1_0.9,bins_4,Distribution,0.020219482899999995
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,fixed_0.05,raw,Distribution,0.0008124060033710338
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,fixed_0.1,raw,Distribution,0.0016248120067420676
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,fixed_0.2,raw,Distribution,0.0032496240134841353
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,percentile_0.8,bins_8,Distribution,0.16098357894999915
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,percentile_0.9,bins_8,Distribution,0.17427854894999928
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,percentile_0.95,means,Mean,0.3050132889999999
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,percentile_0.99,means,Mean,0.329966899
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,band_0.01_0.99,bins_4,Quartiles,0.3050132889999999
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,band_0.1_0.9,bins_8,Distribution,0.13619464099999992
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,fixed_0.05,raw,Distribution,0.005413129863627217
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,fixed_0.1,raw,Distribution,0.010826259727254433
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,fixed_0.2,raw,Distribution,0.021652519454508867
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,percentile_0.8,bins_8,Distribution,0.24369237249999887
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,percentile_0.9,bins_4,Quartiles,0.3311627056
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,percentile_0.95,means,Mean,0.44910786
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,percentile_0.99,means,Mean,0.5302466550000001
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,band_0.01_0.99,bins_4,Quartiles,0.4492360850000001
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,band_0.1_0.9,five_number,Quartiles,0.2654343899999999
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,fixed_0.05,raw,Distribution,0.008095493258035994
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,fixed_0.1,raw,Distribution,0.016190986516071988
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,fixed_0.2,raw,Distribution,0.032381973032143976
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,percentile_0.8,five_number,Quartiles,0.12376357200000007
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,percentile_0.9,five_number,Quartiles,0.1527100950000001
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,percentile_0.95,five_number,Quartiles,0.16086562500000012
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,percentile_0.99,five_number,Quartiles,0.18618576411999996
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,band_0.01_0.99,five_number,Quartiles,0.16086562500000012
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,band_0.1_0.9,five_number,Quartiles,0.15990592800000003
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,fixed_0.05,raw,Distribution,0.004700421130229161
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,fixed_0.1,raw,Distribution,0.009400842260458323
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,fixed_0.2,raw,Distribution,0.018801684520916646
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,percentile_0.8,five_number,Quartiles,0.11880363650000003
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,percentile_0.9,five_number,Quartiles,0.12672700449999996
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,percentile_0.95,five_number,Quartiles,0.13287238209000005
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,percentile_0.99,five_number,Quartiles,0.14439656375549997
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.13735377699999995
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,band_0.1_0.9,five_number,Quartiles,0.12666117449999992
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,fixed_0.05,raw,Distribution,0.004079332828807966
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,fixed_0.1,raw,Distribution,0.008158665657615931
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,fixed_0.2,raw,Distribution,0.016317331315231862
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,percentile_0.8,five_number,Quartiles,0.08084434500000004
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,percentile_0.9,five_number,Quartiles,0.093460565
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,percentile_0.95,five_number,Quartiles,0.10368145350000005
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,percentile_0.99,five_number,Quartiles,0.12297429999999987
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.10368145350000005
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,band_0.1_0.9,five_number,Quartiles,0.10368145350000005
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,fixed_0.05,raw,Distribution,0.004359547378918908
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,fixed_0.1,raw,Distribution,0.008719094757837815
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,fixed_0.2,raw,Distribution,0.01743818951567563
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,percentile_0.8,five_number,Quartiles,0.11884902249999998
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,percentile_0.9,five_number,Quartiles,0.12791334219999997
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,percentile_0.95,five_number,Quartiles,0.13761758072499997
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,percentile_0.99,five_number,Quartiles,0.14438964647499997
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.14048013599999987
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,band_0.1_0.9,five_number,Quartiles,0.12722908450000014
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,fixed_0.05,raw,Distribution,0.004079332828807966
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,fixed_0.1,raw,Distribution,0.008158665657615931
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,fixed_0.2,raw,Distribution,0.016317331315231862
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,percentile_0.8,five_number,Quartiles,0.08030661500000003
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,percentile_0.9,five_number,Quartiles,0.08959987000000003
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,percentile_0.95,five_number,Quartiles,0.09961028149999986
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,percentile_0.99,five_number,Quartiles,0.1158921144999999
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.09983226950000001
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,band_0.1_0.9,five_number,Quartiles,0.09956534150000006
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,fixed_0.05,raw,Distribution,0.004359547378918908
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,fixed_0.1,raw,Distribution,0.008719094757837815
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,fixed_0.2,raw,Distribution,0.01743818951567563
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,percentile_0.8,five_number,Quartiles,0.11911422299999999
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,percentile_0.9,five_number,Quartiles,0.1678228040000001
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,percentile_0.95,five_number,Quartiles,0.18107525800000002
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,percentile_0.99,five_number,Quartiles,0.1879090470000001
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.18373817700000006
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,band_0.1_0.9,five_number,Quartiles,0.13967509099999995
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,fixed_0.05,raw,Distribution,0.005048365584640889
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,fixed_0.1,raw,Distribution,0.010096731169281777
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,fixed_0.2,raw,Distribution,0.020193462338563554
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,percentile_0.8,five_number,Quartiles,0.1408890660000001
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,percentile_0.9,five_number,Quartiles,0.14547459100000007
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,percentile_0.95,five_number,Quartiles,0.15146679899999993
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,percentile_0.99,five_number,Quartiles,0.1892174520400001
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.15146679899999993
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,band_0.1_0.9,five_number,Quartiles,0.15146679899999993
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,fixed_0.05,raw,Distribution,0.006072227322250742
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,fixed_0.1,raw,Distribution,0.012144454644501484
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,fixed_0.2,raw,Distribution,0.02428890928900297
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,percentile_0.8,five_number,Quartiles,0.14510277500000002
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,percentile_0.9,five_number,Quartiles,0.19298463500000007
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,percentile_0.95,five_number,Quartiles,0.20236665449499985
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,percentile_0.99,five_number,Quartiles,0.222637725
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.209659417
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,band_0.1_0.9,five_number,Quartiles,0.20236665449499985
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,fixed_0.05,raw,Distribution,0.005948445734351808
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,fixed_0.1,raw,Distribution,0.011896891468703616
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,fixed_0.2,raw,Distribution,0.02379378293740723
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,percentile_0.8,bins_8,Distribution,0.15839853299999995
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,percentile_0.9,five_number,Quartiles,0.20208173699999998
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,percentile_0.95,five_number,Quartiles,0.21755205269999997
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,percentile_0.99,means,Mean,0.34886540999999993
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.29057143911000016
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,band_0.1_0.9,five_number,Quartiles,0.1804950081999999
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,fixed_0.05,raw,Distribution,0.006772825808368462
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,fixed_0.1,raw,Distribution,0.013545651616736924
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,fixed_0.2,raw,Distribution,0.02709130323347385
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,percentile_0.8,bins_8,Distribution,0.1308469350000001
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,percentile_0.9,five_number,Quartiles,0.17436722400000004
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,percentile_0.95,means,Mean,0.23513596019999988
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,percentile_0.99,means,Mean,0.297548909
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.23754612998700023
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,band_0.1_0.9,five_number,Quartiles,0.14815190350000007
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,fixed_0.05,raw,Distribution,0.005358352886281537
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,fixed_0.1,raw,Distribution,0.010716705772563074
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,fixed_0.2,raw,Distribution,0.02143341154512615
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,percentile_0.8,bins_8,Distribution,0.21900746000000004
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,percentile_0.9,five_number,Quartiles,0.28412144000000006
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,percentile_0.95,five_number,Quartiles,0.3655400900000001
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,percentile_0.99,means,Mean,0.5540083104000001
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,band_0.01_0.99,five_number,Quartiles,0.4591812193000002
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,band_0.1_0.9,means,Mean,0.23335242550000024
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,fixed_0.05,raw,Distribution,0.007570860813097773
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,fixed_0.1,raw,Distribution,0.015141721626195545
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,fixed_0.2,raw,Distribution,0.03028344325239109
+BIDMC__00,BIDMC,mean,True,46,46,percentile_0.8,means,Mean,3.680873180873178
+BIDMC__00,BIDMC,mean,True,46,46,percentile_0.9,means,Mean,5.216062622395086
+BIDMC__00,BIDMC,mean,True,46,46,percentile_0.95,means,Mean,5.752598752598743
+BIDMC__00,BIDMC,mean,True,46,46,percentile_0.99,means,Mean,6.022088354845618
+BIDMC__00,BIDMC,mean,True,46,46,band_0.01_0.99,means,Mean,5.755407325328179
+BIDMC__00,BIDMC,mean,True,46,46,band_0.1_0.9,means,Mean,5.633360577951606
+BIDMC__00,BIDMC,mean,True,46,46,fixed_0.05,raw,Distribution,0.6180476201157168
+BIDMC__00,BIDMC,mean,True,46,46,fixed_0.1,raw,Distribution,1.2360952402314336
+BIDMC__00,BIDMC,mean,True,46,46,fixed_0.2,bins_8,Distribution,2.472190480462867
+BIDMC__01,BIDMC,median,True,46,46,percentile_0.8,means,Mean,3.0
+BIDMC__01,BIDMC,median,True,46,46,percentile_0.9,means,Mean,3.0
+BIDMC__01,BIDMC,median,True,46,46,percentile_0.95,means,Mean,4.0
+BIDMC__01,BIDMC,median,True,46,46,percentile_0.99,means,Mean,4.0
+BIDMC__01,BIDMC,median,True,46,46,band_0.01_0.99,means,Mean,4.0
+BIDMC__01,BIDMC,median,True,46,46,band_0.1_0.9,means,Mean,4.0
+BIDMC__01,BIDMC,median,True,46,46,fixed_0.05,raw,Distribution,0.6170846605295497
+BIDMC__01,BIDMC,median,True,46,46,fixed_0.1,raw,Distribution,1.2341693210590994
+BIDMC__01,BIDMC,median,True,46,46,fixed_0.2,means,Mean,2.4683386421181988
+BIDMC__02,BIDMC,q10,True,46,46,percentile_0.8,means,Mean,6.0
+BIDMC__02,BIDMC,q10,True,46,46,percentile_0.9,means,Mean,9.000000000000002
+BIDMC__02,BIDMC,q10,True,46,46,percentile_0.95,means,Mean,11.524999999999977
+BIDMC__02,BIDMC,q10,True,46,46,percentile_0.99,means,Mean,16.0
+BIDMC__02,BIDMC,q10,True,46,46,band_0.01_0.99,means,Mean,13.0
+BIDMC__02,BIDMC,q10,True,46,46,band_0.1_0.9,means,Mean,6.0
+BIDMC__02,BIDMC,q10,True,46,46,fixed_0.05,raw,Distribution,0.6894293306295919
+BIDMC__02,BIDMC,q10,True,46,46,fixed_0.1,raw,Distribution,1.3788586612591838
+BIDMC__02,BIDMC,q10,True,46,46,fixed_0.2,means,Mean,2.7577173225183675
+BIDMC__03,BIDMC,q90,True,46,46,percentile_0.8,means,Mean,3.0
+BIDMC__03,BIDMC,q90,True,46,46,percentile_0.9,means,Mean,3.0
+BIDMC__03,BIDMC,q90,True,46,46,percentile_0.95,means,Mean,4.0
+BIDMC__03,BIDMC,q90,True,46,46,percentile_0.99,means,Mean,5.0
+BIDMC__03,BIDMC,q90,True,46,46,band_0.01_0.99,means,Mean,4.0
+BIDMC__03,BIDMC,q90,True,46,46,band_0.1_0.9,means,Mean,4.0
+BIDMC__03,BIDMC,q90,True,46,46,fixed_0.05,raw,Distribution,0.6524688342826384
+BIDMC__03,BIDMC,q90,True,46,46,fixed_0.1,raw,Distribution,1.3049376685652767
+BIDMC__03,BIDMC,q90,True,46,46,fixed_0.2,means,Mean,2.6098753371305534
+BIDMC__04,BIDMC,SD,True,46,46,percentile_0.8,means,Mean,3.8180295731992544
+BIDMC__04,BIDMC,SD,True,46,46,percentile_0.9,means,Mean,4.324945004249486
+BIDMC__04,BIDMC,SD,True,46,46,percentile_0.95,means,Mean,4.705170373578867
+BIDMC__04,BIDMC,SD,True,46,46,percentile_0.99,means,Mean,4.857434004680273
+BIDMC__04,BIDMC,SD,True,46,46,band_0.01_0.99,means,Mean,4.70595266324025
+BIDMC__04,BIDMC,SD,True,46,46,band_0.1_0.9,means,Mean,4.705170373578867
+BIDMC__04,BIDMC,SD,True,46,46,fixed_0.05,raw,Distribution,0.185501169290204
+BIDMC__04,BIDMC,SD,True,46,46,fixed_0.1,raw,Distribution,0.371002338580408
+BIDMC__04,BIDMC,SD,True,46,46,fixed_0.2,raw,Distribution,0.742004677160816
+Wrist__00,Wrist,mean,True,8,8,percentile_0.8,means,Mean,13.161545172692371
+Wrist__00,Wrist,mean,True,8,8,percentile_0.9,means,Mean,13.161545172692371
+Wrist__00,Wrist,mean,True,8,8,percentile_0.95,means,Mean,13.161545172692371
+Wrist__00,Wrist,mean,True,8,8,percentile_0.99,means,Mean,13.161545172692371
+Wrist__00,Wrist,mean,True,8,8,band_0.01_0.99,means,Mean,13.161545172692371
+Wrist__00,Wrist,mean,True,8,8,band_0.1_0.9,means,Mean,13.161545172692371
+Wrist__00,Wrist,mean,True,8,8,fixed_0.05,raw,Distribution,1.4857957919803653
+Wrist__00,Wrist,mean,True,8,8,fixed_0.1,raw,Distribution,2.9715915839607305
+Wrist__00,Wrist,mean,True,8,8,fixed_0.2,raw,Distribution,5.943183167921461
+Wrist__01,Wrist,median,True,8,8,percentile_0.8,means,Mean,13.933753575529465
+Wrist__01,Wrist,median,True,8,8,percentile_0.9,means,Mean,13.933753575529465
+Wrist__01,Wrist,median,True,8,8,percentile_0.95,means,Mean,13.933753575529465
+Wrist__01,Wrist,median,True,8,8,percentile_0.99,means,Mean,13.933753575529465
+Wrist__01,Wrist,median,True,8,8,band_0.01_0.99,means,Mean,13.933753575529465
+Wrist__01,Wrist,median,True,8,8,band_0.1_0.9,means,Mean,13.933753575529465
+Wrist__01,Wrist,median,True,8,8,fixed_0.05,raw,Distribution,1.4909425851520828
+Wrist__01,Wrist,median,True,8,8,fixed_0.1,raw,Distribution,2.9818851703041656
+Wrist__01,Wrist,median,True,8,8,fixed_0.2,raw,Distribution,5.963770340608331
+Wrist__02,Wrist,q10,True,8,8,percentile_0.8,means,Mean,12.509773516521491
+Wrist__02,Wrist,q10,True,8,8,percentile_0.9,means,Mean,12.509773516521491
+Wrist__02,Wrist,q10,True,8,8,percentile_0.95,means,Mean,12.509773516521491
+Wrist__02,Wrist,q10,True,8,8,percentile_0.99,means,Mean,12.509773516521491
+Wrist__02,Wrist,q10,True,8,8,band_0.01_0.99,means,Mean,12.509773516521491
+Wrist__02,Wrist,q10,True,8,8,band_0.1_0.9,means,Mean,12.509773516521491
+Wrist__02,Wrist,q10,True,8,8,fixed_0.05,raw,Distribution,1.5216166459382838
+Wrist__02,Wrist,q10,True,8,8,fixed_0.1,raw,Distribution,3.0432332918765677
+Wrist__02,Wrist,q10,True,8,8,fixed_0.2,raw,Distribution,6.086466583753135
+Wrist__03,Wrist,q90,True,8,8,percentile_0.8,means,Mean,12.796523019610078
+Wrist__03,Wrist,q90,True,8,8,percentile_0.9,means,Mean,12.796523019610092
+Wrist__03,Wrist,q90,True,8,8,percentile_0.95,means,Mean,12.796523019610092
+Wrist__03,Wrist,q90,True,8,8,percentile_0.99,means,Mean,13.05711891434727
+Wrist__03,Wrist,q90,True,8,8,band_0.01_0.99,means,Mean,12.796523019610092
+Wrist__03,Wrist,q90,True,8,8,band_0.1_0.9,means,Mean,12.796523019610092
+Wrist__03,Wrist,q90,True,8,8,fixed_0.05,raw,Distribution,1.4597098321575215
+Wrist__03,Wrist,q90,True,8,8,fixed_0.1,raw,Distribution,2.919419664315043
+Wrist__03,Wrist,q90,True,8,8,fixed_0.2,means,Mean,5.838839328630086
+Wrist__04,Wrist,SD,True,8,8,percentile_0.8,means,Mean,1.6092220516251974
+Wrist__04,Wrist,SD,True,8,8,percentile_0.9,means,Mean,1.844965413899962
+Wrist__04,Wrist,SD,True,8,8,percentile_0.95,means,Mean,1.8799644651581757
+Wrist__04,Wrist,SD,True,8,8,percentile_0.99,means,Mean,2.1602685789592035
+Wrist__04,Wrist,SD,True,8,8,band_0.01_0.99,means,Mean,1.9557792626407147
+Wrist__04,Wrist,SD,True,8,8,band_0.1_0.9,means,Mean,1.844965413899962
+Wrist__04,Wrist,SD,True,8,8,fixed_0.05,raw,Distribution,0.05435845124061933
+Wrist__04,Wrist,SD,True,8,8,fixed_0.1,raw,Distribution,0.10871690248123866
+Wrist__04,Wrist,SD,True,8,8,fixed_0.2,raw,Distribution,0.21743380496247733

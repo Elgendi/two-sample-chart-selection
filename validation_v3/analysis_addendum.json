@@ -1,0 +1,7 @@
+{
+ "status": "Post-run supplementary negative control",
+ "change": "After inspecting the multi-task run, add a no-chart zero-target predictor for all six tasks and verify its loss from exact empirical targets.",
+ "reason": "Near-null scalar targets can give lossy displays favorable recovery errors. A null prediction exposes this without forcing chart winners.",
+ "effect_on_primary_design": "No renderer, candidate, task, case, selection rule, loss, or primary comparison changed. Original protocol and manifest hashes remain intact.",
+ "inference": "Exploratory; not preregistered. Extra descriptive bootstrap comparisons do not imply multiplicity-adjusted inference."
+}

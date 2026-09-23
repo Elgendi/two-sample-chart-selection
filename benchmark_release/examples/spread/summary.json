@@ -1,0 +1,13 @@
+{
+  "task": "spread",
+  "observer": "hard",
+  "selected": "Box plot / five",
+  "all_reference_ties": [
+    "Box plot / five"
+  ],
+  "default": "Quantile plot / five",
+  "default_test_loss": 0.011033873880522373,
+  "selected_test_loss": 0.016449164326037935,
+  "gain": -0.005415290445515562,
+  "interpretation": "Positive gain favors selection for this computational task and decoder; no inference about human understanding. The default was trained on the bundled empirical benchmark."
+}

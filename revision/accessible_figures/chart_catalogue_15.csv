@@ -1,0 +1,16 @@
+catalogue_id,chart_id,chart,purpose,contract,numerical_mode
+1,bar,Bar chart,Compare group means,Two group means,means
+2,line,Line chart,Show temporal or ordered trends,Requires an ordered-trend target; row order is not time,
+3,scatter,Scatter plot,Show bivariate association,"Requires a joint-association target, not marginal contrast",
+4,pie,Pie chart,Show composition of a whole,Requires a declared part-to-whole target,
+5,histogram,Histogram,Compare frequency distributions,Common bins with group probabilities,bins
+6,box,Box plot,Compare median and spread,Five-number summary; min–max whiskers,five_number
+7,heatmap,Heatmap,Compare binned distributions using colour,Two-by-bin probability matrix with common bin boundaries,bins
+8,stacked_bar,Stacked bar chart,Compare totals and composition,Requires a declared component-composition target,
+9,area,Area chart,Show magnitude over an ordered domain,Requires an ordered-trend or accumulation target,
+10,bubble,Bubble chart,Show association with an additional magnitude,Requires a joint-association and size-variable target,
+11,dot,Dot plot,Compare group means or individual values,Mean dots or all raw dots; report the chosen setting,dot
+12,treemap,Treemap,Show hierarchical proportions,Requires a meaningful hierarchy and part-to-whole target,
+13,choropleth,Choropleth map,Compare values across regions,Requires geographic identifiers and a geographic target,
+14,violin,Violin plot,Compare distribution shapes,Sampled density on the declared grid,density
+15,interval,Error-bar / interval plot,Show centre and variability,"Median dot, thick interquartile interval, thin min–max interval; not a confidence interval",five_number

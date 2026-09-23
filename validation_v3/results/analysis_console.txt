@@ -1,0 +1,50 @@
+ observer       task   comparator      gain    ci_low   ci_high  valid_pairs  resources  improved  worsened  tied  gain_above_001  harm_above_001
+    alpha  asymmetry task_default  0.000341 -0.001062  0.001983          127          9        23        21    83               3               8
+    alpha    dense19 task_default -0.000008 -0.000025  0.000000          127          9         0         2   125               0               0
+    alpha       five task_default  0.000007 -0.000218  0.000305          127          9         9        13   105               1               0
+    alpha     median task_default -0.000143 -0.000900  0.000703          127          9        31        39    57               2               3
+    alpha     spread task_default -0.001626 -0.003500 -0.000237          127          9        22        27    78               1               4
+    alpha upper_tail task_default -0.001721 -0.003523 -0.000421          127          9         4        16   107               1               5
+threshold  asymmetry task_default  0.001891  0.000598  0.003153          127          9        26        22    79              10               4
+threshold    dense19 task_default -0.000092 -0.000276  0.000000          127          9         0         1   126               0               1
+threshold       five task_default -0.000020 -0.000072  0.000039          127          9         7        10   110               1               0
+threshold     median task_default -0.000004 -0.000934  0.001114          127          9        31        42    54               3               3
+threshold     spread task_default -0.000571 -0.001257  0.000089          127          9        22        28    77               3               9
+threshold upper_tail task_default -0.000182 -0.000461  0.000061          127          9        11        10   106               2               2
+ observer       task          rule     loss  failures   n  median_excess_loss  within_001
+    alpha  asymmetry case_selected 0.008801         0 127        0.000000e+00         116
+    alpha  asymmetry    quantile19 0.009168         0 127        0.000000e+00         122
+    alpha  asymmetry  task_default 0.009143         0 127        0.000000e+00         122
+    alpha    dense19 case_selected 0.003295         0 127        0.000000e+00         127
+    alpha    dense19    quantile19 0.003286         0 127        0.000000e+00         127
+    alpha    dense19  task_default 0.003286         0 127        0.000000e+00         127
+    alpha       five case_selected 0.003383         0 127        0.000000e+00         127
+    alpha       five    quantile19 0.003370         0 127        0.000000e+00         126
+    alpha       five  task_default 0.003391         0 127        0.000000e+00         126
+    alpha     median case_selected 0.003886         0 127        7.000693e-16         123
+    alpha     median    quantile19 0.003744         0 127        0.000000e+00         125
+    alpha     median  task_default 0.003744         0 127        0.000000e+00         125
+    alpha     spread case_selected 0.006478         0 127        0.000000e+00         121
+    alpha     spread    quantile19 0.004833         0 127        0.000000e+00         125
+    alpha     spread  task_default 0.004852         0 127        0.000000e+00         125
+    alpha upper_tail case_selected 0.007361         0 127        0.000000e+00         121
+    alpha upper_tail    quantile19 0.005640         0 127        0.000000e+00         125
+    alpha upper_tail  task_default 0.005640         0 127        0.000000e+00         125
+threshold  asymmetry case_selected 0.014159         0 127        0.000000e+00         122
+threshold  asymmetry    quantile19 0.015860         0 127        0.000000e+00         115
+threshold  asymmetry  task_default 0.016050         0 127        0.000000e+00         114
+threshold    dense19 case_selected 0.006296         0 127        0.000000e+00         126
+threshold    dense19    quantile19 0.006204         0 127        0.000000e+00         127
+threshold    dense19  task_default 0.006204         0 127        0.000000e+00         127
+threshold       five case_selected 0.006361         0 127        0.000000e+00         127
+threshold       five    quantile19 0.006306         0 127        0.000000e+00         127
+threshold       five  task_default 0.006341         0 127        0.000000e+00         126
+threshold     median case_selected 0.006321         0 127        2.320524e-04         122
+threshold     median    quantile19 0.006678         0 127        1.014323e-03         124
+threshold     median  task_default 0.006318         0 127        1.001803e-16         123
+threshold     spread case_selected 0.009133         0 127        9.996344e-17         118
+threshold     spread    quantile19 0.008833         0 127        0.000000e+00         122
+threshold     spread  task_default 0.008562         0 127        0.000000e+00         123
+threshold upper_tail case_selected 0.009831         0 127        0.000000e+00         124
+threshold upper_tail    quantile19 0.009649         0 127        0.000000e+00         124
+threshold upper_tail  task_default 0.009649         0 127        0.000000e+00         124

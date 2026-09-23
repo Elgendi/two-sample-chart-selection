@@ -1,0 +1,22 @@
+[
+  {
+    "task": "composition",
+    "comparisons": 8,
+    "maximum_error": 1.0007186052041206e-16
+  },
+  {
+    "task": "profile",
+    "comparisons": 8,
+    "maximum_error": 1.0061396160665481e-16
+  },
+  {
+    "task": "association",
+    "comparisons": 4,
+    "maximum_error": 1.0018028073766061e-16
+  },
+  {
+    "task": "spread",
+    "comparisons": 7,
+    "maximum_error": 0.0
+  }
+]

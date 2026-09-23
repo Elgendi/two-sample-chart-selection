@@ -1,0 +1,8 @@
+{
+  "settings_checked": 21,
+  "png_roundtrip": true,
+  "blank_image_rejected": true,
+  "pixel_perturbation_changes_estimate": true,
+  "positive_unit_invariance": true,
+  "decode_metadata_contains_no_samples_or_targets": true
+}

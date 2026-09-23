@@ -1,0 +1,154 @@
+\small\setlength{\tabcolsep}{4pt}\setlength{\LTcapwidth}{\linewidth}
+\begin{longtable}{>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{4.5cm}rr>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{4.0cm}rp{2.0cm}}
+\caption{Every variable and its automatic selection. Higher scores are better under the stated numerical objective; ties are retained. Dataset sources: WDBC\cite{wdbc}; Cleveland\cite{heart}; HeartFailure\cite{failure}; CKD\cite{kidney}; ILPD\cite{liver}; Parkinsons\cite{parkinsons}; Retinopathy\cite{retina}; HAR\cite{har}; BIDMC\cite{bidmc}; Wrist\cite{wrist}.}\\
+\toprule Dataset & Variable & $n_A$ & $n_B$ & Detected requirement & Optimal common charts & Score & Stability flag\\\midrule\endhead
+WDBC\cite{wdbc} & mean radius & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0451 & No flag\\
+WDBC\cite{wdbc} & mean texture & 357 & 212 & Mean sufficient & Bar / Dot & 0.4332 & Provisional\\
+WDBC\cite{wdbc} & mean perimeter & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0451 & No flag\\
+WDBC\cite{wdbc} & mean area & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0449 & No flag\\
+WDBC\cite{wdbc} & mean smoothness & 357 & 212 & Mean sufficient & Bar / Dot & 0.4540 & No flag\\
+WDBC\cite{wdbc} & mean compactness & 357 & 212 & Quartiles sufficient & Box & 0.0823 & Provisional\\
+WDBC\cite{wdbc} & mean concavity & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0452 & Provisional\\
+WDBC\cite{wdbc} & mean concave points & 357 & 212 & Quartiles sufficient & Box & 0.0810 & No flag\\
+WDBC\cite{wdbc} & mean symmetry & 357 & 212 & Mean sufficient & Bar / Dot & 0.4367 & No flag\\
+WDBC\cite{wdbc} & mean fractal dimension & 357 & 212 & Mean sufficient & Bar / Dot & 0.4180 & No flag\\
+WDBC\cite{wdbc} & radius error & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0449 & No flag\\
+WDBC\cite{wdbc} & texture error & 357 & 212 & Mean sufficient & Bar / Dot & 0.4451 & No flag\\
+WDBC\cite{wdbc} & perimeter error & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0451 & No flag\\
+WDBC\cite{wdbc} & area error & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0447 & No flag\\
+WDBC\cite{wdbc} & smoothness error & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0451 & Provisional\\
+WDBC\cite{wdbc} & compactness error & 357 & 212 & Mean sufficient & Bar / Dot & 0.4607 & No flag\\
+WDBC\cite{wdbc} & concavity error & 357 & 212 & Mean sufficient & Bar / Dot & 0.4701 & No flag\\
+WDBC\cite{wdbc} & concave points error & 357 & 212 & Mean sufficient & Bar / Dot & 0.4557 & No flag\\
+WDBC\cite{wdbc} & symmetry error & 357 & 212 & Mean sufficient & Bar / Dot & 0.4178 & No flag\\
+WDBC\cite{wdbc} & fractal dimension error & 357 & 212 & Mean sufficient & Bar / Dot & 0.4569 & No flag\\
+WDBC\cite{wdbc} & worst radius & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0451 & Provisional\\
+WDBC\cite{wdbc} & worst texture & 357 & 212 & Mean sufficient & Bar / Dot & 0.4464 & No flag\\
+WDBC\cite{wdbc} & worst perimeter & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0452 & Provisional\\
+WDBC\cite{wdbc} & worst area & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0451 & No flag\\
+WDBC\cite{wdbc} & worst smoothness & 357 & 212 & Mean sufficient & Bar / Dot & 0.4441 & No flag\\
+WDBC\cite{wdbc} & worst compactness & 357 & 212 & Quartiles sufficient & Box & 0.0804 & Provisional\\
+WDBC\cite{wdbc} & worst concavity & 357 & 212 & Mean sufficient & Bar / Dot & 0.4244 & Provisional\\
+WDBC\cite{wdbc} & worst concave points & 357 & 212 & Mean sufficient & Bar / Dot & 0.4151 & Provisional\\
+WDBC\cite{wdbc} & worst symmetry & 357 & 212 & Distribution detail & Heatmap / Histogram & 0.0451 & Provisional\\
+WDBC\cite{wdbc} & worst fractal dimension & 357 & 212 & Mean sufficient & Bar / Dot & 0.4159 & Provisional\\
+Cleveland\cite{heart} & age & 164 & 139 & Mean sufficient & Bar / Dot & 0.4015 & Provisional\\
+Cleveland\cite{heart} & trestbps & 164 & 139 & Mean sufficient & Bar / Dot & 0.4358 & No flag\\
+Cleveland\cite{heart} & chol & 164 & 139 & Mean sufficient & Bar / Dot & 0.4507 & No flag\\
+Cleveland\cite{heart} & thalach & 164 & 139 & Mean sufficient & Bar / Dot & 0.4421 & No flag\\
+Cleveland\cite{heart} & oldpeak & 164 & 139 & Quartiles sufficient & Box & 0.0814 & Provisional\\
+HeartFailure\cite{failure} & age & 203 & 96 & Mean sufficient & Bar / Dot & 0.4303 & No flag\\
+HeartFailure\cite{failure} & creatinine\_phosphokinase & 203 & 96 & Mean sufficient & Bar / Dot & 0.4875 & No flag\\
+HeartFailure\cite{failure} & ejection\_fraction & 203 & 96 & Mean sufficient & Bar / Dot & 0.4490 & No flag\\
+HeartFailure\cite{failure} & platelets & 203 & 96 & Mean sufficient & Bar / Dot & 0.4645 & No flag\\
+HeartFailure\cite{failure} & serum\_creatinine & 203 & 96 & Mean sufficient & Bar / Dot & 0.4440 & No flag\\
+HeartFailure\cite{failure} & serum\_sodium & 203 & 96 & Mean sufficient & Bar / Dot & 0.4351 & No flag\\
+CKD\cite{kidney} & age & 149 & 242 & Quartiles sufficient & Box & 0.0812 & Provisional\\
+CKD\cite{kidney} & bp & 148 & 240 & Mean sufficient & Bar / Dot & 0.4361 & No flag\\
+CKD\cite{kidney} & bgr & 144 & 212 & Distribution detail & Heatmap / Histogram & 0.0452 & Provisional\\
+CKD\cite{kidney} & bu & 144 & 237 & Distribution detail & Heatmap / Histogram & 0.0449 & No flag\\
+CKD\cite{kidney} & sc & 145 & 238 & Distribution detail & Heatmap / Histogram & 0.0236 & No flag\\
+CKD\cite{kidney} & sod & 145 & 168 & Mean sufficient & Bar / Dot & 0.4085 & Provisional\\
+CKD\cite{kidney} & pot & 145 & 167 & Distribution detail & Dot / Raincloud & 0.0032 & No flag\\
+CKD\cite{kidney} & hemo & 144 & 204 & Distribution detail & Heatmap / Histogram & 0.0452 & No flag\\
+CKD\cite{kidney} & pcv & 146 & 183 & Distribution detail & Heatmap / Histogram & 0.0451 & No flag\\
+CKD\cite{kidney} & wc & 143 & 151 & Distribution detail & Heatmap / Histogram & 0.0452 & Provisional\\
+CKD\cite{kidney} & rc & 143 & 126 & Mean sufficient & Bar / Dot & 0.4055 & Provisional\\
+ILPD\cite{liver} & age & 167 & 416 & Mean sufficient & Bar / Dot & 0.4399 & No flag\\
+ILPD\cite{liver} & total\_bilirubin & 167 & 416 & Distribution detail & Heatmap / Histogram & 0.0445 & No flag\\
+ILPD\cite{liver} & direct\_bilirubin & 167 & 416 & Distribution detail & Heatmap / Histogram & 0.0450 & No flag\\
+ILPD\cite{liver} & alkaline\_phosphatase & 167 & 416 & Quartiles sufficient & Box & 0.0815 & Provisional\\
+ILPD\cite{liver} & ALT & 167 & 416 & Distribution detail & Heatmap / Histogram & 0.0445 & No flag\\
+ILPD\cite{liver} & AST & 167 & 416 & Distribution detail & Heatmap / Histogram & 0.0236 & No flag\\
+ILPD\cite{liver} & total\_protein & 167 & 416 & Mean sufficient & Bar / Dot & 0.4642 & No flag\\
+ILPD\cite{liver} & albumin & 167 & 416 & Mean sufficient & Bar / Dot & 0.4512 & No flag\\
+ILPD\cite{liver} & albumin\_globulin\_ratio & 165 & 414 & Mean sufficient & Bar / Dot & 0.4561 & No flag\\
+Parkinsons\cite{parkinsons} & MDVP:Fo(Hz) & 8 & 24 & Mean sufficient & Bar / Dot & 0.4595 & No flag\\
+Parkinsons\cite{parkinsons} & MDVP:Fhi(Hz) & 8 & 24 & Mean sufficient & Bar / Dot & 0.4765 & No flag\\
+Parkinsons\cite{parkinsons} & MDVP:Flo(Hz) & 8 & 24 & Mean sufficient & Bar / Dot & 0.4539 & No flag\\
+Parkinsons\cite{parkinsons} & MDVP:Jitter(\%) & 8 & 24 & Mean sufficient & Bar / Dot & 0.4181 & No flag\\
+Parkinsons\cite{parkinsons} & MDVP:Jitter(Abs) & 8 & 24 & Mean sufficient & Bar / Dot & 0.4301 & Provisional\\
+Parkinsons\cite{parkinsons} & MDVP:RAP & 8 & 24 & Mean sufficient & Bar / Dot & 0.4215 & No flag\\
+Parkinsons\cite{parkinsons} & MDVP:PPQ & 8 & 24 & Mean sufficient & Bar / Dot & 0.4132 & No flag\\
+Parkinsons\cite{parkinsons} & Jitter:DDP & 8 & 24 & Mean sufficient & Bar / Dot & 0.4216 & No flag\\
+Parkinsons\cite{parkinsons} & MDVP:Shimmer & 8 & 24 & Quartiles sufficient & Box & 0.0822 & Provisional\\
+Parkinsons\cite{parkinsons} & MDVP:Shimmer(dB) & 8 & 24 & Quartiles sufficient & Box & 0.0811 & Provisional\\
+Parkinsons\cite{parkinsons} & Shimmer:APQ3 & 8 & 24 & Quartiles sufficient & Box & 0.0827 & Provisional\\
+Parkinsons\cite{parkinsons} & Shimmer:APQ5 & 8 & 24 & Quartiles sufficient & Box & 0.0826 & Provisional\\
+Parkinsons\cite{parkinsons} & MDVP:APQ & 8 & 24 & Mean sufficient & Bar / Dot & 0.4075 & Provisional\\
+Parkinsons\cite{parkinsons} & Shimmer:DDA & 8 & 24 & Quartiles sufficient & Box & 0.0827 & Provisional\\
+Parkinsons\cite{parkinsons} & NHR & 8 & 24 & Mean sufficient & Bar / Dot & 0.4640 & No flag\\
+Parkinsons\cite{parkinsons} & HNR & 8 & 24 & Mean sufficient & Bar / Dot & 0.4525 & No flag\\
+Parkinsons\cite{parkinsons} & RPDE & 8 & 24 & Mean sufficient & Bar / Dot & 0.4445 & No flag\\
+Parkinsons\cite{parkinsons} & DFA & 8 & 24 & Mean sufficient & Bar / Dot & 0.4673 & No flag\\
+Parkinsons\cite{parkinsons} & spread1 & 8 & 24 & Mean sufficient & Bar / Dot & 0.4437 & No flag\\
+Parkinsons\cite{parkinsons} & spread2 & 8 & 24 & Mean sufficient & Bar / Dot & 0.4647 & No flag\\
+Parkinsons\cite{parkinsons} & D2 & 8 & 24 & Mean sufficient & Bar / Dot & 0.4436 & No flag\\
+Parkinsons\cite{parkinsons} & PPE & 8 & 24 & Mean sufficient & Bar / Dot & 0.4343 & No flag\\
+Retinopathy\cite{retina} & feature\_2 & 540 & 611 & Distribution detail & Heatmap / Histogram & 0.0450 & No flag\\
+Retinopathy\cite{retina} & feature\_3 & 540 & 611 & Distribution detail & Heatmap / Histogram & 0.0450 & Provisional\\
+Retinopathy\cite{retina} & feature\_4 & 540 & 611 & Mean sufficient & Bar / Dot & 0.4028 & Provisional\\
+Retinopathy\cite{retina} & feature\_5 & 540 & 611 & Mean sufficient & Bar / Dot & 0.4172 & No flag\\
+Retinopathy\cite{retina} & feature\_6 & 540 & 611 & Mean sufficient & Bar / Dot & 0.4296 & No flag\\
+Retinopathy\cite{retina} & feature\_7 & 540 & 611 & Mean sufficient & Bar / Dot & 0.4266 & No flag\\
+Retinopathy\cite{retina} & feature\_8 & 540 & 611 & Distribution detail & Heatmap / Histogram & 0.0452 & No flag\\
+Retinopathy\cite{retina} & feature\_9 & 540 & 611 & Quartiles sufficient & Box & 0.0804 & Provisional\\
+Retinopathy\cite{retina} & feature\_10 & 540 & 611 & Distribution detail & Heatmap / Histogram & 0.0453 & Provisional\\
+Retinopathy\cite{retina} & feature\_11 & 540 & 611 & Mean sufficient & Bar / Dot & 0.4040 & Provisional\\
+Retinopathy\cite{retina} & feature\_12 & 540 & 611 & Distribution detail & Heatmap / Histogram & 0.0122 & No flag\\
+Retinopathy\cite{retina} & feature\_13 & 540 & 611 & Distribution detail & Heatmap / Histogram & 0.0122 & No flag\\
+Retinopathy\cite{retina} & feature\_14 & 540 & 611 & Distribution detail & Heatmap / Histogram & 0.0236 & No flag\\
+Retinopathy\cite{retina} & feature\_15 & 540 & 611 & Distribution detail & Heatmap / Histogram & 0.0122 & No flag\\
+Retinopathy\cite{retina} & feature\_16 & 540 & 611 & Mean sufficient & Bar / Dot & 0.4259 & No flag\\
+Retinopathy\cite{retina} & feature\_17 & 540 & 611 & Mean sufficient & Bar / Dot & 0.4452 & No flag\\
+HAR\cite{har} & tBodyAcc-mean()-X & 30 & 30 & Quartiles sufficient & Box & 0.0815 & Provisional\\
+HAR\cite{har} & tBodyAcc-mean()-Y & 30 & 30 & Mean sufficient & Bar / Dot & 0.4226 & Provisional\\
+HAR\cite{har} & tBodyAcc-mean()-Z & 30 & 30 & Mean sufficient & Bar / Dot & 0.4194 & No flag\\
+HAR\cite{har} & tBodyAcc-std()-X & 30 & 30 & Quartiles sufficient & Box & 0.0814 & Provisional\\
+HAR\cite{har} & tBodyAcc-std()-Y & 30 & 30 & Quartiles sufficient & Box & 0.0817 & Provisional\\
+HAR\cite{har} & tBodyAcc-std()-Z & 30 & 30 & Quartiles sufficient & Box & 0.0821 & No flag\\
+HAR\cite{har} & tGravityAcc-mean()-X & 30 & 30 & Mean sufficient & Bar / Dot & 0.4382 & No flag\\
+HAR\cite{har} & tGravityAcc-mean()-Y & 30 & 30 & Mean sufficient & Bar / Dot & 0.4306 & Provisional\\
+HAR\cite{har} & tGravityAcc-mean()-Z & 30 & 30 & Mean sufficient & Bar / Dot & 0.4700 & No flag\\
+HAR\cite{har} & tGravityAcc-std()-X & 30 & 30 & Mean sufficient & Bar / Dot & 0.4410 & No flag\\
+HAR\cite{har} & tGravityAcc-std()-Y & 30 & 30 & Mean sufficient & Bar / Dot & 0.4608 & No flag\\
+HAR\cite{har} & tGravityAcc-std()-Z & 30 & 30 & Mean sufficient & Bar / Dot & 0.4647 & No flag\\
+HAR\cite{har} & tBodyAccJerk-mean()-X & 30 & 30 & Quartiles sufficient & Box & 0.0810 & No flag\\
+HAR\cite{har} & tBodyAccJerk-mean()-Y & 30 & 30 & Quartiles sufficient & Box & 0.0822 & No flag\\
+HAR\cite{har} & tBodyAccJerk-mean()-Z & 30 & 30 & Quartiles sufficient & Box & 0.0815 & Provisional\\
+HAR\cite{har} & tBodyAccJerk-std()-X & 30 & 30 & Quartiles sufficient & Box & 0.0814 & No flag\\
+HAR\cite{har} & tBodyAccJerk-std()-Y & 30 & 30 & Quartiles sufficient & Box & 0.0820 & No flag\\
+HAR\cite{har} & tBodyAccJerk-std()-Z & 30 & 30 & Quartiles sufficient & Box & 0.0814 & Provisional\\
+HAR\cite{har} & tBodyGyro-mean()-X & 30 & 30 & Mean sufficient & Bar / Dot & 0.4421 & No flag\\
+HAR\cite{har} & tBodyGyro-mean()-Y & 30 & 30 & Quartiles sufficient & Box & 0.0815 & Provisional\\
+HAR\cite{har} & tBodyGyro-mean()-Z & 30 & 30 & Quartiles sufficient & Box & 0.0817 & Provisional\\
+HAR\cite{har} & tBodyGyro-std()-X & 30 & 30 & Quartiles sufficient & Box & 0.0814 & Provisional\\
+HAR\cite{har} & tBodyGyro-std()-Y & 30 & 30 & Quartiles sufficient & Box & 0.0817 & No flag\\
+HAR\cite{har} & tBodyGyro-std()-Z & 30 & 30 & Quartiles sufficient & Box & 0.0813 & No flag\\
+HAR\cite{har} & tBodyGyroJerk-mean()-X & 30 & 30 & Quartiles sufficient & Box & 0.0812 & Provisional\\
+HAR\cite{har} & tBodyGyroJerk-mean()-Y & 30 & 30 & Quartiles sufficient & Box & 0.0824 & No flag\\
+HAR\cite{har} & tBodyGyroJerk-mean()-Z & 30 & 30 & Mean sufficient & Bar / Dot & 0.4182 & Provisional\\
+HAR\cite{har} & tBodyGyroJerk-std()-X & 30 & 30 & Mean sufficient & Bar / Dot & 0.4345 & No flag\\
+HAR\cite{har} & tBodyGyroJerk-std()-Y & 30 & 30 & Distribution detail & Heatmap / Histogram & 0.0450 & Provisional\\
+HAR\cite{har} & tBodyGyroJerk-std()-Z & 30 & 30 & Quartiles sufficient & Box & 0.0828 & No flag\\
+HAR\cite{har} & tBodyAccMag-mean() & 30 & 30 & Quartiles sufficient & Box & 0.0816 & No flag\\
+HAR\cite{har} & tBodyAccMag-std() & 30 & 30 & Quartiles sufficient & Box & 0.0820 & No flag\\
+HAR\cite{har} & tGravityAccMag-mean() & 30 & 30 & Quartiles sufficient & Box & 0.0816 & No flag\\
+HAR\cite{har} & tGravityAccMag-std() & 30 & 30 & Quartiles sufficient & Box & 0.0820 & No flag\\
+HAR\cite{har} & tBodyAccJerkMag-mean() & 30 & 30 & Quartiles sufficient & Box & 0.0811 & No flag\\
+HAR\cite{har} & tBodyAccJerkMag-std() & 30 & 30 & Quartiles sufficient & Box & 0.0816 & No flag\\
+HAR\cite{har} & tBodyGyroMag-mean() & 30 & 30 & Quartiles sufficient & Box & 0.0823 & No flag\\
+HAR\cite{har} & tBodyGyroMag-std() & 30 & 30 & Quartiles sufficient & Box & 0.0806 & Provisional\\
+HAR\cite{har} & tBodyGyroJerkMag-mean() & 30 & 30 & Mean sufficient & Bar / Dot & 0.4016 & Provisional\\
+HAR\cite{har} & tBodyGyroJerkMag-std() & 30 & 30 & Quartiles sufficient & Box & 0.0806 & Provisional\\
+BIDMC\cite{bidmc} & mean & 46 & 46 & Mean sufficient & Bar / Dot & 0.4373 & No flag\\
+BIDMC\cite{bidmc} & median & 46 & 46 & Mean sufficient & Bar / Dot & 0.4554 & No flag\\
+BIDMC\cite{bidmc} & q10 & 46 & 46 & Mean sufficient & Bar / Dot & 0.4722 & No flag\\
+BIDMC\cite{bidmc} & q90 & 46 & 46 & Mean sufficient & Bar / Dot & 0.4188 & No flag\\
+BIDMC\cite{bidmc} & SD & 46 & 46 & Mean sufficient & Bar / Dot & 0.4173 & Provisional\\
+Wrist\cite{wrist} & mean & 8 & 8 & Mean sufficient & Bar / Dot & 0.4481 & No flag\\
+Wrist\cite{wrist} & median & 8 & 8 & Mean sufficient & Bar / Dot & 0.4500 & No flag\\
+Wrist\cite{wrist} & q10 & 8 & 8 & Mean sufficient & Bar / Dot & 0.4393 & No flag\\
+Wrist\cite{wrist} & q90 & 8 & 8 & Mean sufficient & Bar / Dot & 0.4498 & No flag\\
+Wrist\cite{wrist} & SD & 8 & 8 & Mean sufficient & Bar / Dot & 0.4291 & No flag\\
+\bottomrule\end{longtable}

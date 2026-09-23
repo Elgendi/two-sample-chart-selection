@@ -1,0 +1,44 @@
+[
+  {
+    "key": "heart",
+    "url": "https://archive.ics.uci.edu/static/public/45/heart+disease.zip",
+    "file": "data/raw/heart.zip",
+    "sha256": "b17cd273da9ce1caa4710fce80227ea454d4dbf9fcbc8e6a9121672751563adc"
+  },
+  {
+    "key": "failure",
+    "url": "https://archive.ics.uci.edu/static/public/519/heart+failure+clinical+records.zip",
+    "file": "data/raw/failure.zip",
+    "sha256": "f0739603e2f9573ffc7d509573cbf9bcb4cc889e4eea0f35a75bec68fc9163d7"
+  },
+  {
+    "key": "kidney",
+    "url": "https://archive.ics.uci.edu/static/public/336/chronic+kidney+disease.zip",
+    "file": "data/raw/kidney.zip",
+    "sha256": "3f0d0e5bab0f453165acfa2c77eae695393089c5b338cb4cd98339c96a26a585"
+  },
+  {
+    "key": "liver",
+    "url": "https://archive.ics.uci.edu/static/public/225/ilpd+indian+liver+patient+dataset.zip",
+    "file": "data/raw/liver.zip",
+    "sha256": "60e18fbfe7f84daf58c178ea280ba5fe8db7e2507aabce01b57425b3b822cf0b"
+  },
+  {
+    "key": "parkinsons",
+    "url": "https://archive.ics.uci.edu/static/public/174/parkinsons.zip",
+    "file": "data/raw/parkinsons.zip",
+    "sha256": "9baccfbcdac15d6d9347b37c2a352fb31d65c52e367df5a47d7543a55c75b0ab"
+  },
+  {
+    "key": "retina",
+    "url": "https://archive.ics.uci.edu/static/public/329/diabetic+retinopathy+debrecen.zip",
+    "file": "data/raw/retina.zip",
+    "sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c"
+  },
+  {
+    "key": "har",
+    "url": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+    "file": "data/raw/har.zip",
+    "sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031"
+  }
+]

@@ -4,14 +4,17 @@ __pycache__/
 .env
 .DS_Store
 selection.json
-data/raw/har.zip
 
 *.aux
-*.log
 *.out
 *.blg
-*.bbl
 *.fls
 *.fdb_latexmk
 *.synctex.gz
 chart_scores.csv
+
+# Local generated examples and TeX build logs
+example_*/
+/main.log
+/supp.log
+/build_*.log

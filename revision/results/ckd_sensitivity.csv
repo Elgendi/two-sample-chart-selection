@@ -1,0 +1,3 @@
+analysis,n_A,n_B,tolerance,detail,representation,configuration,N,error,error_ratio,cost
+as_recorded,145,167,0.5999999999999996,Distribution,Binned,bins_32,66,0.5338269788402457,0.88971163140041,66
+exclude_two_flagged_values,145,165,0.5999999999999996,Distribution,Binned,bins_4,10,0.5731876549861505,0.9553127583102514,10

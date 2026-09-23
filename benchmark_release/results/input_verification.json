@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "wrist_bins_rebuilt": 1364,
+  "wrist_records": 19,
+  "wrist_participants": 8,
+  "max_wrist_difference": 2.842170943040401e-14,
+  "all_prepared_comparisons": 149,
+  "primary_comparisons": 127,
+  "all_prepared_arrays_exactly_reproduced": true,
+  "raw_files_hash_verified": 156,
+  "note": "Original frozen wrist CSV retained after independent raw-annotation equivalence check; no heart-rate filtering beyond valid positive beat intervals."
+}

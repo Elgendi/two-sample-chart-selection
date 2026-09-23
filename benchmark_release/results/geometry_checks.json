@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "contracts": 4,
+  "blank_image_rejected": true,
+  "trial_count": 2304,
+  "failures": 0,
+  "independent_implementation": "Angles/endpoints/lengths; no calls to the area-counting decoder; same author and renderer"
+}

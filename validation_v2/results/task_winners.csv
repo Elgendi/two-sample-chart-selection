@@ -1,0 +1,825 @@
+key,dataset,family,setting,observer,task,loss,successful
+BIDMC__00,BIDMC,ECDF,full,alpha,dense19,0.013663068969743475,4
+BIDMC__00,BIDMC,Quantile plot,five,alpha,five,0.004998418672930724,4
+BIDMC__00,BIDMC,Heatmap,16,alpha,median,0.0025662156400754,4
+BIDMC__00,BIDMC,ECDF,full,threshold,dense19,0.01942425532199115,4
+BIDMC__00,BIDMC,Quantile plot,five,threshold,five,0.007470536472705975,4
+BIDMC__00,BIDMC,Heatmap,16,threshold,median,0.0025662156400754,4
+BIDMC__01,BIDMC,ECDF,full,alpha,dense19,0.01333135960028955,4
+BIDMC__01,BIDMC,Quantile plot,five,alpha,five,0.0026245072546568753,4
+BIDMC__01,BIDMC,Quantile plot,five,alpha,median,0.00404756343558575,4
+BIDMC__01,BIDMC,ECDF,full,threshold,dense19,0.016919768062879,4
+BIDMC__01,BIDMC,Quantile plot,five,threshold,five,0.0061350016004535,4
+BIDMC__01,BIDMC,Interval plot,five,threshold,median,0.010920591510594449,4
+BIDMC__02,BIDMC,ECDF,full,alpha,dense19,0.0113599933484112,4
+BIDMC__02,BIDMC,Quantile plot,five,alpha,five,0.0010736228976306501,4
+BIDMC__02,BIDMC,Interval plot,five,alpha,median,0.0,4
+BIDMC__02,BIDMC,ECDF,full,threshold,dense19,0.0142295002980656,4
+BIDMC__02,BIDMC,Quantile plot,five,threshold,five,0.0043333472768671,4
+BIDMC__02,BIDMC,Interval plot,five,threshold,median,0.0,4
+BIDMC__03,BIDMC,ECDF,full,alpha,dense19,0.0147144075715331,4
+BIDMC__03,BIDMC,Quantile plot,five,alpha,five,0.0050642145204497745,4
+BIDMC__03,BIDMC,Quantile plot,five,alpha,median,0.00650041821555355,4
+BIDMC__03,BIDMC,ECDF,full,threshold,dense19,0.021767806466989625,4
+BIDMC__03,BIDMC,Quantile plot,five,threshold,five,0.007875114219354901,4
+BIDMC__03,BIDMC,Interval plot,five,threshold,median,0.0077033714613441,4
+BIDMC__04,BIDMC,ECDF,full,alpha,dense19,0.021992979204516573,4
+BIDMC__04,BIDMC,Quantile plot,five,alpha,five,0.00470516848515595,4
+BIDMC__04,BIDMC,ECDF,full,alpha,median,0.0026948767738657,4
+BIDMC__04,BIDMC,ECDF,full,threshold,dense19,0.023200940645273123,4
+BIDMC__04,BIDMC,Quantile plot,five,threshold,five,0.007204973606408125,4
+BIDMC__04,BIDMC,Violin plot,64,threshold,median,0.005194747153074175,4
+CKD__00,CKD,ECDF,full,alpha,dense19,0.00857468533661485,4
+CKD__00,CKD,Quantile plot,five,alpha,five,0.0028998267180094,4
+CKD__00,CKD,Box plot,five,alpha,median,0.003898944280076375,4
+CKD__00,CKD,Interval plot,five,alpha,median,0.003898944280076375,4
+CKD__00,CKD,Quantile plot,five,alpha,median,0.0038989442800761503,4
+CKD__00,CKD,ECDF,full,threshold,dense19,0.010071993092022875,4
+CKD__00,CKD,Quantile plot,five,threshold,five,0.0052856457079651,4
+CKD__00,CKD,Box plot,five,threshold,median,0.003898944280076375,4
+CKD__00,CKD,Interval plot,five,threshold,median,0.003898944280076375,4
+CKD__01,CKD,ECDF,full,alpha,dense19,0.026049968196301374,4
+CKD__01,CKD,ECDF,full,alpha,five,0.005489498706972275,4
+CKD__01,CKD,Box plot,five,alpha,median,0.004585297953534425,4
+CKD__01,CKD,ECDF,full,alpha,median,0.00458529795353495,4
+CKD__01,CKD,Interval plot,five,alpha,median,0.004585297953533849,4
+CKD__01,CKD,Quantile plot,five,alpha,median,0.004585297953531675,4
+CKD__01,CKD,ECDF,full,threshold,dense19,0.03672728054918335,4
+CKD__01,CKD,Quantile plot,five,threshold,five,0.008397181329310225,4
+CKD__01,CKD,Box plot,five,threshold,median,0.004585297953534425,4
+CKD__01,CKD,Interval plot,five,threshold,median,0.004585297953533849,4
+CKD__02,CKD,ECDF,full,alpha,dense19,0.022574549405965975,4
+CKD__02,CKD,Quantile plot,five,alpha,five,0.003308598613727525,4
+CKD__02,CKD,Box plot,five,alpha,median,0.00233215595531395,4
+CKD__02,CKD,Interval plot,five,alpha,median,0.00233215595531385,4
+CKD__02,CKD,Quantile plot,five,alpha,median,0.00233215595531445,4
+CKD__02,CKD,ECDF,full,threshold,dense19,0.029085506029665302,4
+CKD__02,CKD,Quantile plot,five,threshold,five,0.007139664371819725,4
+CKD__02,CKD,Box plot,five,threshold,median,0.00233215595531395,4
+CKD__02,CKD,Interval plot,five,threshold,median,0.00233215595531385,4
+CKD__03,CKD,ECDF,full,alpha,dense19,0.017028581051012626,4
+CKD__03,CKD,ECDF,full,alpha,five,0.00341776036311125,4
+CKD__03,CKD,Quantile plot,five,alpha,median,0.0004324452469898444,4
+CKD__03,CKD,Dot plot,raw,threshold,dense19,0.01895733627279085,4
+CKD__03,CKD,ECDF,full,threshold,five,0.00932536663733985,4
+CKD__03,CKD,Heatmap,16,threshold,median,0.0008115967783657,4
+CKD__04,CKD,ECDF,full,alpha,dense19,0.0160971991605657,4
+CKD__04,CKD,Quantile plot,five,alpha,five,0.0110460436448326,4
+CKD__04,CKD,ECDF,full,alpha,median,0.0049433834764876,4
+CKD__04,CKD,ECDF,full,threshold,dense19,0.020636421149830875,4
+CKD__04,CKD,Quantile plot,five,threshold,five,0.01441516051254435,4
+CKD__04,CKD,ECDF,full,threshold,median,0.0054091429166291,4
+CKD__05,CKD,ECDF,full,alpha,dense19,0.021251326222115327,4
+CKD__05,CKD,ECDF,full,alpha,five,0.009422412293470624,4
+CKD__05,CKD,Quantile plot,five,alpha,median,0.0078710432486244,4
+CKD__05,CKD,ECDF,full,threshold,dense19,0.021010845199101624,4
+CKD__05,CKD,Quantile plot,five,threshold,five,0.01448919324389275,4
+CKD__05,CKD,Interval plot,five,threshold,median,0.014442950149123574,4
+CKD__05,CKD,Quantile plot,five,threshold,median,0.014442950149122075,4
+CKD__06,CKD,ECDF,full,alpha,dense19,0.006632605862598425,4
+CKD__06,CKD,Quantile plot,five,alpha,five,0.005289222045829825,4
+CKD__06,CKD,ECDF,full,alpha,median,0.006705658263574275,4
+CKD__06,CKD,Quantile plot,five,alpha,median,0.006705658263575175,4
+CKD__06,CKD,ECDF,full,threshold,dense19,0.0140797316255217,4
+CKD__06,CKD,Quantile plot,five,threshold,five,0.0091542921024267,4
+CKD__06,CKD,Histogram,16,threshold,median,0.0091299747021075,4
+CKD__07,CKD,ECDF,full,alpha,dense19,0.015342932736303074,4
+CKD__07,CKD,Quantile plot,five,alpha,five,0.0040148244396905255,4
+CKD__07,CKD,ECDF,full,alpha,median,0.0029118426296051002,4
+CKD__07,CKD,ECDF,full,threshold,dense19,0.0190941383180411,4
+CKD__07,CKD,Quantile plot,five,threshold,five,0.005490033576207851,4
+CKD__07,CKD,Box plot,five,threshold,median,0.0032453127644109002,4
+CKD__07,CKD,Interval plot,five,threshold,median,0.003245312764410175,4
+CKD__08,CKD,ECDF,full,alpha,dense19,0.021200714080249178,4
+CKD__08,CKD,Quantile plot,five,alpha,five,0.003426662451187175,4
+CKD__08,CKD,ECDF,full,alpha,median,0.0021341709992864248,4
+CKD__08,CKD,Quantile plot,five,alpha,median,0.002134170999286975,4
+CKD__08,CKD,ECDF,full,threshold,dense19,0.023047669147291124,4
+CKD__08,CKD,Quantile plot,five,threshold,five,0.00818369479234795,4
+CKD__08,CKD,ECDF,full,threshold,median,0.002134170999287,4
+CKD__09,CKD,ECDF,full,alpha,dense19,0.0148577187619187,4
+CKD__09,CKD,Quantile plot,five,alpha,five,0.004070368484556475,4
+CKD__09,CKD,ECDF,full,alpha,median,0.00313699215211105,4
+CKD__09,CKD,ECDF,full,threshold,dense19,0.018311049068094925,4
+CKD__09,CKD,Quantile plot,five,threshold,five,0.007558813337253825,4
+CKD__09,CKD,ECDF,full,threshold,median,0.0023496971950681747,4
+CKD__10,CKD,ECDF,full,alpha,dense19,0.01706569029118165,4
+CKD__10,CKD,Quantile plot,five,alpha,five,0.005479418040265275,4
+CKD__10,CKD,Box plot,five,alpha,median,0.00435498743200005,4
+CKD__10,CKD,ECDF,full,alpha,median,0.004354987432000375,4
+CKD__10,CKD,Interval plot,five,alpha,median,0.004354987432000225,4
+CKD__10,CKD,Quantile plot,five,alpha,median,0.00435498743200055,4
+CKD__10,CKD,ECDF,full,threshold,dense19,0.019147817696756626,4
+CKD__10,CKD,Quantile plot,five,threshold,five,0.006473901817003975,4
+CKD__10,CKD,Box plot,five,threshold,median,0.00435498743200005,4
+CKD__10,CKD,Interval plot,five,threshold,median,0.004354987432000225,4
+Cleveland__00,Cleveland,ECDF,full,alpha,dense19,0.01964084175524165,4
+Cleveland__00,Cleveland,Quantile plot,five,alpha,five,0.004566360433578575,4
+Cleveland__00,Cleveland,Quantile plot,five,alpha,median,0.002444683847947075,4
+Cleveland__00,Cleveland,ECDF,full,threshold,dense19,0.0186033697650186,4
+Cleveland__00,Cleveland,Quantile plot,five,threshold,five,0.006291205324014875,4
+Cleveland__00,Cleveland,Interval plot,five,threshold,median,0.006598602954907,4
+Cleveland__00,Cleveland,Quantile plot,five,threshold,median,0.006598602954907025,4
+Cleveland__01,Cleveland,ECDF,full,alpha,dense19,0.0103926790767573,4
+Cleveland__01,Cleveland,Quantile plot,five,alpha,five,0.000499702291246375,4
+Cleveland__01,Cleveland,Interval plot,five,alpha,median,0.0,4
+Cleveland__01,Cleveland,ECDF,full,threshold,dense19,0.016021607898323652,4
+Cleveland__01,Cleveland,Quantile plot,five,threshold,five,0.004288268092270776,4
+Cleveland__01,Cleveland,Interval plot,five,threshold,median,0.0,4
+Cleveland__02,Cleveland,ECDF,full,alpha,dense19,0.01418870183476715,4
+Cleveland__02,Cleveland,Quantile plot,five,alpha,five,0.004390442917905624,4
+Cleveland__02,Cleveland,Violin plot,64,alpha,median,0.001367148040263675,4
+Cleveland__02,Cleveland,ECDF,full,threshold,dense19,0.01751342533771295,4
+Cleveland__02,Cleveland,Quantile plot,five,threshold,five,0.008146909096114525,4
+Cleveland__02,Cleveland,Violin plot,64,threshold,median,0.001023638620292825,4
+Cleveland__03,Cleveland,ECDF,full,alpha,dense19,0.012571461995088351,4
+Cleveland__03,Cleveland,Quantile plot,five,alpha,five,0.00150576403840405,4
+Cleveland__03,Cleveland,Quantile plot,five,alpha,median,0.0008168587062749001,4
+Cleveland__03,Cleveland,ECDF,full,threshold,dense19,0.017129151779814576,4
+Cleveland__03,Cleveland,Quantile plot,five,threshold,five,0.004937186069882575,4
+Cleveland__03,Cleveland,Interval plot,five,threshold,median,0.0055110007173395,4
+Cleveland__04,Cleveland,ECDF,full,alpha,dense19,0.00748177801919805,4
+Cleveland__04,Cleveland,Quantile plot,five,alpha,five,0.0024296826623550253,4
+Cleveland__04,Cleveland,ECDF,full,alpha,median,0.0023727404343705,4
+Cleveland__04,Cleveland,Quantile plot,five,alpha,median,0.0023727404343696253,4
+Cleveland__04,Cleveland,ECDF,full,threshold,dense19,0.014293107037445449,4
+Cleveland__04,Cleveland,Quantile plot,five,threshold,five,0.0048942929571047,4
+Cleveland__04,Cleveland,ECDF,full,threshold,median,0.00237274043437,4
+HAR__00,HAR,ECDF,full,alpha,dense19,0.08009620186725665,4
+HAR__00,HAR,Quantile plot,five,alpha,five,0.02882256364900935,4
+HAR__00,HAR,Quantile plot,five,alpha,median,0.01572147840526335,4
+HAR__00,HAR,Dot plot,raw,threshold,dense19,0.09359291945288525,4
+HAR__00,HAR,Quantile plot,five,threshold,five,0.04437430223637742,4
+HAR__00,HAR,Dot plot,raw,threshold,median,0.0263096583954915,4
+HAR__01,HAR,ECDF,full,alpha,dense19,0.0283019229776077,4
+HAR__01,HAR,Quantile plot,five,alpha,five,0.0035701655171133753,4
+HAR__01,HAR,Box plot,five,alpha,median,0.0033379711112024,4
+HAR__01,HAR,Interval plot,five,alpha,median,0.0033379711112028502,4
+HAR__01,HAR,Quantile plot,five,alpha,median,0.003337971111201925,4
+HAR__01,HAR,ECDF,full,threshold,dense19,0.03257896240263662,4
+HAR__01,HAR,Quantile plot,five,threshold,five,0.009682029404812576,4
+HAR__01,HAR,Box plot,five,threshold,median,0.0033379711112024,4
+HAR__01,HAR,Interval plot,five,threshold,median,0.0033379711112028502,4
+HAR__02,HAR,ECDF,full,alpha,dense19,0.04393750489805305,4
+HAR__02,HAR,Quantile plot,five,alpha,five,0.014887946000037351,4
+HAR__02,HAR,ECDF,full,alpha,median,0.007672734549461,4
+HAR__02,HAR,ECDF,full,threshold,dense19,0.05857448852587108,4
+HAR__02,HAR,Quantile plot,five,threshold,five,0.02314867253035865,4
+HAR__02,HAR,Interval plot,five,threshold,median,0.014012391114195825,4
+HAR__03,HAR,Dot plot,raw,alpha,dense19,0.07001277444172717,4
+HAR__03,HAR,Quantile plot,five,alpha,five,0.0043602198387381,4
+HAR__03,HAR,ECDF,full,alpha,median,0.00185892859876925,4
+HAR__03,HAR,Quantile plot,five,alpha,median,0.0018589285987702,4
+HAR__03,HAR,ECDF,full,threshold,dense19,0.07772802540916257,4
+HAR__03,HAR,Quantile plot,five,threshold,five,0.010240598372458824,4
+HAR__03,HAR,Interval plot,five,threshold,median,0.00775471853166745,4
+HAR__04,HAR,ECDF,full,alpha,dense19,0.06438269319603925,4
+HAR__04,HAR,Quantile plot,five,alpha,five,0.005655897463040375,4
+HAR__04,HAR,Quantile plot,five,alpha,median,0.005254077978832025,4
+HAR__04,HAR,ECDF,full,threshold,dense19,0.07085345687940812,4
+HAR__04,HAR,Quantile plot,five,threshold,five,0.010035893740148825,4
+HAR__04,HAR,Violin plot,64,threshold,median,0.005246508234031,4
+HAR__05,HAR,ECDF,full,alpha,dense19,0.0658258765731056,4
+HAR__05,HAR,Quantile plot,five,alpha,five,0.0051776248304431505,4
+HAR__05,HAR,Quantile plot,five,alpha,median,0.0024174779004721998,4
+HAR__05,HAR,ECDF,full,threshold,dense19,0.07356529662716868,4
+HAR__05,HAR,Quantile plot,five,threshold,five,0.009062824844193174,4
+HAR__05,HAR,Interval plot,five,threshold,median,0.0081681536588025,4
+HAR__06,HAR,ECDF,full,alpha,dense19,0.0393680927630743,4
+HAR__06,HAR,Quantile plot,five,alpha,five,0.008069088205971499,4
+HAR__06,HAR,Quantile plot,five,alpha,median,0.01401170593236195,4
+HAR__06,HAR,ECDF,full,threshold,dense19,0.04599953426064095,4
+HAR__06,HAR,Quantile plot,five,threshold,five,0.0151360088614541,4
+HAR__06,HAR,Dot plot,raw,threshold,median,0.018389172558223626,4
+HAR__07,HAR,ECDF,full,alpha,dense19,0.02040789589544775,4
+HAR__07,HAR,Quantile plot,five,alpha,five,0.003194418971946675,4
+HAR__07,HAR,ECDF,full,alpha,median,0.0074360515863507,4
+HAR__07,HAR,ECDF,full,threshold,dense19,0.02354621804640905,4
+HAR__07,HAR,Quantile plot,five,threshold,five,0.0082995789485056,4
+HAR__07,HAR,ECDF,full,threshold,median,0.007593865809414225,4
+HAR__08,HAR,ECDF,full,alpha,dense19,0.024453869914889775,4
+HAR__08,HAR,Quantile plot,five,alpha,five,0.002358824213879175,4
+HAR__08,HAR,Quantile plot,five,alpha,median,0.004412480758565675,4
+HAR__08,HAR,ECDF,full,threshold,dense19,0.03146554422002775,4
+HAR__08,HAR,Quantile plot,five,threshold,five,0.006534701892560525,4
+HAR__08,HAR,Interval plot,five,threshold,median,0.006172721642572925,4
+HAR__09,HAR,ECDF,full,alpha,dense19,0.13144476273519437,4
+HAR__09,HAR,ECDF,full,alpha,five,0.1075247294141166,4
+HAR__09,HAR,Violin plot,64,alpha,median,0.09933319269646115,4
+HAR__09,HAR,Dot plot,raw,threshold,dense19,0.17606459173531175,4
+HAR__09,HAR,Quantile plot,five,threshold,five,0.21147050344827584,4
+HAR__09,HAR,Violin plot,64,threshold,median,0.0851268088615804,4
+HAR__10,HAR,ECDF,full,alpha,dense19,0.07580960571926702,4
+HAR__10,HAR,Quantile plot,five,alpha,five,0.0494495062415235,4
+HAR__10,HAR,Violin plot,64,alpha,median,0.009229762851335626,4
+HAR__10,HAR,Quantile plot,five,threshold,dense19,0.16994459514146765,4
+HAR__10,HAR,Dot plot,raw,threshold,five,0.17750968641846906,4
+HAR__10,HAR,Violin plot,64,threshold,median,0.018961894114299774,4
+HAR__11,HAR,ECDF,full,alpha,dense19,0.05941177388130925,4
+HAR__11,HAR,Quantile plot,five,alpha,five,0.04890274636565825,4
+HAR__11,HAR,Quantile plot,five,alpha,median,0.014279019903913425,4
+HAR__11,HAR,Quantile plot,five,threshold,dense19,0.10096538361579332,4
+HAR__11,HAR,Quantile plot,five,threshold,five,0.07712292510837297,4
+HAR__11,HAR,Quantile plot,five,threshold,median,0.0396495219446589,4
+HAR__12,HAR,Dot plot,raw,alpha,dense19,0.026539296409254974,4
+HAR__12,HAR,Quantile plot,five,alpha,five,0.003484196683523475,4
+HAR__12,HAR,Quantile plot,five,alpha,median,0.00617320503343705,4
+HAR__12,HAR,Dot plot,raw,threshold,dense19,0.042879747598009804,4
+HAR__12,HAR,Quantile plot,five,threshold,five,0.008882196894131274,4
+HAR__12,HAR,Interval plot,five,threshold,median,0.007804689471926875,4
+HAR__13,HAR,ECDF,full,alpha,dense19,0.0531618294148346,4
+HAR__13,HAR,Quantile plot,five,alpha,five,0.001773504666689775,4
+HAR__13,HAR,Quantile plot,five,alpha,median,0.0015475218816431,4
+HAR__13,HAR,ECDF,full,threshold,dense19,0.05553603656334405,4
+HAR__13,HAR,Quantile plot,five,threshold,five,0.0066631755908044005,4
+HAR__13,HAR,Interval plot,five,threshold,median,0.0041170281610864445,4
+HAR__14,HAR,ECDF,full,alpha,dense19,0.0712587095074895,4
+HAR__14,HAR,Quantile plot,five,alpha,five,0.0040139348904109,4
+HAR__14,HAR,Quantile plot,five,alpha,median,0.00324284153494105,4
+HAR__14,HAR,Dot plot,raw,threshold,dense19,0.07120949583639012,4
+HAR__14,HAR,Quantile plot,five,threshold,five,0.0084836371404373,4
+HAR__14,HAR,Interval plot,five,threshold,median,0.005920861395887499,4
+HAR__15,HAR,ECDF,full,alpha,dense19,0.05157333241693068,4
+HAR__15,HAR,Quantile plot,five,alpha,five,0.004438668476714525,4
+HAR__15,HAR,Quantile plot,five,alpha,median,0.0026186643002806,4
+HAR__15,HAR,ECDF,full,threshold,dense19,0.05936544504941135,4
+HAR__15,HAR,Quantile plot,five,threshold,five,0.0104679451939122,4
+HAR__15,HAR,Quantile plot,five,threshold,median,0.005680070952249875,4
+HAR__16,HAR,ECDF,full,alpha,dense19,0.0583933679363278,4
+HAR__16,HAR,Quantile plot,five,alpha,five,0.0034975162434696,4
+HAR__16,HAR,Quantile plot,five,alpha,median,0.00207523540419855,4
+HAR__16,HAR,ECDF,full,threshold,dense19,0.06265654833249808,4
+HAR__16,HAR,Quantile plot,five,threshold,five,0.010347398646429275,4
+HAR__16,HAR,Interval plot,five,threshold,median,0.0061096506812011,4
+HAR__17,HAR,Dot plot,raw,alpha,dense19,0.05958829543654402,4
+HAR__17,HAR,Quantile plot,five,alpha,five,0.002335307190785175,4
+HAR__17,HAR,Quantile plot,five,alpha,median,0.0005305180504211079,4
+HAR__17,HAR,ECDF,full,threshold,dense19,0.07170714289106778,4
+HAR__17,HAR,Quantile plot,five,threshold,five,0.0066014616325875,4
+HAR__17,HAR,Interval plot,five,threshold,median,0.0063019806450701,4
+HAR__18,HAR,Dot plot,raw,alpha,dense19,0.04161133965936715,4
+HAR__18,HAR,Quantile plot,five,alpha,five,0.0046874337090335,4
+HAR__18,HAR,Heatmap,16,alpha,median,0.0004822426502282,4
+HAR__18,HAR,Dot plot,raw,threshold,dense19,0.040309228211803674,4
+HAR__18,HAR,Quantile plot,five,threshold,five,0.00692286636255835,4
+HAR__18,HAR,Heatmap,16,threshold,median,0.0004822426502282,4
+HAR__19,HAR,Dot plot,raw,alpha,dense19,0.0544121936859959,4
+HAR__19,HAR,Quantile plot,five,alpha,five,0.005910477642793075,4
+HAR__19,HAR,Dot plot,raw,alpha,median,0.001320361121396825,4
+HAR__19,HAR,ECDF,full,threshold,dense19,0.08007786034042387,4
+HAR__19,HAR,Quantile plot,five,threshold,five,0.01128555179567015,4
+HAR__19,HAR,Interval plot,five,threshold,median,0.007918533193438075,4
+HAR__20,HAR,ECDF,full,alpha,dense19,0.03747124755034305,4
+HAR__20,HAR,Quantile plot,five,alpha,five,0.004253821204510725,4
+HAR__20,HAR,Quantile plot,five,alpha,median,0.0012568179491168749,4
+HAR__20,HAR,ECDF,full,threshold,dense19,0.04519788285483585,4
+HAR__20,HAR,Quantile plot,five,threshold,five,0.013153761523886899,4
+HAR__20,HAR,Quantile plot,five,threshold,median,0.006996865876638975,4
+HAR__21,HAR,ECDF,full,alpha,dense19,0.0678096471222749,4
+HAR__21,HAR,Quantile plot,five,alpha,five,0.0032613756100575,4
+HAR__21,HAR,Violin plot,64,alpha,median,0.0023341026970677,4
+HAR__21,HAR,ECDF,full,threshold,dense19,0.07321336692781383,4
+HAR__21,HAR,Quantile plot,five,threshold,five,0.0060077221536525005,4
+HAR__21,HAR,Violin plot,64,threshold,median,0.00735074108927335,4
+HAR__22,HAR,ECDF,full,alpha,dense19,0.037727916496617976,4
+HAR__22,HAR,Quantile plot,five,alpha,five,0.00508603789367395,4
+HAR__22,HAR,ECDF,full,alpha,median,0.003487626214286275,4
+HAR__22,HAR,Quantile plot,five,alpha,median,0.0034876262142866246,4
+HAR__22,HAR,ECDF,full,threshold,dense19,0.041943174799629626,4
+HAR__22,HAR,Quantile plot,five,threshold,five,0.009388241815597675,4
+HAR__22,HAR,Interval plot,five,threshold,median,0.00744272205765855,4
+HAR__23,HAR,ECDF,full,alpha,dense19,0.05417316466420785,4
+HAR__23,HAR,Quantile plot,five,alpha,five,0.005431863090790125,4
+HAR__23,HAR,Quantile plot,five,alpha,median,0.00838922796887545,4
+HAR__23,HAR,ECDF,full,threshold,dense19,0.05830561393833832,4
+HAR__23,HAR,Quantile plot,five,threshold,five,0.010734379504107924,4
+HAR__23,HAR,Quantile plot,five,threshold,median,0.011851051735027526,4
+HAR__24,HAR,Dot plot,raw,alpha,dense19,0.0425211394527803,4
+HAR__24,HAR,Quantile plot,five,alpha,five,0.001867924396263125,4
+HAR__24,HAR,Quantile plot,five,alpha,median,0.002156878801890575,4
+HAR__24,HAR,ECDF,full,threshold,dense19,0.051994501184696576,4
+HAR__24,HAR,Quantile plot,five,threshold,five,0.009160578635804,4
+HAR__24,HAR,Interval plot,five,threshold,median,0.005894974894714499,4
+HAR__25,HAR,ECDF,full,alpha,dense19,0.03344415700081685,4
+HAR__25,HAR,Quantile plot,five,alpha,five,0.004430519468126425,4
+HAR__25,HAR,Quantile plot,five,alpha,median,0.007717325710473775,4
+HAR__25,HAR,ECDF,full,threshold,dense19,0.04779638720912052,4
+HAR__25,HAR,Quantile plot,five,threshold,five,0.006949203164955775,4
+HAR__25,HAR,Quantile plot,five,threshold,median,0.007717325710473224,4
+HAR__26,HAR,Dot plot,raw,alpha,dense19,0.024309381883596274,4
+HAR__26,HAR,Quantile plot,five,alpha,five,0.0017474923058198749,4
+HAR__26,HAR,Quantile plot,five,alpha,median,0.0024168280716616248,4
+HAR__26,HAR,ECDF,full,threshold,dense19,0.039396102264177404,4
+HAR__26,HAR,Quantile plot,five,threshold,five,0.00596251305315805,4
+HAR__26,HAR,Quantile plot,five,threshold,median,0.0075675051653933505,4
+HAR__27,HAR,ECDF,full,alpha,dense19,0.0269874736398601,4
+HAR__27,HAR,Quantile plot,five,alpha,five,0.0052747732251309,4
+HAR__27,HAR,Quantile plot,five,alpha,median,0.002569429626609125,4
+HAR__27,HAR,ECDF,full,threshold,dense19,0.030841503824192998,4
+HAR__27,HAR,Quantile plot,five,threshold,five,0.011636136833532925,4
+HAR__27,HAR,Quantile plot,five,threshold,median,0.005674929871835725,4
+HAR__28,HAR,Dot plot,raw,alpha,dense19,0.04540994538545887,4
+HAR__28,HAR,Quantile plot,five,alpha,five,0.002915947451511575,4
+HAR__28,HAR,Quantile plot,five,alpha,median,0.005313541234860325,4
+HAR__28,HAR,ECDF,full,threshold,dense19,0.052910537469283925,4
+HAR__28,HAR,Quantile plot,five,threshold,five,0.008330000870182399,4
+HAR__28,HAR,Quantile plot,five,threshold,median,0.006471831693836699,4
+HAR__29,HAR,ECDF,full,alpha,dense19,0.0415542277599056,4
+HAR__29,HAR,Quantile plot,five,alpha,five,0.0039411021535256,4
+HAR__29,HAR,Quantile plot,five,alpha,median,0.0018145580307434251,4
+HAR__29,HAR,ECDF,full,threshold,dense19,0.04630470487529342,4
+HAR__29,HAR,Quantile plot,five,threshold,five,0.0097027663790095,4
+HAR__29,HAR,Interval plot,five,threshold,median,0.0081257698038847,4
+HAR__30,HAR,ECDF,full,alpha,dense19,0.043043746242564,4
+HAR__30,HAR,Quantile plot,five,alpha,five,0.008679431962941775,4
+HAR__30,HAR,Quantile plot,five,alpha,median,0.0130167729743553,4
+HAR__30,HAR,ECDF,full,threshold,dense19,0.04823036802969517,4
+HAR__30,HAR,Quantile plot,five,threshold,five,0.013737170626490899,4
+HAR__30,HAR,Quantile plot,five,threshold,median,0.013016772974357025,4
+HAR__31,HAR,ECDF,full,alpha,dense19,0.0364577539942165,4
+HAR__31,HAR,Quantile plot,five,alpha,five,0.003123783223787025,4
+HAR__31,HAR,Quantile plot,five,alpha,median,0.00799370761530915,4
+HAR__31,HAR,ECDF,full,threshold,dense19,0.0504026616598178,4
+HAR__31,HAR,Quantile plot,five,threshold,five,0.0095690513514419,4
+HAR__31,HAR,Quantile plot,five,threshold,median,0.008382935902648676,4
+HAR__32,HAR,ECDF,full,alpha,dense19,0.043043746242564,4
+HAR__32,HAR,Quantile plot,five,alpha,five,0.008679431962941775,4
+HAR__32,HAR,Quantile plot,five,alpha,median,0.0130167729743553,4
+HAR__32,HAR,ECDF,full,threshold,dense19,0.04823036802969517,4
+HAR__32,HAR,Quantile plot,five,threshold,five,0.013737170626490899,4
+HAR__32,HAR,Quantile plot,five,threshold,median,0.013016772974357025,4
+HAR__33,HAR,ECDF,full,alpha,dense19,0.0364577539942165,4
+HAR__33,HAR,Quantile plot,five,alpha,five,0.003123783223787025,4
+HAR__33,HAR,Quantile plot,five,alpha,median,0.00799370761530915,4
+HAR__33,HAR,ECDF,full,threshold,dense19,0.0504026616598178,4
+HAR__33,HAR,Quantile plot,five,threshold,five,0.0095690513514419,4
+HAR__33,HAR,Quantile plot,five,threshold,median,0.008382935902648676,4
+HAR__34,HAR,ECDF,full,alpha,dense19,0.048080471109692755,4
+HAR__34,HAR,Quantile plot,five,alpha,five,0.0032825140088738,4
+HAR__34,HAR,Quantile plot,five,alpha,median,0.0007197985386272,4
+HAR__34,HAR,ECDF,full,threshold,dense19,0.05886129192102635,4
+HAR__34,HAR,Quantile plot,five,threshold,five,0.0069406205046735996,4
+HAR__34,HAR,Interval plot,five,threshold,median,0.00936685112316825,4
+HAR__35,HAR,ECDF,full,alpha,dense19,0.02548029452187545,4
+HAR__35,HAR,Quantile plot,five,alpha,five,0.003623256285690575,4
+HAR__35,HAR,Quantile plot,five,alpha,median,0.000888866930044275,4
+HAR__35,HAR,ECDF,full,threshold,dense19,0.04073852247840387,4
+HAR__35,HAR,Quantile plot,five,threshold,five,0.010527258885613025,4
+HAR__35,HAR,Interval plot,five,threshold,median,0.008171263184112725,4
+HAR__36,HAR,Dot plot,raw,alpha,dense19,0.05724686888520088,4
+HAR__36,HAR,Quantile plot,five,alpha,five,0.003343194412042825,4
+HAR__36,HAR,Quantile plot,five,alpha,median,0.001645387079210275,4
+HAR__36,HAR,ECDF,full,threshold,dense19,0.06847713554705537,4
+HAR__36,HAR,Quantile plot,five,threshold,five,0.009401832653674499,4
+HAR__36,HAR,Interval plot,five,threshold,median,0.009129345142520125,4
+HAR__37,HAR,ECDF,full,alpha,dense19,0.04831227845984415,4
+HAR__37,HAR,Quantile plot,five,alpha,five,0.003683876256604875,4
+HAR__37,HAR,Quantile plot,five,alpha,median,0.003043689071514425,4
+HAR__37,HAR,ECDF,full,threshold,dense19,0.054058082027766324,4
+HAR__37,HAR,Quantile plot,five,threshold,five,0.007944477680798225,4
+HAR__37,HAR,Violin plot,64,threshold,median,0.00207904630876465,4
+HAR__38,HAR,ECDF,full,alpha,dense19,0.04724352835765867,4
+HAR__38,HAR,Quantile plot,five,alpha,five,0.008054442807904426,4
+HAR__38,HAR,Quantile plot,five,alpha,median,0.00675640945538355,4
+HAR__38,HAR,ECDF,full,threshold,dense19,0.052025823394963124,4
+HAR__38,HAR,Quantile plot,five,threshold,five,0.011712702029372425,4
+HAR__38,HAR,Interval plot,five,threshold,median,0.0105789281665489,4
+HAR__39,HAR,Dot plot,raw,alpha,dense19,0.05933447967138815,4
+HAR__39,HAR,Quantile plot,five,alpha,five,0.005786797184596775,4
+HAR__39,HAR,Quantile plot,five,alpha,median,0.01020908275760975,4
+HAR__39,HAR,ECDF,full,threshold,dense19,0.07030973547100243,4
+HAR__39,HAR,Quantile plot,five,threshold,five,0.00895896921818805,4
+HAR__39,HAR,Interval plot,five,threshold,median,0.0116610130926663,4
+HeartFailure__00,HeartFailure,ECDF,full,alpha,dense19,0.017567002608857924,4
+HeartFailure__00,HeartFailure,Quantile plot,five,alpha,five,0.001771992033208775,4
+HeartFailure__00,HeartFailure,ECDF,full,alpha,median,0.0013754462532811751,4
+HeartFailure__00,HeartFailure,Quantile plot,five,alpha,median,0.0013754462532805751,4
+HeartFailure__00,HeartFailure,ECDF,full,threshold,dense19,0.022925144345259725,4
+HeartFailure__00,HeartFailure,Quantile plot,five,threshold,five,0.007100769632360075,4
+HeartFailure__00,HeartFailure,Histogram,16,threshold,median,0.0032719688827952003,4
+HeartFailure__01,HeartFailure,ECDF,full,alpha,dense19,0.02775162783624075,4
+HeartFailure__01,HeartFailure,Quantile plot,five,alpha,five,0.0029101813124129752,4
+HeartFailure__01,HeartFailure,Quantile plot,five,alpha,median,0.001421834891535225,4
+HeartFailure__01,HeartFailure,ECDF,full,threshold,dense19,0.013366271012050525,4
+HeartFailure__01,HeartFailure,Quantile plot,five,threshold,five,0.0074475517507891,4
+HeartFailure__01,HeartFailure,Interval plot,five,threshold,median,0.00236564844343485,4
+HeartFailure__02,HeartFailure,ECDF,full,alpha,dense19,0.035186944473849374,4
+HeartFailure__02,HeartFailure,Quantile plot,five,alpha,five,0.00027633562910742496,4
+HeartFailure__02,HeartFailure,Interval plot,five,alpha,median,2.569560311010301e-05,4
+HeartFailure__02,HeartFailure,ECDF,full,threshold,dense19,0.02817717357829155,4
+HeartFailure__02,HeartFailure,Quantile plot,five,threshold,five,0.0029947665527464253,4
+HeartFailure__02,HeartFailure,Interval plot,five,threshold,median,2.569560311010301e-05,4
+HeartFailure__03,HeartFailure,ECDF,full,alpha,dense19,0.015418274895447524,4
+HeartFailure__03,HeartFailure,Quantile plot,five,alpha,five,0.0055668295094285,4
+HeartFailure__03,HeartFailure,Box plot,five,alpha,median,0.0028120221689447,4
+HeartFailure__03,HeartFailure,Interval plot,five,alpha,median,0.002812022168944925,4
+HeartFailure__03,HeartFailure,Quantile plot,five,alpha,median,0.0028120221689451746,4
+HeartFailure__03,HeartFailure,ECDF,full,threshold,dense19,0.028313363402900426,4
+HeartFailure__03,HeartFailure,Quantile plot,five,threshold,five,0.0071513123399327,4
+HeartFailure__03,HeartFailure,Box plot,five,threshold,median,0.0028120221689447,4
+HeartFailure__03,HeartFailure,Interval plot,five,threshold,median,0.002812022168944925,4
+HeartFailure__04,HeartFailure,ECDF,full,alpha,dense19,0.032050969321751346,4
+HeartFailure__04,HeartFailure,Quantile plot,five,alpha,five,0.0056590316771456,4
+HeartFailure__04,HeartFailure,Heatmap,16,alpha,median,0.0002163277809317,4
+HeartFailure__04,HeartFailure,ECDF,full,threshold,dense19,0.024877928113676725,4
+HeartFailure__04,HeartFailure,Quantile plot,five,threshold,five,0.009241111654408525,4
+HeartFailure__04,HeartFailure,Heatmap,16,threshold,median,0.0002163277809317,4
+HeartFailure__05,HeartFailure,ECDF,full,alpha,dense19,0.030368506283669626,4
+HeartFailure__05,HeartFailure,Quantile plot,five,alpha,five,0.009439915145561575,4
+HeartFailure__05,HeartFailure,Quantile plot,five,alpha,median,0.007174096535127475,4
+HeartFailure__05,HeartFailure,ECDF,full,threshold,dense19,0.04423246986939178,4
+HeartFailure__05,HeartFailure,Quantile plot,five,threshold,five,0.0238579376355779,4
+HeartFailure__05,HeartFailure,Interval plot,five,threshold,median,0.020626754680914402,4
+ILPD__00,ILPD,ECDF,full,alpha,dense19,0.015133341910563501,4
+ILPD__00,ILPD,Quantile plot,five,alpha,five,0.004160823128254,4
+ILPD__00,ILPD,Quantile plot,five,alpha,median,0.00411272073952335,4
+ILPD__00,ILPD,ECDF,full,threshold,dense19,0.01488264218332295,4
+ILPD__00,ILPD,Quantile plot,five,threshold,five,0.005643029976749125,4
+ILPD__00,ILPD,Interval plot,five,threshold,median,0.005304581652453525,4
+ILPD__01,ILPD,ECDF,full,alpha,dense19,0.0179712221542392,4
+ILPD__01,ILPD,Quantile plot,five,alpha,five,0.00563060114387295,4
+ILPD__01,ILPD,Box plot,five,alpha,median,0.0097703265658062,4
+ILPD__01,ILPD,ECDF,full,threshold,dense19,0.021936529739899527,4
+ILPD__01,ILPD,Quantile plot,five,threshold,five,0.01090210986132905,4
+ILPD__01,ILPD,Box plot,five,threshold,median,0.0097703265658062,4
+ILPD__02,ILPD,ECDF,full,alpha,dense19,0.014005803052747425,4
+ILPD__02,ILPD,Quantile plot,five,alpha,five,0.0035337148531406,4
+ILPD__02,ILPD,Quantile plot,five,alpha,median,0.004826309879908876,4
+ILPD__02,ILPD,ECDF,full,threshold,dense19,0.02162052083577785,4
+ILPD__02,ILPD,Quantile plot,five,threshold,five,0.0058017608940936,4
+ILPD__02,ILPD,Box plot,five,threshold,median,0.0053753529625177494,4
+ILPD__03,ILPD,ECDF,full,alpha,dense19,0.005993703206627075,4
+ILPD__03,ILPD,Quantile plot,five,alpha,five,0.003339505303854275,4
+ILPD__03,ILPD,Quantile plot,five,alpha,median,0.00334788414063095,4
+ILPD__03,ILPD,ECDF,full,threshold,dense19,0.010649028559349375,4
+ILPD__03,ILPD,Quantile plot,five,threshold,five,0.00600980357281775,4
+ILPD__03,ILPD,Interval plot,five,threshold,median,0.005488508767981,4
+ILPD__04,ILPD,ECDF,full,alpha,dense19,0.0058037689770749495,4
+ILPD__04,ILPD,Quantile plot,five,alpha,five,0.00274502297088275,4
+ILPD__04,ILPD,ECDF,full,alpha,median,0.00219286073251385,4
+ILPD__04,ILPD,ECDF,full,threshold,dense19,0.013144473222487376,4
+ILPD__04,ILPD,Quantile plot,five,threshold,five,0.006181090268111825,4
+ILPD__04,ILPD,Interval plot,five,threshold,median,0.0071464283650449255,4
+ILPD__05,ILPD,ECDF,full,alpha,dense19,0.0157839335635167,4
+ILPD__05,ILPD,Quantile plot,five,alpha,five,0.007273569283763825,4
+ILPD__05,ILPD,ECDF,full,alpha,median,0.0008870415259304,4
+ILPD__05,ILPD,ECDF,full,threshold,dense19,0.02523936003187415,4
+ILPD__05,ILPD,Quantile plot,five,threshold,five,0.01216015334184415,4
+ILPD__05,ILPD,Interval plot,five,threshold,median,0.003958747074426475,4
+ILPD__06,ILPD,ECDF,full,alpha,dense19,0.018990545912707102,4
+ILPD__06,ILPD,Quantile plot,five,alpha,five,0.0044359753255275,4
+ILPD__06,ILPD,Violin plot,64,alpha,median,0.002536181738407725,4
+ILPD__06,ILPD,ECDF,full,threshold,dense19,0.019858808818705498,4
+ILPD__06,ILPD,Quantile plot,five,threshold,five,0.00675889510651595,4
+ILPD__06,ILPD,Violin plot,64,threshold,median,0.0031232191782810496,4
+ILPD__07,ILPD,ECDF,full,alpha,dense19,0.024961892388173527,4
+ILPD__07,ILPD,Quantile plot,five,alpha,five,0.005076907262629675,4
+ILPD__07,ILPD,Box plot,five,alpha,median,0.0017938568015306,4
+ILPD__07,ILPD,Interval plot,five,alpha,median,0.001793856801530775,4
+ILPD__07,ILPD,Quantile plot,five,alpha,median,0.0017938568015303,4
+ILPD__07,ILPD,ECDF,full,threshold,dense19,0.01980811998783675,4
+ILPD__07,ILPD,Quantile plot,five,threshold,five,0.006167120495145375,4
+ILPD__07,ILPD,Box plot,five,threshold,median,0.0017938568015306,4
+ILPD__07,ILPD,ECDF,full,threshold,median,0.00179385680153105,4
+ILPD__07,ILPD,Interval plot,five,threshold,median,0.001793856801530775,4
+ILPD__08,ILPD,ECDF,full,alpha,dense19,0.028152149199688427,4
+ILPD__08,ILPD,Quantile plot,five,alpha,five,0.005010125717976225,4
+ILPD__08,ILPD,ECDF,full,alpha,median,0.00299105486938125,4
+ILPD__08,ILPD,Quantile plot,five,alpha,median,0.002991054869379675,4
+ILPD__08,ILPD,ECDF,full,threshold,dense19,0.023335727904165625,4
+ILPD__08,ILPD,Quantile plot,five,threshold,five,0.007637741764300775,4
+ILPD__08,ILPD,Interval plot,five,threshold,median,0.0070104208648157995,4
+ILPD__08,ILPD,Quantile plot,five,threshold,median,0.007010420864815825,4
+Retinopathy__00,Retinopathy,ECDF,full,alpha,dense19,0.013214633631875,4
+Retinopathy__00,Retinopathy,Quantile plot,five,alpha,five,0.00370267257508215,4
+Retinopathy__00,Retinopathy,Quantile plot,five,alpha,median,0.001548898928923525,4
+Retinopathy__00,Retinopathy,ECDF,full,threshold,dense19,0.01513644374124275,4
+Retinopathy__00,Retinopathy,Quantile plot,five,threshold,five,0.0070365565213978,4
+Retinopathy__00,Retinopathy,ECDF,full,threshold,median,0.0060467888495377995,4
+Retinopathy__01,Retinopathy,ECDF,full,alpha,dense19,0.010115782473566025,4
+Retinopathy__01,Retinopathy,Quantile plot,five,alpha,five,0.001894169719016225,4
+Retinopathy__01,Retinopathy,ECDF,full,alpha,median,0.001329580647610325,4
+Retinopathy__01,Retinopathy,ECDF,full,threshold,dense19,0.0129210988517994,4
+Retinopathy__01,Retinopathy,Quantile plot,five,threshold,five,0.004523168182872,4
+Retinopathy__01,Retinopathy,Interval plot,five,threshold,median,0.004331770737790475,4
+Retinopathy__02,Retinopathy,ECDF,full,alpha,dense19,0.013096378291011599,4
+Retinopathy__02,Retinopathy,Quantile plot,five,alpha,five,0.0031816597850465,4
+Retinopathy__02,Retinopathy,Quantile plot,five,alpha,median,0.00386396207945295,4
+Retinopathy__02,Retinopathy,ECDF,full,threshold,dense19,0.01380847957920885,4
+Retinopathy__02,Retinopathy,Quantile plot,five,threshold,five,0.0064900229431571,4
+Retinopathy__02,Retinopathy,Interval plot,five,threshold,median,0.005983060731238575,4
+Retinopathy__02,Retinopathy,Quantile plot,five,threshold,median,0.005983060731238676,4
+Retinopathy__03,Retinopathy,ECDF,full,alpha,dense19,0.012857172372327775,4
+Retinopathy__03,Retinopathy,Quantile plot,five,alpha,five,0.0037200475863656,4
+Retinopathy__03,Retinopathy,Quantile plot,five,alpha,median,0.001831118123667375,4
+Retinopathy__03,Retinopathy,ECDF,full,threshold,dense19,0.014285448453972475,4
+Retinopathy__03,Retinopathy,Quantile plot,five,threshold,five,0.006034469008341575,4
+Retinopathy__03,Retinopathy,Interval plot,five,threshold,median,0.00476662536827895,4
+Retinopathy__03,Retinopathy,Quantile plot,five,threshold,median,0.0047666253682789005,4
+Retinopathy__04,Retinopathy,ECDF,full,alpha,dense19,0.016281240055516673,4
+Retinopathy__04,Retinopathy,Quantile plot,five,alpha,five,0.00210196460649395,4
+Retinopathy__04,Retinopathy,Quantile plot,five,alpha,median,0.0018844632965639,4
+Retinopathy__04,Retinopathy,ECDF,full,threshold,dense19,0.016718534159768126,4
+Retinopathy__04,Retinopathy,Quantile plot,five,threshold,five,0.00456148568055425,4
+Retinopathy__04,Retinopathy,Interval plot,five,threshold,median,0.0037617052273789496,4
+Retinopathy__05,Retinopathy,ECDF,full,alpha,dense19,0.014361601783133674,4
+Retinopathy__05,Retinopathy,Quantile plot,five,alpha,five,0.0019381662529157,4
+Retinopathy__05,Retinopathy,Quantile plot,five,alpha,median,0.000318795203369367,4
+Retinopathy__05,Retinopathy,ECDF,full,threshold,dense19,0.017206662957135323,4
+Retinopathy__05,Retinopathy,Quantile plot,five,threshold,five,0.005304464006093075,4
+Retinopathy__05,Retinopathy,Interval plot,five,threshold,median,0.004242939258238074,4
+Retinopathy__06,Retinopathy,ECDF,full,alpha,dense19,0.005928710332176925,4
+Retinopathy__06,Retinopathy,Quantile plot,five,alpha,five,0.0037665979137579,4
+Retinopathy__06,Retinopathy,ECDF,full,alpha,median,0.0030194457819746,4
+Retinopathy__06,Retinopathy,ECDF,full,threshold,dense19,0.009640257977518475,4
+Retinopathy__06,Retinopathy,Quantile plot,five,threshold,five,0.006595733707794075,4
+Retinopathy__06,Retinopathy,ECDF,full,threshold,median,0.006541248121536125,4
+Retinopathy__07,Retinopathy,ECDF,full,alpha,dense19,0.0067550131700219,4
+Retinopathy__07,Retinopathy,Quantile plot,five,alpha,five,0.0057372803472489,4
+Retinopathy__07,Retinopathy,Heatmap,16,alpha,median,0.0003822822234606,4
+Retinopathy__07,Retinopathy,ECDF,full,threshold,dense19,0.011650243732370325,4
+Retinopathy__07,Retinopathy,Heatmap,16,threshold,five,0.0072198713200646,4
+Retinopathy__07,Retinopathy,Heatmap,16,threshold,median,0.0003822822234606,4
+Retinopathy__08,Retinopathy,ECDF,full,alpha,dense19,0.004458203169411425,4
+Retinopathy__08,Retinopathy,Quantile plot,five,alpha,five,0.0051645269364881,4
+Retinopathy__08,Retinopathy,ECDF,full,alpha,median,0.005467796217940475,4
+Retinopathy__08,Retinopathy,ECDF,full,threshold,dense19,0.01061369592891845,4
+Retinopathy__08,Retinopathy,Quantile plot,five,threshold,five,0.00871387191016215,4
+Retinopathy__08,Retinopathy,Heatmap,16,threshold,median,0.0059459952052902,4
+Retinopathy__09,Retinopathy,ECDF,full,alpha,dense19,0.005409692890715976,4
+Retinopathy__09,Retinopathy,ECDF,full,alpha,five,0.004696307552132475,4
+Retinopathy__09,Retinopathy,ECDF,full,alpha,median,0.0013426916027364524,4
+Retinopathy__09,Retinopathy,ECDF,full,threshold,dense19,0.015660005082140098,4
+Retinopathy__09,Retinopathy,Quantile plot,five,threshold,five,0.01107510665815865,4
+Retinopathy__09,Retinopathy,ECDF,full,threshold,median,0.00164752875472945,4
+Retinopathy__10,Retinopathy,ECDF,full,alpha,dense19,0.007769861772850225,4
+Retinopathy__10,Retinopathy,ECDF,full,alpha,five,0.0050120075583967,4
+Retinopathy__10,Retinopathy,Quantile plot,five,alpha,median,0.008380299511137026,4
+Retinopathy__10,Retinopathy,ECDF,full,threshold,dense19,0.02391971792582085,4
+Retinopathy__10,Retinopathy,Quantile plot,five,threshold,five,0.009352906630204326,4
+Retinopathy__10,Retinopathy,Quantile plot,five,threshold,median,0.0136176026222052,4
+Retinopathy__11,Retinopathy,ECDF,full,alpha,dense19,0.006768872532897375,4
+Retinopathy__11,Retinopathy,ECDF,full,alpha,five,0.00388812006447345,4
+Retinopathy__11,Retinopathy,Quantile plot,five,alpha,median,0.0034883607560236,4
+Retinopathy__11,Retinopathy,ECDF,full,threshold,dense19,0.02479092234158795,4
+Retinopathy__11,Retinopathy,Quantile plot,five,threshold,five,0.00973873385940865,4
+Retinopathy__11,Retinopathy,Interval plot,five,threshold,median,0.00637396673508205,4
+Retinopathy__12,Retinopathy,ECDF,full,alpha,dense19,0.008880917274586425,4
+Retinopathy__12,Retinopathy,Quantile plot,five,alpha,five,0.001478285683644675,4
+Retinopathy__12,Retinopathy,ECDF,full,alpha,median,2.875881720429819e-05,4
+Retinopathy__12,Retinopathy,ECDF,full,threshold,dense19,0.025148288597285677,4
+Retinopathy__12,Retinopathy,Quantile plot,five,threshold,five,0.007650874074503076,4
+Retinopathy__12,Retinopathy,Interval plot,five,threshold,median,0.003193293617894125,4
+Retinopathy__13,Retinopathy,ECDF,full,alpha,dense19,0.008475956118884975,4
+Retinopathy__13,Retinopathy,ECDF,full,alpha,five,0.001480594411599675,4
+Retinopathy__13,Retinopathy,ECDF,full,alpha,median,3.250969139182854e-05,4
+Retinopathy__13,Retinopathy,ECDF,full,threshold,dense19,0.026143428006279477,4
+Retinopathy__13,Retinopathy,Quantile plot,five,threshold,five,0.0081277730874798,4
+Retinopathy__13,Retinopathy,Interval plot,five,threshold,median,0.0036097795434886252,4
+Retinopathy__14,Retinopathy,ECDF,full,alpha,dense19,0.007471831805672825,4
+Retinopathy__14,Retinopathy,ECDF,full,alpha,five,0.0076816583648234,4
+Retinopathy__14,Retinopathy,ECDF,full,alpha,median,0.0034762484051725252,4
+Retinopathy__14,Retinopathy,ECDF,full,threshold,dense19,0.01698098193797965,4
+Retinopathy__14,Retinopathy,Quantile plot,five,threshold,five,0.01054454372105095,4
+Retinopathy__14,Retinopathy,Box plot,five,threshold,median,0.0080701035777348,4
+Retinopathy__14,Retinopathy,ECDF,full,threshold,median,0.0080701035777358,4
+Retinopathy__14,Retinopathy,Interval plot,five,threshold,median,0.0080701035777358,4
+Retinopathy__15,Retinopathy,ECDF,full,alpha,dense19,0.0059489158378236,4
+Retinopathy__15,Retinopathy,ECDF,full,alpha,five,0.002861655217361525,4
+Retinopathy__15,Retinopathy,ECDF,full,alpha,median,0.0010231775770749,4
+Retinopathy__15,Retinopathy,ECDF,full,threshold,dense19,0.0120688884679181,4
+Retinopathy__15,Retinopathy,Quantile plot,five,threshold,five,0.009522434352867626,4
+Retinopathy__15,Retinopathy,Heatmap,16,threshold,median,0.0042143855021217,4
+WDBC__00,WDBC,ECDF,full,alpha,dense19,0.00515266130269035,4
+WDBC__00,WDBC,Quantile plot,five,alpha,five,0.00341888161760175,4
+WDBC__00,WDBC,Quantile plot,five,alpha,median,0.0034827250166842502,4
+WDBC__00,WDBC,ECDF,full,threshold,dense19,0.013890405817722,4
+WDBC__00,WDBC,Quantile plot,five,threshold,five,0.008725169462102,4
+WDBC__00,WDBC,Violin plot,64,threshold,median,0.00140820654528355,4
+WDBC__01,WDBC,ECDF,full,alpha,dense19,0.013791776050088574,4
+WDBC__01,WDBC,Quantile plot,five,alpha,five,0.0025933940238971748,4
+WDBC__01,WDBC,Quantile plot,five,alpha,median,0.006145932777329925,4
+WDBC__01,WDBC,ECDF,full,threshold,dense19,0.016775659278429625,4
+WDBC__01,WDBC,Quantile plot,five,threshold,five,0.00844377100119665,4
+WDBC__01,WDBC,Interval plot,five,threshold,median,0.009010385812646276,4
+WDBC__01,WDBC,Quantile plot,five,threshold,median,0.00901038581264605,4
+WDBC__02,WDBC,ECDF,full,alpha,dense19,0.008243086833204724,4
+WDBC__02,WDBC,Quantile plot,five,alpha,five,0.0033677457546186,4
+WDBC__02,WDBC,Heatmap,16,alpha,median,0.0027840977323837,4
+WDBC__02,WDBC,ECDF,full,threshold,dense19,0.012317161166207225,4
+WDBC__02,WDBC,Quantile plot,five,threshold,five,0.0072936616992864,4
+WDBC__02,WDBC,Heatmap,16,threshold,median,0.0027840977323837,4
+WDBC__03,WDBC,ECDF,full,alpha,dense19,0.007110593348587,4
+WDBC__03,WDBC,Quantile plot,five,alpha,five,0.00452182530837085,4
+WDBC__03,WDBC,Quantile plot,five,alpha,median,0.0073357959945175005,4
+WDBC__03,WDBC,ECDF,full,threshold,dense19,0.012747973889593974,4
+WDBC__03,WDBC,Quantile plot,five,threshold,five,0.011017981088298174,4
+WDBC__03,WDBC,Interval plot,five,threshold,median,0.0123250302585822,4
+WDBC__04,WDBC,ECDF,full,alpha,dense19,0.010547836678772075,4
+WDBC__04,WDBC,ECDF,full,alpha,five,0.003552215562337225,4
+WDBC__04,WDBC,ECDF,full,alpha,median,0.005455747785406675,4
+WDBC__04,WDBC,ECDF,full,threshold,dense19,0.015296069492064825,4
+WDBC__04,WDBC,Quantile plot,five,threshold,five,0.008701093907663075,4
+WDBC__04,WDBC,Interval plot,five,threshold,median,0.010558604569676226,4
+WDBC__04,WDBC,Quantile plot,five,threshold,median,0.010558604569676226,4
+WDBC__05,WDBC,ECDF,full,alpha,dense19,0.0137817312347376,4
+WDBC__05,WDBC,Quantile plot,five,alpha,five,0.00350718043514915,4
+WDBC__05,WDBC,Quantile plot,five,alpha,median,0.001054548519716053,4
+WDBC__05,WDBC,ECDF,full,threshold,dense19,0.017046805991984024,4
+WDBC__05,WDBC,Quantile plot,five,threshold,five,0.0083451069306598,4
+WDBC__05,WDBC,Interval plot,five,threshold,median,0.006370452206086575,4
+WDBC__06,WDBC,ECDF,full,alpha,dense19,0.00841693548883005,4
+WDBC__06,WDBC,Quantile plot,five,alpha,five,0.002427709045776025,4
+WDBC__06,WDBC,Quantile plot,five,alpha,median,0.003112941588054025,4
+WDBC__06,WDBC,ECDF,full,threshold,dense19,0.012425550918090575,4
+WDBC__06,WDBC,Quantile plot,five,threshold,five,0.0068119686554395245,4
+WDBC__06,WDBC,Interval plot,five,threshold,median,0.007332210237498675,4
+WDBC__06,WDBC,Quantile plot,five,threshold,median,0.007332210237498575,4
+WDBC__07,WDBC,ECDF,full,alpha,dense19,0.01029896546478155,4
+WDBC__07,WDBC,Quantile plot,five,alpha,five,0.006881424744070625,4
+WDBC__07,WDBC,Histogram,16,alpha,median,0.003479344233315325,4
+WDBC__07,WDBC,ECDF,full,threshold,dense19,0.016653399975158325,4
+WDBC__07,WDBC,Quantile plot,five,threshold,five,0.0076421721528779005,4
+WDBC__07,WDBC,Histogram,16,threshold,median,0.005665510592250125,4
+WDBC__08,WDBC,ECDF,full,alpha,dense19,0.007437783020184625,4
+WDBC__08,WDBC,Quantile plot,five,alpha,five,0.00261058849957245,4
+WDBC__08,WDBC,Heatmap,16,alpha,median,0.0010738299852793,4
+WDBC__08,WDBC,ECDF,full,threshold,dense19,0.01586418109911315,4
+WDBC__08,WDBC,Quantile plot,five,threshold,five,0.008789609972631824,4
+WDBC__08,WDBC,Heatmap,16,threshold,median,0.0010738299852793,4
+WDBC__09,WDBC,ECDF,full,alpha,dense19,0.012449853060116974,4
+WDBC__09,WDBC,Quantile plot,five,alpha,five,0.00578613069758925,4
+WDBC__09,WDBC,Box plot,five,alpha,median,0.004953294819301275,4
+WDBC__09,WDBC,Interval plot,five,alpha,median,0.0049532948193013,4
+WDBC__09,WDBC,Quantile plot,five,alpha,median,0.0049532948193015,4
+WDBC__09,WDBC,ECDF,full,threshold,dense19,0.018677130334344174,4
+WDBC__09,WDBC,Quantile plot,five,threshold,five,0.010297314182387225,4
+WDBC__09,WDBC,Bar chart,means,threshold,median,0.0049532948193013,4
+WDBC__09,WDBC,Box plot,five,threshold,median,0.004953294819301275,4
+WDBC__09,WDBC,Interval plot,five,threshold,median,0.0049532948193013,4
+WDBC__10,WDBC,ECDF,full,alpha,dense19,0.007245288501709025,4
+WDBC__10,WDBC,Quantile plot,five,alpha,five,0.005709916153838875,4
+WDBC__10,WDBC,ECDF,full,alpha,median,0.00440260245483165,4
+WDBC__10,WDBC,ECDF,full,threshold,dense19,0.014860972344410174,4
+WDBC__10,WDBC,Quantile plot,five,threshold,five,0.010372647668556325,4
+WDBC__10,WDBC,Interval plot,five,threshold,median,0.0147499964815072,4
+WDBC__11,WDBC,ECDF,full,alpha,dense19,0.00859097069093945,4
+WDBC__11,WDBC,Quantile plot,five,alpha,five,0.003262237487761,4
+WDBC__11,WDBC,Quantile plot,five,alpha,median,0.001367131578784975,4
+WDBC__11,WDBC,ECDF,full,threshold,dense19,0.01305389874255525,4
+WDBC__11,WDBC,Quantile plot,five,threshold,five,0.00876094902362385,4
+WDBC__11,WDBC,Interval plot,five,threshold,median,0.006347972485700799,4
+WDBC__12,WDBC,ECDF,full,alpha,dense19,0.013044701594820875,4
+WDBC__12,WDBC,Quantile plot,five,alpha,five,0.0062666342608458,4
+WDBC__12,WDBC,Quantile plot,five,alpha,median,0.0026104500312482,4
+WDBC__12,WDBC,ECDF,full,threshold,dense19,0.020073294099780075,4
+WDBC__12,WDBC,Quantile plot,five,threshold,five,0.012441204816625275,4
+WDBC__12,WDBC,ECDF,full,threshold,median,0.011399362700480224,4
+WDBC__13,WDBC,ECDF,full,alpha,dense19,0.008298346996030275,4
+WDBC__13,WDBC,Quantile plot,five,alpha,five,0.005297391465513975,4
+WDBC__13,WDBC,ECDF,full,alpha,median,0.00413205202829015,4
+WDBC__13,WDBC,ECDF,full,threshold,dense19,0.01485763340735315,4
+WDBC__13,WDBC,Quantile plot,five,threshold,five,0.011695884735070175,4
+WDBC__13,WDBC,Box plot,five,threshold,median,0.0146319486835546,4
+WDBC__13,WDBC,Quantile plot,five,threshold,median,0.014631948683554675,4
+WDBC__14,WDBC,ECDF,full,alpha,dense19,0.0101310978490972,4
+WDBC__14,WDBC,Quantile plot,five,alpha,five,0.003818432113180175,4
+WDBC__14,WDBC,ECDF,full,alpha,median,0.002387821401399425,4
+WDBC__14,WDBC,ECDF,full,threshold,dense19,0.015586974212126799,4
+WDBC__14,WDBC,Quantile plot,five,threshold,five,0.009473264843760026,4
+WDBC__14,WDBC,Box plot,five,threshold,median,0.0026838624672357,4
+WDBC__14,WDBC,Interval plot,five,threshold,median,0.0026838624672358502,4
+WDBC__15,WDBC,ECDF,full,alpha,dense19,0.009868648034537575,4
+WDBC__15,WDBC,Quantile plot,five,alpha,five,0.003303507538783425,4
+WDBC__15,WDBC,Box plot,five,alpha,median,0.00040932549628670004,4
+WDBC__15,WDBC,Interval plot,five,alpha,median,0.0004093254962867,4
+WDBC__15,WDBC,Quantile plot,five,alpha,median,0.000409325496286375,4
+WDBC__15,WDBC,ECDF,full,threshold,dense19,0.011105952429012475,4
+WDBC__15,WDBC,Quantile plot,five,threshold,five,0.005378341707152925,4
+WDBC__15,WDBC,Box plot,five,threshold,median,0.00040932549628670004,4
+WDBC__15,WDBC,Interval plot,five,threshold,median,0.0004093254962867,4
+WDBC__16,WDBC,ECDF,full,alpha,dense19,0.008404013587713501,4
+WDBC__16,WDBC,Quantile plot,five,alpha,five,0.006740048243796675,4
+WDBC__16,WDBC,ECDF,full,alpha,median,0.00827237372918295,4
+WDBC__16,WDBC,ECDF,full,threshold,dense19,0.014481114991320675,4
+WDBC__16,WDBC,ECDF,full,threshold,five,0.009636724858918226,4
+WDBC__16,WDBC,ECDF,full,threshold,median,0.0084331220805812,4
+WDBC__17,WDBC,ECDF,full,alpha,dense19,0.00724861058038545,4
+WDBC__17,WDBC,Quantile plot,five,alpha,five,0.002849773291376425,4
+WDBC__17,WDBC,Violin plot,64,alpha,median,0.000554343524439475,4
+WDBC__17,WDBC,ECDF,full,threshold,dense19,0.013443680510503675,4
+WDBC__17,WDBC,Quantile plot,five,threshold,five,0.007380223380015825,4
+WDBC__17,WDBC,Box plot,five,threshold,median,0.005220218672177875,4
+WDBC__17,WDBC,ECDF,full,threshold,median,0.00522021867217785,4
+WDBC__17,WDBC,Interval plot,five,threshold,median,0.005220218672178,4
+WDBC__18,WDBC,ECDF,full,alpha,dense19,0.00809692302703445,4
+WDBC__18,WDBC,Quantile plot,five,alpha,five,0.005721367333781825,4
+WDBC__18,WDBC,ECDF,full,alpha,median,0.003853768099875225,4
+WDBC__18,WDBC,ECDF,full,threshold,dense19,0.012405760484226876,4
+WDBC__18,WDBC,Quantile plot,five,threshold,five,0.0086010066736805,4
+WDBC__18,WDBC,Interval plot,five,threshold,median,0.00754164600141095,4
+WDBC__19,WDBC,ECDF,full,alpha,dense19,0.0110653041995125,4
+WDBC__19,WDBC,Quantile plot,five,alpha,five,0.0026787188966928503,4
+WDBC__19,WDBC,Quantile plot,five,alpha,median,0.005741417355721375,4
+WDBC__19,WDBC,ECDF,full,threshold,dense19,0.015362168514655574,4
+WDBC__19,WDBC,Quantile plot,five,threshold,five,0.007797521132331975,4
+WDBC__19,WDBC,Interval plot,five,threshold,median,0.010041445648993626,4
+WDBC__19,WDBC,Quantile plot,five,threshold,median,0.010041445648993749,4
+WDBC__20,WDBC,ECDF,full,alpha,dense19,0.018952695246273573,4
+WDBC__20,WDBC,Quantile plot,five,alpha,five,0.004483080524441125,4
+WDBC__20,WDBC,Quantile plot,five,alpha,median,0.0021884979771719998,4
+WDBC__20,WDBC,ECDF,full,threshold,dense19,0.024736449764109075,4
+WDBC__20,WDBC,Quantile plot,five,threshold,five,0.00749506687955475,4
+WDBC__20,WDBC,Interval plot,five,threshold,median,0.006408763118952726,4
+WDBC__21,WDBC,ECDF,full,alpha,dense19,0.00492534413851365,4
+WDBC__21,WDBC,Quantile plot,five,alpha,five,0.005358903884038475,4
+WDBC__21,WDBC,Violin plot,64,alpha,median,0.002310250322880075,4
+WDBC__21,WDBC,ECDF,full,threshold,dense19,0.009558603808487475,4
+WDBC__21,WDBC,Quantile plot,five,threshold,five,0.00864257589345835,4
+WDBC__21,WDBC,Violin plot,64,threshold,median,0.0030024345640608,4
+WDBC__22,WDBC,ECDF,full,alpha,dense19,0.012843824495524675,4
+WDBC__22,WDBC,Quantile plot,five,alpha,five,0.00636320928762625,4
+WDBC__22,WDBC,Quantile plot,five,alpha,median,0.0070729148726730254,4
+WDBC__22,WDBC,ECDF,full,threshold,dense19,0.019083922000281226,4
+WDBC__22,WDBC,Quantile plot,five,threshold,five,0.00934732883971515,4
+WDBC__22,WDBC,ECDF,full,threshold,median,0.0075030925044271,4
+WDBC__23,WDBC,ECDF,full,alpha,dense19,0.019910071569222126,4
+WDBC__23,WDBC,Quantile plot,five,alpha,five,0.0064321643795209,4
+WDBC__23,WDBC,Quantile plot,five,alpha,median,0.008668265335046575,4
+WDBC__23,WDBC,ECDF,full,threshold,dense19,0.022848140136348175,4
+WDBC__23,WDBC,Quantile plot,five,threshold,five,0.0101935118138258,4
+WDBC__23,WDBC,Histogram,16,threshold,median,0.010700783936545201,4
+WDBC__24,WDBC,ECDF,full,alpha,dense19,0.006205946984940625,4
+WDBC__24,WDBC,Quantile plot,five,alpha,five,0.00401475076645565,4
+WDBC__24,WDBC,ECDF,full,alpha,median,0.001225860048684775,4
+WDBC__24,WDBC,ECDF,full,threshold,dense19,0.01215963963393145,4
+WDBC__24,WDBC,Quantile plot,five,threshold,five,0.006247133294658025,4
+WDBC__24,WDBC,Box plot,five,threshold,median,0.004101946138456075,4
+WDBC__24,WDBC,Interval plot,five,threshold,median,0.0041019461384571,4
+WDBC__25,WDBC,ECDF,full,alpha,dense19,0.01327074456907225,4
+WDBC__25,WDBC,Quantile plot,five,alpha,five,0.005117768173009675,4
+WDBC__25,WDBC,Quantile plot,five,alpha,median,0.0010422953337162499,4
+WDBC__25,WDBC,ECDF,full,threshold,dense19,0.01959126613580365,4
+WDBC__25,WDBC,Quantile plot,five,threshold,five,0.00925498067214165,4
+WDBC__25,WDBC,Heatmap,16,threshold,median,0.0063877397178021,4
+WDBC__26,WDBC,ECDF,full,alpha,dense19,0.011172970936211425,4
+WDBC__26,WDBC,Quantile plot,five,alpha,five,0.002587844689223875,4
+WDBC__26,WDBC,Box plot,five,alpha,median,0.0012129867852655749,4
+WDBC__26,WDBC,Interval plot,five,alpha,median,0.0012129867852652,4
+WDBC__26,WDBC,Quantile plot,five,alpha,median,0.001212986785265475,4
+WDBC__26,WDBC,ECDF,full,threshold,dense19,0.014006070790317151,4
+WDBC__26,WDBC,Quantile plot,five,threshold,five,0.004775774311322549,4
+WDBC__26,WDBC,Box plot,five,threshold,median,0.0012129867852655749,4
+WDBC__26,WDBC,Interval plot,five,threshold,median,0.0012129867852652,4
+WDBC__27,WDBC,ECDF,full,alpha,dense19,0.013638228737549,4
+WDBC__27,WDBC,Quantile plot,five,alpha,five,0.004111557850866975,4
+WDBC__27,WDBC,Quantile plot,five,alpha,median,0.003844796513615675,4
+WDBC__27,WDBC,ECDF,full,threshold,dense19,0.015542185896454275,4
+WDBC__27,WDBC,Quantile plot,five,threshold,five,0.008788744708395024,4
+WDBC__27,WDBC,ECDF,full,threshold,median,0.0093046136230788,4
+WDBC__28,WDBC,ECDF,full,alpha,dense19,0.007146473208268775,4
+WDBC__28,WDBC,Quantile plot,five,alpha,five,0.0039531815477864,4
+WDBC__28,WDBC,Box plot,five,alpha,median,0.001290156929723875,4
+WDBC__28,WDBC,Interval plot,five,alpha,median,0.00129015692972365,4
+WDBC__28,WDBC,Quantile plot,five,alpha,median,0.0012901569297231,4
+WDBC__28,WDBC,ECDF,full,threshold,dense19,0.013214016935458575,4
+WDBC__28,WDBC,Quantile plot,five,threshold,five,0.006944668093876425,4
+WDBC__28,WDBC,Box plot,five,threshold,median,0.001290156929723875,4
+WDBC__28,WDBC,ECDF,full,threshold,median,0.0012901569297239,4
+WDBC__28,WDBC,Interval plot,five,threshold,median,0.00129015692972365,4
+WDBC__29,WDBC,ECDF,full,alpha,dense19,0.009212512401077476,4
+WDBC__29,WDBC,Quantile plot,five,alpha,five,0.005826405212041375,4
+WDBC__29,WDBC,Quantile plot,five,alpha,median,0.003884967938973775,4
+WDBC__29,WDBC,ECDF,full,threshold,dense19,0.015483367918580975,4
+WDBC__29,WDBC,Quantile plot,five,threshold,five,0.010802653056162126,4
+WDBC__29,WDBC,ECDF,full,threshold,median,0.00388496793897435,4
+Wrist__00,Wrist,Quantile plot,five,alpha,dense19,0.023183311646027126,4
+Wrist__00,Wrist,Quantile plot,five,alpha,five,0.005028477085508275,4
+Wrist__00,Wrist,ECDF,full,alpha,median,0.0016169090225793248,4
+Wrist__00,Wrist,Quantile plot,five,threshold,dense19,0.023914587506137026,4
+Wrist__00,Wrist,Quantile plot,five,threshold,five,0.006517621845113825,4
+Wrist__00,Wrist,Interval plot,five,threshold,median,0.0077071113188841005,4
+Wrist__01,Wrist,Quantile plot,five,alpha,dense19,0.028524428463524376,4
+Wrist__01,Wrist,Quantile plot,five,alpha,five,0.0040931312928216244,4
+Wrist__01,Wrist,ECDF,full,alpha,median,0.0010627825772708828,4
+Wrist__01,Wrist,Quantile plot,five,threshold,dense19,0.029268157337438774,4
+Wrist__01,Wrist,Quantile plot,five,threshold,five,0.006441012238901675,4
+Wrist__01,Wrist,Interval plot,five,threshold,median,0.0082218712454092,4
+Wrist__02,Wrist,Quantile plot,five,alpha,dense19,0.033596550672232425,4
+Wrist__02,Wrist,Quantile plot,five,alpha,five,0.004574804780017,4
+Wrist__02,Wrist,Violin plot,64,alpha,median,0.000525947994033725,4
+Wrist__02,Wrist,Quantile plot,five,threshold,dense19,0.03463882778574595,4
+Wrist__02,Wrist,Quantile plot,five,threshold,five,0.006966594510386525,4
+Wrist__02,Wrist,Violin plot,64,threshold,median,0.00080357605975975,4
+Wrist__03,Wrist,Quantile plot,five,alpha,dense19,0.04012078012550658,4
+Wrist__03,Wrist,Quantile plot,five,alpha,five,0.003682608337339425,4
+Wrist__03,Wrist,Violin plot,64,alpha,median,0.006906845965156225,4
+Wrist__03,Wrist,Quantile plot,five,threshold,dense19,0.040661565395882227,4
+Wrist__03,Wrist,Quantile plot,five,threshold,five,0.00573759236476685,4
+Wrist__03,Wrist,Violin plot,64,threshold,median,0.0057293548971943005,4
+Wrist__04,Wrist,Quantile plot,five,alpha,dense19,0.05102235923626525,4
+Wrist__04,Wrist,Quantile plot,five,alpha,five,0.005230444555070425,4
+Wrist__04,Wrist,ECDF,full,alpha,median,0.00306286961314615,4
+Wrist__04,Wrist,Quantile plot,five,threshold,dense19,0.05235111189181722,4
+Wrist__04,Wrist,Quantile plot,five,threshold,five,0.0090490976713898,4
+Wrist__04,Wrist,Interval plot,five,threshold,median,0.009978538181097774,4

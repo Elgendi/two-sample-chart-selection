@@ -1,0 +1,79 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Wolberg et~al.(1993)Wolberg, Mangasarian, Street, \& Street]{wdbc}
+Wolberg, W., Mangasarian, O., Street, N., \& Street, W.
+\newblock Breast cancer wisconsin (diagnostic).
+\newblock UCI Machine Learning Repository, (1993).
+\newblock \doi{10.24432/C5DW2B}.
+\newblock Dataset; CC BY 4.0.
+
+\bibitem[Janosi et~al.(1989)Janosi, Steinbrunn, Pfisterer, \& Detrano]{heart}
+Janosi, A., Steinbrunn, W., Pfisterer, M., \& Detrano, R.
+\newblock Heart disease.
+\newblock UCI Machine Learning Repository, (1989).
+\newblock \doi{10.24432/C52P4X}.
+
+\bibitem[Chicco and Jurman(2020)Chicco \& Jurman]{failure}
+Chicco, D. \& Jurman, G.
+\newblock Heart failure clinical records.
+\newblock UCI Machine Learning Repository, (2020).
+\newblock \doi{10.24432/C5Z89R}.
+
+\bibitem[Rubini et~al.(2015)Rubini, Soundarapandian, \& Eswaran]{kidney}
+Rubini, L., Soundarapandian, P., \& Eswaran, P.
+\newblock Chronic kidney disease.
+\newblock UCI Machine Learning Repository, (2015).
+\newblock \doi{10.24432/C5G020}.
+
+\bibitem[Ramana and Venkateswarlu(2022)Ramana \& Venkateswarlu]{liver}
+Ramana, B. \& Venkateswarlu, N.
+\newblock {ILPD} (indian liver patient dataset).
+\newblock UCI Machine Learning Repository, (2022).
+\newblock \doi{10.24432/C5D02C}.
+
+\bibitem[Antal and Hajdu(2014)Antal \& Hajdu]{retina}
+Antal, B. \& Hajdu, A.
+\newblock Diabetic retinopathy debrecen.
+\newblock UCI Machine Learning Repository, (2014).
+\newblock \doi{10.24432/C5XP4P}.
+
+\bibitem[Reyes-Ortiz et~al.(2013)Reyes-Ortiz, Anguita, Ghio, Oneto, \&
+  Parra]{har}
+Reyes-Ortiz, J., Anguita, D., Ghio, A., Oneto, L., \& Parra, X.
+\newblock Human activity recognition using smartphones.
+\newblock UCI Machine Learning Repository, (2013).
+\newblock \doi{10.24432/C54S4K}.
+
+\bibitem[Pimentel et~al.(2018)Pimentel, Johnson, Charlton, \& Clifton]{bidmc}
+Pimentel, M., Johnson, A., Charlton, P., \& Clifton, D.
+\newblock {BIDMC PPG} and respiration dataset (version 1.0.0).
+\newblock PhysioNet, (2018).
+\newblock \doi{10.13026/C2208R}.
+
+\bibitem[Casson(2017)]{wrist}
+Casson, A.~J.
+\newblock Wrist {PPG} during exercise (version 1.0.0).
+\newblock PhysioNet, (2017).
+\newblock \doi{10.13026/C2PQ1X}.
+
+\bibitem[Pimentel et~al.(2017)]{pimentel2017}
+Pimentel, M. A.~F. et~al.
+\newblock Towards a robust estimation of respiratory rate from pulse oximeters.
+\newblock \emph{IEEE Transactions on Biomedical Engineering}, \textbf{64},
+  1914--1923, (2017).
+\newblock \doi{10.1109/TBME.2016.2613124}.
+
+\bibitem[Jarchi and Casson(2017)Jarchi \& Casson]{jarchi2017}
+Jarchi, D. \& Casson, A.~J.
+\newblock Description of a database containing wrist {PPG} signals recorded
+  during physical exercise with both accelerometer and gyroscope measures of
+  motion.
+\newblock \emph{Data}, \textbf{2}, 1, (2017).
+\newblock \doi{10.3390/data2010001}.
+
+\end{thebibliography}

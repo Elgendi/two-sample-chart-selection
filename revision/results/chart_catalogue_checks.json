@@ -1,0 +1,20 @@
+{
+  "cases": 149,
+  "chart_families": 15,
+  "applicable_families": 7,
+  "not_applicable_families": 8,
+  "encoding_settings_per_case": 21,
+  "numerical_configurations_per_case": 14,
+  "all_original_selections_preserved": true,
+  "equivalent_encodings_tied": true,
+  "unique_recommendation_order": true,
+  "one_display_selected": true,
+  "unique_catalogue_ids": true,
+  "primary_selection_counts": {
+    "Means": 61,
+    "Binned": 33,
+    "Five-number": 29,
+    "Density": 4
+  },
+  "scope": "marginal two-sample contrast only; other tasks screened, not optimized"
+}

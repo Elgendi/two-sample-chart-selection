@@ -1,0 +1,12 @@
+{
+  "affine_invariance_away_from_bin_boundaries": true,
+  "floating_point_bin_boundary_exceptions": [
+    "bins_4",
+    "bins_64"
+  ],
+  "swap_symmetry": true,
+  "exact_raw_fallback": true,
+  "monotone_resolution_path": true,
+  "paired_counterexample": true,
+  "dense_grid_crosscheck": true
+}

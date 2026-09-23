@@ -1,0 +1,145 @@
+key,H,kind,hard_winners,geometry_winners,any_shared
+cohort_CKD,256,empirical,Pie chart,Donut chart|Pie chart,True
+cohort_CKD,384,empirical,Pie chart,Bar chart,False
+cohort_Cleveland,256,empirical,Pie chart,Bar chart,False
+cohort_Cleveland,384,empirical,Pie chart,Bar chart,False
+cohort_HeartFailure,256,empirical,Pie chart,Bar chart,False
+cohort_HeartFailure,384,empirical,Pie chart,Bar chart,False
+cohort_ILPD,256,empirical,Pie chart,Donut chart|Pie chart,True
+cohort_ILPD,384,empirical,Pie chart,Donut chart|Pie chart,True
+cohort_Retinopathy,256,empirical,Pie chart,Bar chart,False
+cohort_Retinopathy,384,empirical,Pie chart,Bar chart,False
+cohort_WDBC,256,empirical,Pie chart,Stacked bar,False
+cohort_WDBC,384,empirical,Pie chart,Bar chart,False
+comp_BIDMC_0,256,empirical,Donut chart,Bar chart,False
+comp_BIDMC_0,384,empirical,Donut chart,Bar chart,False
+comp_BIDMC_1,256,empirical,Pie chart,Bar chart,False
+comp_BIDMC_1,384,empirical,Pie chart,Donut chart|Pie chart,True
+comp_CKD_0,256,empirical,Pie chart,Donut chart|Pie chart,True
+comp_CKD_0,384,empirical,Pie chart,Bar chart,False
+comp_CKD_1,256,empirical,Donut chart,Donut chart|Pie chart,True
+comp_CKD_1,384,empirical,Pie chart,Bar chart,False
+comp_Cleveland_0,256,empirical,Pie chart,Donut chart|Pie chart,True
+comp_Cleveland_0,384,empirical,Pie chart,Donut chart|Pie chart,True
+comp_Cleveland_1,256,empirical,Donut chart,Bar chart,False
+comp_Cleveland_1,384,empirical,Pie chart,Donut chart|Pie chart,True
+comp_HAR_0,256,empirical,Pie chart,Donut chart|Pie chart,True
+comp_HAR_0,384,empirical,Pie chart,Donut chart|Pie chart,True
+comp_HAR_1,256,empirical,Pie chart,Donut chart|Pie chart,True
+comp_HAR_1,384,empirical,Pie chart,Donut chart|Pie chart,True
+comp_HeartFailure_0,256,empirical,Pie chart,Donut chart|Pie chart,True
+comp_HeartFailure_0,384,empirical,Pie chart,Bar chart,False
+comp_HeartFailure_1,256,empirical,Pie chart,Donut chart|Pie chart,True
+comp_HeartFailure_1,384,empirical,Pie chart,Donut chart|Pie chart,True
+comp_ILPD_0,256,empirical,Pie chart,Donut chart|Pie chart,True
+comp_ILPD_0,384,empirical,Pie chart,Bar chart,False
+comp_ILPD_1,256,empirical,Donut chart,Bar chart,False
+comp_ILPD_1,384,empirical,Pie chart,Bar chart,False
+comp_Retinopathy_0,256,empirical,Pie chart,Bar chart,False
+comp_Retinopathy_0,384,empirical,Pie chart,Bar chart,False
+comp_Retinopathy_1,256,empirical,Donut chart,Donut chart|Pie chart,True
+comp_Retinopathy_1,384,empirical,Pie chart,Donut chart|Pie chart,True
+comp_WDBC_0,256,empirical,Pie chart,Donut chart|Pie chart,True
+comp_WDBC_0,384,empirical,Pie chart,Donut chart|Pie chart,True
+comp_WDBC_1,256,empirical,Donut chart,Donut chart|Pie chart,True
+comp_WDBC_1,384,empirical,Donut chart,Donut chart|Pie chart,True
+comp_Wrist_0,256,empirical,Donut chart,Bar chart,False
+comp_Wrist_0,384,empirical,Donut chart,Bar chart,False
+comp_Wrist_1,256,empirical,Donut chart,Bar chart,False
+comp_Wrist_1,384,empirical,Donut chart,Bar chart,False
+synthetic_2_0.3_0,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_2_0.3_0,384,synthetic,Donut chart,Stacked bar,False
+synthetic_2_0.3_1,256,synthetic,Pie chart,Bar chart,False
+synthetic_2_0.3_1,384,synthetic,Pie chart,Bar chart,False
+synthetic_2_0.3_2,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_0.3_2,384,synthetic,Pie chart,Bar chart,False
+synthetic_2_0.3_3,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_0.3_3,384,synthetic,Pie chart,Stacked bar,False
+synthetic_2_1_0,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_2_1_0,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_2_1_1,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_1_1,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_1_2,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_2_1_2,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_2_1_3,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_2_1_3,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_2_5_0,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_5_0,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_5_1,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_5_1,384,synthetic,Pie chart,Bar chart,False
+synthetic_2_5_2,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_5_2,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_5_3,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_2_5_3,384,synthetic,Pie chart,Bar chart,False
+synthetic_3_0.3_0,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_0.3_0,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_0.3_1,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_0.3_1,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_0.3_2,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_0.3_2,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_0.3_3,256,synthetic,Donut chart,Bar chart,False
+synthetic_3_0.3_3,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_1_0,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_1_0,384,synthetic,Donut chart,Bar chart,False
+synthetic_3_1_1,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_1_1,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_1_2,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_1_2,384,synthetic,Donut chart,Bar chart,False
+synthetic_3_1_3,256,synthetic,Bar chart,Bar chart,True
+synthetic_3_1_3,384,synthetic,Donut chart,Stacked bar,False
+synthetic_3_5_0,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_5_0,384,synthetic,Donut chart,Bar chart,False
+synthetic_3_5_1,256,synthetic,Donut chart,Bar chart,False
+synthetic_3_5_1,384,synthetic,Donut chart,Bar chart,False
+synthetic_3_5_2,256,synthetic,Donut chart,Bar chart,False
+synthetic_3_5_2,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_5_3,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_3_5_3,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_0.3_0,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_0.3_0,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_0.3_1,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_0.3_1,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_0.3_2,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_0.3_2,384,synthetic,Pie chart,Bar chart,False
+synthetic_5_0.3_3,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_5_0.3_3,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_5_1_0,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_1_0,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_1_1,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_1_1,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_1_2,256,synthetic,Donut chart,Bar chart,False
+synthetic_5_1_2,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_1_3,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_1_3,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_5_0,256,synthetic,Donut chart,Bar chart,False
+synthetic_5_5_0,384,synthetic,Donut chart,Bar chart,False
+synthetic_5_5_1,256,synthetic,Donut chart,Bar chart,False
+synthetic_5_5_1,384,synthetic,Donut chart,Bar chart,False
+synthetic_5_5_2,256,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_5_2,384,synthetic,Donut chart,Donut chart|Pie chart,True
+synthetic_5_5_3,256,synthetic,Donut chart,Bar chart,False
+synthetic_5_5_3,384,synthetic,Donut chart,Bar chart,False
+synthetic_8_0.3_0,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_0.3_0,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_0.3_1,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_0.3_1,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_0.3_2,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_0.3_2,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_0.3_3,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_0.3_3,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_1_0,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_1_0,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_1_1,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_1_1,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_1_2,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_1_2,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_1_3,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_1_3,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_5_0,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_5_0,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_5_1,256,synthetic,Pie chart,Bar chart,False
+synthetic_8_5_1,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_5_2,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_5_2,384,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_5_3,256,synthetic,Pie chart,Donut chart|Pie chart,True
+synthetic_8_5_3,384,synthetic,Pie chart,Donut chart|Pie chart,True

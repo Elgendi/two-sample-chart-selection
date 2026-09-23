@@ -1,0 +1,190 @@
+method,scenario,n_A,cases,reestimated,frozen,fixed,population,median_N
+8-bin,bimodal,20,40,1.0,1.0,0.0,0.0,18.0
+8-bin,bimodal,80,40,1.0,1.0,0.175,0.025,18.0
+8-bin,bimodal,320,40,1.0,1.0,0.575,0.275,18.0
+8-bin,contamination,20,40,1.0,0.825,0.075,0.0,18.0
+8-bin,contamination,80,40,1.0,0.975,0.075,0.0,18.0
+8-bin,contamination,320,40,1.0,0.975,0.2,0.0,18.0
+8-bin,discrete,20,40,1.0,1.0,0.0,0.0,18.0
+8-bin,discrete,80,40,1.0,1.0,0.0,0.0,18.0
+8-bin,discrete,320,40,1.0,1.0,0.0,0.0,18.0
+8-bin,heavy_tail,20,40,1.0,0.95,0.05,0.025,18.0
+8-bin,heavy_tail,80,40,1.0,1.0,0.05,0.025,18.0
+8-bin,heavy_tail,320,40,0.775,0.625,0.025,0.0,18.0
+8-bin,imbalance,20,40,1.0,1.0,0.125,0.05,18.0
+8-bin,imbalance,80,40,1.0,1.0,0.4,0.225,18.0
+8-bin,imbalance,320,40,0.85,0.8,0.45,0.45,18.0
+8-bin,location,20,40,1.0,1.0,0.0,0.0,18.0
+8-bin,location,80,40,1.0,1.0,0.125,0.0,18.0
+8-bin,location,320,40,1.0,1.0,0.8,0.275,18.0
+8-bin,null,20,40,1.0,1.0,0.0,0.0,18.0
+8-bin,null,80,40,1.0,1.0,0.15,0.0,18.0
+8-bin,null,320,40,1.0,1.0,0.875,0.4,18.0
+8-bin,skew,20,40,1.0,0.9,0.0,0.0,18.0
+8-bin,skew,80,40,1.0,0.975,0.1,0.05,18.0
+8-bin,skew,320,40,0.95,0.975,0.05,0.05,18.0
+8-bin,spread,20,40,1.0,1.0,0.075,0.0,18.0
+8-bin,spread,80,40,1.0,1.0,0.1,0.025,18.0
+8-bin,spread,320,40,1.0,1.0,0.275,0.175,18.0
+8-grid density,bimodal,20,40,1.0,1.0,0.0,0.0,18.0
+8-grid density,bimodal,80,40,1.0,1.0,0.0,0.0,18.0
+8-grid density,bimodal,320,40,0.85,0.775,0.0,0.0,18.0
+8-grid density,contamination,20,40,1.0,1.0,0.0,0.0,18.0
+8-grid density,contamination,80,40,1.0,0.95,0.025,0.0,18.0
+8-grid density,contamination,320,40,1.0,0.9,0.025,0.0,18.0
+8-grid density,discrete,20,40,1.0,1.0,0.0,0.0,18.0
+8-grid density,discrete,80,40,1.0,1.0,0.0,0.0,18.0
+8-grid density,discrete,320,40,1.0,1.0,0.0,0.0,18.0
+8-grid density,heavy_tail,20,40,1.0,1.0,0.0,0.0,18.0
+8-grid density,heavy_tail,80,40,1.0,1.0,0.0,0.025,18.0
+8-grid density,heavy_tail,320,40,0.7,0.625,0.0,0.0,18.0
+8-grid density,imbalance,20,40,0.975,1.0,0.0,0.0,18.0
+8-grid density,imbalance,80,40,0.65,0.65,0.0,0.0,18.0
+8-grid density,imbalance,320,40,0.075,0.05,0.0,0.0,18.0
+8-grid density,location,20,40,1.0,1.0,0.0,0.025,18.0
+8-grid density,location,80,40,1.0,1.0,0.025,0.025,18.0
+8-grid density,location,320,40,0.975,0.925,0.05,0.075,18.0
+8-grid density,null,20,40,1.0,1.0,0.0,0.0,18.0
+8-grid density,null,80,40,1.0,1.0,0.025,0.125,18.0
+8-grid density,null,320,40,1.0,1.0,0.425,0.425,18.0
+8-grid density,skew,20,40,1.0,0.975,0.0,0.0,18.0
+8-grid density,skew,80,40,1.0,0.9,0.0,0.0,18.0
+8-grid density,skew,320,40,0.675,0.6,0.0,0.0,18.0
+8-grid density,spread,20,40,1.0,1.0,0.0,0.0,18.0
+8-grid density,spread,80,40,1.0,0.95,0.0,0.025,18.0
+8-grid density,spread,320,40,0.3,0.225,0.0,0.0,18.0
+Adaptive,bimodal,20,40,1.0,1.0,0.0,0.0,2.0
+Adaptive,bimodal,80,40,1.0,1.0,0.0,0.0,2.0
+Adaptive,bimodal,320,40,1.0,0.975,0.0,0.0,2.0
+Adaptive,contamination,20,40,1.0,0.975,0.0,0.0,2.0
+Adaptive,contamination,80,40,1.0,0.9,0.0,0.0,2.0
+Adaptive,contamination,320,40,0.9,0.725,0.0,0.0,2.0
+Adaptive,discrete,20,40,0.975,0.925,0.0,0.0,2.0
+Adaptive,discrete,80,40,0.975,0.95,0.0,0.0,2.0
+Adaptive,discrete,320,40,1.0,1.0,0.0,0.0,2.0
+Adaptive,heavy_tail,20,40,1.0,0.95,0.0,0.0,2.0
+Adaptive,heavy_tail,80,40,0.925,0.95,0.0,0.025,2.0
+Adaptive,heavy_tail,320,40,0.675,0.7,0.05,0.025,10.0
+Adaptive,imbalance,20,40,0.7,0.75,0.0,0.0,2.0
+Adaptive,imbalance,80,40,0.65,0.8,0.175,0.075,10.0
+Adaptive,imbalance,320,40,0.875,0.85,0.575,0.525,18.0
+Adaptive,location,20,40,1.0,1.0,0.0,0.525,2.0
+Adaptive,location,80,40,1.0,1.0,0.0,0.85,2.0
+Adaptive,location,320,40,1.0,1.0,0.4,1.0,2.0
+Adaptive,null,20,40,1.0,0.975,0.0,0.45,2.0
+Adaptive,null,80,40,1.0,1.0,0.0,0.825,2.0
+Adaptive,null,320,40,1.0,1.0,0.4,1.0,2.0
+Adaptive,skew,20,40,1.0,0.825,0.0,0.0,2.0
+Adaptive,skew,80,40,0.925,0.75,0.025,0.0,2.0
+Adaptive,skew,320,40,0.65,0.65,0.0,0.075,18.0
+Adaptive,spread,20,40,0.925,0.975,0.0,0.0,2.0
+Adaptive,spread,80,40,0.7,0.725,0.0,0.0,10.0
+Adaptive,spread,320,40,0.725,0.675,0.175,0.075,18.0
+Five-number,bimodal,20,40,1.0,1.0,0.0,0.0,10.0
+Five-number,bimodal,80,40,0.925,0.85,0.0,0.0,10.0
+Five-number,bimodal,320,40,0.325,0.325,0.0,0.0,10.0
+Five-number,contamination,20,40,1.0,0.825,0.0,0.0,10.0
+Five-number,contamination,80,40,0.65,0.75,0.0,0.0,10.0
+Five-number,contamination,320,40,0.425,0.375,0.0,0.0,10.0
+Five-number,discrete,20,40,1.0,0.975,0.0,0.0,10.0
+Five-number,discrete,80,40,0.8,0.825,0.0,0.0,10.0
+Five-number,discrete,320,40,0.85,0.85,0.0,0.0,10.0
+Five-number,heavy_tail,20,40,1.0,0.875,0.05,0.025,10.0
+Five-number,heavy_tail,80,40,0.5,0.525,0.025,0.025,10.0
+Five-number,heavy_tail,320,40,0.0,0.0,0.0,0.0,10.0
+Five-number,imbalance,20,40,0.85,0.775,0.0,0.0,10.0
+Five-number,imbalance,80,40,0.225,0.25,0.0,0.0,10.0
+Five-number,imbalance,320,40,0.0,0.0,0.0,0.0,10.0
+Five-number,location,20,40,1.0,1.0,0.0,0.0,10.0
+Five-number,location,80,40,0.95,0.9,0.0,0.05,10.0
+Five-number,location,320,40,0.575,0.6,0.05,0.15,10.0
+Five-number,null,20,40,1.0,1.0,0.0,0.0,10.0
+Five-number,null,80,40,0.875,0.875,0.0,0.025,10.0
+Five-number,null,320,40,0.5,0.45,0.05,0.1,10.0
+Five-number,skew,20,40,1.0,0.9,0.0,0.0,10.0
+Five-number,skew,80,40,0.475,0.425,0.0,0.0,10.0
+Five-number,skew,320,40,0.05,0.05,0.0,0.0,10.0
+Five-number,spread,20,40,1.0,1.0,0.0,0.0,10.0
+Five-number,spread,80,40,0.85,0.8,0.0,0.025,10.0
+Five-number,spread,320,40,0.375,0.275,0.025,0.025,10.0
+Fixed-budget adaptive,bimodal,20,40,1.0,1.0,0.975,0.0,40.0
+Fixed-budget adaptive,bimodal,80,40,1.0,1.0,0.7,0.0,34.0
+Fixed-budget adaptive,bimodal,320,40,1.0,1.0,0.725,0.225,18.0
+Fixed-budget adaptive,contamination,20,40,1.0,0.975,0.95,0.0,40.0
+Fixed-budget adaptive,contamination,80,40,1.0,0.975,0.8,0.0,160.0
+Fixed-budget adaptive,contamination,320,40,0.975,0.95,0.65,0.0,640.0
+Fixed-budget adaptive,discrete,20,40,1.0,1.0,1.0,0.0,40.0
+Fixed-budget adaptive,discrete,80,40,1.0,1.0,1.0,0.0,160.0
+Fixed-budget adaptive,discrete,320,40,1.0,1.0,1.0,0.0,640.0
+Fixed-budget adaptive,heavy_tail,20,40,1.0,1.0,0.95,0.0,40.0
+Fixed-budget adaptive,heavy_tail,80,40,1.0,1.0,0.525,0.05,98.0
+Fixed-budget adaptive,heavy_tail,320,40,1.0,1.0,0.625,0.35,66.0
+Fixed-budget adaptive,imbalance,20,40,1.0,1.0,0.525,0.05,66.0
+Fixed-budget adaptive,imbalance,80,40,1.0,1.0,0.625,0.175,34.0
+Fixed-budget adaptive,imbalance,320,40,0.975,0.95,0.85,0.725,34.0
+Fixed-budget adaptive,location,20,40,1.0,1.0,0.975,0.0,40.0
+Fixed-budget adaptive,location,80,40,1.0,1.0,0.575,0.025,34.0
+Fixed-budget adaptive,location,320,40,1.0,1.0,0.575,0.6,2.0
+Fixed-budget adaptive,null,20,40,1.0,1.0,1.0,0.0,40.0
+Fixed-budget adaptive,null,80,40,1.0,0.975,0.525,0.025,50.0
+Fixed-budget adaptive,null,320,40,1.0,1.0,0.55,0.625,10.0
+Fixed-budget adaptive,skew,20,40,1.0,0.9,0.875,0.0,40.0
+Fixed-budget adaptive,skew,80,40,1.0,0.95,0.725,0.0,160.0
+Fixed-budget adaptive,skew,320,40,1.0,1.0,0.675,0.3,66.0
+Fixed-budget adaptive,spread,20,40,1.0,1.0,1.0,0.0,40.0
+Fixed-budget adaptive,spread,80,40,1.0,1.0,0.55,0.075,50.0
+Fixed-budget adaptive,spread,320,40,1.0,1.0,0.525,0.275,18.0
+Means,bimodal,20,40,1.0,1.0,0.0,0.0,2.0
+Means,bimodal,80,40,1.0,1.0,0.0,0.0,2.0
+Means,bimodal,320,40,1.0,1.0,0.0,0.0,2.0
+Means,contamination,20,40,1.0,0.975,0.0,0.0,2.0
+Means,contamination,80,40,1.0,0.9,0.0,0.0,2.0
+Means,contamination,320,40,0.875,0.725,0.0,0.0,2.0
+Means,discrete,20,40,0.975,0.925,0.0,0.0,2.0
+Means,discrete,80,40,0.975,0.95,0.0,0.0,2.0
+Means,discrete,320,40,1.0,1.0,0.0,0.0,2.0
+Means,heavy_tail,20,40,1.0,0.975,0.0,0.0,2.0
+Means,heavy_tail,80,40,0.9,0.925,0.0,0.0,2.0
+Means,heavy_tail,320,40,0.5,0.475,0.0,0.0,2.0
+Means,imbalance,20,40,0.45,0.5,0.0,0.0,2.0
+Means,imbalance,80,40,0.0,0.05,0.0,0.0,2.0
+Means,imbalance,320,40,0.0,0.0,0.0,0.0,2.0
+Means,location,20,40,1.0,1.0,0.0,0.525,2.0
+Means,location,80,40,1.0,1.0,0.0,0.85,2.0
+Means,location,320,40,1.0,1.0,0.4,1.0,2.0
+Means,null,20,40,1.0,0.975,0.0,0.45,2.0
+Means,null,80,40,1.0,1.0,0.0,0.825,2.0
+Means,null,320,40,1.0,1.0,0.4,1.0,2.0
+Means,skew,20,40,1.0,0.825,0.0,0.0,2.0
+Means,skew,80,40,0.9,0.75,0.0,0.0,2.0
+Means,skew,320,40,0.125,0.15,0.0,0.0,2.0
+Means,spread,20,40,0.925,0.95,0.0,0.0,2.0
+Means,spread,80,40,0.475,0.5,0.0,0.0,2.0
+Means,spread,320,40,0.0,0.0,0.0,0.0,2.0
+Raw,bimodal,20,40,1.0,1.0,1.0,0.0,40.0
+Raw,bimodal,80,40,1.0,1.0,1.0,0.0,160.0
+Raw,bimodal,320,40,1.0,1.0,1.0,0.275,640.0
+Raw,contamination,20,40,1.0,1.0,1.0,0.0,40.0
+Raw,contamination,80,40,1.0,1.0,1.0,0.0,160.0
+Raw,contamination,320,40,1.0,1.0,1.0,0.025,640.0
+Raw,discrete,20,40,1.0,1.0,1.0,0.0,40.0
+Raw,discrete,80,40,1.0,1.0,1.0,0.0,160.0
+Raw,discrete,320,40,1.0,1.0,1.0,0.0,640.0
+Raw,heavy_tail,20,40,1.0,1.0,1.0,0.0,40.0
+Raw,heavy_tail,80,40,1.0,1.0,1.0,0.0,160.0
+Raw,heavy_tail,320,40,1.0,1.0,1.0,0.25,640.0
+Raw,imbalance,20,40,1.0,1.0,1.0,0.025,100.0
+Raw,imbalance,80,40,1.0,1.0,1.0,0.1,400.0
+Raw,imbalance,320,40,1.0,1.0,1.0,0.85,1600.0
+Raw,location,20,40,1.0,1.0,1.0,0.0,40.0
+Raw,location,80,40,1.0,1.0,1.0,0.025,160.0
+Raw,location,320,40,1.0,1.0,1.0,0.075,640.0
+Raw,null,20,40,1.0,1.0,1.0,0.0,40.0
+Raw,null,80,40,1.0,1.0,1.0,0.0,160.0
+Raw,null,320,40,1.0,1.0,1.0,0.225,640.0
+Raw,skew,20,40,1.0,1.0,1.0,0.0,40.0
+Raw,skew,80,40,1.0,1.0,1.0,0.025,160.0
+Raw,skew,320,40,1.0,1.0,1.0,0.2,640.0
+Raw,spread,20,40,1.0,1.0,1.0,0.0,40.0
+Raw,spread,80,40,1.0,1.0,1.0,0.025,160.0
+Raw,spread,320,40,1.0,1.0,1.0,0.25,640.0

@@ -1,0 +1,26 @@
+[
+  {
+    "task": "median",
+    "observer": "threshold",
+    "changed": 112,
+    "cases": 127
+  },
+  {
+    "task": "median",
+    "observer": "alpha",
+    "changed": 64,
+    "cases": 127
+  },
+  {
+    "task": "dense19",
+    "observer": "threshold",
+    "changed": 120,
+    "cases": 127
+  },
+  {
+    "task": "dense19",
+    "observer": "alpha",
+    "changed": 111,
+    "cases": 127
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "status": "Retrospective revision protocol fixed before new analyses; not preregistered",
+  "primary_questions": ["median", "spread", "five", "composition", "profile", "association"],
+  "main_estimand": "Default loss minus frozen case-selected loss at 384 pixels; positive favors case selection",
+  "candidate_budgets": "One configuration per implemented familiar family plus ECDF and five/19-marker task-matched controls for marginal tasks",
+  "default_training": "256-pixel losses only; leave one resource out for marginal, composition and profile tasks; leave one source patient out for single-source association",
+  "aggregation": "Equal resource weighting; profile recording losses first average within source participant; association averages within source patient",
+  "uncertainty": "5000 paired cluster bootstrap resamples: resources for marginal/composition, patients for association; no bootstrap interval from only two profile sources",
+  "ties": "Absolute loss tolerance 1e-12; deterministic candidate order only selects a deployable representative",
+  "failure": "Any failed phase invalidates a candidate; selected/default failures and paired-valid denominators reported separately",
+  "new_synthetic_seed": 2026092201,
+  "synthetic_design": "36 two-group cases (six regimes x two sample sizes x three replicates), 48 compositions (four counts x three concentrations x four replicates), 36 profiles (three shapes x three amplitudes x four replicates), 36 associations (three correlations x three sample sizes x four replicates)",
+  "synthetic_default": "Freeze one task-specific default from all empirical 256-pixel results before generating synthetic results; report separately from empirical tests",
+  "synthetic_interpretation": "Newly generated computational stress cases. Design informed by earlier results; not untouched external populations or prospective reader validation",
+  "decoder_sensitivity": "Independent composition extraction using radial angular samples, bar endpoints and central stacked-bar lengths; all 24 empirical and 48 existing synthetic compositions, both display sizes and four phases",
+  "display_sensitivity": "256 to 384 pixels plus changed phases. This is a joint display-condition transfer, not a causal isolation of resolution",
+  "examples": "Retain the eight illustrative families in a supplementary gallery only; primary figures summarize full benchmark and matched controls",
+  "inference": "No pooled score across tasks, no claims about reader comprehension, no forced winners"
+}

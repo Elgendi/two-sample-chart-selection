@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "database_only_figure_panels": 11,
+  "all_main_figure_and_database_table_captions_cite_sources": true,
+  "figure_4d_key": "CKD__06",
+  "simulation_remains_only_in_separate_text_table_evaluation": true
+}

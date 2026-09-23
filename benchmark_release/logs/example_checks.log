@@ -1,0 +1,26 @@
+[
+  {
+    "task": "spread",
+    "matched_source": "WDBC__07",
+    "configuration_losses": 20,
+    "maximum_difference": 0.0
+  },
+  {
+    "task": "composition",
+    "matched_source": "cohort_HeartFailure",
+    "configuration_losses": 8,
+    "maximum_difference": 1.0007186052041206e-16
+  },
+  {
+    "task": "profile",
+    "matched_source": "profile_bidmc_04",
+    "configuration_losses": 8,
+    "maximum_difference": 1.0061396160665481e-16
+  },
+  {
+    "task": "association",
+    "matched_source": "assoc_bidmc_22",
+    "configuration_losses": 4,
+    "maximum_difference": 1.0018028073766061e-16
+  }
+]

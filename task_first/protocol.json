@@ -1,0 +1,61 @@
+{
+  "status": "Retrospective development extension; not preregistered. Recipes written before the new render run; existing data and old results already inspected. No winner quota.",
+  "seed": 20260921,
+  "tasks": {
+    "composition": {
+      "target": "Category shares",
+      "loss": "total variation: sum absolute share errors / 2",
+      "candidates": [
+        "Bar chart",
+        "Pie chart",
+        "Donut chart",
+        "Stacked bar"
+      ],
+      "cases": "First canonical comparison per primary resource: each group binned into four pooled-quartile categories (18); cohort label shares in six unpaired resources (6); 48 synthetic Dirichlet compositions, K=2,3,5,8, concentrations .3,1,5, four replicates each."
+    },
+    "profile": {
+      "target": "12 successive equal-duration bin means",
+      "loss": "mean absolute value error / sample SD of 12 target values",
+      "candidates": [
+        "Line chart",
+        "Area chart",
+        "Dot plot",
+        "Bar chart"
+      ],
+      "cases": "All 19 wrist records with >=12 observations and every one of 53 BIDMC source recordings with >=12 valid HR values; record-level examples, not independent participants. 12 equal-duration bins; missing bins excluded as documented."
+    },
+    "association": {
+      "target": "Pearson correlation",
+      "loss": "absolute correlation error / 2",
+      "candidates": [
+        "Scatter plot",
+        "Heatmap"
+      ],
+      "cases": "All 53 BIDMC recordings; valid paired HR/PULSE readings, systematic at most 64 evenly spaced rows. Density heatmap is 16x16 bins. No independent patient claim."
+    }
+  },
+  "display": {
+    "selection_H": 256,
+    "transfer_H": 384,
+    "selection_phases": [
+      0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "transfer_phases": [
+      0.125,
+      0.375,
+      0.625,
+      0.875
+    ],
+    "supersample": 4,
+    "blur_px": 0.5
+  },
+  "observers": [
+    "hard nearest-color classification",
+    "soft alpha-weighted color recovery"
+  ],
+  "controls": "Per-task fixed default (bar for composition, line for profile, scatter for association); reference-selected winner frozen for transfer; test oracle descriptive only. Report ties within loss 1e-12 and failures. No overall leaderboard across tasks.",
+  "scope": "13 chart families across task contracts including legacy original seven; no claim all 15 catalogued families are implemented."
+}

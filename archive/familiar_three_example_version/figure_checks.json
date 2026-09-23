@@ -1,0 +1,50 @@
+{
+  "candidate_families": 7,
+  "settings": 21,
+  "comparisons": 127,
+  "winner_counts": {
+    "Heatmap": 54,
+    "Dot plot": 39,
+    "Histogram": 18,
+    "Violin plot": 13,
+    "Bar chart": 3,
+    "Box plot": 0,
+    "Interval plot": 0
+  },
+  "source_sha256": "fc312a4cf5d00a236909cdfb214ec442d12b90e5b61a0746b91634ff4d531732",
+  "examples": [
+    {
+      "figure": 1,
+      "key": "BIDMC__01",
+      "candidate": "Dot plot / raw",
+      "score": 98.36081425114898,
+      "loss": 0.01666502825673681,
+      "mean_absolute_error": 0.20567466609047572,
+      "scale": 12.341693210590991
+    },
+    {
+      "figure": 2,
+      "key": "Cleveland__03",
+      "candidate": "Violin plot / 64",
+      "before_score": 85.67181732299771,
+      "score": 98.00891007447632,
+      "gain": 12.337092751478608
+    },
+    {
+      "figure": 2,
+      "key": "HeartFailure__01",
+      "candidate": "Histogram / 8",
+      "before_score": 85.40847111221765,
+      "score": 97.4943302660294,
+      "gain": 12.08585915381174
+    },
+    {
+      "figure": 3,
+      "key": "Wrist__00",
+      "candidate": "Bar chart / means",
+      "score": 95.34774526036333,
+      "before_score": 95.34774526036333,
+      "gain": 0
+    }
+  ]
+}

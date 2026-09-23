@@ -1,0 +1,2 @@
+figure,key,candidate,score,before_score,gain,loss,mean_absolute_error,scale
+1,WDBC__03,Dot plot / raw,97.69772771204,60.16636650913821,37.5313612029018,0.023565259314381085,5.853546848123782,248.397302572926

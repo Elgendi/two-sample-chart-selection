@@ -1,0 +1,26 @@
+kidney columns ['age', 'bp', 'sg', 'al', 'su', 'rbc', 'pc', 'pcc', 'ba', 'bgr', 'bu', 'sc', 'sod', 'pot', 'hemo', 'pcv', 'wc', 'rc', 'htn', 'dm', 'cad', 'appet', 'pe', 'ane', 'class']
+              comparisons  n_x_min  n_y_min
+dataset                                    
+BIDMC                   5       46       46
+CKD                    11      143      126
+Cleveland               5      164      139
+HAR                    40       30       30
+HeartFailure            6      203       96
+ILPD                    9      165      414
+Parkinsons             22        8       24
+Retinopathy            16      540      611
+WDBC                   30      357      212
+Wrist                   5        8        8
+Total comparisons 149
+{
+  "status": "passed",
+  "wrist_bins_rebuilt": 1364,
+  "wrist_records": 19,
+  "wrist_participants": 8,
+  "max_wrist_difference": 2.842170943040401e-14,
+  "all_prepared_comparisons": 149,
+  "primary_comparisons": 127,
+  "all_prepared_arrays_exactly_reproduced": true,
+  "raw_files_hash_verified": 156,
+  "note": "Original frozen wrist CSV retained after independent raw-annotation equivalence check; no heart-rate filtering beyond valid positive beat intervals."
+}

@@ -1,35 +1,44 @@
-# Scoring rendered charts by recovery of two-sample differences
+# Choosing scientific visualizations through task-first optimization — v5.0.1
 
-This is a computational development benchmark. It is not validated against human reading performance and is not a universal optimizer of all 15 chart families.
-
-## Current deliverables
-
-- [Read the manuscript](main.pdf) and [Supplement](supp.pdf).
-- [Figure 2: when changing the chart helps](rendered_study/figures/Figure_2_Examples.pdf).
-- [Figure 3: when changing the chart adds little](rendered_study/figures/Figure_3_Limits.pdf).
-- `main.pdf` and `main.tex`: current manuscript.
-- `supp.pdf` and `supp.tex`: full computational contract, all 15 catalogue families, all 127 primary reference-resolution winners.
-- `rendered_study/figures/`: current three main figures and Supplementary Figure S1, PDF/SVG/PNG and combined main-figure PDF.
-- `rendered_study/results/`: complete trial, setting, family, winner and verification results, including 22 excluded exploratory cases.
+Read `main.pdf` and `supp.pdf`. The manuscript retains the worked-score example, eight familiar-chart examples and coverage overview, with full strong-default, decoder and synthetic comparisons in the main paper. `REVISION_REPORT.md` maps reviewer concerns to changes and remaining limits.
 
 ## Reproduce
-Use the pinned `requirements.txt`. Run `python reproduce_revision.py` from this directory. This executes checks, 37,548 render/decode trials and figure generation. Four worker processes are used; allow roughly 20 minutes depending on hardware. Inputs are bundled; no download is required.
 
-To regenerate figures from saved results only: `python rendered_study/report.py`.
-Compile manuscript and supplement separately with pdfLaTeX, BibTeX, then pdfLaTeX twice. The minimal Overleaf ZIP includes all required typesetting files.
+Verified with Python 3.12.14. Use Python 3.12 with the pinned dependencies. From the repository root:
 
-## New data
-`python select_chart.py data/example_paired.csv --x A --y B --output chart_scores.csv`
+```bash
+python -m venv .venv
+# Linux/macOS:
+source .venv/bin/activate
+# Windows PowerShell: .venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
 
-The target is marginal even for paired data. The CSV may have missing entries to accommodate unequal group lengths; each group requires at least four finite observations. The output ranks all 21 implemented settings by actual score. It does not assert that a score difference predicts a human difference. Use `--resolution 128`, `256` or `512` (default 256).
+Then run:
 
-## Objective
-At five quantiles (10%, 25%, 50%, 75%, 90%), recover group differences from actual rendered pixels plus known axes. Score = 100 / (1 + mean absolute recovery error divided by pooled within-group SD), with loss averaged over four rendering realizations. No size penalty or artificial tie-breaking offset is used. Genuine ties remain ties; raw dots can legitimately win.
+```bash
+python reproduce_benchmark.py --full --pdf
+```
 
-## Scope
-The catalogue documents all 15 requested families. Seven have implemented contracts for the current task, contributing 21 settings. Other task families require separately specified targets and decoders. Rendering/decoder assumptions can favour particular charts. The main datasets were used in development. No reader study has been conducted.
+The numerical run is offline and uses the bundled source data. PDF compilation requires TeX Live and latexmk. Use `--verify` to audit saved results or `--figures --pdf` to regenerate figures and documents. `python benchmark_release/check_examples.py` checks all four user-facing CSV examples. `QUICKSTART.md` describes those examples. Runtime depends on hardware; allow roughly 10–25 minutes for a full rebuild.
 
-## Historical files
-`revision/`, `auto_selection/`, `legacy_compression/` and historical result folders preserve earlier compression analyses. They do NOT produce the current manuscript's pixel score and do not validate it. The authoritative current code is `rendered_study/`; the current entry point is `reproduce_revision.py`. Earlier simulations remain historical, not evidence for this new method.
+Main figures and claims map to their source data in `benchmark_release/RESULTS_MAP.md`. The scoring example uses a retained secondary tuning search; the full inference uses fixed configurations and strong defaults. Archived analyses are provenance, not independent validation.
 
-Source attributions, unresolved identifiers and source-value concerns remain in `DATA_PROVENANCE.md`. Use a versioned repository release when citing or submitting this development benchmark.
+This release contains the complete computational record, including `rendered_study/`, raw inputs, saved benchmark outputs, and verification reports. See `GITHUB_UPDATE.md` for instructions to synchronize an existing checkout. Preparing this package does not update the remote repository.
+
+## Interpretation
+
+Losses measure algorithmic recovery of specified numerical information. They do not measure human comprehension. Neither the main results nor the synthetic stress tests establish universal benefit from adaptive chart selection. Genuine ties and all candidate failures remain reported. The planned reader study is unperformed; see `READER_STUDY_PROTOCOL.md`.
+
+Before journal submission, read `SUBMISSION_NOTES.md`. No top-percentile placement or acceptance is guaranteed. Dataset terms and inherited code rights are in `DATA_PROVENANCE.md` and `LICENSE_NOTICE.md`.
+
+## Repository guide
+
+- `benchmark_release/`: final comparisons, independent audits, scoring interface, and result-to-figure map.
+- `rendered_study/`, `validation_v3/`, `task_first/`: rendering and primary benchmark implementations.
+- `data/`: bundled inputs and dataset attribution; see `DATA_PROVENANCE.md`.
+- `main.tex`, `supp.tex`, `figures/`, `reader_figures/`: manuscript and presentation sources.
+- `archive/`, `validation_v2/`, `revision/`, `legacy_compression/`: historical analyses retained for provenance.
+- `reader_study/`: planned reader-study materials; no completed human experiment is claimed.
+
+Start with `QUICKSTART.md` to score your own CSV. `select_chart.py` is a historical interface; use `benchmark_release/score_and_compare.py` for the current comparison.

@@ -1,0 +1,18 @@
+{
+ "version":"2.0",
+ "status":"retrospective extension; frozen before executing new numerical results; not preregistered",
+ "primary_target":"five empirical quantile differences at 0.1,0.25,0.5,0.75,0.9",
+ "primary_resources":9,
+ "primary_comparisons":127,
+ "settings":23,
+ "observers":["threshold","alpha"],
+ "resolutions":[128,256,512],
+ "phases":[0,0.25,0.5,0.75],
+ "reference":{"observer":"threshold","H":256,"axis":"zero"},
+ "additional_checks":["group-specific error","zero-contrast baseline","fixed setting transfer","leave-one-resource-out global-setting selection","tight-axis sensitivity excluding zero-baseline bars","CKD flagged-value omission","exclude unlinked retinopathy","matched one-setting family comparison"],
+ "near_optimal_loss_tolerances":[0.001,0.005,0.01,0.025],
+ "tolerance_interpretation":"computational error budgets in pooled SD; no human equivalence interpretation",
+ "simulation":{"seed":2026092017,"regimes":["null","location","scale","skew","mixture","heavy_tail"],"sample_sizes":[20,100,500],"replicates":4,"settings":"one fixed setting per family","phases":[0,0.25,0.5,0.75]},
+ "bootstrap":{"seed":2026092021,"replicates":5000,"unit":"resource means, equal resource weights","status":"descriptive interval across nine convenience resources; no population-generalization claim"},
+ "human_validation":"not performed; prospective protocol supplied"
+}

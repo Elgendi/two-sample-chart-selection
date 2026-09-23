@@ -1,0 +1,13 @@
+{
+  "task": "association",
+  "observer": "hard",
+  "selected": "Scatter plot",
+  "all_reference_ties": [
+    "Scatter plot"
+  ],
+  "default": "Heatmap",
+  "default_test_loss": 0.008004250944612545,
+  "selected_test_loss": 0.005514436983950231,
+  "gain": 0.002489813960662314,
+  "interpretation": "Positive gain favors selection for this computational task and decoder; no inference about human understanding. The default was trained on the bundled empirical benchmark."
+}

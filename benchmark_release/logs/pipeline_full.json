@@ -1,0 +1,72 @@
+{
+  "mode": "full",
+  "runs": [
+    {
+      "script": "benchmark_release/rebuild_inputs.py",
+      "seconds": 3.449,
+      "status": "passed"
+    },
+    {
+      "script": "validation_v3/benchmark.py",
+      "seconds": 239.436,
+      "status": "passed"
+    },
+    {
+      "script": "validation_v3/analyse.py",
+      "seconds": 3.875,
+      "status": "passed"
+    },
+    {
+      "script": "validation_v3/verify.py",
+      "seconds": 7.768,
+      "status": "passed"
+    },
+    {
+      "script": "task_first/checks.py",
+      "seconds": 0.938,
+      "status": "passed"
+    },
+    {
+      "script": "task_first/benchmark.py",
+      "seconds": 294.407,
+      "status": "passed"
+    },
+    {
+      "script": "task_first/analyse.py",
+      "seconds": 3.397,
+      "status": "passed"
+    },
+    {
+      "script": "benchmark_release/compare_defaults.py",
+      "seconds": 9.279,
+      "status": "passed"
+    },
+    {
+      "script": "benchmark_release/stress_test.py",
+      "seconds": 249.193,
+      "status": "passed"
+    },
+    {
+      "script": "benchmark_release/geometry_observer.py",
+      "seconds": 86.051,
+      "status": "passed"
+    },
+    {
+      "script": "benchmark_release/verify_release.py",
+      "seconds": 5.337,
+      "status": "passed"
+    },
+    {
+      "script": "benchmark_release/make_report.py",
+      "seconds": 0.562,
+      "status": "passed"
+    },
+    {
+      "script": "benchmark_release/make_figures.py",
+      "seconds": 31.663,
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "network_used": false
+}

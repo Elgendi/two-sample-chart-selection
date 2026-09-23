@@ -1,0 +1,16 @@
+{
+  "primary_comparisons": 127,
+  "exploratory_comparisons": 22,
+  "trials": 37548,
+  "primary_trials": 32004,
+  "unique_winners": 127,
+  "tied_winners": 0,
+  "median_best": 96.41358243428554,
+  "min_best": 81.01481670634064,
+  "max_best": 99.33826441189495,
+  "resolution_changes": 77,
+  "failed_primary_trials": 156,
+  "failed_exploratory_trials": 0,
+  "constant_scale_cases": 0,
+  "lowest_case": "HAR__09"
+}

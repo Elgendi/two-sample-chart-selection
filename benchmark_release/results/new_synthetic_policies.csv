@@ -1,0 +1,457 @@
+task,observer,key,dataset,selected,default,default_loss,selected_loss,gain
+association,hard,new_assoc_-0.8_16_0,r-0.8,Heatmap,Heatmap,0.0014125227646079042,0.0014125227646079042,0.0
+association,hard,new_assoc_-0.8_16_1,r-0.8,Heatmap,Heatmap,0.002334855863799834,0.002334855863799834,0.0
+association,hard,new_assoc_-0.8_16_2,r-0.8,Heatmap,Heatmap,0.0010363663085013464,0.0010363663085013464,0.0
+association,hard,new_assoc_-0.8_16_3,r-0.8,Scatter plot,Heatmap,0.011347937758297566,0.00250201285918443,0.008845924899113136
+association,hard,new_assoc_-0.8_256_0,r-0.8,Scatter plot,Heatmap,0.006718491956646755,0.0011776722267412137,0.005540819729905541
+association,hard,new_assoc_-0.8_256_1,r-0.8,Scatter plot,Heatmap,0.002705219321129826,0.0008038801137388307,0.0019013392073909952
+association,hard,new_assoc_-0.8_256_2,r-0.8,Scatter plot,Heatmap,0.0036970745526750393,0.0010809347393283125,0.0026161398133467267
+association,hard,new_assoc_-0.8_256_3,r-0.8,Scatter plot,Heatmap,0.0061514352192953425,0.0011736094536713704,0.004977825765623972
+association,hard,new_assoc_-0.8_64_0,r-0.8,Scatter plot,Heatmap,0.001204977057964851,0.0033173657819498964,-0.0021123887239850453
+association,hard,new_assoc_-0.8_64_1,r-0.8,Scatter plot,Heatmap,0.0064099358004934825,0.0020317021422578824,0.0043782336582356
+association,hard,new_assoc_-0.8_64_2,r-0.8,Heatmap,Heatmap,0.0012931608836231345,0.0012931608836231345,0.0
+association,hard,new_assoc_-0.8_64_3,r-0.8,Scatter plot,Heatmap,0.00879446806600076,0.0032437671305247384,0.005550700935476022
+association,hard,new_assoc_0.8_16_0,r0.8,Scatter plot,Heatmap,0.011395482249459188,0.002660025801359961,0.008735456448099227
+association,hard,new_assoc_0.8_16_1,r0.8,Heatmap,Heatmap,0.0036160957737271238,0.0036160957737271238,0.0
+association,hard,new_assoc_0.8_16_2,r0.8,Heatmap,Heatmap,0.0005424810894765209,0.0005424810894765209,0.0
+association,hard,new_assoc_0.8_16_3,r0.8,Scatter plot,Heatmap,0.012426314096030233,0.004517146394961341,0.007909167701068892
+association,hard,new_assoc_0.8_256_0,r0.8,Scatter plot,Heatmap,0.006791829439850183,0.0010494944847668497,0.005742334955083334
+association,hard,new_assoc_0.8_256_1,r0.8,Scatter plot,Heatmap,0.009080873430084124,0.0005111394515804474,0.008569733978503677
+association,hard,new_assoc_0.8_256_2,r0.8,Scatter plot,Heatmap,0.005777896700262186,0.0017095213318940178,0.004068375368368168
+association,hard,new_assoc_0.8_256_3,r0.8,Scatter plot,Heatmap,0.00963031376522544,0.0005282488607859237,0.009102064904439516
+association,hard,new_assoc_0.8_64_0,r0.8,Scatter plot,Heatmap,0.00619799954439576,0.002294323743549029,0.0039036758008467315
+association,hard,new_assoc_0.8_64_1,r0.8,Scatter plot,Heatmap,0.00961176014741455,0.0026055427468101577,0.007006217400604392
+association,hard,new_assoc_0.8_64_2,r0.8,Scatter plot,Heatmap,0.010297094198025769,0.0027670138437881214,0.007530080354237648
+association,hard,new_assoc_0.8_64_3,r0.8,Scatter plot,Heatmap,0.0068752166201961895,0.0015964069325588998,0.00527880968763729
+association,hard,new_assoc_0_16_0,r0,Heatmap,Heatmap,0.006009529676518476,0.006009529676518476,0.0
+association,hard,new_assoc_0_16_1,r0,Scatter plot,Heatmap,0.01854137376654097,0.00863963349284258,0.00990174027369839
+association,hard,new_assoc_0_16_2,r0,Scatter plot,Heatmap,0.016952981344049586,0.017992583194668142,-0.0010396018506185559
+association,hard,new_assoc_0_16_3,r0,Scatter plot,Heatmap,0.009976881867500799,0.013083909909979654,-0.003107028042478855
+association,hard,new_assoc_0_256_0,r0,Heatmap,Heatmap,0.004247283090022929,0.004247283090022929,0.0
+association,hard,new_assoc_0_256_1,r0,Scatter plot,Heatmap,0.005844361221214588,0.0031485157536195033,0.0026958454675950843
+association,hard,new_assoc_0_256_2,r0,Scatter plot,Heatmap,0.012535096367372623,0.0022242114277125757,0.010310884939660047
+association,hard,new_assoc_0_256_3,r0,Heatmap,Heatmap,0.003025239149592695,0.003025239149592695,0.0
+association,hard,new_assoc_0_64_0,r0,Heatmap,Heatmap,0.0021769246446697726,0.0021769246446697726,0.0
+association,hard,new_assoc_0_64_1,r0,Scatter plot,Heatmap,0.014207797352680022,0.007682526663293172,0.006525270689386849
+association,hard,new_assoc_0_64_2,r0,Scatter plot,Heatmap,0.0056449111712247955,0.003142098557555543,0.0025028126136692527
+association,hard,new_assoc_0_64_3,r0,Scatter plot,Heatmap,0.011795229643805758,0.0064967190677206604,0.005298510576085097
+association,soft,new_assoc_-0.8_16_0,r-0.8,Scatter plot,Heatmap,0.0014125227646079042,0.00019646868084571834,0.0012160540837621858
+association,soft,new_assoc_-0.8_16_1,r-0.8,Scatter plot,Heatmap,0.002334855863799834,0.0001566192338131045,0.0021782366299867295
+association,soft,new_assoc_-0.8_16_2,r-0.8,Scatter plot,Heatmap,0.0010363663085013464,0.00013918859776690384,0.0008971777107344425
+association,soft,new_assoc_-0.8_16_3,r-0.8,Scatter plot,Heatmap,0.011347937758297566,0.0001774869833132131,0.011170450774984353
+association,soft,new_assoc_-0.8_256_0,r-0.8,Scatter plot,Heatmap,0.006718491956646755,0.0005998306051622215,0.006118661351484533
+association,soft,new_assoc_-0.8_256_1,r-0.8,Scatter plot,Heatmap,0.002705219321129826,0.001062847999908717,0.0016423713212211088
+association,soft,new_assoc_-0.8_256_2,r-0.8,Scatter plot,Heatmap,0.0036970745526750393,0.0002593862693855281,0.003437688283289511
+association,soft,new_assoc_-0.8_256_3,r-0.8,Scatter plot,Heatmap,0.0061514352192953425,0.0005627152859088297,0.005588719933386513
+association,soft,new_assoc_-0.8_64_0,r-0.8,Heatmap,Heatmap,0.001204977057964851,0.001204977057964851,0.0
+association,soft,new_assoc_-0.8_64_1,r-0.8,Scatter plot,Heatmap,0.0064099358004934825,0.001358155711732409,0.005051780088761074
+association,soft,new_assoc_-0.8_64_2,r-0.8,Scatter plot,Heatmap,0.0012931608836231345,0.00014784639051514115,0.0011453144931079934
+association,soft,new_assoc_-0.8_64_3,r-0.8,Scatter plot,Heatmap,0.00879446806600076,0.00015903899856195558,0.008635429067438805
+association,soft,new_assoc_0.8_16_0,r0.8,Scatter plot,Heatmap,0.011395482249459188,0.0001513460518364207,0.011244136197622767
+association,soft,new_assoc_0.8_16_1,r0.8,Scatter plot,Heatmap,0.0036160957737271238,0.00037351200672525176,0.003242583767001872
+association,soft,new_assoc_0.8_16_2,r0.8,Scatter plot,Heatmap,0.0005424810894765209,0.00014232543751324656,0.0004001556519632743
+association,soft,new_assoc_0.8_16_3,r0.8,Scatter plot,Heatmap,0.012426314096030233,0.00027988237254168713,0.012146431723488546
+association,soft,new_assoc_0.8_256_0,r0.8,Scatter plot,Heatmap,0.006791829439850183,0.0008515373246908708,0.0059402921151593124
+association,soft,new_assoc_0.8_256_1,r0.8,Scatter plot,Heatmap,0.009080873430084124,0.00045151237104373854,0.008629361059040386
+association,soft,new_assoc_0.8_256_2,r0.8,Scatter plot,Heatmap,0.005777896700262186,0.0008066402548212726,0.004971256445440914
+association,soft,new_assoc_0.8_256_3,r0.8,Scatter plot,Heatmap,0.00963031376522544,4.328459232710857e-05,0.009587029172898331
+association,soft,new_assoc_0.8_64_0,r0.8,Scatter plot,Heatmap,0.00619799954439576,0.0013133286027096902,0.00488467094168607
+association,soft,new_assoc_0.8_64_1,r0.8,Scatter plot,Heatmap,0.00961176014741455,0.000202139019239711,0.009409621128174839
+association,soft,new_assoc_0.8_64_2,r0.8,Scatter plot,Heatmap,0.010297094198025769,0.0005904864713658642,0.009706607726659905
+association,soft,new_assoc_0.8_64_3,r0.8,Scatter plot,Heatmap,0.0068752166201961895,0.00022130451144324048,0.006653912108752949
+association,soft,new_assoc_0_16_0,r0,Scatter plot,Heatmap,0.006009529676518476,0.001243803183838525,0.004765726492679951
+association,soft,new_assoc_0_16_1,r0,Scatter plot,Heatmap,0.01854137376654097,0.0004926102163926166,0.018048763550148353
+association,soft,new_assoc_0_16_2,r0,Scatter plot,Heatmap,0.016952981344049586,0.0010058996394751128,0.015947081704574474
+association,soft,new_assoc_0_16_3,r0,Scatter plot,Heatmap,0.009976881867500799,0.0009789565529976446,0.008997925314503153
+association,soft,new_assoc_0_256_0,r0,Scatter plot,Heatmap,0.004247283090022929,0.0019942827041990402,0.002253000385823889
+association,soft,new_assoc_0_256_1,r0,Scatter plot,Heatmap,0.005844361221214588,0.0022413592112862047,0.003603002009928383
+association,soft,new_assoc_0_256_2,r0,Scatter plot,Heatmap,0.012535096367372623,0.0004803169919303067,0.012054779375442316
+association,soft,new_assoc_0_256_3,r0,Heatmap,Heatmap,0.003025239149592695,0.003025239149592695,0.0
+association,soft,new_assoc_0_64_0,r0,Heatmap,Heatmap,0.0021769246446697726,0.0021769246446697726,0.0
+association,soft,new_assoc_0_64_1,r0,Scatter plot,Heatmap,0.014207797352680022,0.0013404029018044428,0.012867394450875579
+association,soft,new_assoc_0_64_2,r0,Scatter plot,Heatmap,0.0056449111712247955,0.0006327295919930677,0.005012181579231728
+association,soft,new_assoc_0_64_3,r0,Scatter plot,Heatmap,0.011795229643805758,0.00026366867481884837,0.01153156096898691
+composition,hard,new_comp_2_0.3_0,k2,Donut chart,Pie chart,0.0007266665122539831,0.0005911924702176052,0.00013547404203637786
+composition,hard,new_comp_2_0.3_1,k2,Donut chart,Pie chart,0.0004734252277839926,0.0004909366392051931,-1.7511411421200496e-05
+composition,hard,new_comp_2_0.3_2,k2,Pie chart,Pie chart,0.0005190092371051419,0.0005190092371051419,0.0
+composition,hard,new_comp_2_0.3_3,k2,Pie chart,Pie chart,0.0005331737344947685,0.0005331737344947685,0.0
+composition,hard,new_comp_2_1_0,k2,Donut chart,Pie chart,0.0008039756820386185,0.0006012623903686072,0.00020271329167001126
+composition,hard,new_comp_2_1_1,k2,Donut chart,Pie chart,0.0007087316547719422,0.0005202490160577996,0.00018848263871414257
+composition,hard,new_comp_2_1_2,k2,Pie chart,Pie chart,0.0004866010099268264,0.0004866010099268264,0.0
+composition,hard,new_comp_2_1_3,k2,Donut chart,Pie chart,0.0008167508972009817,0.0006135087427410531,0.00020324215445992853
+composition,hard,new_comp_2_5_0,k2,Pie chart,Pie chart,0.0004578989016095908,0.0004578989016095908,0.0
+composition,hard,new_comp_2_5_1,k2,Pie chart,Pie chart,0.0005529911333878867,0.0005529911333878867,0.0
+composition,hard,new_comp_2_5_2,k2,Pie chart,Pie chart,0.0005419492031499273,0.0005419492031499273,0.0
+composition,hard,new_comp_2_5_3,k2,Donut chart,Pie chart,0.00045891264950165267,0.0004802359554722316,-2.132330597057891e-05
+composition,hard,new_comp_3_0.3_0,k3,Donut chart,Pie chart,0.0019836340453757246,0.0015808682264684616,0.000402765818907263
+composition,hard,new_comp_3_0.3_1,k3,Donut chart,Pie chart,0.0013860925323500575,0.0008432759176951502,0.0005428166146549073
+composition,hard,new_comp_3_0.3_2,k3,Donut chart,Pie chart,0.0011122260212905917,0.0007291629701795589,0.00038306305111103283
+composition,hard,new_comp_3_0.3_3,k3,Donut chart,Pie chart,0.0012215653179659895,0.0008313216103537381,0.0003902437076122513
+composition,hard,new_comp_3_1_0,k3,Donut chart,Pie chart,0.0009368130945855407,0.00068185869134411,0.00025495440324143064
+composition,hard,new_comp_3_1_1,k3,Donut chart,Pie chart,0.0011165167518961266,0.0006870281490390512,0.00042948860285707546
+composition,hard,new_comp_3_1_2,k3,Donut chart,Pie chart,0.0009291031892051729,0.0007561212282339753,0.00017298196097119758
+composition,hard,new_comp_3_1_3,k3,Donut chart,Pie chart,0.0011720698701694152,0.0008018380550863739,0.00037023181508304137
+composition,hard,new_comp_3_5_0,k3,Donut chart,Pie chart,0.0010641757780502775,0.0007890463670992415,0.00027512941095103605
+composition,hard,new_comp_3_5_1,k3,Donut chart,Pie chart,0.0010481809234975797,0.0008011889717666545,0.0002469919517309252
+composition,hard,new_comp_3_5_2,k3,Donut chart,Pie chart,0.000903021703113599,0.0007973413042880739,0.00010568039882552505
+composition,hard,new_comp_3_5_3,k3,Donut chart,Pie chart,0.0010556856279575304,0.0007040268503057407,0.00035165877765178967
+composition,hard,new_comp_5_0.3_0,k5,Donut chart,Pie chart,0.0015903840833232236,0.0015091010369215829,8.12830464016407e-05
+composition,hard,new_comp_5_0.3_1,k5,Donut chart,Pie chart,0.0028405717069342443,0.001865488170330577,0.0009750835366036674
+composition,hard,new_comp_5_0.3_2,k5,Donut chart,Pie chart,0.002786389101326975,0.002121853499277959,0.0006645356020490156
+composition,hard,new_comp_5_0.3_3,k5,Pie chart,Pie chart,0.0019688828348873467,0.0019688828348873467,0.0
+composition,hard,new_comp_5_1_0,k5,Donut chart,Pie chart,0.002713650350930682,0.002126669055035054,0.0005869812958956278
+composition,hard,new_comp_5_1_1,k5,Donut chart,Pie chart,0.003144304120420261,0.0028209900244642342,0.00032331409595602687
+composition,hard,new_comp_5_1_2,k5,Pie chart,Pie chart,0.0037193578770744196,0.0037193578770744196,0.0
+composition,hard,new_comp_5_1_3,k5,Donut chart,Pie chart,0.002956338297350588,0.0022630480250454225,0.0006932902723051654
+composition,hard,new_comp_5_5_0,k5,Donut chart,Pie chart,0.003299391273240866,0.0027800745373350103,0.0005193167359058559
+composition,hard,new_comp_5_5_1,k5,Donut chart,Pie chart,0.003033488018099384,0.0024906651366600786,0.0005428228814393053
+composition,hard,new_comp_5_5_2,k5,Donut chart,Pie chart,0.002606164516575537,0.002165608196840774,0.0004405563197347629
+composition,hard,new_comp_5_5_3,k5,Donut chart,Pie chart,0.002828511454673499,0.0022172430227371254,0.0006112684319363737
+composition,hard,new_comp_8_0.3_0,k8,Pie chart,Pie chart,0.0050505617048901,0.0050505617048901,0.0
+composition,hard,new_comp_8_0.3_1,k8,Donut chart,Pie chart,0.0022057949633581975,0.002137683220901752,6.811174245644532e-05
+composition,hard,new_comp_8_0.3_2,k8,Pie chart,Pie chart,0.004957832303383125,0.004957832303383125,0.0
+composition,hard,new_comp_8_0.3_3,k8,Pie chart,Pie chart,0.004003915779696744,0.004003915779696744,0.0
+composition,hard,new_comp_8_1_0,k8,Pie chart,Pie chart,0.002995738968884037,0.002995738968884037,0.0
+composition,hard,new_comp_8_1_1,k8,Pie chart,Pie chart,0.002397710482950644,0.002397710482950644,0.0
+composition,hard,new_comp_8_1_2,k8,Pie chart,Pie chart,0.0035202672107076984,0.0035202672107076984,0.0
+composition,hard,new_comp_8_1_3,k8,Pie chart,Pie chart,0.002141140702833475,0.002141140702833475,0.0
+composition,hard,new_comp_8_5_0,k8,Pie chart,Pie chart,0.0024199400389780974,0.0024199400389780974,0.0
+composition,hard,new_comp_8_5_1,k8,Pie chart,Pie chart,0.002263442530586168,0.002263442530586168,0.0
+composition,hard,new_comp_8_5_2,k8,Pie chart,Pie chart,0.0024297072339687486,0.0024297072339687486,0.0
+composition,hard,new_comp_8_5_3,k8,Pie chart,Pie chart,0.0025541040558429984,0.0025541040558429984,0.0
+composition,soft,new_comp_2_0.3_0,k2,Bar chart,Pie chart,0.0007567186398739351,0.0004283610855707713,0.00032835755430316374
+composition,soft,new_comp_2_0.3_1,k2,Pie chart,Pie chart,0.0006060655389660274,0.0006060655389660274,0.0
+composition,soft,new_comp_2_0.3_2,k2,Bar chart,Pie chart,0.0008357924403712969,0.000684354644773795,0.00015143779559750187
+composition,soft,new_comp_2_0.3_3,k2,Bar chart,Pie chart,0.0006399634921621655,0.0002671074422552211,0.00037285604990694443
+composition,soft,new_comp_2_1_0,k2,Bar chart,Pie chart,0.0007984634713084082,0.0004404118705518146,0.00035805160075659363
+composition,soft,new_comp_2_1_1,k2,Bar chart,Pie chart,0.0009427589168582474,0.0002846736133691116,0.0006580853034891358
+composition,soft,new_comp_2_1_2,k2,Pie chart,Pie chart,0.0006699476680084582,0.0006699476680084582,0.0
+composition,soft,new_comp_2_1_3,k2,Bar chart,Pie chart,0.0008167363753587183,0.0002859532185016528,0.0005307831568570655
+composition,soft,new_comp_2_5_0,k2,Bar chart,Pie chart,0.0006238471412761543,0.0009106584715044969,-0.0002868113302283426
+composition,soft,new_comp_2_5_1,k2,Bar chart,Pie chart,0.0006958170630465277,0.0006584224242406692,3.739463880585853e-05
+composition,soft,new_comp_2_5_2,k2,Pie chart,Pie chart,0.0007208116651452046,0.0007208116651452046,0.0
+composition,soft,new_comp_2_5_3,k2,Pie chart,Pie chart,0.00060173144890667,0.00060173144890667,0.0
+composition,soft,new_comp_3_0.3_0,k3,Bar chart,Pie chart,0.0020508480226846862,0.0012772384203463766,0.0007736096023383096
+composition,soft,new_comp_3_0.3_1,k3,Pie chart,Pie chart,0.0012658271271169703,0.0012658271271169703,0.0
+composition,soft,new_comp_3_0.3_2,k3,Pie chart,Pie chart,0.001176452054908004,0.001176452054908004,0.0
+composition,soft,new_comp_3_0.3_3,k3,Pie chart,Pie chart,0.0012362997482382025,0.0012362997482382025,0.0
+composition,soft,new_comp_3_1_0,k3,Pie chart,Pie chart,0.001048496778609612,0.001048496778609612,0.0
+composition,soft,new_comp_3_1_1,k3,Pie chart,Pie chart,0.0011588766435504244,0.0011588766435504244,0.0
+composition,soft,new_comp_3_1_2,k3,Pie chart,Pie chart,0.0010706895764391947,0.0010706895764391947,0.0
+composition,soft,new_comp_3_1_3,k3,Pie chart,Pie chart,0.0011084410311906125,0.0011084410311906125,0.0
+composition,soft,new_comp_3_5_0,k3,Pie chart,Pie chart,0.0010267224499665578,0.0010267224499665578,0.0
+composition,soft,new_comp_3_5_1,k3,Pie chart,Pie chart,0.0010566378455199171,0.0010566378455199171,0.0
+composition,soft,new_comp_3_5_2,k3,Pie chart,Pie chart,0.0010250535086618467,0.0010250535086618467,0.0
+composition,soft,new_comp_3_5_3,k3,Pie chart,Pie chart,0.0011770538979778457,0.0011770538979778457,0.0
+composition,soft,new_comp_5_0.3_0,k5,Pie chart,Pie chart,0.004980553244539434,0.004980553244539434,0.0
+composition,soft,new_comp_5_0.3_1,k5,Pie chart,Pie chart,0.004731727235881151,0.004731727235881151,0.0
+composition,soft,new_comp_5_0.3_2,k5,Pie chart,Pie chart,0.004903177988819445,0.004903177988819445,0.0
+composition,soft,new_comp_5_0.3_3,k5,Pie chart,Pie chart,0.0032859112339883615,0.0032859112339883615,0.0
+composition,soft,new_comp_5_1_0,k5,Pie chart,Pie chart,0.0035159225616192107,0.0035159225616192107,0.0
+composition,soft,new_comp_5_1_1,k5,Pie chart,Pie chart,0.004748152959634218,0.004748152959634218,0.0
+composition,soft,new_comp_5_1_2,k5,Pie chart,Pie chart,0.006665517254639892,0.006665517254639892,0.0
+composition,soft,new_comp_5_1_3,k5,Donut chart,Pie chart,0.003424693560403428,0.003211948641927154,0.00021274491847627416
+composition,soft,new_comp_5_5_0,k5,Pie chart,Pie chart,0.0047034311846837484,0.0047034311846837484,0.0
+composition,soft,new_comp_5_5_1,k5,Pie chart,Pie chart,0.004985330546794588,0.004985330546794588,0.0
+composition,soft,new_comp_5_5_2,k5,Pie chart,Pie chart,0.003906995010146096,0.003906995010146096,0.0
+composition,soft,new_comp_5_5_3,k5,Pie chart,Pie chart,0.004158735335148878,0.004158735335148878,0.0
+composition,soft,new_comp_8_0.3_0,k8,Pie chart,Pie chart,0.006905504767590238,0.006905504767590238,0.0
+composition,soft,new_comp_8_0.3_1,k8,Pie chart,Pie chart,0.00316686686561546,0.00316686686561546,0.0
+composition,soft,new_comp_8_0.3_2,k8,Pie chart,Pie chart,0.0064659555982578415,0.0064659555982578415,0.0
+composition,soft,new_comp_8_0.3_3,k8,Pie chart,Pie chart,0.005917550434135913,0.005917550434135913,0.0
+composition,soft,new_comp_8_1_0,k8,Pie chart,Pie chart,0.004892127312012851,0.004892127312012851,0.0
+composition,soft,new_comp_8_1_1,k8,Pie chart,Pie chart,0.0034111472850763937,0.0034111472850763937,0.0
+composition,soft,new_comp_8_1_2,k8,Pie chart,Pie chart,0.005245740303665428,0.005245740303665428,0.0
+composition,soft,new_comp_8_1_3,k8,Pie chart,Pie chart,0.0041889344284765356,0.0041889344284765356,0.0
+composition,soft,new_comp_8_5_0,k8,Pie chart,Pie chart,0.004100446737758862,0.004100446737758862,0.0
+composition,soft,new_comp_8_5_1,k8,Pie chart,Pie chart,0.003568539571643452,0.003568539571643452,0.0
+composition,soft,new_comp_8_5_2,k8,Pie chart,Pie chart,0.0040328267821507155,0.0040328267821507155,0.0
+composition,soft,new_comp_8_5_3,k8,Pie chart,Pie chart,0.004193025414524154,0.004193025414524154,0.0
+five,hard,new_heavy_tail_150_0,heavy_tail,Quantile plot / five,Quantile plot / five,0.003156437577286385,0.003156437577286385,0.0
+five,hard,new_heavy_tail_150_1,heavy_tail,Quantile plot / five,Quantile plot / five,0.007232701918000116,0.007232701918000116,0.0
+five,hard,new_heavy_tail_150_2,heavy_tail,Quantile plot / five,Quantile plot / five,0.006906643958186216,0.006906643958186216,0.0
+five,hard,new_heavy_tail_30_0,heavy_tail,Quantile plot / five,Quantile plot / five,0.00360759828113275,0.00360759828113275,0.0
+five,hard,new_heavy_tail_30_1,heavy_tail,Quantile plot / five,Quantile plot / five,0.005274018768459198,0.005274018768459198,0.0
+five,hard,new_heavy_tail_30_2,heavy_tail,Quantile plot / five,Quantile plot / five,0.0037412130094937887,0.0037412130094937887,0.0
+five,hard,new_location_150_0,location,Quantile plot / five,Quantile plot / five,0.004035733279754105,0.004035733279754105,0.0
+five,hard,new_location_150_1,location,Quantile plot / five,Quantile plot / five,0.0038075645043990918,0.0038075645043990918,0.0
+five,hard,new_location_150_2,location,Quantile plot / five,Quantile plot / five,0.0036853793526593044,0.0036853793526593044,0.0
+five,hard,new_location_30_0,location,Quantile plot / five,Quantile plot / five,0.00293946921204319,0.00293946921204319,0.0
+five,hard,new_location_30_1,location,Quantile plot / five,Quantile plot / five,0.004172345218244751,0.004172345218244751,0.0
+five,hard,new_location_30_2,location,Quantile plot / five,Quantile plot / five,0.004292744105209767,0.004292744105209767,0.0
+five,hard,new_mixture_150_0,mixture,Quantile plot / five,Quantile plot / five,0.0033754352233676056,0.0033754352233676056,0.0
+five,hard,new_mixture_150_1,mixture,Quantile plot / five,Quantile plot / five,0.002866528215397274,0.002866528215397274,0.0
+five,hard,new_mixture_150_2,mixture,Quantile plot / five,Quantile plot / five,0.0038281290463272172,0.0038281290463272172,0.0
+five,hard,new_mixture_30_0,mixture,Quantile plot / five,Quantile plot / five,0.003195361562229636,0.003195361562229636,0.0
+five,hard,new_mixture_30_1,mixture,Quantile plot / five,Quantile plot / five,0.003967089592123126,0.003967089592123126,0.0
+five,hard,new_mixture_30_2,mixture,Quantile plot / five,Quantile plot / five,0.00409767829106413,0.00409767829106413,0.0
+five,hard,new_null_150_0,null,Quantile plot / five,Quantile plot / five,0.0045245546195163125,0.0045245546195163125,0.0
+five,hard,new_null_150_1,null,Quantile plot / five,Quantile plot / five,0.0038236561498284777,0.0038236561498284777,0.0
+five,hard,new_null_150_2,null,Quantile plot / five,Quantile plot / five,0.004082883529258641,0.004082883529258641,0.0
+five,hard,new_null_30_0,null,Quantile plot / five,Quantile plot / five,0.0044841401162625215,0.0044841401162625215,0.0
+five,hard,new_null_30_1,null,Quantile plot / five,Quantile plot / five,0.00328261375559892,0.00328261375559892,0.0
+five,hard,new_null_30_2,null,Quantile plot / five,Quantile plot / five,0.005098898993487542,0.005098898993487542,0.0
+five,hard,new_scale_150_0,scale,Quantile plot / five,Quantile plot / five,0.004315309265487043,0.004315309265487043,0.0
+five,hard,new_scale_150_1,scale,Quantile plot / five,Quantile plot / five,0.005930445286504158,0.005930445286504158,0.0
+five,hard,new_scale_150_2,scale,Quantile plot / five,Quantile plot / five,0.004154313752663107,0.004154313752663107,0.0
+five,hard,new_scale_30_0,scale,Quantile plot / five,Quantile plot / five,0.0050624740737508465,0.0050624740737508465,0.0
+five,hard,new_scale_30_1,scale,Quantile plot / five,Quantile plot / five,0.004405156782544853,0.004405156782544853,0.0
+five,hard,new_scale_30_2,scale,Quantile plot / five,Quantile plot / five,0.004508495638469105,0.004508495638469105,0.0
+five,hard,new_skew_150_0,skew,Quantile plot / five,Quantile plot / five,0.00558716472798822,0.00558716472798822,0.0
+five,hard,new_skew_150_1,skew,Quantile plot / five,Quantile plot / five,0.0057193776001808385,0.0057193776001808385,0.0
+five,hard,new_skew_150_2,skew,Quantile plot / five,Quantile plot / five,0.004906912133686401,0.004906912133686401,0.0
+five,hard,new_skew_30_0,skew,Quantile plot / five,Quantile plot / five,0.0045852878621457,0.0045852878621457,0.0
+five,hard,new_skew_30_1,skew,Quantile plot / five,Quantile plot / five,0.003440819933300705,0.003440819933300705,0.0
+five,hard,new_skew_30_2,skew,Quantile plot / five,Quantile plot / five,0.005937414289203928,0.005937414289203928,0.0
+five,soft,new_heavy_tail_150_0,heavy_tail,Quantile plot / five,Quantile plot / five,0.0007139668786558792,0.0007139668786558792,0.0
+five,soft,new_heavy_tail_150_1,heavy_tail,Quantile plot / five,Quantile plot / five,0.0027148725619164887,0.0027148725619164887,0.0
+five,soft,new_heavy_tail_150_2,heavy_tail,Quantile plot / five,Quantile plot / five,0.0052498867457777265,0.0052498867457777265,0.0
+five,soft,new_heavy_tail_30_0,heavy_tail,Quantile plot / five,Quantile plot / five,0.001694062971832919,0.001694062971832919,0.0
+five,soft,new_heavy_tail_30_1,heavy_tail,Quantile plot / five,Quantile plot / five,0.002784473147707678,0.002784473147707678,0.0
+five,soft,new_heavy_tail_30_2,heavy_tail,Quantile plot / five,Quantile plot / five,0.0017042086069049274,0.0017042086069049274,0.0
+five,soft,new_location_150_0,location,Quantile plot / five,Quantile plot / five,0.0011889355478568358,0.0011889355478568358,0.0
+five,soft,new_location_150_1,location,Quantile plot / five,Quantile plot / five,0.002069206948776047,0.002069206948776047,0.0
+five,soft,new_location_150_2,location,Quantile plot / five,Quantile plot / five,0.0021471666249989873,0.0021471666249989873,0.0
+five,soft,new_location_30_0,location,Quantile plot / five,Quantile plot / five,0.0011995817677251655,0.0011995817677251655,0.0
+five,soft,new_location_30_1,location,Quantile plot / five,Quantile plot / five,0.0019764433706249947,0.0019764433706249947,0.0
+five,soft,new_location_30_2,location,Quantile plot / five,Quantile plot / five,0.002749552822915253,0.002749552822915253,0.0
+five,soft,new_mixture_150_0,mixture,Quantile plot / five,Quantile plot / five,0.0018765288881935262,0.0018765288881935262,0.0
+five,soft,new_mixture_150_1,mixture,Quantile plot / five,Quantile plot / five,0.0016899747812584342,0.0016899747812584342,0.0
+five,soft,new_mixture_150_2,mixture,Quantile plot / five,Quantile plot / five,0.0016597783533637697,0.0016597783533637697,0.0
+five,soft,new_mixture_30_0,mixture,Quantile plot / five,Quantile plot / five,0.0017850801435925156,0.0017850801435925156,0.0
+five,soft,new_mixture_30_1,mixture,Quantile plot / five,Quantile plot / five,0.0027211015558560167,0.0027211015558560167,0.0
+five,soft,new_mixture_30_2,mixture,Quantile plot / five,Quantile plot / five,0.001556636827019837,0.001556636827019837,0.0
+five,soft,new_null_150_0,null,Quantile plot / five,Quantile plot / five,0.0022878752934364184,0.0022878752934364184,0.0
+five,soft,new_null_150_1,null,Quantile plot / five,Quantile plot / five,0.0015788842281696997,0.0015788842281696997,0.0
+five,soft,new_null_150_2,null,Quantile plot / five,Quantile plot / five,0.002358559802562974,0.002358559802562974,0.0
+five,soft,new_null_30_0,null,Quantile plot / five,Quantile plot / five,0.002011134574446817,0.002011134574446817,0.0
+five,soft,new_null_30_1,null,Quantile plot / five,Quantile plot / five,0.0016888721171761498,0.0016888721171761498,0.0
+five,soft,new_null_30_2,null,Quantile plot / five,Quantile plot / five,0.002242088097420427,0.002242088097420427,0.0
+five,soft,new_scale_150_0,scale,Quantile plot / five,Quantile plot / five,0.0010085648126507644,0.0010085648126507644,0.0
+five,soft,new_scale_150_1,scale,Quantile plot / five,Quantile plot / five,0.0015408718440764661,0.0015408718440764661,0.0
+five,soft,new_scale_150_2,scale,Quantile plot / five,Quantile plot / five,0.0011178619671284556,0.0011178619671284556,0.0
+five,soft,new_scale_30_0,scale,Quantile plot / five,Quantile plot / five,0.003798210401468601,0.003798210401468601,0.0
+five,soft,new_scale_30_1,scale,Quantile plot / five,Quantile plot / five,0.0034765546737206237,0.0034765546737206237,0.0
+five,soft,new_scale_30_2,scale,Quantile plot / five,Quantile plot / five,0.0025762935754741235,0.0025762935754741235,0.0
+five,soft,new_skew_150_0,skew,ECDF / full,Quantile plot / five,0.0030991203317840507,0.006550600518819089,-0.0034514801870350388
+five,soft,new_skew_150_1,skew,Quantile plot / five,Quantile plot / five,0.0031569177183721044,0.0031569177183721044,0.0
+five,soft,new_skew_150_2,skew,Quantile plot / five,Quantile plot / five,0.002057698236406442,0.002057698236406442,0.0
+five,soft,new_skew_30_0,skew,Quantile plot / five,Quantile plot / five,0.0018085136469053408,0.0018085136469053408,0.0
+five,soft,new_skew_30_1,skew,Quantile plot / five,Quantile plot / five,0.0013372614061683478,0.0013372614061683478,0.0
+five,soft,new_skew_30_2,skew,Quantile plot / five,Quantile plot / five,0.0021975189088409954,0.0021975189088409954,0.0
+median,hard,new_heavy_tail_150_0,heavy_tail,Interval plot / five,Interval plot / five,0.0004124524366550342,0.0004124524366550342,0.0
+median,hard,new_heavy_tail_150_1,heavy_tail,Box plot / five,Interval plot / five,0.00852466176820381,0.01002372533851838,-0.00149906357031457
+median,hard,new_heavy_tail_150_2,heavy_tail,Heatmap / 16,Interval plot / five,0.0077924244772702754,0.004046650988482335,0.0037457734887879407
+median,hard,new_heavy_tail_30_0,heavy_tail,ECDF / full,Interval plot / five,0.003041527300773118,0.0062953975865051425,-0.0032538702857320247
+median,hard,new_heavy_tail_30_1,heavy_tail,Interval plot / five,Interval plot / five,0.007251997414401465,0.007251997414401465,0.0
+median,hard,new_heavy_tail_30_2,heavy_tail,Histogram / 16,Interval plot / five,0.003276727060728808,0.0029887453814614762,0.0002879816792673317
+median,hard,new_location_150_0,location,Interval plot / five,Interval plot / five,0.005040911407633045,0.005040911407633045,0.0
+median,hard,new_location_150_1,location,Interval plot / five,Interval plot / five,0.004865385853429711,0.004865385853429711,0.0
+median,hard,new_location_150_2,location,Box plot / five,Interval plot / five,0.003988940534927709,0.003988940534927709,0.0
+median,hard,new_location_30_0,location,Interval plot / five,Interval plot / five,0.0014206184502382597,0.0014206184502382597,0.0
+median,hard,new_location_30_1,location,Interval plot / five,Interval plot / five,0.004926799086175595,0.004926799086175595,0.0
+median,hard,new_location_30_2,location,Interval plot / five,Interval plot / five,0.0010295480105252882,0.0010295480105252882,0.0
+median,hard,new_mixture_150_0,mixture,Interval plot / five,Interval plot / five,0.004331855205523308,0.004331855205523308,0.0
+median,hard,new_mixture_150_1,mixture,Interval plot / five,Interval plot / five,0.002993618396439449,0.002993618396439449,0.0
+median,hard,new_mixture_150_2,mixture,Interval plot / five,Interval plot / five,0.004520680871795479,0.004520680871795479,0.0
+median,hard,new_mixture_30_0,mixture,Interval plot / five,Interval plot / five,0.0027705821860399688,0.0027705821860399688,0.0
+median,hard,new_mixture_30_1,mixture,Interval plot / five,Interval plot / five,0.003685916321606437,0.003685916321606437,0.0
+median,hard,new_mixture_30_2,mixture,Interval plot / five,Interval plot / five,0.002525229775918048,0.002525229775918048,0.0
+median,hard,new_null_150_0,null,Box plot / five,Interval plot / five,0.0033877153034502943,0.006175589512298714,-0.00278787420884842
+median,hard,new_null_150_1,null,Violin plot / 64,Interval plot / five,0.00019021603858830792,0.0038478809168903407,-0.003657664878302033
+median,hard,new_null_150_2,null,Interval plot / five,Interval plot / five,0.005301399563182924,0.005301399563182924,0.0
+median,hard,new_null_30_0,null,Box plot / five,Interval plot / five,0.004563834954969468,0.005780999663204545,-0.001217164708235077
+median,hard,new_null_30_1,null,Box plot / five,Interval plot / five,0.00236463414367268,0.00236463414367268,0.0
+median,hard,new_null_30_2,null,Interval plot / five,Interval plot / five,0.005669260599558693,0.005669260599558693,0.0
+median,hard,new_scale_150_0,scale,Interval plot / five,Interval plot / five,0.006688211328936431,0.006688211328936431,0.0
+median,hard,new_scale_150_1,scale,Box plot / five,Interval plot / five,0.006989786220341481,0.008768916990096437,-0.0017791307697549563
+median,hard,new_scale_150_2,scale,ECDF / full,Interval plot / five,0.004400437971834323,0.023816854787251894,-0.019416416815417573
+median,hard,new_scale_30_0,scale,Heatmap / 16,Interval plot / five,0.006055353651382823,0.0020027544501285237,0.004052599201254299
+median,hard,new_scale_30_1,scale,Interval plot / five,Interval plot / five,0.0058375664121270154,0.0058375664121270154,0.0
+median,hard,new_scale_30_2,scale,Interval plot / five,Interval plot / five,0.004094054090685887,0.004094054090685887,0.0
+median,hard,new_skew_150_0,skew,Interval plot / five,Interval plot / five,0.005159738099235521,0.005159738099235521,0.0
+median,hard,new_skew_150_1,skew,Heatmap / 16,Interval plot / five,0.005941001282228506,0.001930342409917732,0.004010658872310774
+median,hard,new_skew_150_2,skew,Interval plot / five,Interval plot / five,0.00196362669991854,0.00196362669991854,0.0
+median,hard,new_skew_30_0,skew,Box plot / five,Interval plot / five,0.005467986109110647,0.007375808541231145,-0.0019078224321204982
+median,hard,new_skew_30_1,skew,Dot plot / raw,Interval plot / five,0.0008988674068661158,0.019554159776674483,-0.01865529236980837
+median,hard,new_skew_30_2,skew,Interval plot / five,Interval plot / five,0.004348157441413351,0.004348157441413351,0.0
+median,soft,new_heavy_tail_150_0,heavy_tail,Quantile plot / five,Quantile plot / nineteen,0.0004124524366552889,0.0004124524366552889,0.0
+median,soft,new_heavy_tail_150_1,heavy_tail,ECDF / full,Quantile plot / nineteen,0.00046610320748939236,0.008935120416175928,-0.008469017208686536
+median,soft,new_heavy_tail_150_2,heavy_tail,Heatmap / 16,Quantile plot / nineteen,0.005954865115648767,0.004046650988482335,0.001908214127166432
+median,soft,new_heavy_tail_30_0,heavy_tail,Quantile plot / five,Quantile plot / nineteen,0.00022106617327300986,0.00022106617327300986,0.0
+median,soft,new_heavy_tail_30_1,heavy_tail,ECDF / full,Quantile plot / nineteen,0.00611614051339818,0.0056225320292049765,0.0004936084841932033
+median,soft,new_heavy_tail_30_2,heavy_tail,Quantile plot / five,Quantile plot / nineteen,0.00023804284716166224,0.00023804284716166224,0.0
+median,soft,new_location_150_0,location,Interval plot / five,Quantile plot / nineteen,0.00027562207623749407,0.005040911407633045,-0.004765289331395551
+median,soft,new_location_150_1,location,ECDF / full,Quantile plot / nineteen,0.0005790234631196622,0.007151597557249773,-0.006572574094130111
+median,soft,new_location_150_2,location,Box plot / five,Quantile plot / nineteen,0.0039889405349271,0.003988940534927709,-6.088879400678593e-16
+median,soft,new_location_30_0,location,Quantile plot / five,Quantile plot / nineteen,0.0014206184502380459,0.0014206184502380459,0.0
+median,soft,new_location_30_1,location,Dot plot / raw,Quantile plot / nineteen,0.003473027281157025,0.003690983394275697,-0.00021795611311867203
+median,soft,new_location_30_2,location,Quantile plot / five,Quantile plot / nineteen,0.0010295480105263614,0.0010295480105263614,0.0
+median,soft,new_mixture_150_0,mixture,Quantile plot / five,Quantile plot / nineteen,0.0026858572878220733,0.0026858572878220733,0.0
+median,soft,new_mixture_150_1,mixture,Quantile plot / five,Quantile plot / nineteen,0.0021656017858465324,0.0021656017858465324,0.0
+median,soft,new_mixture_150_2,mixture,Quantile plot / five,Quantile plot / nineteen,0.0019691468375318323,0.0019691468375318323,0.0
+median,soft,new_mixture_30_0,mixture,Quantile plot / five,Quantile plot / nineteen,0.0001995633931865578,0.0001995633931865578,0.0
+median,soft,new_mixture_30_1,mixture,Quantile plot / five,Quantile plot / nineteen,0.003169385284063063,0.003169385284063063,0.0
+median,soft,new_mixture_30_2,mixture,ECDF / full,Quantile plot / nineteen,0.0008184534274009955,0.006665602102051083,-0.0058471486746500875
+median,soft,new_null_150_0,null,ECDF / full,Quantile plot / nineteen,0.002210864445637451,0.003600933458821901,-0.00139006901318445
+median,soft,new_null_150_1,null,Violin plot / 64,Quantile plot / nineteen,0.00019021603858898555,0.0038845843238609536,-0.003694368285271968
+median,soft,new_null_150_2,null,Quantile plot / five,Quantile plot / nineteen,0.00515489053709532,0.00515489053709532,0.0
+median,soft,new_null_30_0,null,Box plot / five,Quantile plot / nineteen,0.003346670246734143,0.005780999663204545,-0.0024343294164704023
+median,soft,new_null_30_1,null,Box plot / five,Quantile plot / nineteen,0.002364634143672472,0.00236463414367268,-2.0816681711721685e-16
+median,soft,new_null_30_2,null,Quantile plot / five,Quantile plot / nineteen,0.005669260599558693,0.005669260599558693,0.0
+median,soft,new_scale_150_0,scale,Dot plot / raw,Quantile plot / nineteen,0.0004615847127742601,0.004586032659220872,-0.004124447946446612
+median,soft,new_scale_150_1,scale,Box plot / five,Quantile plot / nineteen,0.0014613256734045841,0.008768916990096437,-0.007307591316691853
+median,soft,new_scale_150_2,scale,Quantile plot / five,Quantile plot / nineteen,0.001292886521878069,0.001292886521878069,0.0
+median,soft,new_scale_30_0,scale,Heatmap / 16,Quantile plot / nineteen,0.003887049110507514,0.0020027544501285237,0.00188429466037899
+median,soft,new_scale_30_1,scale,Quantile plot / five,Quantile plot / nineteen,0.003917524678642818,0.003917524678642818,0.0
+median,soft,new_scale_30_2,scale,Quantile plot / five,Quantile plot / nineteen,0.0016610524655051033,0.0016610524655051033,0.0
+median,soft,new_skew_150_0,skew,Interval plot / five,Quantile plot / nineteen,0.0031388603143620145,0.005159738099235521,-0.002020877784873507
+median,soft,new_skew_150_1,skew,Quantile plot / five,Quantile plot / nineteen,0.005824406433651776,0.005824406433651776,0.0
+median,soft,new_skew_150_2,skew,Quantile plot / five,Quantile plot / nineteen,0.0019636266999186313,0.0019636266999186313,0.0
+median,soft,new_skew_30_0,skew,Box plot / five,Quantile plot / nineteen,0.0035601636769903044,0.007375808541231145,-0.0038156448642408408
+median,soft,new_skew_30_1,skew,Quantile plot / five,Quantile plot / nineteen,0.0008988674068668118,0.0008988674068668118,0.0
+median,soft,new_skew_30_2,skew,Quantile plot / five,Quantile plot / nineteen,0.0004354998134521225,0.0004354998134521225,0.0
+profile,hard,new_profile_ramp_0.01_0,ramp,Dot plot,Dot plot,0.24019744416741964,0.24019744416741964,0.0
+profile,hard,new_profile_ramp_0.01_1,ramp,Dot plot,Dot plot,0.2667215995709121,0.2667215995709121,0.0
+profile,hard,new_profile_ramp_0.01_2,ramp,Dot plot,Dot plot,0.2525423231323715,0.2525423231323715,0.0
+profile,hard,new_profile_ramp_0.01_3,ramp,Dot plot,Dot plot,0.26466890161238044,0.26466890161238044,0.0
+profile,hard,new_profile_ramp_0.1_0,ramp,Dot plot,Dot plot,0.021624742118406214,0.021624742118406214,0.0
+profile,hard,new_profile_ramp_0.1_1,ramp,Dot plot,Dot plot,0.02792355930934986,0.02792355930934986,0.0
+profile,hard,new_profile_ramp_0.1_2,ramp,Dot plot,Dot plot,0.026481338482585735,0.026481338482585735,0.0
+profile,hard,new_profile_ramp_0.1_3,ramp,Dot plot,Dot plot,0.022349372003628378,0.022349372003628378,0.0
+profile,hard,new_profile_ramp_0.4_0,ramp,Dot plot,Dot plot,0.009285178374232421,0.009285178374232421,0.0
+profile,hard,new_profile_ramp_0.4_1,ramp,Dot plot,Dot plot,0.0068863526406206564,0.0068863526406206564,0.0
+profile,hard,new_profile_ramp_0.4_2,ramp,Dot plot,Dot plot,0.0074308638689935475,0.0074308638689935475,0.0
+profile,hard,new_profile_ramp_0.4_3,ramp,Dot plot,Dot plot,0.007429175500481817,0.007429175500481817,0.0
+profile,hard,new_profile_step_0.01_0,step,Dot plot,Dot plot,0.17433422784135827,0.17433422784135827,0.0
+profile,hard,new_profile_step_0.01_1,step,Dot plot,Dot plot,0.15985729791025086,0.15985729791025086,0.0
+profile,hard,new_profile_step_0.01_2,step,Dot plot,Dot plot,0.17501970062012814,0.17501970062012814,0.0
+profile,hard,new_profile_step_0.01_3,step,Dot plot,Dot plot,0.14216502284486798,0.14216502284486798,0.0
+profile,hard,new_profile_step_0.1_0,step,Dot plot,Dot plot,0.018958903052918842,0.018958903052918842,0.0
+profile,hard,new_profile_step_0.1_1,step,Dot plot,Dot plot,0.017399617948317035,0.017399617948317035,0.0
+profile,hard,new_profile_step_0.1_2,step,Dot plot,Dot plot,0.016345255774776274,0.016345255774776274,0.0
+profile,hard,new_profile_step_0.1_3,step,Dot plot,Dot plot,0.01676974484902244,0.01676974484902244,0.0
+profile,hard,new_profile_step_0.4_0,step,Dot plot,Dot plot,0.006175228826796813,0.006175228826796813,0.0
+profile,hard,new_profile_step_0.4_1,step,Dot plot,Dot plot,0.006115831577728782,0.006115831577728782,0.0
+profile,hard,new_profile_step_0.4_2,step,Dot plot,Dot plot,0.005393314304508166,0.005393314304508166,0.0
+profile,hard,new_profile_step_0.4_3,step,Dot plot,Dot plot,0.005463049793033613,0.005463049793033613,0.0
+profile,hard,new_profile_wave_0.01_0,wave,Dot plot,Dot plot,0.12344025190991664,0.12344025190991664,0.0
+profile,hard,new_profile_wave_0.01_1,wave,Dot plot,Dot plot,0.10651951814277469,0.10651951814277469,0.0
+profile,hard,new_profile_wave_0.01_2,wave,Dot plot,Dot plot,0.10946367938855828,0.10946367938855828,0.0
+profile,hard,new_profile_wave_0.01_3,wave,Dot plot,Dot plot,0.1108596202173325,0.1108596202173325,0.0
+profile,hard,new_profile_wave_0.1_0,wave,Dot plot,Dot plot,0.011990478230671276,0.011990478230671276,0.0
+profile,hard,new_profile_wave_0.1_1,wave,Dot plot,Dot plot,0.011434325063243682,0.011434325063243682,0.0
+profile,hard,new_profile_wave_0.1_2,wave,Dot plot,Dot plot,0.012355935341216283,0.012355935341216283,0.0
+profile,hard,new_profile_wave_0.1_3,wave,Dot plot,Dot plot,0.01218025179017341,0.01218025179017341,0.0
+profile,hard,new_profile_wave_0.4_0,wave,Dot plot,Dot plot,0.004070555567381508,0.004070555567381508,0.0
+profile,hard,new_profile_wave_0.4_1,wave,Dot plot,Dot plot,0.003990121296078257,0.003990121296078257,0.0
+profile,hard,new_profile_wave_0.4_2,wave,Dot plot,Dot plot,0.003753358900161299,0.003753358900161299,0.0
+profile,hard,new_profile_wave_0.4_3,wave,Dot plot,Dot plot,0.003899353436049672,0.003899353436049672,0.0
+profile,soft,new_profile_ramp_0.01_0,ramp,Dot plot,Dot plot,0.21553616778731916,0.21553616778731916,0.0
+profile,soft,new_profile_ramp_0.01_1,ramp,Dot plot,Dot plot,0.2506377086226971,0.2506377086226971,0.0
+profile,soft,new_profile_ramp_0.01_2,ramp,Dot plot,Dot plot,0.2641003534084218,0.2641003534084218,0.0
+profile,soft,new_profile_ramp_0.01_3,ramp,Dot plot,Dot plot,0.2540174224307985,0.2540174224307985,0.0
+profile,soft,new_profile_ramp_0.1_0,ramp,Dot plot,Dot plot,0.022763801823429162,0.022763801823429162,0.0
+profile,soft,new_profile_ramp_0.1_1,ramp,Dot plot,Dot plot,0.026111241508225483,0.026111241508225483,0.0
+profile,soft,new_profile_ramp_0.1_2,ramp,Dot plot,Dot plot,0.025999626296794656,0.025999626296794656,0.0
+profile,soft,new_profile_ramp_0.1_3,ramp,Dot plot,Dot plot,0.022091776217097,0.022091776217097,0.0
+profile,soft,new_profile_ramp_0.4_0,ramp,Dot plot,Dot plot,0.008344907424164813,0.008344907424164813,0.0
+profile,soft,new_profile_ramp_0.4_1,ramp,Dot plot,Dot plot,0.007175187135109938,0.007175187135109938,0.0
+profile,soft,new_profile_ramp_0.4_2,ramp,Dot plot,Dot plot,0.006980154752721525,0.006980154752721525,0.0
+profile,soft,new_profile_ramp_0.4_3,ramp,Dot plot,Dot plot,0.006784806318319889,0.006784806318319889,0.0
+profile,soft,new_profile_step_0.01_0,step,Dot plot,Dot plot,0.1593457169722691,0.1593457169722691,0.0
+profile,soft,new_profile_step_0.01_1,step,Dot plot,Dot plot,0.146063219230243,0.146063219230243,0.0
+profile,soft,new_profile_step_0.01_2,step,Dot plot,Dot plot,0.1678529675119998,0.1678529675119998,0.0
+profile,soft,new_profile_step_0.01_3,step,Dot plot,Dot plot,0.14269100338844362,0.14269100338844362,0.0
+profile,soft,new_profile_step_0.1_0,step,Dot plot,Dot plot,0.017435878604076804,0.017435878604076804,0.0
+profile,soft,new_profile_step_0.1_1,step,Dot plot,Dot plot,0.01637763024337844,0.01637763024337844,0.0
+profile,soft,new_profile_step_0.1_2,step,Dot plot,Dot plot,0.016075087594265583,0.016075087594265583,0.0
+profile,soft,new_profile_step_0.1_3,step,Dot plot,Dot plot,0.015019866421301629,0.015019866421301629,0.0
+profile,soft,new_profile_step_0.4_0,step,Dot plot,Dot plot,0.005917748452504751,0.005917748452504751,0.0
+profile,soft,new_profile_step_0.4_1,step,Dot plot,Dot plot,0.005951615102726031,0.005951615102726031,0.0
+profile,soft,new_profile_step_0.4_2,step,Dot plot,Dot plot,0.005178407351198315,0.005178407351198315,0.0
+profile,soft,new_profile_step_0.4_3,step,Dot plot,Dot plot,0.005562518775804823,0.005562518775804823,0.0
+profile,soft,new_profile_wave_0.01_0,wave,Dot plot,Dot plot,0.11149438801488765,0.11149438801488765,0.0
+profile,soft,new_profile_wave_0.01_1,wave,Dot plot,Dot plot,0.10316103395261589,0.10316103395261589,0.0
+profile,soft,new_profile_wave_0.01_2,wave,Dot plot,Dot plot,0.11221664025131511,0.11221664025131511,0.0
+profile,soft,new_profile_wave_0.01_3,wave,Dot plot,Dot plot,0.10365912285541476,0.10365912285541476,0.0
+profile,soft,new_profile_wave_0.1_0,wave,Dot plot,Dot plot,0.011551103280160901,0.011551103280160901,0.0
+profile,soft,new_profile_wave_0.1_1,wave,Dot plot,Dot plot,0.011639420060789614,0.011639420060789614,0.0
+profile,soft,new_profile_wave_0.1_2,wave,Dot plot,Dot plot,0.011708846369028775,0.011708846369028775,0.0
+profile,soft,new_profile_wave_0.1_3,wave,Dot plot,Dot plot,0.012024057996576038,0.012024057996576038,0.0
+profile,soft,new_profile_wave_0.4_0,wave,Dot plot,Dot plot,0.004079035463044576,0.004079035463044576,0.0
+profile,soft,new_profile_wave_0.4_1,wave,Dot plot,Dot plot,0.003783061596469161,0.003783061596469161,0.0
+profile,soft,new_profile_wave_0.4_2,wave,Dot plot,Dot plot,0.0037937575013947972,0.0037937575013947972,0.0
+profile,soft,new_profile_wave_0.4_3,wave,Dot plot,Dot plot,0.0035372722864428796,0.0035372722864428796,0.0
+spread,hard,new_heavy_tail_150_0,heavy_tail,ECDF / full,Quantile plot / five,0.002504622395430671,0.015593062171265793,-0.013088439775835122
+spread,hard,new_heavy_tail_150_1,heavy_tail,Quantile plot / five,Quantile plot / five,0.010100459003808798,0.010100459003808798,0.0
+spread,hard,new_heavy_tail_150_2,heavy_tail,Quantile plot / five,Quantile plot / five,0.011773561902683945,0.011773561902683945,0.0
+spread,hard,new_heavy_tail_30_0,heavy_tail,Quantile plot / five,Quantile plot / five,0.008035874663120172,0.008035874663120172,0.0
+spread,hard,new_heavy_tail_30_1,heavy_tail,ECDF / full,Quantile plot / five,0.003907934503175906,0.01221567308151022,-0.008307738578334313
+spread,hard,new_heavy_tail_30_2,heavy_tail,Quantile plot / five,Quantile plot / five,0.004248793742890481,0.004248793742890481,0.0
+spread,hard,new_location_150_0,location,Bar chart / means,Quantile plot / five,0.006054694701835159,0.00760236870025612,-0.0015476739984209616
+spread,hard,new_location_150_1,location,Quantile plot / five,Quantile plot / five,0.004639471962541944,0.004639471962541944,0.0
+spread,hard,new_location_150_2,location,Quantile plot / five,Quantile plot / five,0.006008096044530868,0.006008096044530868,0.0
+spread,hard,new_location_30_0,location,Quantile plot / five,Quantile plot / five,0.005586289864994671,0.005586289864994671,0.0
+spread,hard,new_location_30_1,location,Quantile plot / five,Quantile plot / five,0.003795342088841161,0.003795342088841161,0.0
+spread,hard,new_location_30_2,location,Quantile plot / five,Quantile plot / five,0.006755448907806581,0.006755448907806581,0.0
+spread,hard,new_mixture_150_0,mixture,Interval plot / five,Quantile plot / five,0.0040960097554451,0.008716506253034396,-0.004620496497589296
+spread,hard,new_mixture_150_1,mixture,Heatmap / 16,Quantile plot / five,0.003885585516503965,0.0028674595660259394,0.0010181259504780256
+spread,hard,new_mixture_150_2,mixture,Quantile plot / five,Quantile plot / five,0.005429840024901609,0.005429840024901609,0.0
+spread,hard,new_mixture_30_0,mixture,Quantile plot / five,Quantile plot / five,0.005119684395554894,0.005119684395554894,0.0
+spread,hard,new_mixture_30_1,mixture,Quantile plot / five,Quantile plot / five,0.006079872019374134,0.006079872019374134,0.0
+spread,hard,new_mixture_30_2,mixture,Quantile plot / five,Quantile plot / five,0.005980128915704892,0.005980128915704892,0.0
+spread,hard,new_null_150_0,null,Interval plot / five,Quantile plot / five,0.007136236769767702,0.00843700426674571,-0.0013007674969780086
+spread,hard,new_null_150_1,null,Violin plot / 64,Quantile plot / five,0.006193517572728664,0.003164848875973782,0.003028668696754882
+spread,hard,new_null_150_2,null,ECDF / full,Quantile plot / five,0.003860052132676422,0.010363102263514683,-0.006503050130838261
+spread,hard,new_null_30_0,null,Quantile plot / five,Quantile plot / five,0.00800034781660967,0.00800034781660967,0.0
+spread,hard,new_null_30_1,null,Quantile plot / five,Quantile plot / five,0.00406753774906468,0.00406753774906468,0.0
+spread,hard,new_null_30_2,null,Quantile plot / five,Quantile plot / five,0.004490660601154219,0.004490660601154219,0.0
+spread,hard,new_scale_150_0,scale,Quantile plot / five,Quantile plot / five,0.0048278194269511365,0.0048278194269511365,0.0
+spread,hard,new_scale_150_1,scale,Interval plot / five,Quantile plot / five,0.006991436685410085,0.023375301227411736,-0.01638386454200165
+spread,hard,new_scale_150_2,scale,Quantile plot / five,Quantile plot / five,0.006528958947454496,0.006528958947454496,0.0
+spread,hard,new_scale_30_0,scale,Quantile plot / five,Quantile plot / five,0.011138049431830496,0.011138049431830496,0.0
+spread,hard,new_scale_30_1,scale,Quantile plot / five,Quantile plot / five,0.0055197433519114745,0.0055197433519114745,0.0
+spread,hard,new_scale_30_2,scale,Quantile plot / five,Quantile plot / five,0.007542375493891176,0.007542375493891176,0.0
+spread,hard,new_skew_150_0,skew,Quantile plot / five,Quantile plot / five,0.00889167074793732,0.00889167074793732,0.0
+spread,hard,new_skew_150_1,skew,Dot plot / raw,Quantile plot / five,0.010145509618646135,0.012042801152575833,-0.001897291533929698
+spread,hard,new_skew_150_2,skew,Dot plot / raw,Quantile plot / five,0.007454660270039526,0.013325354685422258,-0.005870694415382733
+spread,hard,new_skew_30_0,skew,Box plot / five,Quantile plot / five,0.006884087971815466,0.016655853942923935,-0.00977176597110847
+spread,hard,new_skew_30_1,skew,Interval plot / five,Quantile plot / five,0.006195265248779462,0.009142555685579468,-0.0029472904368000067
+spread,hard,new_skew_30_2,skew,Dot plot / raw,Quantile plot / five,0.004698615840687736,0.014232137463297951,-0.009533521622610215
+spread,soft,new_heavy_tail_150_0,heavy_tail,Quantile plot / five,Quantile plot / five,0.0007509660692839652,0.0007509660692839652,0.0
+spread,soft,new_heavy_tail_150_1,heavy_tail,Quantile plot / five,Quantile plot / five,0.0062583600934014005,0.0062583600934014005,0.0
+spread,soft,new_heavy_tail_150_2,heavy_tail,Quantile plot / five,Quantile plot / five,0.0042871561275827745,0.0042871561275827745,0.0
+spread,soft,new_heavy_tail_30_0,heavy_tail,Quantile plot / five,Quantile plot / five,0.007080636471825209,0.007080636471825209,0.0
+spread,soft,new_heavy_tail_30_1,heavy_tail,ECDF / full,Quantile plot / five,0.0005880449166642822,0.00775175210989745,-0.007163707193233168
+spread,soft,new_heavy_tail_30_2,heavy_tail,Quantile plot / five,Quantile plot / five,0.0017918500845195624,0.0017918500845195624,0.0
+spread,soft,new_location_150_0,location,Bar chart / means,Quantile plot / five,0.0018053205814775358,0.00760236870025612,-0.005797048118778585
+spread,soft,new_location_150_1,location,ECDF / full,Quantile plot / five,0.0036837501936394356,0.006166808849626263,-0.002483058655986827
+spread,soft,new_location_150_2,location,Quantile plot / five,Quantile plot / five,0.001134827978685131,0.001134827978685131,0.0
+spread,soft,new_location_30_0,location,Quantile plot / five,Quantile plot / five,0.003148973073410254,0.003148973073410254,0.0
+spread,soft,new_location_30_1,location,Quantile plot / five,Quantile plot / five,0.003795342088840254,0.003795342088840254,0.0
+spread,soft,new_location_30_2,location,ECDF / full,Quantile plot / five,0.002470763833856131,0.015067420830641843,-0.012596656996785712
+spread,soft,new_mixture_150_0,mixture,Box plot / five,Quantile plot / five,0.0024881120470143727,0.008716506253034396,-0.006228394206020024
+spread,soft,new_mixture_150_1,mixture,Quantile plot / five,Quantile plot / five,0.002715622500827278,0.002715622500827278,0.0
+spread,soft,new_mixture_150_2,mixture,ECDF / full,Quantile plot / five,0.0028978102717620445,0.0010293987630467102,0.0018684115087153343
+spread,soft,new_mixture_30_0,mixture,Quantile plot / five,Quantile plot / five,0.004597973910302993,0.004597973910302993,0.0
+spread,soft,new_mixture_30_1,mixture,Dot plot / raw,Quantile plot / five,0.003441725791726981,0.018911699400400925,-0.015469973608673944
+spread,soft,new_mixture_30_2,mixture,Quantile plot / five,Quantile plot / five,0.0031456509897342436,0.0031456509897342436,0.0
+spread,soft,new_null_150_0,null,Box plot / five,Quantile plot / five,0.0016527600034037847,0.00843700426674571,-0.0067842442633419256
+spread,soft,new_null_150_1,null,Quantile plot / five,Quantile plot / five,0.005282095810848193,0.005282095810848193,0.0
+spread,soft,new_null_150_2,null,Quantile plot / five,Quantile plot / five,0.0024363760340481715,0.0024363760340481715,0.0
+spread,soft,new_null_30_0,null,Quantile plot / five,Quantile plot / five,0.005851829557816423,0.005851829557816423,0.0
+spread,soft,new_null_30_1,null,Quantile plot / five,Quantile plot / five,0.0003313201809944809,0.0003313201809944809,0.0
+spread,soft,new_null_30_2,null,Quantile plot / five,Quantile plot / five,0.0036821687692544765,0.0036821687692544765,0.0
+spread,soft,new_scale_150_0,scale,Quantile plot / five,Quantile plot / five,0.00367340538746406,0.00367340538746406,0.0
+spread,soft,new_scale_150_1,scale,ECDF / full,Quantile plot / five,0.001478922465539889,0.014741732485798206,-0.013262810020258317
+spread,soft,new_scale_150_2,scale,Quantile plot / five,Quantile plot / five,0.003214109541891893,0.003214109541891893,0.0
+spread,soft,new_scale_30_0,scale,Quantile plot / five,Quantile plot / five,0.008348785465479956,0.008348785465479956,0.0
+spread,soft,new_scale_30_1,scale,Quantile plot / five,Quantile plot / five,0.003688109074210538,0.003688109074210538,0.0
+spread,soft,new_scale_30_2,scale,Quantile plot / five,Quantile plot / five,0.0016528345042399434,0.0016528345042399434,0.0
+spread,soft,new_skew_150_0,skew,Quantile plot / five,Quantile plot / five,0.00806839059384496,0.00806839059384496,0.0
+spread,soft,new_skew_150_1,skew,Quantile plot / five,Quantile plot / five,0.005903238623334375,0.005903238623334375,0.0
+spread,soft,new_skew_150_2,skew,Quantile plot / five,Quantile plot / five,0.002464811641279289,0.002464811641279289,0.0
+spread,soft,new_skew_30_0,skew,Box plot / five,Quantile plot / five,0.0019042368604624237,0.015703735512693426,-0.013799498652231002
+spread,soft,new_skew_30_1,skew,Box plot / five,Quantile plot / five,0.00431923480682273,0.009142555685579295,-0.004823320878756565
+spread,soft,new_skew_30_2,skew,Quantile plot / five,Quantile plot / five,0.000955712093916718,0.000955712093916718,0.0

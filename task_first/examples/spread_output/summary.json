@@ -1,0 +1,26 @@
+{
+  "candidate_scope": "seven familiar families",
+  "candidate_settings": 7,
+  "task": "spread",
+  "target_description": "Marginal group comparison; not within-person change.",
+  "observer": "threshold",
+  "height": 256,
+  "n_A": 357,
+  "n_B": 212,
+  "pooled_sd": 0.02446644427396679,
+  "true_target": [
+    0.021065000000000007
+  ],
+  "selected_family": "Box plot",
+  "selected_setting": "five",
+  "score": 98.6467591084656,
+  "all_tied_best": [
+    {
+      "family": "Box plot",
+      "setting": "five",
+      "score": 98.6467591084656
+    }
+  ],
+  "input_sha256": "59ff267072c5fcb124cae096aebb39f089cef35a44f7601bb50e7bdc96ec15de",
+  "interpretation": "Computational recovery only. Validate separately for readers and for another display condition."
+}

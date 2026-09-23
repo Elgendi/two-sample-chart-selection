@@ -1,0 +1,448 @@
+key,floor_multiplier,selected,changed
+BIDMC__00,0.5,Bar; Dot,False
+BIDMC__01,0.5,Bar; Dot,False
+BIDMC__02,0.5,Bar; Dot,False
+BIDMC__03,0.5,Bar; Dot,False
+BIDMC__04,0.5,Bar; Dot,False
+CKD__00,0.5,Box,False
+CKD__01,0.5,Bar; Dot,False
+CKD__02,0.5,Heatmap; Histogram,False
+CKD__03,0.5,Heatmap; Histogram,False
+CKD__04,0.5,Heatmap; Histogram,False
+CKD__05,0.5,Bar; Dot,False
+CKD__06,0.5,Dot; Raincloud,False
+CKD__07,0.5,Heatmap; Histogram,False
+CKD__08,0.5,Heatmap; Histogram,False
+CKD__09,0.5,Heatmap; Histogram,False
+CKD__10,0.5,Bar; Dot,False
+Cleveland__00,0.5,Bar; Dot,False
+Cleveland__01,0.5,Bar; Dot,False
+Cleveland__02,0.5,Bar; Dot,False
+Cleveland__03,0.5,Bar; Dot,False
+Cleveland__04,0.5,Box,False
+HAR__00,0.5,Box,False
+HAR__01,0.5,Bar; Dot,False
+HAR__02,0.5,Bar; Dot,False
+HAR__03,0.5,Box,False
+HAR__04,0.5,Box,False
+HAR__05,0.5,Box,False
+HAR__06,0.5,Bar; Dot,False
+HAR__07,0.5,Bar; Dot,False
+HAR__08,0.5,Bar; Dot,False
+HAR__09,0.5,Bar; Dot,False
+HAR__10,0.5,Bar; Dot,False
+HAR__11,0.5,Bar; Dot,False
+HAR__12,0.5,Box,False
+HAR__13,0.5,Box,False
+HAR__14,0.5,Box,False
+HAR__15,0.5,Box,False
+HAR__16,0.5,Box,False
+HAR__17,0.5,Box,False
+HAR__18,0.5,Bar; Dot,False
+HAR__19,0.5,Box,False
+HAR__20,0.5,Box,False
+HAR__21,0.5,Box,False
+HAR__22,0.5,Box,False
+HAR__23,0.5,Box,False
+HAR__24,0.5,Box,False
+HAR__25,0.5,Box,False
+HAR__26,0.5,Bar; Dot,False
+HAR__27,0.5,Bar; Dot,False
+HAR__28,0.5,Heatmap; Histogram,False
+HAR__29,0.5,Box,False
+HAR__30,0.5,Box,False
+HAR__31,0.5,Box,False
+HAR__32,0.5,Box,False
+HAR__33,0.5,Box,False
+HAR__34,0.5,Box,False
+HAR__35,0.5,Box,False
+HAR__36,0.5,Box,False
+HAR__37,0.5,Box,False
+HAR__38,0.5,Bar; Dot,False
+HAR__39,0.5,Box,False
+HeartFailure__00,0.5,Bar; Dot,False
+HeartFailure__01,0.5,Bar; Dot,False
+HeartFailure__02,0.5,Bar; Dot,False
+HeartFailure__03,0.5,Bar; Dot,False
+HeartFailure__04,0.5,Bar; Dot,False
+HeartFailure__05,0.5,Bar; Dot,False
+ILPD__00,0.5,Bar; Dot,False
+ILPD__01,0.5,Heatmap; Histogram,False
+ILPD__02,0.5,Heatmap; Histogram,False
+ILPD__03,0.5,Box,False
+ILPD__04,0.5,Heatmap; Histogram,False
+ILPD__05,0.5,Heatmap; Histogram,False
+ILPD__06,0.5,Bar; Dot,False
+ILPD__07,0.5,Bar; Dot,False
+ILPD__08,0.5,Bar; Dot,False
+Parkinsons__00,0.5,Bar; Dot,False
+Parkinsons__01,0.5,Bar; Dot,False
+Parkinsons__02,0.5,Bar; Dot,False
+Parkinsons__03,0.5,Bar; Dot,False
+Parkinsons__04,0.5,Bar; Dot,False
+Parkinsons__05,0.5,Bar; Dot,False
+Parkinsons__06,0.5,Bar; Dot,False
+Parkinsons__07,0.5,Bar; Dot,False
+Parkinsons__08,0.5,Box,False
+Parkinsons__09,0.5,Box,False
+Parkinsons__10,0.5,Box,False
+Parkinsons__11,0.5,Box,False
+Parkinsons__12,0.5,Bar; Dot,False
+Parkinsons__13,0.5,Box,False
+Parkinsons__14,0.5,Bar; Dot,False
+Parkinsons__15,0.5,Bar; Dot,False
+Parkinsons__16,0.5,Bar; Dot,False
+Parkinsons__17,0.5,Bar; Dot,False
+Parkinsons__18,0.5,Bar; Dot,False
+Parkinsons__19,0.5,Bar; Dot,False
+Parkinsons__20,0.5,Bar; Dot,False
+Parkinsons__21,0.5,Bar; Dot,False
+Retinopathy__00,0.5,Heatmap; Histogram,False
+Retinopathy__01,0.5,Heatmap; Histogram,False
+Retinopathy__02,0.5,Bar; Dot,False
+Retinopathy__03,0.5,Bar; Dot,False
+Retinopathy__04,0.5,Bar; Dot,False
+Retinopathy__05,0.5,Bar; Dot,False
+Retinopathy__06,0.5,Heatmap; Histogram,False
+Retinopathy__07,0.5,Box,False
+Retinopathy__08,0.5,Heatmap; Histogram,False
+Retinopathy__09,0.5,Bar; Dot,False
+Retinopathy__10,0.5,Heatmap; Histogram,False
+Retinopathy__11,0.5,Heatmap; Histogram,False
+Retinopathy__12,0.5,Heatmap; Histogram,False
+Retinopathy__13,0.5,Heatmap; Histogram,False
+Retinopathy__14,0.5,Bar; Dot,False
+Retinopathy__15,0.5,Bar; Dot,False
+WDBC__00,0.5,Heatmap; Histogram,False
+WDBC__01,0.5,Bar; Dot,False
+WDBC__02,0.5,Heatmap; Histogram,False
+WDBC__03,0.5,Heatmap; Histogram,False
+WDBC__04,0.5,Bar; Dot,False
+WDBC__05,0.5,Box,False
+WDBC__06,0.5,Heatmap; Histogram,False
+WDBC__07,0.5,Box,False
+WDBC__08,0.5,Bar; Dot,False
+WDBC__09,0.5,Bar; Dot,False
+WDBC__10,0.5,Heatmap; Histogram,False
+WDBC__11,0.5,Bar; Dot,False
+WDBC__12,0.5,Heatmap; Histogram,False
+WDBC__13,0.5,Heatmap; Histogram,False
+WDBC__14,0.5,Heatmap; Histogram,False
+WDBC__15,0.5,Bar; Dot,False
+WDBC__16,0.5,Bar; Dot,False
+WDBC__17,0.5,Bar; Dot,False
+WDBC__18,0.5,Bar; Dot,False
+WDBC__19,0.5,Bar; Dot,False
+WDBC__20,0.5,Heatmap; Histogram,False
+WDBC__21,0.5,Bar; Dot,False
+WDBC__22,0.5,Heatmap; Histogram,False
+WDBC__23,0.5,Heatmap; Histogram,False
+WDBC__24,0.5,Bar; Dot,False
+WDBC__25,0.5,Box,False
+WDBC__26,0.5,Bar; Dot,False
+WDBC__27,0.5,Bar; Dot,False
+WDBC__28,0.5,Heatmap; Histogram,False
+WDBC__29,0.5,Bar; Dot,False
+Wrist__00,0.5,Bar; Dot,False
+Wrist__01,0.5,Bar; Dot,False
+Wrist__02,0.5,Bar; Dot,False
+Wrist__03,0.5,Bar; Dot,False
+Wrist__04,0.5,Bar; Dot,False
+BIDMC__00,1.0,Bar; Dot,False
+BIDMC__01,1.0,Bar; Dot,False
+BIDMC__02,1.0,Bar; Dot,False
+BIDMC__03,1.0,Bar; Dot,False
+BIDMC__04,1.0,Bar; Dot,False
+CKD__00,1.0,Box,False
+CKD__01,1.0,Bar; Dot,False
+CKD__02,1.0,Heatmap; Histogram,False
+CKD__03,1.0,Heatmap; Histogram,False
+CKD__04,1.0,Heatmap; Histogram,False
+CKD__05,1.0,Bar; Dot,False
+CKD__06,1.0,Dot; Raincloud,False
+CKD__07,1.0,Heatmap; Histogram,False
+CKD__08,1.0,Heatmap; Histogram,False
+CKD__09,1.0,Heatmap; Histogram,False
+CKD__10,1.0,Bar; Dot,False
+Cleveland__00,1.0,Bar; Dot,False
+Cleveland__01,1.0,Bar; Dot,False
+Cleveland__02,1.0,Bar; Dot,False
+Cleveland__03,1.0,Bar; Dot,False
+Cleveland__04,1.0,Box,False
+HAR__00,1.0,Box,False
+HAR__01,1.0,Bar; Dot,False
+HAR__02,1.0,Bar; Dot,False
+HAR__03,1.0,Box,False
+HAR__04,1.0,Box,False
+HAR__05,1.0,Box,False
+HAR__06,1.0,Bar; Dot,False
+HAR__07,1.0,Bar; Dot,False
+HAR__08,1.0,Bar; Dot,False
+HAR__09,1.0,Bar; Dot,False
+HAR__10,1.0,Bar; Dot,False
+HAR__11,1.0,Bar; Dot,False
+HAR__12,1.0,Box,False
+HAR__13,1.0,Box,False
+HAR__14,1.0,Box,False
+HAR__15,1.0,Box,False
+HAR__16,1.0,Box,False
+HAR__17,1.0,Box,False
+HAR__18,1.0,Bar; Dot,False
+HAR__19,1.0,Box,False
+HAR__20,1.0,Box,False
+HAR__21,1.0,Box,False
+HAR__22,1.0,Box,False
+HAR__23,1.0,Box,False
+HAR__24,1.0,Box,False
+HAR__25,1.0,Box,False
+HAR__26,1.0,Bar; Dot,False
+HAR__27,1.0,Bar; Dot,False
+HAR__28,1.0,Heatmap; Histogram,False
+HAR__29,1.0,Box,False
+HAR__30,1.0,Box,False
+HAR__31,1.0,Box,False
+HAR__32,1.0,Box,False
+HAR__33,1.0,Box,False
+HAR__34,1.0,Box,False
+HAR__35,1.0,Box,False
+HAR__36,1.0,Box,False
+HAR__37,1.0,Box,False
+HAR__38,1.0,Bar; Dot,False
+HAR__39,1.0,Box,False
+HeartFailure__00,1.0,Bar; Dot,False
+HeartFailure__01,1.0,Bar; Dot,False
+HeartFailure__02,1.0,Bar; Dot,False
+HeartFailure__03,1.0,Bar; Dot,False
+HeartFailure__04,1.0,Bar; Dot,False
+HeartFailure__05,1.0,Bar; Dot,False
+ILPD__00,1.0,Bar; Dot,False
+ILPD__01,1.0,Heatmap; Histogram,False
+ILPD__02,1.0,Heatmap; Histogram,False
+ILPD__03,1.0,Box,False
+ILPD__04,1.0,Heatmap; Histogram,False
+ILPD__05,1.0,Heatmap; Histogram,False
+ILPD__06,1.0,Bar; Dot,False
+ILPD__07,1.0,Bar; Dot,False
+ILPD__08,1.0,Bar; Dot,False
+Parkinsons__00,1.0,Bar; Dot,False
+Parkinsons__01,1.0,Bar; Dot,False
+Parkinsons__02,1.0,Bar; Dot,False
+Parkinsons__03,1.0,Bar; Dot,False
+Parkinsons__04,1.0,Bar; Dot,False
+Parkinsons__05,1.0,Bar; Dot,False
+Parkinsons__06,1.0,Bar; Dot,False
+Parkinsons__07,1.0,Bar; Dot,False
+Parkinsons__08,1.0,Box,False
+Parkinsons__09,1.0,Box,False
+Parkinsons__10,1.0,Box,False
+Parkinsons__11,1.0,Box,False
+Parkinsons__12,1.0,Bar; Dot,False
+Parkinsons__13,1.0,Box,False
+Parkinsons__14,1.0,Bar; Dot,False
+Parkinsons__15,1.0,Bar; Dot,False
+Parkinsons__16,1.0,Bar; Dot,False
+Parkinsons__17,1.0,Bar; Dot,False
+Parkinsons__18,1.0,Bar; Dot,False
+Parkinsons__19,1.0,Bar; Dot,False
+Parkinsons__20,1.0,Bar; Dot,False
+Parkinsons__21,1.0,Bar; Dot,False
+Retinopathy__00,1.0,Heatmap; Histogram,False
+Retinopathy__01,1.0,Heatmap; Histogram,False
+Retinopathy__02,1.0,Bar; Dot,False
+Retinopathy__03,1.0,Bar; Dot,False
+Retinopathy__04,1.0,Bar; Dot,False
+Retinopathy__05,1.0,Bar; Dot,False
+Retinopathy__06,1.0,Heatmap; Histogram,False
+Retinopathy__07,1.0,Box,False
+Retinopathy__08,1.0,Heatmap; Histogram,False
+Retinopathy__09,1.0,Bar; Dot,False
+Retinopathy__10,1.0,Heatmap; Histogram,False
+Retinopathy__11,1.0,Heatmap; Histogram,False
+Retinopathy__12,1.0,Heatmap; Histogram,False
+Retinopathy__13,1.0,Heatmap; Histogram,False
+Retinopathy__14,1.0,Bar; Dot,False
+Retinopathy__15,1.0,Bar; Dot,False
+WDBC__00,1.0,Heatmap; Histogram,False
+WDBC__01,1.0,Bar; Dot,False
+WDBC__02,1.0,Heatmap; Histogram,False
+WDBC__03,1.0,Heatmap; Histogram,False
+WDBC__04,1.0,Bar; Dot,False
+WDBC__05,1.0,Box,False
+WDBC__06,1.0,Heatmap; Histogram,False
+WDBC__07,1.0,Box,False
+WDBC__08,1.0,Bar; Dot,False
+WDBC__09,1.0,Bar; Dot,False
+WDBC__10,1.0,Heatmap; Histogram,False
+WDBC__11,1.0,Bar; Dot,False
+WDBC__12,1.0,Heatmap; Histogram,False
+WDBC__13,1.0,Heatmap; Histogram,False
+WDBC__14,1.0,Heatmap; Histogram,False
+WDBC__15,1.0,Bar; Dot,False
+WDBC__16,1.0,Bar; Dot,False
+WDBC__17,1.0,Bar; Dot,False
+WDBC__18,1.0,Bar; Dot,False
+WDBC__19,1.0,Bar; Dot,False
+WDBC__20,1.0,Heatmap; Histogram,False
+WDBC__21,1.0,Bar; Dot,False
+WDBC__22,1.0,Heatmap; Histogram,False
+WDBC__23,1.0,Heatmap; Histogram,False
+WDBC__24,1.0,Bar; Dot,False
+WDBC__25,1.0,Box,False
+WDBC__26,1.0,Bar; Dot,False
+WDBC__27,1.0,Bar; Dot,False
+WDBC__28,1.0,Heatmap; Histogram,False
+WDBC__29,1.0,Bar; Dot,False
+Wrist__00,1.0,Bar; Dot,False
+Wrist__01,1.0,Bar; Dot,False
+Wrist__02,1.0,Bar; Dot,False
+Wrist__03,1.0,Bar; Dot,False
+Wrist__04,1.0,Bar; Dot,False
+BIDMC__00,2.0,Bar; Dot,False
+BIDMC__01,2.0,Bar; Dot,False
+BIDMC__02,2.0,Bar; Dot,False
+BIDMC__03,2.0,Bar; Dot,False
+BIDMC__04,2.0,Bar; Dot,False
+CKD__00,2.0,Box,False
+CKD__01,2.0,Bar; Dot,False
+CKD__02,2.0,Heatmap; Histogram,False
+CKD__03,2.0,Heatmap; Histogram,False
+CKD__04,2.0,Heatmap; Histogram,False
+CKD__05,2.0,Bar; Dot,False
+CKD__06,2.0,Dot; Raincloud,False
+CKD__07,2.0,Heatmap; Histogram,False
+CKD__08,2.0,Heatmap; Histogram,False
+CKD__09,2.0,Heatmap; Histogram,False
+CKD__10,2.0,Bar; Dot,False
+Cleveland__00,2.0,Bar; Dot,False
+Cleveland__01,2.0,Bar; Dot,False
+Cleveland__02,2.0,Bar; Dot,False
+Cleveland__03,2.0,Bar; Dot,False
+Cleveland__04,2.0,Box,False
+HAR__00,2.0,Box,False
+HAR__01,2.0,Bar; Dot,False
+HAR__02,2.0,Bar; Dot,False
+HAR__03,2.0,Box,False
+HAR__04,2.0,Box,False
+HAR__05,2.0,Box,False
+HAR__06,2.0,Bar; Dot,False
+HAR__07,2.0,Bar; Dot,False
+HAR__08,2.0,Bar; Dot,False
+HAR__09,2.0,Bar; Dot,False
+HAR__10,2.0,Bar; Dot,False
+HAR__11,2.0,Bar; Dot,False
+HAR__12,2.0,Box,False
+HAR__13,2.0,Box,False
+HAR__14,2.0,Box,False
+HAR__15,2.0,Box,False
+HAR__16,2.0,Box,False
+HAR__17,2.0,Box,False
+HAR__18,2.0,Bar; Dot,False
+HAR__19,2.0,Box,False
+HAR__20,2.0,Box,False
+HAR__21,2.0,Box,False
+HAR__22,2.0,Box,False
+HAR__23,2.0,Box,False
+HAR__24,2.0,Box,False
+HAR__25,2.0,Box,False
+HAR__26,2.0,Bar; Dot,False
+HAR__27,2.0,Bar; Dot,False
+HAR__28,2.0,Heatmap; Histogram,False
+HAR__29,2.0,Box,False
+HAR__30,2.0,Box,False
+HAR__31,2.0,Box,False
+HAR__32,2.0,Box,False
+HAR__33,2.0,Box,False
+HAR__34,2.0,Box,False
+HAR__35,2.0,Box,False
+HAR__36,2.0,Box,False
+HAR__37,2.0,Box,False
+HAR__38,2.0,Bar; Dot,False
+HAR__39,2.0,Box,False
+HeartFailure__00,2.0,Bar; Dot,False
+HeartFailure__01,2.0,Bar; Dot,False
+HeartFailure__02,2.0,Bar; Dot,False
+HeartFailure__03,2.0,Bar; Dot,False
+HeartFailure__04,2.0,Bar; Dot,False
+HeartFailure__05,2.0,Bar; Dot,False
+ILPD__00,2.0,Bar; Dot,False
+ILPD__01,2.0,Heatmap; Histogram,False
+ILPD__02,2.0,Heatmap; Histogram,False
+ILPD__03,2.0,Box,False
+ILPD__04,2.0,Heatmap; Histogram,False
+ILPD__05,2.0,Heatmap; Histogram,False
+ILPD__06,2.0,Bar; Dot,False
+ILPD__07,2.0,Bar; Dot,False
+ILPD__08,2.0,Bar; Dot,False
+Parkinsons__00,2.0,Bar; Dot,False
+Parkinsons__01,2.0,Bar; Dot,False
+Parkinsons__02,2.0,Bar; Dot,False
+Parkinsons__03,2.0,Bar; Dot,False
+Parkinsons__04,2.0,Bar; Dot,False
+Parkinsons__05,2.0,Bar; Dot,False
+Parkinsons__06,2.0,Bar; Dot,False
+Parkinsons__07,2.0,Bar; Dot,False
+Parkinsons__08,2.0,Box,False
+Parkinsons__09,2.0,Box,False
+Parkinsons__10,2.0,Box,False
+Parkinsons__11,2.0,Box,False
+Parkinsons__12,2.0,Bar; Dot,False
+Parkinsons__13,2.0,Box,False
+Parkinsons__14,2.0,Bar; Dot,False
+Parkinsons__15,2.0,Bar; Dot,False
+Parkinsons__16,2.0,Bar; Dot,False
+Parkinsons__17,2.0,Bar; Dot,False
+Parkinsons__18,2.0,Bar; Dot,False
+Parkinsons__19,2.0,Bar; Dot,False
+Parkinsons__20,2.0,Bar; Dot,False
+Parkinsons__21,2.0,Bar; Dot,False
+Retinopathy__00,2.0,Heatmap; Histogram,False
+Retinopathy__01,2.0,Heatmap; Histogram,False
+Retinopathy__02,2.0,Bar; Dot,False
+Retinopathy__03,2.0,Bar; Dot,False
+Retinopathy__04,2.0,Bar; Dot,False
+Retinopathy__05,2.0,Bar; Dot,False
+Retinopathy__06,2.0,Heatmap; Histogram,False
+Retinopathy__07,2.0,Box,False
+Retinopathy__08,2.0,Heatmap; Histogram,False
+Retinopathy__09,2.0,Bar; Dot,False
+Retinopathy__10,2.0,Heatmap; Histogram,False
+Retinopathy__11,2.0,Heatmap; Histogram,False
+Retinopathy__12,2.0,Heatmap; Histogram,False
+Retinopathy__13,2.0,Heatmap; Histogram,False
+Retinopathy__14,2.0,Bar; Dot,False
+Retinopathy__15,2.0,Bar; Dot,False
+WDBC__00,2.0,Heatmap; Histogram,False
+WDBC__01,2.0,Bar; Dot,False
+WDBC__02,2.0,Heatmap; Histogram,False
+WDBC__03,2.0,Heatmap; Histogram,False
+WDBC__04,2.0,Bar; Dot,False
+WDBC__05,2.0,Box,False
+WDBC__06,2.0,Heatmap; Histogram,False
+WDBC__07,2.0,Box,False
+WDBC__08,2.0,Bar; Dot,False
+WDBC__09,2.0,Bar; Dot,False
+WDBC__10,2.0,Heatmap; Histogram,False
+WDBC__11,2.0,Bar; Dot,False
+WDBC__12,2.0,Heatmap; Histogram,False
+WDBC__13,2.0,Heatmap; Histogram,False
+WDBC__14,2.0,Heatmap; Histogram,False
+WDBC__15,2.0,Bar; Dot,False
+WDBC__16,2.0,Bar; Dot,False
+WDBC__17,2.0,Bar; Dot,False
+WDBC__18,2.0,Bar; Dot,False
+WDBC__19,2.0,Bar; Dot,False
+WDBC__20,2.0,Heatmap; Histogram,False
+WDBC__21,2.0,Bar; Dot,False
+WDBC__22,2.0,Heatmap; Histogram,False
+WDBC__23,2.0,Heatmap; Histogram,False
+WDBC__24,2.0,Bar; Dot,False
+WDBC__25,2.0,Box,False
+WDBC__26,2.0,Bar; Dot,False
+WDBC__27,2.0,Bar; Dot,False
+WDBC__28,2.0,Heatmap; Histogram,False
+WDBC__29,2.0,Bar; Dot,False
+Wrist__00,2.0,Bar; Dot,False
+Wrist__01,2.0,Bar; Dot,False
+Wrist__02,2.0,Bar; Dot,False
+Wrist__03,2.0,Bar; Dot,False
+Wrist__04,2.0,Bar; Dot,False

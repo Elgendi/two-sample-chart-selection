@@ -1,0 +1,8 @@
+figure,key,dataset,feature,category,before,before_score,before_error_ratio,after,after_score,after_error_ratio,after_qualifies,selected_set,bootstrap_agreement,ymin,ymax,same_displayed_samples,same_measurement_scale
+Fig3_before_after,WDBC__07,WDBC,mean concave points,numerical_success,Bar,0.0,1.6373323002330622,Box,0.08104733804278927,0.6769363226228609,True,Box,0.8484848484848485,0.0,0.2812,True,True
+Fig3_before_after,CKD__08,CKD,pcv,numerical_success,Bar,0.0,1.4385685680065876,Histogram,0.04508730386734265,0.35838536463536563,True,Heatmap; Histogram,1.0,0.0,58.32,True,True
+Fig3_before_after,HAR__29,HAR,tBodyGyroJerk-std()-Z,numerical_success,Bar,0.0,1.4405178913724068,Box,0.08277102595134354,0.16304470087984635,True,Box,0.9696969696969697,-1.07658764,0.08,True,True
+Fig4_limits_and_failure,ILPD__01,ILPD,total_bilirubin,visual_benefit_unmeasured,Bar,0.0,2.347927863823063,Histogram,0.04445929356952965,0.9849702823597687,True,Heatmap; Histogram,0.98989898989899,0.0,81.0,True,True
+Fig4_limits_and_failure,Parkinsons__08,Parkinsons,MDVP:Shimmer,provisional,Bar,0.0,1.227212533551808,Box,0.08217293995793441,0.3389125547148548,True,Box,0.6767676767676768,0.0,0.1517,True,True
+Fig4_limits_and_failure,BIDMC__00,BIDMC,mean,unchanged,Bar,0.43734956567154043,0.5730009973350378,Bar,0.43734956567154043,0.5730009973350378,True,Bar; Dot,0.98989898989899,0.0,134.72775000000001,True,True
+Fig4_limits_and_failure,CKD__06,CKD,pot,extremes_compress_display,Bar,0.0,1.6341867988161614,Dot,0.003205128205128205,0.0,True,Dot; Raincloud,0.9696969696969697,0.0,50.76,True,True

@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "bee0ed2c17e4294de4c9a016a800770cf2f3aca93cfbb86e525b9bc73367562a",
+  "source_sha256": {
+    "task_sensitivity.py": "ec5265e3ba7720222c7d68c5bd1c995713215aca478822cf94f4a7b84b4c8cbc",
+    "task_decoders.py": "f493750ca0505ef23fdc47b438cee8e29fbcbff5377c49a0d15ce38b18f5ebed"
+  }
+}

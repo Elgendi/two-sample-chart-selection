@@ -1,0 +1,11 @@
+{
+  "passed": 46,
+  "settings": 23,
+  "observers": 2,
+  "legacy_fixture_parity": true,
+  "blank_rejection": true,
+  "pixel_dependence": true,
+  "positive_unit_rescaling": true,
+  "metadata_target_free": true,
+  "cancellation_counterexample": true
+}

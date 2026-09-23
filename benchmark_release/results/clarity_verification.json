@@ -1,0 +1,115 @@
+{
+  "synthetic_count_checks": [
+    {
+      "task": "association",
+      "observer": "hard",
+      "default_better_tied_selection_better": [
+        3,
+        10,
+        23
+      ]
+    },
+    {
+      "task": "association",
+      "observer": "soft",
+      "default_better_tied_selection_better": [
+        0,
+        3,
+        33
+      ]
+    },
+    {
+      "task": "composition",
+      "observer": "hard",
+      "default_better_tied_selection_better": [
+        2,
+        19,
+        27
+      ]
+    },
+    {
+      "task": "composition",
+      "observer": "soft",
+      "default_better_tied_selection_better": [
+        1,
+        38,
+        9
+      ]
+    },
+    {
+      "task": "five",
+      "observer": "hard",
+      "default_better_tied_selection_better": [
+        0,
+        36,
+        0
+      ]
+    },
+    {
+      "task": "five",
+      "observer": "soft",
+      "default_better_tied_selection_better": [
+        1,
+        35,
+        0
+      ]
+    },
+    {
+      "task": "median",
+      "observer": "hard",
+      "default_better_tied_selection_better": [
+        9,
+        23,
+        4
+      ]
+    },
+    {
+      "task": "median",
+      "observer": "soft",
+      "default_better_tied_selection_better": [
+        12,
+        21,
+        3
+      ]
+    },
+    {
+      "task": "profile",
+      "observer": "hard",
+      "default_better_tied_selection_better": [
+        0,
+        36,
+        0
+      ]
+    },
+    {
+      "task": "profile",
+      "observer": "soft",
+      "default_better_tied_selection_better": [
+        0,
+        36,
+        0
+      ]
+    },
+    {
+      "task": "spread",
+      "observer": "hard",
+      "default_better_tied_selection_better": [
+        12,
+        22,
+        2
+      ]
+    },
+    {
+      "task": "spread",
+      "observer": "soft",
+      "default_better_tied_selection_better": [
+        10,
+        25,
+        1
+      ]
+    }
+  ],
+  "empirical_valid_policy_pairs": 1060,
+  "unchanged_result_csv_files": 16,
+  "status": "passed"
+}

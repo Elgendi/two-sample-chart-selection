@@ -1,0 +1,160 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=18mm]{geometry}
+\usepackage[T1]{fontenc}\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,pdflscape,booktabs,longtable,array}
+\usepackage[super,sort&compress]{natbib}\usepackage{hyperref}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\emergencystretch=4em
+\title{Supplementary information\\Choosing chart detail by preserving two-sample differences}
+\author{Mohamed Elgendi}\date{}
+\begin{document}\maketitle
+\section*{S1. What the procedure does and does not select}
+The algorithm selects a numerical representation for a declared empirical target. A representation comprises retained values and a decoder. Its possible chart encodings are not independent competitors when they retain the same values and share the same decoder. Means map to bars or mean dots; binned masses map to histograms or binned heatmaps; observations map to raw dots or a raw-data raincloud. A box uses minimum--maximum whiskers, not Tukey whiskers. Density reconstructions correspond to their declared finite grid and normalized cumulative interpolation, not an unspecified continuous idealization.
+
+The earlier fifteen-family interface is retained only in the archived original implementation. Stacked bars, pie/donut charts, area charts and bubble plots need additional schemas. Paired lines and paired scatter plots expose within-person relationships not measured by a marginal target. Interval and forest displays retain uncertainty information that the current fidelity objective does not assess; assigning them a larger cost and declaring them inferior would answer the wrong question. The revised core consequently reports five representation classes, their configurations and explicit mappings to familiar displays.
+
+A representation's error is not the error a reader makes. No scalar count measures attention, screen area or interpretation time. No numerical tie is broken by claiming perceptual superiority. The output includes the complete candidate table and error--size frontier. The optional single configuration used in simulations follows deterministic catalogue order if numerical objectives tie; the complete audit exports all tied configurations in \nolinkurl{optimal_sets.csv}.
+
+\section*{S2. Elementary properties and scope counterexamples}
+\textbf{Feasibility.} Retaining all observations reconstructs the empirical quantile functions exactly, hence $E_{\mathrm{raw}}=0$. The finite catalogue therefore has at least one qualifying representation for every nonnegative tolerance and accepted finite input.
+
+\textbf{Monotonicity of minimum size.} If $\tau_1\leq\tau_2$, then $\{c:E_c\leq\tau_1\}\subseteq\{c:E_c\leq\tau_2\}$. Consequently $\min_{E_c\leq\tau_2}N_c\leq\min_{E_c\leq\tau_1}N_c$. A tolerance path can only move to the same or a smaller retained size as tolerance grows. The identity of the selected family need not have a monotone interpretation.
+
+\textbf{Dominance.} A candidate with both larger error and no smaller cost than another candidate cannot improve the lexicographic optimum. Removing dominated candidates preserves the selection. This standard Pareto argument motivates displaying the frontier; it is not claimed as a new optimization theorem.
+
+\textbf{Connection to the previous score.} The earlier qualifying score $1/(N_c+e_c/2)$, with $e_c=E_c/\tau\leq1$, induces the same ordering as lexicographically minimizing $(N_c,E_c)$ when integer counts are unchanged. Since $e_c/2\in[0,0.5]$, one extra scalar cannot be compensated by any permitted decrease in error. Reporting counts and errors separately exposes this preference. The revised catalogue and counts differ, so old and new recommendations need not agree.
+
+\textbf{Sampling versus representation error.} The inequality $\|\widetilde\Delta_c-\Delta\|_\infty\leq E_c+\|\widehat\Delta-\Delta\|_\infty$ is the ordinary triangle inequality. It separates two error sources but provides no confidence coverage by itself. A bootstrap allowance is not substituted for the unknown sampling error as though a coverage theorem had been proved.
+
+\textbf{Affine transformations.} In exact arithmetic, common positive affine transformations multiply contrast errors, pooled scale and bootstrap deviations by the same positive factor, preserving normalized errors when the decoder is transformed consistently. Common translations cancel. Finite-precision histogram boundary membership can violate this numerical property: the test suite records exceptions for 4 and 64 bins using an exactly spaced synthetic sample and its transformed version. A separate continuous random-sample test passes. The manuscript does not claim invariance at every floating-point boundary.
+
+\textbf{Marginals are not individual changes.} For $x=(0,1,2,3)$ and $y=(3,2,1,0)$, marginal quantile functions are identical, so the contrast and its mean reconstruction are zero. Yet $y-x=(3,1,-1,-3)$. Preserving the marginal contrast does not preserve the paired-change distribution. Joint bootstrap indices respect paired sampling but do not change the target.
+
+\textbf{Contrast preservation is not full-distribution preservation.} If both groups have the same complex distribution, their contrast can be zero and a mean representation can qualify. The method is not claiming to preserve their common multimodality. Similarly, the central target omits outer tails even though extreme observations may still affect means, ranges and interpolated summary decoders. A scientific question about those features requires a different objective.
+
+\section*{S3. Numerical implementation and representation contracts}
+The pooled scale is
+\[
+s^2=\frac{(n_x-1)s_x^2+(n_y-1)s_y^2}{n_x+n_y-2}.
+\]
+When within-group variance vanishes, the implementation uses $\max(\operatorname{range}(x\cup y),1)$. This convention is a computational fallback, not a scientifically meaningful scale; users should specify absolute resolution for constant or degenerate inputs. Independent missing values are removed within each group. Paired inputs are jointly filtered and must originally have equal lengths. At least four finite observations remain in each group. Pairing is never inferred from equal row counts.
+
+Mean decoders use two values. Five-number decoders use ten values at ranks $(0,.25,.5,.75,1)$. Histogram configurations use $b\in\{4,8,16,32,64\}$ bins on a shared equal-width range and retain $2b+2$ scalars. Density configurations use $m\in\{8,16,32,64,128,256\}$ grid points per group and retain $2m+2$ scalars. Each group uses Scott's Gaussian kernel bandwidth. The shared support extends four times the larger bandwidth past both sample extrema, with an additional $0.01s$ lower bound for grid construction. Constant groups use a narrow Gaussian fallback. Density masses are trapezoidally integrated and normalized. Observations use $n_x+n_y$ scalars. There are 14 numerical configurations per comparison.
+
+Counts exclude labels, units and common decoder conventions. Histogram mass vectors each sum to one, so their free-parameter count is two lower than the literal stored payload; this is explicitly tested as an alternative contract. Counts are neither minimum description lengths in bits nor measures of visual complexity. Deterministic auxiliary summaries computed from raw observations do not add stored payload under this convention.
+
+Empirical inverse functions have knots at $i/(n-1)$. Five-number and inverse-density decoders are piecewise linear. Histogram inverse functions are piecewise linear with possible jumps at empty-bin probabilities. The union of knots, interval boundaries and adjacent floating-point values evaluates endpoint and one-sided maxima up to precision. The code cross-checks these errors against a dense-grid decoder evaluation. A feasibility slack of $10^{-8}$ relative to tolerance is used in configuration selection. Exact explanatory strata use the stated inequality without this slack; boundary cases should be inspected. Audit ties are exported at an absolute error tolerance of $10^{-10}$ for equal retained size.
+
+\section*{S4. Audit design, convergence and sensitivity}
+Input ordering is fixed by the bundled \texttt{data/derived/comparisons.json}. Case $i$, indexed from zero, uses seed $710000+i$ for default draws and $810000+i$ for the independent stream. The default uses 999 draws; the 99- and 499-draw checks use prefixes of those draws. Resampling is at the prepared participant or record unit, never at adjacent samples from a continuous physiological recording. The same default draws estimate tolerance and fixed-tolerance stratum agreement. Agreement below .80 is a provisional flag, not a confidence interval for a chart recommendation.
+
+Probability intervals $[.01,.99]$ and $[.10,.90]$ rerun candidate errors and bootstrap deviations. Allowance percentiles .80, .90, .95 and .99 use the default draws. Fixed budgets .05, .1 and .2 times the observed pooled scale deliberately remove the bootstrap term. The displayed resolution path uses 40 logarithmically spaced fractions from .025 to 4. Cost tests hold errors and tolerance fixed: (i) add two mean markers to five-number cost; (ii) remove two constrained probability parameters from binned cost; (iii) set all costs equal. The equal-cost result is an ablation of compactness, not a plausible perceptual model.
+
+Primary outcomes are descriptive counts. Features share participants and are not treated as independent studies. The audit was available during development; catalogue revision, sensitivity choices and simulation expansion were not preregistered. The revision is a new development analysis, not a prospectively frozen replication.
+
+\section*{S5. Simulation distributions and endpoints}
+Nine scenarios use independently drawn training and test arrays. Group-A sizes are $n\in\{20,80,320\}$; group B has size $n$, except the imbalance scenario with $4n$. There are 40 replicates per scenario and size, giving 1,080 pairs. The scenarios are:
+\begin{enumerate}
+\item Null: $X,Y\sim N(0,1)$.
+\item Location: $X\sim N(0,1)$, $Y\sim N(.8,1)$.
+\item Spread: $X\sim N(0,1)$, $Y\sim N(0,1.8^2)$.
+\item Bimodal: $X\sim N(0,1)$, $Y=(.6Z+S)/\sqrt{1.8}$, where $Z\sim N(0,1)$ and $S=\pm1.2$ equiprobably.
+\item Skew: $X=\exp(.6Z_1)$, $Y=\exp(Z_2)$ for independent standard normals.
+\item Heavy tails: $X=T_1/\sqrt3$, $Y=1.5T_2/\sqrt3$, with independent Student $t_3$ variables.
+\item Contamination: $X\sim N(0,1)$, $Y=Z+6I$, with $I\sim\mathrm{Bernoulli}(.05)$ independent of $Z\sim N(0,1)$.
+\item Discrete: $X\sim\mathrm{Poisson}(2)$, $Y\sim\mathrm{Poisson}(3)$.
+\item Imbalance: the spread scenario with group sizes $n$ and $4n$.
+\end{enumerate}
+For scenario index $j=0,\ldots,8$, group-A size $n$ and replicate $r=0,\ldots,39$, the data seed is $9300000+100000j+100n+r$. Training and test draws are consecutive independent draws from that generator. Bootstrap seeds are the data seed plus one and plus two, respectively; each uses 499 draws.
+
+A selected configuration is refitted to test observations, including bin or grid range endpoints. Its representation class and bin/grid resolution remain fixed. All comparators are evaluated on the same test sample and target. Re-estimated tolerance uses the test allowance; frozen tolerance uses the training allowance. Fixed-budget selection uses $.2s_{\mathrm{population}}$ on training and test data, where $s_{\mathrm{population}}$ is the equal-mixture root-mean variance for balanced cases and the asymptotic 1:4-weighted root-mean variance for imbalance. This known population scale is a simulation device, not an estimated clinical margin.
+
+Generating quantiles use analytic inverse functions where available and numerical inversion of Gaussian mixtures otherwise. Population errors are evaluated over 4,001 equally spaced probabilities between .05 and .95. This approximates the continuous supremum and may under-resolve jumps for discrete distributions; no exact population coverage claim is made. All sample sizes, scenarios, failures and raw per-case errors are included in CSV outputs. No human performance has been simulated. Bootstrap counts and scenario complexity were expanded after the original manuscript review.
+
+\section*{S6. Provenance checks and primary exclusions}
+The archived Parkinsons data contain 195 rows and 32 distinct prefixes obtained by removing the final recording suffix: 24 prefixes labelled Parkinson disease and eight labelled healthy. The source documentation describes 31 people, including 23 with Parkinson disease.\cite{parkinsons} The mismatch remains unresolved. The revised primary audit excludes all 22 associated feature comparisons; the full identifier audit and their exploratory results are retained. There is no evidence-based mapping that would justify merging two groups.
+
+The CKD source CSV contains potassium values 39 and 47 at one-based data rows 62 and 129.\cite{kidney} These values are not parsing inventions. Their accuracy and units have not been resolved from source documentation. Primary arrays retain them. The separate omission analysis removes only these two observations from the CKD group, reducing its potassium sample size from 167 to 165; the comparison group remains 145. No rescaling or decimal correction is performed. The selected 32-bin representation becomes four bins, while both tolerances equal .6 and both detail strata require distribution information. This post hoc audit is not evidence that the omitted values are definitively erroneous.
+
+Retinopathy remains a record-level demonstration because patient linkage is unavailable. HAR, BIDMC and wrist inputs are aggregated before resampling, as documented in the original preparation code. The large HAR source archive is not bundled; its prepared subject/activity medians and analysis arrays are included. Regeneration of the revised outputs uses those arrays, so it does not require a network download. Raw-download preparation is a distinct provenance workflow. No original source files are silently altered.
+
+\section*{S7. Positive selection scores and exact ordering}
+For a finite candidate discrepancy, define $S_c=100\max\{0,1-N_c/N_{\mathrm{raw}}\}$ when $E_c\leq\tau$ and zero otherwise. Here $N_{\mathrm{raw}}=n_x+n_y$. The implementation retains the existing $10^{-8}$ relative allowance for feasibility boundary comparisons. Nonfinite computations are marked unavailable. Qualification is reported separately: zero without a rejection mark means no eligible compression, whereas zero with a rejection mark means the candidate does not meet tolerance. Raw observations qualify exactly and score zero. Qualifying representations larger than the raw sample also receive zero; they cannot displace the raw baseline under the size tie-break.
+
+For qualifying candidates with $N_c<N_{\mathrm{raw}}$, $S_c$ is strictly decreasing in $N_c$. Descending score followed by increasing discrepancy therefore implements the original lexicographic size--discrepancy selection. At zero, qualification precedes rejection; qualifying candidates are ordered by size and then discrepancy. Rejected candidates are ordered by discrepancy and then size, and unavailable candidates follow all finite candidates. If no candidate is smaller than the raw baseline and qualifying, this ordering still returns a minimum-size qualifying representation. Exact ties in size and discrepancy remain equivalent. Displayed scores are rounded to one decimal; comparisons use unrounded values. A rounded tie need not be an exact tie. Verification covers all 149 comparisons and boundary examples, including no eligible compression, equal-size candidates, infeasibility and unavailable computations.
+
+There are no fitted weights and no new statistical threshold. The score reports the fraction of declared scalar payload removed subject to the existing tolerance. It does not count screen marks, estimate cognitive effort or measure statistical power. Because raw count is the denominator, the same retained size scores higher in a larger sample. Because qualification is a hard constraint, crossing the tolerance creates a discontinuity; the bootstrap, tolerance and size-contract sensitivity analyses remain necessary. Raw-dot zero is a compression reference, not evidence that a dot plot is visually inferior. All retained representations here are nonempty, so an exact score of 100 is not attained.
+
+Main Figures 2 and 3 show the best setting of each eligible family at unique recommendation positions 1--7; the eight excluded families are documented in Table S3. Supplementary Figures S5/S6 expose the 14 shared numerical configurations, including discrepancy/tolerance, size and qualification. Equivalent encodings retain tied numerical results; a separate recommendation order uses fixed catalogue position only after score and discrepancy ties. This ordering does not modify the score or imply measured visual superiority. The complete family and setting outputs are \nolinkurl{all_149_cases_15_chart_families.csv} (2,235 rows) and \nolinkurl{all_149_cases_21_encoding_settings.csv} (3,129 rows), in \nolinkurl{revision/accessible_figures}. That directory also contains the 15 contracts, main-figure values and full numerical rankings. Four eight-point density computations are unavailable across the audit; all 84 illustrated numerical configurations are finite. The unchanged audit is \nolinkurl{revision/results/audit.csv}.
+
+\section*{S8. Comparison with prior approaches and prospective validation}
+\subsection*{Supplementary Table S1. Relationship to prior approaches}
+\begin{longtable}{p{2.4cm}p{4.8cm}p{7.4cm}}\toprule
+Approach & Main object & Relationship to this work\\\midrule
+Mackinlay\cite{mackinlay1986} & Automated graphical presentation & Establishes that automated chart design is not new.\\
+Draco\cite{draco} & Constraints on visual encodings & Could rank encodings after a numerical fidelity filter; no integration benchmark is claimed.\\
+VizML\cite{vizml} & Learned visualization design choices & Predicts design choices from dataset features; its task differs from contrast reconstruction. No superiority is inferred from a custom numerical metric.\\
+Shift-function methods\cite{rousselet2017} & Quantile differences between groups & Establish the statistical target's prior history. Our contribution concerns representation detail at a declared tolerance.\\
+Present procedure & Error--size frontier for a fixed contrast & Evaluated numerically; encoding and reader benefits remain separate empirical questions.\\\bottomrule
+\end{longtable}
+The supplied reader-study protocol has no participant results. It specifies randomized counterbalanced displays, estimation error, response time, confidence and crossed participant/dataset effects. Validation requires untouched datasets, frozen software, independent expert choices and a task-matched recommender benchmark. Sample size must follow the smallest meaningful benefit and variance assumptions; no powered recruitment claim is made.
+
+\clearpage
+\renewcommand{\thefigure}{S\arabic{figure}}\setcounter{figure}{0}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{revision/figures/Fig1.pdf}
+\caption{\textbf{Preserve the comparison before choosing the chart.} WDBC mean radius, 357 benign and 212 malignant records.\cite{wdbc} \textbf{a}, Measured samples. \textbf{b}, The central empirical quantile contrast and two candidate reconstructions. \textbf{c}, Representation error against retained scalar count; the dashed line is the 999-resample default tolerance. Larger outlined symbols identify the nondominated frontier. \textbf{d}, The tolerance-dependent selection path. Equivalent chart encodings remain a separate decision. The default selection is provisional (conditional stratum agreement 0.65). The data in every panel are the same; none measures reader performance.}\label{supp:figure1}
+\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{revision/figures/Fig2.pdf}
+\caption{\textbf{What changes the recommendation?} Primary audit, 127 comparisons from nine resources. Dataset attributions are given in Table S2 and the source manifest. \textbf{a}, Detail strata by resource under the default adaptive rule. \textbf{b}, Configuration changes relative to 999 resamples; the final bar uses an independent 999-resample stream. \textbf{c}, Changes under alternative allowance percentiles and probability intervals. \textbf{d}, Representation selections along a fixed resolution path, $\tau/s$. Features within a resource are correlated; the counts are descriptive, not independent study replications.}\label{supp:figure2}
+\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{revision/figures/Fig3.pdf}
+\caption{\textbf{Empirical fidelity and population fidelity are different outcomes.} Entirely synthetic data, nine scenarios and 1,080 training--test pairs. \textbf{a}, Frozen-tolerance pass rates by method and scenario. \textbf{b}, Population pass rates under a fixed $0.2s_{\mathrm{population}}$ budget by sample size; each point pools 360 cases. \textbf{c}, Median retained size by sample size. \textbf{d}, Adaptive selection's frozen-tolerance pass rates by scenario and group-A sample size; each cell contains 40 cases. Group B has four times as many observations only in the imbalance scenario. No human data are simulated.}\label{supp:figure3}
+\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{revision/figures/Fig4.pdf}
+\caption{\textbf{Limits that must remain visible.} \textbf{a}, Configuration changes under three alternative cost contracts, primary audit. \textbf{b,c}, CKD potassium as recorded and after excluding the two flagged source values in a sensitivity analysis; the two displays deliberately use different axis limits to reveal the source-scale problem.\cite{kidney} Counts and selected bin resolutions are stated on each panel. \textbf{d}, A constructed four-pair counterexample: identical marginals coexist with nonzero individual changes. Panel d is an analytical example, not database evidence or a human experiment.}\label{supp:figure4}
+\end{figure}
+\clearpage
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=.87\linewidth]{revision/accessible_figures/Figure_S5_DetailedScores.pdf}
+\caption{\textbf{Preservation checks behind the selected simplifications.} The 14 numerical configurations behind each main Fig.~2 example are shown in descending selection-score order. The main panels summarize their best settings by chart family and disclose all 15 families, including inapplicable ones. The discrepancy-to-tolerance ratio must be at most one to qualify, subject to the numerical allowance in Section S7. The score then credits the reduction in retained scalar count. Raw observations have zero discrepancy and zero reduction. Equal positive scores are resolved by smaller discrepancy. Values are rounded for display; calculations use full precision.}\label{supp:figure5}
+\end{figure}
+\clearpage
+\begin{figure}[p]\centering\includegraphics[width=.87\linewidth]{revision/accessible_figures/Figure_S6_DetailedScores.pdf}
+\caption{\textbf{Preservation checks behind the limitation examples.} The same score and qualification checks as Supplementary Fig.~S5 are applied to the three main Fig.~3 examples. Scores, counts and discrepancy-to-tolerance ratios distinguish an already adequate mean summary, a qualifying coarse distribution summary and a more detailed representation affected by source extremes. These diagnostics do not assess human reading performance or verify the source measurements.}\label{supp:figure6}
+\end{figure}
+\clearpage
+\begin{landscape}
+\begin{figure}[p]\centering\includegraphics[width=.97\linewidth]{revision/accessible_figures/Figure_S7_ChartEncodings.pdf}
+\caption{\textbf{Seven implemented encoding contracts on the same observations.} WDBC radius standard error. Each family shows its best evaluated setting under the current marginal-comparison objective. The histogram and heatmap share the selected bin probabilities and are numerical ties; the other panels expose why a family can receive less credit or fail the preservation check. A dot-family result explicitly distinguishes raw dots from mean dots. The interval plot retains the same five-number summaries as the box plot and does not represent confidence or standard error. The violin uses its selected density grid without adding an untested smoothing step. Eight families for other scientific tasks are excluded; their scores are not inferred from these samples. This is an encoding illustration, not a human-performance experiment.}\label{supp:figure7}
+\end{figure}
+\end{landscape}
+\clearpage\section*{Supplementary Table S2. Every comparison and its selection}
+An asterisk marks conditional stratum agreement below .80. The primary and excluded exploratory audits are separated. \texttt{bins\_k} means $k$ common bins; \texttt{density\_k} means $k$ grid points per group. A detail stratum describes mean/five-number approximation sufficiency and need not match the winning representation. Dataset citations: WDBC\cite{wdbc}, Cleveland\cite{heart}, HeartFailure\cite{failure}, CKD\cite{kidney}, ILPD\cite{liver}, Retinopathy\cite{retina}, HAR\cite{har}, BIDMC\cite{bidmc}, Wrist\cite{wrist}, Parkinsons\cite{parkinsons}.
+\input{revision/results/variables.tex}
+\clearpage
+\subsection*{Supplementary Table S3. Declared 15-family catalogue and task screen}
+Eligibility below is specific to the marginal two-sample quantile-contrast task. It is not a global judgment of chart quality or a measured popularity ranking. Reusing a chart family for a different transformed task requires a new declared contract and evaluation.
+\begingroup\small
+\begin{longtable}{p{.55cm}p{2.4cm}p{2.0cm}p{9.4cm}}\toprule
+ID & Chart family & Current status & Implemented contract or reason for exclusion\\\midrule
+1 & Bar & Eligible & Two group means; same numerical representation as mean dots.\\
+2 & Line & Excluded & Temporal/ordered-trend objective not specified or evaluated.\\
+3 & Scatter & Excluded & Joint association is not the declared marginal-comparison target.\\
+4 & Pie & Excluded & No part-to-whole composition target is specified.\\
+5 & Histogram & Eligible & Group probabilities in 4, 8, 16, 32 or 64 common bins.\\
+6 & Box & Eligible & Five-number summary; minimum--maximum whiskers.\\
+7 & Heatmap & Eligible & Two-by-bin group-probability matrix; same five resolutions and decoder as histograms.\\
+8 & Stacked bar & Excluded & No component-composition target is specified.\\
+9 & Area & Excluded & Ordered trend or accumulation is not the declared target.\\
+10 & Bubble & Excluded & Joint association with an additional size variable is not the declared target.\\
+11 & Dot & Eligible & Two means or all observations; setting stated explicitly.\\
+12 & Treemap & Excluded & Meaningful hierarchy and part-to-whole objective are not supplied.\\
+13 & Choropleth & Excluded & Geographic identifiers and a geographic objective are not supplied.\\
+14 & Violin & Eligible & Sampled density with 8, 16, 32, 64, 128 or 256 grid points.\\
+15 & Error-bar / interval & Eligible variant & Median dot, thick interquartile interval and thin minimum--maximum interval. Same ten scalars as a box plot; not a confidence interval or standard error.\\\bottomrule
+\end{longtable}\endgroup
+The seven eligible families have 21 encoding settings over 14 shared numerical configurations. Every setting is evaluated before selecting a family representative. Families with identical best size and discrepancy retain equal numerical-optimum status. A separate unique recommendation order uses the fixed catalogue ID to resolve exact ties, and only its first display is highlighted. This rule does not claim superior perceptual performance. The catalogue expansion leaves the numerical audit and simulation selection rule unchanged. Supporting new task types requires new targets, data contracts and validation; it cannot be achieved by assigning the existing score to incompatible plots.
+
+\clearpage\begingroup\small\bibliographystyle{viznumbered}\bibliography{references}\endgroup
+\end{document}

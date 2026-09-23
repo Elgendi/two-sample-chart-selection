@@ -1,0 +1,37 @@
+{
+  "task": "profile",
+  "case": {
+    "key": "user_input",
+    "task": "profile",
+    "kind": "user",
+    "dataset": "User",
+    "values": [
+      93.82926829268293,
+      94.0,
+      94.225,
+      95.575,
+      94.425,
+      94.35,
+      93.45,
+      93.4,
+      92.1,
+      90.075,
+      88.875,
+      84.425
+    ],
+    "derivation": "12 equal-duration bin means"
+  },
+  "selected": "Line chart",
+  "reference_score": 96.8382572267041,
+  "transfer_score": 97.28891850606148,
+  "all_tied_best": [
+    "Line chart"
+  ],
+  "eligible_candidates": [
+    "Line chart",
+    "Area chart",
+    "Dot plot",
+    "Bar chart"
+  ],
+  "interpretation": "Computational task recovery. Do not compare scores across different questions or infer human comprehension."
+}

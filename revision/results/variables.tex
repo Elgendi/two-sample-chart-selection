@@ -1,0 +1,161 @@
+\subsection*{Primary audit}
+\small
+\begin{longtable}{p{1.95cm}p{4.25cm}rrp{1.7cm}p{2.1cm}rr}
+\toprule Resource & Variable & $n_A$ & $n_B$ & Detail & Selected config. & $N$ & Agreement\\\midrule\endhead
+WDBC & mean radius & 357 & 212 & Distribution & bins\_8 & 18 & 0.65*\\
+WDBC & mean texture & 357 & 212 & Mean & means & 2 & 0.73*\\
+WDBC & mean perimeter & 357 & 212 & Distribution & bins\_8 & 18 & 0.77*\\
+WDBC & mean area & 357 & 212 & Distribution & bins\_4 & 10 & 0.91\\
+WDBC & mean smoothness & 357 & 212 & Mean & means & 2 & 0.98\\
+WDBC & mean compactness & 357 & 212 & Quartiles & five\_number & 10 & 0.62*\\
+WDBC & mean concavity & 357 & 212 & Distribution & bins\_4 & 10 & 0.83\\
+WDBC & mean concave points & 357 & 212 & Quartiles & bins\_4 & 10 & 0.84\\
+WDBC & mean symmetry & 357 & 212 & Mean & means & 2 & 0.87\\
+WDBC & mean fractal dimension & 357 & 212 & Mean & means & 2 & 0.94\\
+WDBC & radius error & 357 & 212 & Distribution & bins\_8 & 18 & 0.89\\
+WDBC & texture error & 357 & 212 & Mean & means & 2 & 0.92\\
+WDBC & perimeter error & 357 & 212 & Distribution & bins\_8 & 18 & 0.85\\
+WDBC & area error & 357 & 212 & Distribution & bins\_16 & 34 & 0.97\\
+WDBC & smoothness error & 357 & 212 & Distribution & bins\_4 & 10 & 0.74*\\
+WDBC & compactness error & 357 & 212 & Mean & means & 2 & 0.99\\
+WDBC & concavity error & 357 & 212 & Mean & means & 2 & 0.98\\
+WDBC & concave points error & 357 & 212 & Mean & means & 2 & 0.99\\
+WDBC & symmetry error & 357 & 212 & Mean & means & 2 & 0.84\\
+WDBC & fractal dimension error & 357 & 212 & Mean & means & 2 & 0.97\\
+WDBC & worst radius & 357 & 212 & Distribution & bins\_8 & 18 & 0.66*\\
+WDBC & worst texture & 357 & 212 & Mean & means & 2 & 0.93\\
+WDBC & worst perimeter & 357 & 212 & Distribution & density\_8 & 18 & 0.71*\\
+WDBC & worst area & 357 & 212 & Distribution & bins\_4 & 10 & 0.88\\
+WDBC & worst smoothness & 357 & 212 & Mean & means & 2 & 0.89\\
+WDBC & worst compactness & 357 & 212 & Quartiles & bins\_4 & 10 & 0.55*\\
+WDBC & worst concavity & 357 & 212 & Mean & means & 2 & 0.70*\\
+WDBC & worst concave points & 357 & 212 & Mean & means & 2 & 0.73*\\
+WDBC & worst symmetry & 357 & 212 & Distribution & bins\_8 & 18 & 0.63*\\
+WDBC & worst fractal dimension & 357 & 212 & Mean & means & 2 & 0.37*\\
+Cleveland & age & 164 & 139 & Mean & means & 2 & 0.70*\\
+Cleveland & trestbps & 164 & 139 & Mean & means & 2 & 0.89\\
+Cleveland & chol & 164 & 139 & Mean & means & 2 & 0.98\\
+Cleveland & thalach & 164 & 139 & Mean & means & 2 & 0.98\\
+Cleveland & oldpeak & 164 & 139 & Quartiles & five\_number & 10 & 0.71*\\
+HeartFailure & age & 203 & 96 & Mean & means & 2 & 0.87\\
+HeartFailure & creatinine\_phosphokinase & 203 & 96 & Mean & means & 2 & 0.96\\
+HeartFailure & ejection\_fraction & 203 & 96 & Mean & means & 2 & 1.00\\
+HeartFailure & platelets & 203 & 96 & Mean & means & 2 & 0.98\\
+HeartFailure & serum\_creatinine & 203 & 96 & Mean & means & 2 & 0.84\\
+HeartFailure & serum\_sodium & 203 & 96 & Mean & means & 2 & 0.92\\
+CKD & age & 149 & 242 & Quartiles & bins\_4 & 10 & 0.54*\\
+CKD & bp & 148 & 240 & Distribution & bins\_8 & 18 & 0.99\\
+CKD & bgr & 144 & 212 & Distribution & bins\_4 & 10 & 0.91\\
+CKD & bu & 144 & 237 & Distribution & bins\_4 & 10 & 0.98\\
+CKD & sc & 145 & 238 & Distribution & bins\_16 & 34 & 0.99\\
+CKD & sod & 145 & 168 & Mean & means & 2 & 0.62*\\
+CKD & pot & 145 & 167 & Distribution & bins\_32 & 66 & 0.94\\
+CKD & hemo & 144 & 204 & Distribution & bins\_8 & 18 & 0.78*\\
+CKD & pcv & 146 & 183 & Distribution & bins\_8 & 18 & 0.97\\
+CKD & wc & 143 & 151 & Distribution & bins\_4 & 10 & 0.84\\
+CKD & rc & 143 & 126 & Mean & means & 2 & 0.74*\\
+ILPD & age & 167 & 416 & Mean & means & 2 & 0.99\\
+ILPD & total\_bilirubin & 167 & 416 & Distribution & bins\_16 & 34 & 0.98\\
+ILPD & direct\_bilirubin & 167 & 416 & Distribution & bins\_8 & 18 & 0.98\\
+ILPD & alkaline\_phosphatase & 167 & 416 & Quartiles & five\_number & 10 & 0.48*\\
+ILPD & ALT & 167 & 416 & Distribution & bins\_16 & 34 & 0.86\\
+ILPD & AST & 167 & 416 & Distribution & density\_16 & 34 & 0.96\\
+ILPD & total\_protein & 167 & 416 & Mean & means & 2 & 1.00\\
+ILPD & albumin & 167 & 416 & Mean & means & 2 & 0.99\\
+ILPD & albumin\_globulin\_ratio & 165 & 414 & Mean & means & 2 & 1.00\\
+Retinopathy & feature\_2 & 540 & 611 & Distribution & bins\_4 & 10 & 0.96\\
+Retinopathy & feature\_3 & 540 & 611 & Distribution & bins\_4 & 10 & 0.78*\\
+Retinopathy & feature\_4 & 540 & 611 & Mean & means & 2 & 0.37*\\
+Retinopathy & feature\_5 & 540 & 611 & Mean & means & 2 & 0.82\\
+Retinopathy & feature\_6 & 540 & 611 & Mean & means & 2 & 0.94\\
+Retinopathy & feature\_7 & 540 & 611 & Mean & means & 2 & 0.91\\
+Retinopathy & feature\_8 & 540 & 611 & Distribution & bins\_4 & 10 & 0.79*\\
+Retinopathy & feature\_9 & 540 & 611 & Quartiles & bins\_4 & 10 & 0.34*\\
+Retinopathy & feature\_10 & 540 & 611 & Distribution & bins\_4 & 10 & 0.49*\\
+Retinopathy & feature\_11 & 540 & 611 & Mean & means & 2 & 0.46*\\
+Retinopathy & feature\_12 & 540 & 611 & Distribution & density\_8 & 18 & 0.96\\
+Retinopathy & feature\_13 & 540 & 611 & Distribution & density\_32 & 66 & 1.00\\
+Retinopathy & feature\_14 & 540 & 611 & Distribution & bins\_16 & 34 & 1.00\\
+Retinopathy & feature\_15 & 540 & 611 & Distribution & bins\_32 & 66 & 1.00\\
+Retinopathy & feature\_16 & 540 & 611 & Mean & means & 2 & 0.90\\
+Retinopathy & feature\_17 & 540 & 611 & Mean & means & 2 & 0.92\\
+HAR & tBodyAcc-mean()-X & 30 & 30 & Quartiles & five\_number & 10 & 0.73*\\
+HAR & tBodyAcc-mean()-Y & 30 & 30 & Mean & means & 2 & 0.77*\\
+HAR & tBodyAcc-mean()-Z & 30 & 30 & Mean & means & 2 & 0.83\\
+HAR & tBodyAcc-std()-X & 30 & 30 & Quartiles & five\_number & 10 & 0.82\\
+HAR & tBodyAcc-std()-Y & 30 & 30 & Quartiles & five\_number & 10 & 0.64*\\
+HAR & tBodyAcc-std()-Z & 30 & 30 & Quartiles & five\_number & 10 & 0.94\\
+HAR & tGravityAcc-mean()-X & 30 & 30 & Mean & means & 2 & 0.87\\
+HAR & tGravityAcc-mean()-Y & 30 & 30 & Mean & means & 2 & 0.79*\\
+HAR & tGravityAcc-mean()-Z & 30 & 30 & Mean & means & 2 & 0.99\\
+HAR & tGravityAcc-std()-X & 30 & 30 & Mean & means & 2 & 0.87\\
+HAR & tGravityAcc-std()-Y & 30 & 30 & Mean & means & 2 & 1.00\\
+HAR & tGravityAcc-std()-Z & 30 & 30 & Mean & means & 2 & 0.99\\
+HAR & tBodyAccJerk-mean()-X & 30 & 30 & Quartiles & bins\_4 & 10 & 0.99\\
+HAR & tBodyAccJerk-mean()-Y & 30 & 30 & Quartiles & five\_number & 10 & 0.99\\
+HAR & tBodyAccJerk-mean()-Z & 30 & 30 & Quartiles & five\_number & 10 & 0.60*\\
+HAR & tBodyAccJerk-std()-X & 30 & 30 & Quartiles & five\_number & 10 & 0.97\\
+HAR & tBodyAccJerk-std()-Y & 30 & 30 & Quartiles & five\_number & 10 & 0.99\\
+HAR & tBodyAccJerk-std()-Z & 30 & 30 & Quartiles & five\_number & 10 & 0.78*\\
+HAR & tBodyGyro-mean()-X & 30 & 30 & Mean & means & 2 & 0.81\\
+HAR & tBodyGyro-mean()-Y & 30 & 30 & Quartiles & five\_number & 10 & 0.71*\\
+HAR & tBodyGyro-mean()-Z & 30 & 30 & Quartiles & five\_number & 10 & 0.80\\
+HAR & tBodyGyro-std()-X & 30 & 30 & Quartiles & five\_number & 10 & 0.74*\\
+HAR & tBodyGyro-std()-Y & 30 & 30 & Quartiles & five\_number & 10 & 0.95\\
+HAR & tBodyGyro-std()-Z & 30 & 30 & Quartiles & five\_number & 10 & 0.96\\
+HAR & tBodyGyroJerk-mean()-X & 30 & 30 & Quartiles & five\_number & 10 & 0.68*\\
+HAR & tBodyGyroJerk-mean()-Y & 30 & 30 & Quartiles & five\_number & 10 & 1.00\\
+HAR & tBodyGyroJerk-mean()-Z & 30 & 30 & Mean & means & 2 & 0.74*\\
+HAR & tBodyGyroJerk-std()-X & 30 & 30 & Mean & means & 2 & 0.84\\
+HAR & tBodyGyroJerk-std()-Y & 30 & 30 & Mean & means & 2 & 0.72*\\
+HAR & tBodyGyroJerk-std()-Z & 30 & 30 & Quartiles & five\_number & 10 & 0.98\\
+HAR & tBodyAccMag-mean() & 30 & 30 & Quartiles & five\_number & 10 & 0.92\\
+HAR & tBodyAccMag-std() & 30 & 30 & Quartiles & five\_number & 10 & 1.00\\
+HAR & tGravityAccMag-mean() & 30 & 30 & Quartiles & five\_number & 10 & 0.90\\
+HAR & tGravityAccMag-std() & 30 & 30 & Quartiles & five\_number & 10 & 1.00\\
+HAR & tBodyAccJerkMag-mean() & 30 & 30 & Quartiles & five\_number & 10 & 0.73*\\
+HAR & tBodyAccJerkMag-std() & 30 & 30 & Quartiles & five\_number & 10 & 1.00\\
+HAR & tBodyGyroMag-mean() & 30 & 30 & Quartiles & five\_number & 10 & 0.97\\
+HAR & tBodyGyroMag-std() & 30 & 30 & Quartiles & five\_number & 10 & 0.75*\\
+HAR & tBodyGyroJerkMag-mean() & 30 & 30 & Mean & means & 2 & 0.61*\\
+HAR & tBodyGyroJerkMag-std() & 30 & 30 & Quartiles & five\_number & 10 & 0.47*\\
+BIDMC & mean & 46 & 46 & Mean & means & 2 & 0.97\\
+BIDMC & median & 46 & 46 & Mean & means & 2 & 1.00\\
+BIDMC & q10 & 46 & 46 & Mean & means & 2 & 0.93\\
+BIDMC & q90 & 46 & 46 & Mean & means & 2 & 0.97\\
+BIDMC & SD & 46 & 46 & Mean & means & 2 & 0.81\\
+Wrist & mean & 8 & 8 & Mean & means & 2 & 1.00\\
+Wrist & median & 8 & 8 & Mean & means & 2 & 1.00\\
+Wrist & q10 & 8 & 8 & Mean & means & 2 & 0.99\\
+Wrist & q90 & 8 & 8 & Mean & means & 2 & 1.00\\
+Wrist & SD & 8 & 8 & Mean & means & 2 & 0.86\\
+\bottomrule\end{longtable}
+\normalsize
+\subsection*{Excluded exploratory audit: Parkinsons}
+\small
+\begin{longtable}{p{1.95cm}p{4.25cm}rrp{1.7cm}p{2.1cm}rr}
+\toprule Resource & Variable & $n_A$ & $n_B$ & Detail & Selected config. & $N$ & Agreement\\\midrule\endhead
+Parkinsons & MDVP:Fo(Hz) & 8 & 24 & Mean & means & 2 & 1.00\\
+Parkinsons & MDVP:Fhi(Hz) & 8 & 24 & Mean & means & 2 & 0.99\\
+Parkinsons & MDVP:Flo(Hz) & 8 & 24 & Mean & means & 2 & 1.00\\
+Parkinsons & MDVP:Jitter(\%) & 8 & 24 & Mean & means & 2 & 0.94\\
+Parkinsons & MDVP:Jitter(Abs) & 8 & 24 & Mean & means & 2 & 0.72*\\
+Parkinsons & MDVP:RAP & 8 & 24 & Mean & means & 2 & 0.96\\
+Parkinsons & MDVP:PPQ & 8 & 24 & Mean & means & 2 & 0.82\\
+Parkinsons & Jitter:DDP & 8 & 24 & Mean & means & 2 & 0.99\\
+Parkinsons & MDVP:Shimmer & 8 & 24 & Quartiles & bins\_4 & 10 & 0.65*\\
+Parkinsons & MDVP:Shimmer(dB) & 8 & 24 & Mean & means & 2 & 0.73*\\
+Parkinsons & Shimmer:APQ3 & 8 & 24 & Quartiles & five\_number & 10 & 0.65*\\
+Parkinsons & Shimmer:APQ5 & 8 & 24 & Quartiles & bins\_4 & 10 & 0.74*\\
+Parkinsons & MDVP:APQ & 8 & 24 & Mean & means & 2 & 0.64*\\
+Parkinsons & Shimmer:DDA & 8 & 24 & Quartiles & five\_number & 10 & 0.69*\\
+Parkinsons & NHR & 8 & 24 & Mean & means & 2 & 0.91\\
+Parkinsons & HNR & 8 & 24 & Mean & means & 2 & 1.00\\
+Parkinsons & RPDE & 8 & 24 & Mean & means & 2 & 0.98\\
+Parkinsons & DFA & 8 & 24 & Mean & means & 2 & 1.00\\
+Parkinsons & spread1 & 8 & 24 & Mean & means & 2 & 0.88\\
+Parkinsons & spread2 & 8 & 24 & Mean & means & 2 & 1.00\\
+Parkinsons & D2 & 8 & 24 & Mean & means & 2 & 0.98\\
+Parkinsons & PPE & 8 & 24 & Mean & means & 2 & 0.87\\
+\bottomrule\end{longtable}
+\normalsize

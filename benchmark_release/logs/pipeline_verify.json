@@ -1,0 +1,22 @@
+{
+  "mode": "verify",
+  "runs": [
+    {
+      "script": "validation_v3/verify.py",
+      "seconds": 7.523,
+      "status": "passed"
+    },
+    {
+      "script": "benchmark_release/compare_defaults.py",
+      "seconds": 7.746,
+      "status": "passed"
+    },
+    {
+      "script": "benchmark_release/verify_release.py",
+      "seconds": 4.421,
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "network_used": false
+}

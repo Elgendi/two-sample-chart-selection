@@ -1,0 +1,42 @@
+{
+  "original_marginal_configurations_reproduced": 30480,
+  "original_extension_configurations_reproduced": 2728,
+  "new_synthetic_losses_recomputed": 23808,
+  "max_loss_difference": 2.220446049250313e-16,
+  "failed_synthetic_trials": 360,
+  "stability_bounds_verified": 1114,
+  "default_checks": {
+    "status": "passed",
+    "folds": 168,
+    "case_observer_pairs": 1060,
+    "no_heldout_units_in_training": true,
+    "transfer_values_verified": true
+  },
+  "geometry_checks": {
+    "status": "passed",
+    "contracts": 4,
+    "blank_image_rejected": true,
+    "trial_count": 2304,
+    "failures": 0,
+    "independent_implementation": "Angles/endpoints/lengths; no calls to the area-counting decoder; same author and renderer"
+  },
+  "status": "passed",
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0",
+    "pypdf": "6.10.0"
+  },
+  "source_hashes": {
+    "benchmark_release/common.py": "b660a46974a6d07b7ed1ffa3fc792d524dbb45c5dcd1c76951c747851cf00bd9",
+    "benchmark_release/compare_defaults.py": "f25b627057eaac587a31225a7e5c899b33c8aa47a2cace75029df441a1981b17",
+    "benchmark_release/geometry_observer.py": "7d10edf17909bf7cbe949d23d18b0a0818c13c8e737afb86cfb67785389a833f",
+    "benchmark_release/make_figures.py": "3a33b3bf3255950fde26f3ccb99fd01009e3deec5d24b8c9d7a657d56357506a",
+    "benchmark_release/make_report.py": "90be148451aa825b3cd2326198338829598195c72299c99a983dde96e15e3b47",
+    "benchmark_release/stress_test.py": "41154946a5b63e17ae1b02d81d14f78e8f8949dee79a470c167c8fe8c43e963b",
+    "benchmark_release/verify_release.py": "1c252f2e074cc8edea01ce0897c0721a0a89403ff9bced389cc708e7ecd8add4"
+  }
+}

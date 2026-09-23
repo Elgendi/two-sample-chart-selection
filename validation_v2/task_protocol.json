@@ -1,0 +1,11 @@
+{
+ "status":"retrospective secondary analysis motivated by observed dominance of direct five-quantile displays; specified before its execution",
+ "cases":"127 unchanged primary comparisons",
+ "settings":"nine one-setting-per-family controls",
+ "rendering":"unchanged reference charts, 256-pixel panels, four original placements",
+ "observers":["threshold","alpha"],
+ "targets":{"median":[0.5],"five":[0.1,0.25,0.5,0.75,0.9],"dense19":"0.05,0.10,...,0.95"},
+ "quantile_plot_recovery":"recover its five plotted marks then linearly interpolate between them; constant extrapolation beyond 0.1 and 0.9; do not add marks",
+ "other_recovery":"same geometric rules with requested quantile probabilities substituted",
+ "claim":"conditional task sensitivity; not independent confirmation of the original task hypothesis"
+}

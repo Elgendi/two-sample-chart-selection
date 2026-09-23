@@ -1,0 +1,7 @@
+choice,observer,loss
+fixed quantile,alpha,0.0033905085831927636
+fixed quantile,threshold,0.006375233362390618
+minimax optimum,alpha,0.003514979038895565
+minimax optimum,threshold,0.0065498307723781376
+reference optimum,alpha,0.0038295450408061724
+reference optimum,threshold,0.006459853066652802

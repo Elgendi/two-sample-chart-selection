@@ -1,0 +1,961 @@
+scenario,n_per_group,replicate,method,error_ratio,passes,retained_values,train_stratum,train_configuration
+null,40,0,Automatic,0.2038780220356648,True,2,Mean summary sufficient,Mean bars
+null,40,0,Always mean bars,0.2038780220356648,True,2,Mean summary sufficient,Mean bars
+null,40,0,Always box,0.4864939623060199,True,12,Mean summary sufficient,Mean bars
+null,40,0,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,1,Automatic,0.6117505390979389,True,2,Mean summary sufficient,Mean bars
+null,40,1,Always mean bars,0.6117505390979389,True,2,Mean summary sufficient,Mean bars
+null,40,1,Always box,0.5670072529494437,True,12,Mean summary sufficient,Mean bars
+null,40,1,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,2,Automatic,0.7537164667386328,True,2,Mean summary sufficient,Mean bars
+null,40,2,Always mean bars,0.7537164667386328,True,2,Mean summary sufficient,Mean bars
+null,40,2,Always box,0.3258286095857256,True,12,Mean summary sufficient,Mean bars
+null,40,2,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,3,Automatic,0.18125994914251078,True,2,Mean summary sufficient,Mean bars
+null,40,3,Always mean bars,0.18125994914251078,True,2,Mean summary sufficient,Mean bars
+null,40,3,Always box,0.20245248669082552,True,12,Mean summary sufficient,Mean bars
+null,40,3,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,4,Automatic,0.34752493299506565,True,2,Mean summary sufficient,Mean bars
+null,40,4,Always mean bars,0.34752493299506565,True,2,Mean summary sufficient,Mean bars
+null,40,4,Always box,0.29448147156131477,True,12,Mean summary sufficient,Mean bars
+null,40,4,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,5,Automatic,0.5214865536078963,True,2,Mean summary sufficient,Mean bars
+null,40,5,Always mean bars,0.5214865536078963,True,2,Mean summary sufficient,Mean bars
+null,40,5,Always box,0.28918186211440117,True,12,Mean summary sufficient,Mean bars
+null,40,5,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,6,Automatic,0.18968376377617266,True,2,Mean summary sufficient,Mean bars
+null,40,6,Always mean bars,0.18968376377617266,True,2,Mean summary sufficient,Mean bars
+null,40,6,Always box,0.20507798062890514,True,12,Mean summary sufficient,Mean bars
+null,40,6,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,7,Automatic,0.1370790344333036,True,2,Mean summary sufficient,Mean bars
+null,40,7,Always mean bars,0.1370790344333036,True,2,Mean summary sufficient,Mean bars
+null,40,7,Always box,0.4836089074853586,True,12,Mean summary sufficient,Mean bars
+null,40,7,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,8,Automatic,0.19130740679065608,True,2,Mean summary sufficient,Mean bars
+null,40,8,Always mean bars,0.19130740679065608,True,2,Mean summary sufficient,Mean bars
+null,40,8,Always box,0.16996410607671208,True,12,Mean summary sufficient,Mean bars
+null,40,8,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,9,Automatic,0.3252272771777269,True,2,Mean summary sufficient,Mean bars
+null,40,9,Always mean bars,0.3252272771777269,True,2,Mean summary sufficient,Mean bars
+null,40,9,Always box,0.5637242719216025,True,12,Mean summary sufficient,Mean bars
+null,40,9,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,10,Automatic,0.33520286540633504,True,2,Mean summary sufficient,Mean bars
+null,40,10,Always mean bars,0.33520286540633504,True,2,Mean summary sufficient,Mean bars
+null,40,10,Always box,0.25505534097170346,True,12,Mean summary sufficient,Mean bars
+null,40,10,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,11,Automatic,0.6229848518123162,True,2,Mean summary sufficient,Mean bars
+null,40,11,Always mean bars,0.6229848518123162,True,2,Mean summary sufficient,Mean bars
+null,40,11,Always box,0.3074196005384219,True,12,Mean summary sufficient,Mean bars
+null,40,11,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,12,Automatic,0.3594822868940672,True,2,Mean summary sufficient,Mean bars
+null,40,12,Always mean bars,0.3594822868940672,True,2,Mean summary sufficient,Mean bars
+null,40,12,Always box,0.514793589007923,True,12,Mean summary sufficient,Mean bars
+null,40,12,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,13,Automatic,0.41697389228559284,True,2,Mean summary sufficient,Mean bars
+null,40,13,Always mean bars,0.41697389228559284,True,2,Mean summary sufficient,Mean bars
+null,40,13,Always box,0.5164144580982042,True,12,Mean summary sufficient,Mean bars
+null,40,13,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,14,Automatic,0.19598336902381705,True,2,Mean summary sufficient,Mean bars
+null,40,14,Always mean bars,0.19598336902381705,True,2,Mean summary sufficient,Mean bars
+null,40,14,Always box,0.45456377014601784,True,12,Mean summary sufficient,Mean bars
+null,40,14,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,15,Automatic,0.10322895450145947,True,2,Mean summary sufficient,Mean bars
+null,40,15,Always mean bars,0.10322895450145947,True,2,Mean summary sufficient,Mean bars
+null,40,15,Always box,0.10797384551714931,True,12,Mean summary sufficient,Mean bars
+null,40,15,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,16,Automatic,0.4704961085067097,True,2,Mean summary sufficient,Mean bars
+null,40,16,Always mean bars,0.4704961085067097,True,2,Mean summary sufficient,Mean bars
+null,40,16,Always box,0.30996717469973856,True,12,Mean summary sufficient,Mean bars
+null,40,16,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,17,Automatic,0.37643716068176636,True,2,Mean summary sufficient,Mean bars
+null,40,17,Always mean bars,0.37643716068176636,True,2,Mean summary sufficient,Mean bars
+null,40,17,Always box,0.21666789078635965,True,12,Mean summary sufficient,Mean bars
+null,40,17,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,18,Automatic,0.2752982373337858,True,2,Mean summary sufficient,Mean bars
+null,40,18,Always mean bars,0.2752982373337858,True,2,Mean summary sufficient,Mean bars
+null,40,18,Always box,0.5280616290928613,True,12,Mean summary sufficient,Mean bars
+null,40,18,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,40,19,Automatic,0.2879316642693444,True,2,Mean summary sufficient,Mean bars
+null,40,19,Always mean bars,0.2879316642693444,True,2,Mean summary sufficient,Mean bars
+null,40,19,Always box,0.6118798287994871,True,12,Mean summary sufficient,Mean bars
+null,40,19,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+null,160,0,Automatic,0.3398702840052203,True,2,Mean summary sufficient,Mean bars
+null,160,0,Always mean bars,0.3398702840052203,True,2,Mean summary sufficient,Mean bars
+null,160,0,Always box,0.27118139518794826,True,12,Mean summary sufficient,Mean bars
+null,160,0,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,1,Automatic,0.392714171193354,True,2,Mean summary sufficient,Mean bars
+null,160,1,Always mean bars,0.392714171193354,True,2,Mean summary sufficient,Mean bars
+null,160,1,Always box,0.6435844680730323,True,12,Mean summary sufficient,Mean bars
+null,160,1,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,2,Automatic,0.48684959251836674,True,2,Mean summary sufficient,Mean bars
+null,160,2,Always mean bars,0.48684959251836674,True,2,Mean summary sufficient,Mean bars
+null,160,2,Always box,0.7982475974532098,True,12,Mean summary sufficient,Mean bars
+null,160,2,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,3,Automatic,0.4810516388080725,True,2,Mean summary sufficient,Mean bars
+null,160,3,Always mean bars,0.4810516388080725,True,2,Mean summary sufficient,Mean bars
+null,160,3,Always box,0.5653148093968945,True,12,Mean summary sufficient,Mean bars
+null,160,3,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,4,Automatic,0.5829279361670628,True,2,Mean summary sufficient,Mean bars
+null,160,4,Always mean bars,0.5829279361670628,True,2,Mean summary sufficient,Mean bars
+null,160,4,Always box,0.7591442248493362,True,12,Mean summary sufficient,Mean bars
+null,160,4,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,5,Automatic,0.6522272718651864,True,2,Mean summary sufficient,Mean bars
+null,160,5,Always mean bars,0.6522272718651864,True,2,Mean summary sufficient,Mean bars
+null,160,5,Always box,1.0115304855025236,False,12,Mean summary sufficient,Mean bars
+null,160,5,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,6,Automatic,0.37623321817764854,True,2,Mean summary sufficient,Mean bars
+null,160,6,Always mean bars,0.37623321817764854,True,2,Mean summary sufficient,Mean bars
+null,160,6,Always box,0.414689604307077,True,12,Mean summary sufficient,Mean bars
+null,160,6,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,7,Automatic,0.8111539696742786,True,2,Mean summary sufficient,Mean bars
+null,160,7,Always mean bars,0.8111539696742786,True,2,Mean summary sufficient,Mean bars
+null,160,7,Always box,0.46493331378065944,True,12,Mean summary sufficient,Mean bars
+null,160,7,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,8,Automatic,0.3615098415486104,True,2,Mean summary sufficient,Mean bars
+null,160,8,Always mean bars,0.3615098415486104,True,2,Mean summary sufficient,Mean bars
+null,160,8,Always box,0.3216871474680901,True,12,Mean summary sufficient,Mean bars
+null,160,8,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,9,Automatic,0.24723829062762562,True,2,Mean summary sufficient,Mean bars
+null,160,9,Always mean bars,0.24723829062762562,True,2,Mean summary sufficient,Mean bars
+null,160,9,Always box,0.9877344505729124,True,12,Mean summary sufficient,Mean bars
+null,160,9,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,10,Automatic,0.5819227348973017,True,2,Mean summary sufficient,Mean bars
+null,160,10,Always mean bars,0.5819227348973017,True,2,Mean summary sufficient,Mean bars
+null,160,10,Always box,0.31743326328531857,True,12,Mean summary sufficient,Mean bars
+null,160,10,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,11,Automatic,0.3815475194483086,True,2,Mean summary sufficient,Mean bars
+null,160,11,Always mean bars,0.3815475194483086,True,2,Mean summary sufficient,Mean bars
+null,160,11,Always box,0.9699487207489412,True,12,Mean summary sufficient,Mean bars
+null,160,11,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,12,Automatic,0.4442661374263866,True,2,Mean summary sufficient,Mean bars
+null,160,12,Always mean bars,0.4442661374263866,True,2,Mean summary sufficient,Mean bars
+null,160,12,Always box,0.6363285555659878,True,12,Mean summary sufficient,Mean bars
+null,160,12,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,13,Automatic,0.19095161145885348,True,2,Mean summary sufficient,Mean bars
+null,160,13,Always mean bars,0.19095161145885348,True,2,Mean summary sufficient,Mean bars
+null,160,13,Always box,0.35770348796552853,True,12,Mean summary sufficient,Mean bars
+null,160,13,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,14,Automatic,0.4113120970343664,True,2,Mean summary sufficient,Mean bars
+null,160,14,Always mean bars,0.4113120970343664,True,2,Mean summary sufficient,Mean bars
+null,160,14,Always box,0.5809068997787612,True,12,Mean summary sufficient,Mean bars
+null,160,14,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,15,Automatic,0.2665880699681458,True,2,Mean summary sufficient,Mean bars
+null,160,15,Always mean bars,0.2665880699681458,True,2,Mean summary sufficient,Mean bars
+null,160,15,Always box,0.3409620320320771,True,12,Mean summary sufficient,Mean bars
+null,160,15,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,16,Automatic,0.31654998820722774,True,2,Mean summary sufficient,Mean bars
+null,160,16,Always mean bars,0.31654998820722774,True,2,Mean summary sufficient,Mean bars
+null,160,16,Always box,0.5605255562771952,True,12,Mean summary sufficient,Mean bars
+null,160,16,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,17,Automatic,0.24649688859023353,True,2,Mean summary sufficient,Mean bars
+null,160,17,Always mean bars,0.24649688859023353,True,2,Mean summary sufficient,Mean bars
+null,160,17,Always box,0.7501998226010079,True,12,Mean summary sufficient,Mean bars
+null,160,17,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,18,Automatic,0.2804580209782207,True,2,Mean summary sufficient,Mean bars
+null,160,18,Always mean bars,0.2804580209782207,True,2,Mean summary sufficient,Mean bars
+null,160,18,Always box,1.422122784933961,False,12,Mean summary sufficient,Mean bars
+null,160,18,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,160,19,Automatic,0.39548620070802204,True,2,Mean summary sufficient,Mean bars
+null,160,19,Always mean bars,0.39548620070802204,True,2,Mean summary sufficient,Mean bars
+null,160,19,Always box,0.406290564403544,True,12,Mean summary sufficient,Mean bars
+null,160,19,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+null,640,0,Automatic,0.508997684893701,True,2,Mean summary sufficient,Mean bars
+null,640,0,Always mean bars,0.508997684893701,True,2,Mean summary sufficient,Mean bars
+null,640,0,Always box,0.9276999591256919,True,12,Mean summary sufficient,Mean bars
+null,640,0,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,1,Automatic,0.47256821454617043,True,2,Mean summary sufficient,Mean bars
+null,640,1,Always mean bars,0.47256821454617043,True,2,Mean summary sufficient,Mean bars
+null,640,1,Always box,0.8785017574335209,True,12,Mean summary sufficient,Mean bars
+null,640,1,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,2,Automatic,0.3078829128693269,True,2,Mean summary sufficient,Mean bars
+null,640,2,Always mean bars,0.3078829128693269,True,2,Mean summary sufficient,Mean bars
+null,640,2,Always box,0.7662986261219201,True,12,Mean summary sufficient,Mean bars
+null,640,2,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,3,Automatic,0.44151421537633,True,2,Mean summary sufficient,Mean bars
+null,640,3,Always mean bars,0.44151421537633,True,2,Mean summary sufficient,Mean bars
+null,640,3,Always box,1.0370453439855032,False,12,Mean summary sufficient,Mean bars
+null,640,3,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,4,Automatic,0.6846814017295462,True,2,Mean summary sufficient,Mean bars
+null,640,4,Always mean bars,0.6846814017295462,True,2,Mean summary sufficient,Mean bars
+null,640,4,Always box,0.3854897520249376,True,12,Mean summary sufficient,Mean bars
+null,640,4,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,5,Automatic,0.606933506939931,True,2,Mean summary sufficient,Mean bars
+null,640,5,Always mean bars,0.606933506939931,True,2,Mean summary sufficient,Mean bars
+null,640,5,Always box,0.6112791549840424,True,12,Mean summary sufficient,Mean bars
+null,640,5,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,6,Automatic,0.48718072783733063,True,2,Mean summary sufficient,Mean bars
+null,640,6,Always mean bars,0.48718072783733063,True,2,Mean summary sufficient,Mean bars
+null,640,6,Always box,1.108609061324581,False,12,Mean summary sufficient,Mean bars
+null,640,6,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,7,Automatic,0.2955046769099198,True,2,Mean summary sufficient,Mean bars
+null,640,7,Always mean bars,0.2955046769099198,True,2,Mean summary sufficient,Mean bars
+null,640,7,Always box,0.7824071176293572,True,12,Mean summary sufficient,Mean bars
+null,640,7,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,8,Automatic,0.8848235080756296,True,2,Mean summary sufficient,Mean bars
+null,640,8,Always mean bars,0.8848235080756296,True,2,Mean summary sufficient,Mean bars
+null,640,8,Always box,1.108905714581606,False,12,Mean summary sufficient,Mean bars
+null,640,8,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,9,Automatic,0.3552820160367328,True,2,Mean summary sufficient,Mean bars
+null,640,9,Always mean bars,0.3552820160367328,True,2,Mean summary sufficient,Mean bars
+null,640,9,Always box,0.6113137779820469,True,12,Mean summary sufficient,Mean bars
+null,640,9,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,10,Automatic,0.4147101912512335,True,2,Mean summary sufficient,Mean bars
+null,640,10,Always mean bars,0.4147101912512335,True,2,Mean summary sufficient,Mean bars
+null,640,10,Always box,1.940264707351932,False,12,Mean summary sufficient,Mean bars
+null,640,10,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,11,Automatic,0.30440338665063194,True,2,Mean summary sufficient,Mean bars
+null,640,11,Always mean bars,0.30440338665063194,True,2,Mean summary sufficient,Mean bars
+null,640,11,Always box,0.27628079036836795,True,12,Mean summary sufficient,Mean bars
+null,640,11,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,12,Automatic,0.3873833391325987,True,2,Mean summary sufficient,Mean bars
+null,640,12,Always mean bars,0.3873833391325987,True,2,Mean summary sufficient,Mean bars
+null,640,12,Always box,1.2778939805064402,False,12,Mean summary sufficient,Mean bars
+null,640,12,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,13,Automatic,0.6905528210995491,True,2,Mean summary sufficient,Mean bars
+null,640,13,Always mean bars,0.6905528210995491,True,2,Mean summary sufficient,Mean bars
+null,640,13,Always box,1.822932314447845,False,12,Mean summary sufficient,Mean bars
+null,640,13,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,14,Automatic,0.30703424530388124,True,2,Mean summary sufficient,Mean bars
+null,640,14,Always mean bars,0.30703424530388124,True,2,Mean summary sufficient,Mean bars
+null,640,14,Always box,0.4789154682627222,True,12,Mean summary sufficient,Mean bars
+null,640,14,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,15,Automatic,0.31139193739780485,True,2,Mean summary sufficient,Mean bars
+null,640,15,Always mean bars,0.31139193739780485,True,2,Mean summary sufficient,Mean bars
+null,640,15,Always box,1.2690334426315049,False,12,Mean summary sufficient,Mean bars
+null,640,15,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,16,Automatic,0.5909936992384909,True,2,Mean summary sufficient,Mean bars
+null,640,16,Always mean bars,0.5909936992384909,True,2,Mean summary sufficient,Mean bars
+null,640,16,Always box,1.1408570081246079,False,12,Mean summary sufficient,Mean bars
+null,640,16,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,17,Automatic,0.5848888731171724,True,2,Mean summary sufficient,Mean bars
+null,640,17,Always mean bars,0.5848888731171724,True,2,Mean summary sufficient,Mean bars
+null,640,17,Always box,1.1869302593652937,False,12,Mean summary sufficient,Mean bars
+null,640,17,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,18,Automatic,0.49632654477403,True,2,Mean summary sufficient,Mean bars
+null,640,18,Always mean bars,0.49632654477403,True,2,Mean summary sufficient,Mean bars
+null,640,18,Always box,1.1117706157585785,False,12,Mean summary sufficient,Mean bars
+null,640,18,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+null,640,19,Automatic,0.571288787524384,True,2,Mean summary sufficient,Mean bars
+null,640,19,Always mean bars,0.571288787524384,True,2,Mean summary sufficient,Mean bars
+null,640,19,Always box,0.8568440781629317,True,12,Mean summary sufficient,Mean bars
+null,640,19,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,40,0,Automatic,0.2507113955270435,True,2,Mean summary sufficient,Mean bars
+location,40,0,Always mean bars,0.2507113955270435,True,2,Mean summary sufficient,Mean bars
+location,40,0,Always box,0.6665600065381867,True,12,Mean summary sufficient,Mean bars
+location,40,0,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,1,Automatic,0.4330043045898826,True,2,Mean summary sufficient,Mean bars
+location,40,1,Always mean bars,0.4330043045898826,True,2,Mean summary sufficient,Mean bars
+location,40,1,Always box,0.3604297038631865,True,12,Mean summary sufficient,Mean bars
+location,40,1,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,2,Automatic,0.48526308920675365,True,2,Mean summary sufficient,Mean bars
+location,40,2,Always mean bars,0.48526308920675365,True,2,Mean summary sufficient,Mean bars
+location,40,2,Always box,0.3277166758463636,True,12,Mean summary sufficient,Mean bars
+location,40,2,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,3,Automatic,0.35699510938205625,True,2,Mean summary sufficient,Mean bars
+location,40,3,Always mean bars,0.35699510938205625,True,2,Mean summary sufficient,Mean bars
+location,40,3,Always box,0.304719768487174,True,12,Mean summary sufficient,Mean bars
+location,40,3,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,4,Automatic,0.6075207663287445,True,2,Mean summary sufficient,Mean bars
+location,40,4,Always mean bars,0.6075207663287445,True,2,Mean summary sufficient,Mean bars
+location,40,4,Always box,0.3044284312011019,True,12,Mean summary sufficient,Mean bars
+location,40,4,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,5,Automatic,0.2407478671433482,True,2,Mean summary sufficient,Mean bars
+location,40,5,Always mean bars,0.2407478671433482,True,2,Mean summary sufficient,Mean bars
+location,40,5,Always box,0.2756662948069545,True,12,Mean summary sufficient,Mean bars
+location,40,5,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,6,Automatic,0.270958463625743,True,2,Mean summary sufficient,Mean bars
+location,40,6,Always mean bars,0.270958463625743,True,2,Mean summary sufficient,Mean bars
+location,40,6,Always box,0.33741323747597546,True,12,Mean summary sufficient,Mean bars
+location,40,6,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,7,Automatic,0.2124304840742372,True,2,Mean summary sufficient,Mean bars
+location,40,7,Always mean bars,0.2124304840742372,True,2,Mean summary sufficient,Mean bars
+location,40,7,Always box,0.26287405393559166,True,12,Mean summary sufficient,Mean bars
+location,40,7,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,8,Automatic,0.3228707318944918,True,2,Mean summary sufficient,Mean bars
+location,40,8,Always mean bars,0.3228707318944918,True,2,Mean summary sufficient,Mean bars
+location,40,8,Always box,0.45920997641687744,True,12,Mean summary sufficient,Mean bars
+location,40,8,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,9,Automatic,0.4084400285992296,True,2,Mean summary sufficient,Mean bars
+location,40,9,Always mean bars,0.4084400285992296,True,2,Mean summary sufficient,Mean bars
+location,40,9,Always box,0.31431579450270886,True,12,Mean summary sufficient,Mean bars
+location,40,9,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,10,Automatic,0.4246431753695383,True,2,Mean summary sufficient,Mean bars
+location,40,10,Always mean bars,0.4246431753695383,True,2,Mean summary sufficient,Mean bars
+location,40,10,Always box,0.3229983063515065,True,12,Mean summary sufficient,Mean bars
+location,40,10,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,11,Automatic,0.29896164142869214,True,2,Mean summary sufficient,Mean bars
+location,40,11,Always mean bars,0.29896164142869214,True,2,Mean summary sufficient,Mean bars
+location,40,11,Always box,0.3606425781657114,True,12,Mean summary sufficient,Mean bars
+location,40,11,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,12,Automatic,0.5495748504794787,True,2,Mean summary sufficient,Mean bars
+location,40,12,Always mean bars,0.5495748504794787,True,2,Mean summary sufficient,Mean bars
+location,40,12,Always box,0.35611691131797907,True,12,Mean summary sufficient,Mean bars
+location,40,12,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,13,Automatic,0.28455900523183203,True,2,Mean summary sufficient,Mean bars
+location,40,13,Always mean bars,0.28455900523183203,True,2,Mean summary sufficient,Mean bars
+location,40,13,Always box,0.6459580748342629,True,12,Mean summary sufficient,Mean bars
+location,40,13,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,14,Automatic,0.31818329157541625,True,2,Mean summary sufficient,Mean bars
+location,40,14,Always mean bars,0.31818329157541625,True,2,Mean summary sufficient,Mean bars
+location,40,14,Always box,0.4501081994253585,True,12,Mean summary sufficient,Mean bars
+location,40,14,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,15,Automatic,0.3161282299393853,True,2,Mean summary sufficient,Mean bars
+location,40,15,Always mean bars,0.3161282299393853,True,2,Mean summary sufficient,Mean bars
+location,40,15,Always box,0.44136923171826625,True,12,Mean summary sufficient,Mean bars
+location,40,15,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,16,Automatic,0.3407781953378798,True,2,Mean summary sufficient,Mean bars
+location,40,16,Always mean bars,0.3407781953378798,True,2,Mean summary sufficient,Mean bars
+location,40,16,Always box,0.3500440902118239,True,12,Mean summary sufficient,Mean bars
+location,40,16,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,17,Automatic,0.22804903297044532,True,2,Mean summary sufficient,Mean bars
+location,40,17,Always mean bars,0.22804903297044532,True,2,Mean summary sufficient,Mean bars
+location,40,17,Always box,0.39314787016150365,True,12,Mean summary sufficient,Mean bars
+location,40,17,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,18,Automatic,0.36894330247378265,True,2,Mean summary sufficient,Mean bars
+location,40,18,Always mean bars,0.36894330247378265,True,2,Mean summary sufficient,Mean bars
+location,40,18,Always box,0.2996602586122238,True,12,Mean summary sufficient,Mean bars
+location,40,18,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,40,19,Automatic,0.5578818532552359,True,2,Mean summary sufficient,Mean bars
+location,40,19,Always mean bars,0.5578818532552359,True,2,Mean summary sufficient,Mean bars
+location,40,19,Always box,0.5434107747493749,True,12,Mean summary sufficient,Mean bars
+location,40,19,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+location,160,0,Automatic,0.3243570530541209,True,2,Mean summary sufficient,Mean bars
+location,160,0,Always mean bars,0.3243570530541209,True,2,Mean summary sufficient,Mean bars
+location,160,0,Always box,0.3226986613872293,True,12,Mean summary sufficient,Mean bars
+location,160,0,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,1,Automatic,0.7634675375730808,True,2,Mean summary sufficient,Mean bars
+location,160,1,Always mean bars,0.7634675375730808,True,2,Mean summary sufficient,Mean bars
+location,160,1,Always box,0.6330453360972669,True,12,Mean summary sufficient,Mean bars
+location,160,1,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,2,Automatic,0.9882168314846272,True,2,Mean summary sufficient,Mean bars
+location,160,2,Always mean bars,0.9882168314846272,True,2,Mean summary sufficient,Mean bars
+location,160,2,Always box,0.847856315981316,True,12,Mean summary sufficient,Mean bars
+location,160,2,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,3,Automatic,0.5966652263603045,True,2,Mean summary sufficient,Mean bars
+location,160,3,Always mean bars,0.5966652263603045,True,2,Mean summary sufficient,Mean bars
+location,160,3,Always box,0.813225813016642,True,12,Mean summary sufficient,Mean bars
+location,160,3,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,4,Automatic,0.4429437726957064,True,2,Mean summary sufficient,Mean bars
+location,160,4,Always mean bars,0.4429437726957064,True,2,Mean summary sufficient,Mean bars
+location,160,4,Always box,0.23318962238724691,True,12,Mean summary sufficient,Mean bars
+location,160,4,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,5,Automatic,0.44897694769902097,True,2,Mean summary sufficient,Mean bars
+location,160,5,Always mean bars,0.44897694769902097,True,2,Mean summary sufficient,Mean bars
+location,160,5,Always box,0.4203225409306202,True,12,Mean summary sufficient,Mean bars
+location,160,5,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,6,Automatic,0.5499684963228751,True,2,Mean summary sufficient,Mean bars
+location,160,6,Always mean bars,0.5499684963228751,True,2,Mean summary sufficient,Mean bars
+location,160,6,Always box,0.8865537435030181,True,12,Mean summary sufficient,Mean bars
+location,160,6,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,7,Automatic,0.49954227256456746,True,2,Mean summary sufficient,Mean bars
+location,160,7,Always mean bars,0.49954227256456746,True,2,Mean summary sufficient,Mean bars
+location,160,7,Always box,0.12966409028367393,True,12,Mean summary sufficient,Mean bars
+location,160,7,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,8,Automatic,0.2684372825379584,True,2,Mean summary sufficient,Mean bars
+location,160,8,Always mean bars,0.2684372825379584,True,2,Mean summary sufficient,Mean bars
+location,160,8,Always box,0.3582627019632302,True,12,Mean summary sufficient,Mean bars
+location,160,8,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,9,Automatic,0.6196747540386254,True,2,Mean summary sufficient,Mean bars
+location,160,9,Always mean bars,0.6196747540386254,True,2,Mean summary sufficient,Mean bars
+location,160,9,Always box,0.30226599109675134,True,12,Mean summary sufficient,Mean bars
+location,160,9,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,10,Automatic,0.4800706096620859,True,2,Mean summary sufficient,Mean bars
+location,160,10,Always mean bars,0.4800706096620859,True,2,Mean summary sufficient,Mean bars
+location,160,10,Always box,0.6067140270167691,True,12,Mean summary sufficient,Mean bars
+location,160,10,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,11,Automatic,0.30475711149096596,True,2,Mean summary sufficient,Mean bars
+location,160,11,Always mean bars,0.30475711149096596,True,2,Mean summary sufficient,Mean bars
+location,160,11,Always box,1.0445574985838033,False,12,Mean summary sufficient,Mean bars
+location,160,11,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,12,Automatic,0.24369515215382614,True,2,Mean summary sufficient,Mean bars
+location,160,12,Always mean bars,0.24369515215382614,True,2,Mean summary sufficient,Mean bars
+location,160,12,Always box,0.3243107259503283,True,12,Mean summary sufficient,Mean bars
+location,160,12,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,13,Automatic,0.3959348759790153,True,2,Mean summary sufficient,Mean bars
+location,160,13,Always mean bars,0.3959348759790153,True,2,Mean summary sufficient,Mean bars
+location,160,13,Always box,0.39106517536102825,True,12,Mean summary sufficient,Mean bars
+location,160,13,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,14,Automatic,0.32241158291380045,True,2,Mean summary sufficient,Mean bars
+location,160,14,Always mean bars,0.32241158291380045,True,2,Mean summary sufficient,Mean bars
+location,160,14,Always box,0.4508182002814717,True,12,Mean summary sufficient,Mean bars
+location,160,14,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,15,Automatic,0.4004003882183692,True,2,Mean summary sufficient,Mean bars
+location,160,15,Always mean bars,0.4004003882183692,True,2,Mean summary sufficient,Mean bars
+location,160,15,Always box,0.5149761348643537,True,12,Mean summary sufficient,Mean bars
+location,160,15,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,16,Automatic,0.5008338506844532,True,2,Mean summary sufficient,Mean bars
+location,160,16,Always mean bars,0.5008338506844532,True,2,Mean summary sufficient,Mean bars
+location,160,16,Always box,0.7518410843286628,True,12,Mean summary sufficient,Mean bars
+location,160,16,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,17,Automatic,0.29452373652120023,True,2,Mean summary sufficient,Mean bars
+location,160,17,Always mean bars,0.29452373652120023,True,2,Mean summary sufficient,Mean bars
+location,160,17,Always box,0.7108068796600863,True,12,Mean summary sufficient,Mean bars
+location,160,17,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,18,Automatic,0.6404334944712736,True,2,Mean summary sufficient,Mean bars
+location,160,18,Always mean bars,0.6404334944712736,True,2,Mean summary sufficient,Mean bars
+location,160,18,Always box,0.7290553837803895,True,12,Mean summary sufficient,Mean bars
+location,160,18,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,160,19,Automatic,0.3393033239032506,True,2,Mean summary sufficient,Mean bars
+location,160,19,Always mean bars,0.3393033239032506,True,2,Mean summary sufficient,Mean bars
+location,160,19,Always box,0.24942597716317227,True,12,Mean summary sufficient,Mean bars
+location,160,19,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+location,640,0,Automatic,0.5160709626287404,True,2,Mean summary sufficient,Mean bars
+location,640,0,Always mean bars,0.5160709626287404,True,2,Mean summary sufficient,Mean bars
+location,640,0,Always box,1.2841670393286617,False,12,Mean summary sufficient,Mean bars
+location,640,0,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,1,Automatic,0.3014256727228627,True,2,Mean summary sufficient,Mean bars
+location,640,1,Always mean bars,0.3014256727228627,True,2,Mean summary sufficient,Mean bars
+location,640,1,Always box,0.7113388413415166,True,12,Mean summary sufficient,Mean bars
+location,640,1,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,2,Automatic,0.4100911473257629,True,2,Mean summary sufficient,Mean bars
+location,640,2,Always mean bars,0.4100911473257629,True,2,Mean summary sufficient,Mean bars
+location,640,2,Always box,0.7524692049751344,True,12,Mean summary sufficient,Mean bars
+location,640,2,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,3,Automatic,0.3192748171842964,True,2,Mean summary sufficient,Mean bars
+location,640,3,Always mean bars,0.3192748171842964,True,2,Mean summary sufficient,Mean bars
+location,640,3,Always box,1.4330764641632023,False,12,Mean summary sufficient,Mean bars
+location,640,3,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,4,Automatic,0.2803930106458993,True,2,Mean summary sufficient,Mean bars
+location,640,4,Always mean bars,0.2803930106458993,True,2,Mean summary sufficient,Mean bars
+location,640,4,Always box,0.5401572182591036,True,12,Mean summary sufficient,Mean bars
+location,640,4,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,5,Automatic,0.6837869879510169,True,2,Mean summary sufficient,Mean bars
+location,640,5,Always mean bars,0.6837869879510169,True,2,Mean summary sufficient,Mean bars
+location,640,5,Always box,0.9166522320382561,True,12,Mean summary sufficient,Mean bars
+location,640,5,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,6,Automatic,0.41551288333669817,True,2,Mean summary sufficient,Mean bars
+location,640,6,Always mean bars,0.41551288333669817,True,2,Mean summary sufficient,Mean bars
+location,640,6,Always box,1.4529220050213543,False,12,Mean summary sufficient,Mean bars
+location,640,6,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,7,Automatic,0.45266068172040025,True,2,Mean summary sufficient,Mean bars
+location,640,7,Always mean bars,0.45266068172040025,True,2,Mean summary sufficient,Mean bars
+location,640,7,Always box,1.0096420732249454,False,12,Mean summary sufficient,Mean bars
+location,640,7,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,8,Automatic,0.47263089773280065,True,2,Mean summary sufficient,Mean bars
+location,640,8,Always mean bars,0.47263089773280065,True,2,Mean summary sufficient,Mean bars
+location,640,8,Always box,0.8649310229259178,True,12,Mean summary sufficient,Mean bars
+location,640,8,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,9,Automatic,0.6168567435519114,True,2,Mean summary sufficient,Mean bars
+location,640,9,Always mean bars,0.6168567435519114,True,2,Mean summary sufficient,Mean bars
+location,640,9,Always box,0.5141821741619027,True,12,Mean summary sufficient,Mean bars
+location,640,9,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,10,Automatic,0.6667413460788875,True,2,Mean summary sufficient,Mean bars
+location,640,10,Always mean bars,0.6667413460788875,True,2,Mean summary sufficient,Mean bars
+location,640,10,Always box,0.3214083344932773,True,12,Mean summary sufficient,Mean bars
+location,640,10,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,11,Automatic,0.6637299265488552,True,2,Mean summary sufficient,Mean bars
+location,640,11,Always mean bars,0.6637299265488552,True,2,Mean summary sufficient,Mean bars
+location,640,11,Always box,1.7897843267525964,False,12,Mean summary sufficient,Mean bars
+location,640,11,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,12,Automatic,0.5260573420923019,True,2,Mean summary sufficient,Mean bars
+location,640,12,Always mean bars,0.5260573420923019,True,2,Mean summary sufficient,Mean bars
+location,640,12,Always box,0.9486122421588353,True,12,Mean summary sufficient,Mean bars
+location,640,12,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,13,Automatic,0.25441003395691697,True,2,Mean summary sufficient,Mean bars
+location,640,13,Always mean bars,0.25441003395691697,True,2,Mean summary sufficient,Mean bars
+location,640,13,Always box,1.1902458015368071,False,12,Mean summary sufficient,Mean bars
+location,640,13,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,14,Automatic,0.3091047965486083,True,2,Mean summary sufficient,Mean bars
+location,640,14,Always mean bars,0.3091047965486083,True,2,Mean summary sufficient,Mean bars
+location,640,14,Always box,0.5042948353337233,True,12,Mean summary sufficient,Mean bars
+location,640,14,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,15,Automatic,0.3956684776431993,True,2,Mean summary sufficient,Mean bars
+location,640,15,Always mean bars,0.3956684776431993,True,2,Mean summary sufficient,Mean bars
+location,640,15,Always box,1.102616599407039,False,12,Mean summary sufficient,Mean bars
+location,640,15,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,16,Automatic,0.4165528398554906,True,2,Mean summary sufficient,Mean bars
+location,640,16,Always mean bars,0.4165528398554906,True,2,Mean summary sufficient,Mean bars
+location,640,16,Always box,2.302010118492592,False,12,Mean summary sufficient,Mean bars
+location,640,16,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,17,Automatic,0.3630659914127516,True,2,Mean summary sufficient,Mean bars
+location,640,17,Always mean bars,0.3630659914127516,True,2,Mean summary sufficient,Mean bars
+location,640,17,Always box,0.3909667358085656,True,12,Mean summary sufficient,Mean bars
+location,640,17,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,18,Automatic,0.483802616179128,True,2,Mean summary sufficient,Mean bars
+location,640,18,Always mean bars,0.483802616179128,True,2,Mean summary sufficient,Mean bars
+location,640,18,Always box,0.6530770374272887,True,12,Mean summary sufficient,Mean bars
+location,640,18,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+location,640,19,Automatic,0.591843134832716,True,2,Mean summary sufficient,Mean bars
+location,640,19,Always mean bars,0.591843134832716,True,2,Mean summary sufficient,Mean bars
+location,640,19,Always box,0.9642397015833823,True,12,Mean summary sufficient,Mean bars
+location,640,19,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+spread,40,0,Automatic,0.9929622596496955,True,2,Mean summary sufficient,Mean bars
+spread,40,0,Always mean bars,0.9929622596496955,True,2,Mean summary sufficient,Mean bars
+spread,40,0,Always box,0.2160312399399659,True,12,Mean summary sufficient,Mean bars
+spread,40,0,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,1,Automatic,0.7171282487331346,True,2,Mean summary sufficient,Mean bars
+spread,40,1,Always mean bars,0.7171282487331346,True,2,Mean summary sufficient,Mean bars
+spread,40,1,Always box,0.4013919960995903,True,12,Mean summary sufficient,Mean bars
+spread,40,1,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,2,Automatic,0.565811690612511,True,2,Mean summary sufficient,Mean bars
+spread,40,2,Always mean bars,0.565811690612511,True,2,Mean summary sufficient,Mean bars
+spread,40,2,Always box,0.46334313462849686,True,12,Mean summary sufficient,Mean bars
+spread,40,2,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,3,Automatic,1.077581150946182,False,2,Mean summary sufficient,Mean bars
+spread,40,3,Always mean bars,1.077581150946182,False,2,Mean summary sufficient,Mean bars
+spread,40,3,Always box,0.3391174389538977,True,12,Mean summary sufficient,Mean bars
+spread,40,3,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,4,Automatic,0.418378409952213,True,2,Mean summary sufficient,Mean bars
+spread,40,4,Always mean bars,0.418378409952213,True,2,Mean summary sufficient,Mean bars
+spread,40,4,Always box,0.6059114116757626,True,12,Mean summary sufficient,Mean bars
+spread,40,4,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,5,Automatic,0.24920049855737356,True,2,Mean summary sufficient,Mean bars
+spread,40,5,Always mean bars,0.24920049855737356,True,2,Mean summary sufficient,Mean bars
+spread,40,5,Always box,0.6525812210971059,True,12,Mean summary sufficient,Mean bars
+spread,40,5,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,6,Automatic,0.7523707861386292,True,2,Mean summary sufficient,Mean bars
+spread,40,6,Always mean bars,0.7523707861386292,True,2,Mean summary sufficient,Mean bars
+spread,40,6,Always box,0.29629549026336693,True,12,Mean summary sufficient,Mean bars
+spread,40,6,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,7,Automatic,0.346562530805583,True,2,Mean summary sufficient,Mean bars
+spread,40,7,Always mean bars,0.346562530805583,True,2,Mean summary sufficient,Mean bars
+spread,40,7,Always box,0.5465448601546243,True,12,Mean summary sufficient,Mean bars
+spread,40,7,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,8,Automatic,0.6991257209020955,True,2,Mean summary sufficient,Mean bars
+spread,40,8,Always mean bars,0.6991257209020955,True,2,Mean summary sufficient,Mean bars
+spread,40,8,Always box,0.3727325341348162,True,12,Mean summary sufficient,Mean bars
+spread,40,8,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,9,Automatic,0.5466436789579039,True,2,Mean summary sufficient,Mean bars
+spread,40,9,Always mean bars,0.5466436789579039,True,2,Mean summary sufficient,Mean bars
+spread,40,9,Always box,0.5343965541376037,True,12,Mean summary sufficient,Mean bars
+spread,40,9,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,10,Automatic,0.3768838214933884,True,2,Mean summary sufficient,Mean bars
+spread,40,10,Always mean bars,0.3768838214933884,True,2,Mean summary sufficient,Mean bars
+spread,40,10,Always box,0.4154569202697007,True,12,Mean summary sufficient,Mean bars
+spread,40,10,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,11,Automatic,0.32724903470084943,True,2,Mean summary sufficient,Mean bars
+spread,40,11,Always mean bars,0.32724903470084943,True,2,Mean summary sufficient,Mean bars
+spread,40,11,Always box,0.3458342131715975,True,12,Mean summary sufficient,Mean bars
+spread,40,11,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,12,Automatic,0.7275006314611367,True,2,Mean summary sufficient,Mean bars
+spread,40,12,Always mean bars,0.7275006314611367,True,2,Mean summary sufficient,Mean bars
+spread,40,12,Always box,0.2531857759248926,True,12,Mean summary sufficient,Mean bars
+spread,40,12,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,13,Automatic,0.7824951651415109,True,2,Mean summary sufficient,Mean bars
+spread,40,13,Always mean bars,0.7824951651415109,True,2,Mean summary sufficient,Mean bars
+spread,40,13,Always box,0.2758874276822246,True,12,Mean summary sufficient,Mean bars
+spread,40,13,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,14,Automatic,0.5030632829885645,True,2,Mean summary sufficient,Mean bars
+spread,40,14,Always mean bars,0.5030632829885645,True,2,Mean summary sufficient,Mean bars
+spread,40,14,Always box,0.20243757373847035,True,12,Mean summary sufficient,Mean bars
+spread,40,14,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,15,Automatic,0.6471244371876155,True,2,Mean summary sufficient,Mean bars
+spread,40,15,Always mean bars,0.6471244371876155,True,2,Mean summary sufficient,Mean bars
+spread,40,15,Always box,0.2837948693503301,True,12,Mean summary sufficient,Mean bars
+spread,40,15,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,16,Automatic,0.6076006500411624,True,2,Mean summary sufficient,Mean bars
+spread,40,16,Always mean bars,0.6076006500411624,True,2,Mean summary sufficient,Mean bars
+spread,40,16,Always box,0.3684334154155691,True,12,Mean summary sufficient,Mean bars
+spread,40,16,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,17,Automatic,0.45725013190886205,True,2,Mean summary sufficient,Mean bars
+spread,40,17,Always mean bars,0.45725013190886205,True,2,Mean summary sufficient,Mean bars
+spread,40,17,Always box,0.29823602931134524,True,12,Mean summary sufficient,Mean bars
+spread,40,17,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,18,Automatic,0.6512196110021514,True,2,Mean summary sufficient,Mean bars
+spread,40,18,Always mean bars,0.6512196110021514,True,2,Mean summary sufficient,Mean bars
+spread,40,18,Always box,0.32430892205635453,True,12,Mean summary sufficient,Mean bars
+spread,40,18,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,40,19,Automatic,1.0468433761794271,False,2,Mean summary sufficient,Mean bars
+spread,40,19,Always mean bars,1.0468433761794271,False,2,Mean summary sufficient,Mean bars
+spread,40,19,Always box,0.2671622109973374,True,12,Mean summary sufficient,Mean bars
+spread,40,19,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+spread,160,0,Automatic,0.8110137296028103,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,0,Always mean bars,1.1078913638283154,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,0,Always box,0.8110137296028103,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,0,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,1,Automatic,0.3064051143826175,True,22,Distribution detail required,10 common bins
+spread,160,1,Always mean bars,1.1760033954824205,False,2,Distribution detail required,10 common bins
+spread,160,1,Always box,0.45889392311726657,True,12,Distribution detail required,10 common bins
+spread,160,1,Raw dots,0.0,True,160,Distribution detail required,10 common bins
+spread,160,2,Automatic,0.9242691977047407,True,2,Mean summary sufficient,Mean bars
+spread,160,2,Always mean bars,0.9242691977047407,True,2,Mean summary sufficient,Mean bars
+spread,160,2,Always box,1.5136509190049872,False,12,Mean summary sufficient,Mean bars
+spread,160,2,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+spread,160,3,Automatic,1.0844750817904127,False,2,Mean summary sufficient,Mean bars
+spread,160,3,Always mean bars,1.0844750817904127,False,2,Mean summary sufficient,Mean bars
+spread,160,3,Always box,0.8058403268966747,True,12,Mean summary sufficient,Mean bars
+spread,160,3,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+spread,160,4,Automatic,0.3735384808638552,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,4,Always mean bars,1.1028467235657768,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,4,Always box,0.3735384808638552,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,4,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,5,Automatic,0.832328163253015,True,2,Mean summary sufficient,Mean bars
+spread,160,5,Always mean bars,0.832328163253015,True,2,Mean summary sufficient,Mean bars
+spread,160,5,Always box,0.8084761820969879,True,12,Mean summary sufficient,Mean bars
+spread,160,5,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+spread,160,6,Automatic,0.4701044518720863,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,6,Always mean bars,0.7611155802720333,True,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,6,Always box,0.4701044518720863,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,6,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,7,Automatic,0.4088571392256115,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,7,Always mean bars,1.1273263726901135,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,7,Always box,0.4088571392256115,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,7,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,8,Automatic,0.7341499806534758,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,8,Always mean bars,0.43005820686732205,True,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,8,Always box,0.7341499806534758,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,8,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,9,Automatic,0.9903090967243234,True,2,Mean summary sufficient,Mean bars
+spread,160,9,Always mean bars,0.9903090967243234,True,2,Mean summary sufficient,Mean bars
+spread,160,9,Always box,0.7172985714411866,True,12,Mean summary sufficient,Mean bars
+spread,160,9,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+spread,160,10,Automatic,0.7083036839269098,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,10,Always mean bars,0.7741017666480721,True,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,10,Always box,0.7083036839269098,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,10,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,11,Automatic,0.6450799353180813,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,11,Always mean bars,1.593530303420114,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,11,Always box,0.6450799353180813,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,11,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,12,Automatic,0.5159819191297306,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,12,Always mean bars,1.0198125953335888,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,12,Always box,0.5159819191297306,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,12,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,13,Automatic,0.3579286115142398,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,13,Always mean bars,1.233009958960176,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,13,Always box,0.3579286115142398,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,13,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,14,Automatic,1.0368876220041232,False,2,Mean summary sufficient,Mean bars
+spread,160,14,Always mean bars,1.0368876220041232,False,2,Mean summary sufficient,Mean bars
+spread,160,14,Always box,1.4556659598109558,False,12,Mean summary sufficient,Mean bars
+spread,160,14,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+spread,160,15,Automatic,0.5763941107213391,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,15,Always mean bars,1.3536144389677371,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,15,Always box,0.5763941107213391,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,15,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,16,Automatic,0.5730218587199608,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,16,Always mean bars,1.025910806798436,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,16,Always box,0.5730218587199608,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,16,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,17,Automatic,1.1955442922315829,False,2,Mean summary sufficient,Mean bars
+spread,160,17,Always mean bars,1.1955442922315829,False,2,Mean summary sufficient,Mean bars
+spread,160,17,Always box,0.5600372525863805,True,12,Mean summary sufficient,Mean bars
+spread,160,17,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+spread,160,18,Automatic,0.6934754390960022,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,18,Always mean bars,1.107679058604211,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,160,18,Always box,0.6934754390960022,True,12,Quartile summary sufficient,Min-max box with mean markers
+spread,160,18,Raw dots,0.0,True,160,Quartile summary sufficient,Min-max box with mean markers
+spread,160,19,Automatic,1.0218598961599525,False,2,Mean summary sufficient,Mean bars
+spread,160,19,Always mean bars,1.0218598961599525,False,2,Mean summary sufficient,Mean bars
+spread,160,19,Always box,0.6047185135759182,True,12,Mean summary sufficient,Mean bars
+spread,160,19,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+spread,640,0,Automatic,0.25754066326611547,True,22,Distribution detail required,10 common bins
+spread,640,0,Always mean bars,1.6362944967333117,False,2,Distribution detail required,10 common bins
+spread,640,0,Always box,1.240040261652969,False,12,Distribution detail required,10 common bins
+spread,640,0,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,1,Automatic,0.4124965312118595,True,22,Distribution detail required,10 common bins
+spread,640,1,Always mean bars,2.127005925571393,False,2,Distribution detail required,10 common bins
+spread,640,1,Always box,2.003767241312352,False,12,Distribution detail required,10 common bins
+spread,640,1,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,2,Automatic,1.0996089026023497,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,2,Always mean bars,1.7860871295238805,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,640,2,Always box,1.0996089026023497,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,2,Raw dots,0.0,True,640,Quartile summary sufficient,Min-max box with mean markers
+spread,640,3,Automatic,0.29475984088223944,True,22,Distribution detail required,10 common bins
+spread,640,3,Always mean bars,2.0991532706328124,False,2,Distribution detail required,10 common bins
+spread,640,3,Always box,1.089520263040062,False,12,Distribution detail required,10 common bins
+spread,640,3,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,4,Automatic,0.2652545093531875,True,22,Distribution detail required,10 common bins
+spread,640,4,Always mean bars,2.057675043083764,False,2,Distribution detail required,10 common bins
+spread,640,4,Always box,1.2537329459404118,False,12,Distribution detail required,10 common bins
+spread,640,4,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,5,Automatic,0.30301760470989714,True,22,Distribution detail required,10 common bins
+spread,640,5,Always mean bars,1.8801256374698452,False,2,Distribution detail required,10 common bins
+spread,640,5,Always box,1.4337124791078124,False,12,Distribution detail required,10 common bins
+spread,640,5,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,6,Automatic,0.5239293510374458,True,22,Distribution detail required,10 common bins
+spread,640,6,Always mean bars,2.113058306325842,False,2,Distribution detail required,10 common bins
+spread,640,6,Always box,1.4516910282446145,False,12,Distribution detail required,10 common bins
+spread,640,6,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,7,Automatic,0.5016050751511537,True,22,Distribution detail required,10 common bins
+spread,640,7,Always mean bars,2.4406402462057404,False,2,Distribution detail required,10 common bins
+spread,640,7,Always box,1.1894592124665733,False,12,Distribution detail required,10 common bins
+spread,640,7,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,8,Automatic,0.31686040054891357,True,22,Distribution detail required,10 common bins
+spread,640,8,Always mean bars,2.1108608613959627,False,2,Distribution detail required,10 common bins
+spread,640,8,Always box,0.9664257984399381,True,12,Distribution detail required,10 common bins
+spread,640,8,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,9,Automatic,0.25195074107634413,True,22,Distribution detail required,10 common bins
+spread,640,9,Always mean bars,2.115609369054781,False,2,Distribution detail required,10 common bins
+spread,640,9,Always box,1.2605460103102133,False,12,Distribution detail required,10 common bins
+spread,640,9,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,10,Automatic,1.199738747086057,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,10,Always mean bars,1.7121443422206697,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,640,10,Always box,1.199738747086057,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,10,Raw dots,0.0,True,640,Quartile summary sufficient,Min-max box with mean markers
+spread,640,11,Automatic,1.8629519329835798,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,11,Always mean bars,2.33875039388848,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,640,11,Always box,1.8629519329835798,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,11,Raw dots,0.0,True,640,Quartile summary sufficient,Min-max box with mean markers
+spread,640,12,Automatic,0.28904251693777266,True,22,Distribution detail required,10 common bins
+spread,640,12,Always mean bars,1.509475753245494,False,2,Distribution detail required,10 common bins
+spread,640,12,Always box,2.9349820235093964,False,12,Distribution detail required,10 common bins
+spread,640,12,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,13,Automatic,2.2712633480384326,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,13,Always mean bars,2.5821399012842474,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,640,13,Always box,2.2712633480384326,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,13,Raw dots,0.0,True,640,Quartile summary sufficient,Min-max box with mean markers
+spread,640,14,Automatic,0.45651329821106307,True,22,Distribution detail required,10 common bins
+spread,640,14,Always mean bars,1.8945242670598383,False,2,Distribution detail required,10 common bins
+spread,640,14,Always box,1.521142008513989,False,12,Distribution detail required,10 common bins
+spread,640,14,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,15,Automatic,3.7454855680215213,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,15,Always mean bars,1.9174074107615622,False,2,Quartile summary sufficient,Min-max box with mean markers
+spread,640,15,Always box,3.7454855680215213,False,12,Quartile summary sufficient,Min-max box with mean markers
+spread,640,15,Raw dots,0.0,True,640,Quartile summary sufficient,Min-max box with mean markers
+spread,640,16,Automatic,0.30459017149439566,True,22,Distribution detail required,10 common bins
+spread,640,16,Always mean bars,1.6713301258855362,False,2,Distribution detail required,10 common bins
+spread,640,16,Always box,0.5875369346186342,True,12,Distribution detail required,10 common bins
+spread,640,16,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,17,Automatic,0.3265250341867704,True,22,Distribution detail required,10 common bins
+spread,640,17,Always mean bars,1.6815689328499772,False,2,Distribution detail required,10 common bins
+spread,640,17,Always box,1.6303782378291276,False,12,Distribution detail required,10 common bins
+spread,640,17,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,18,Automatic,0.20575632142887004,True,22,Distribution detail required,10 common bins
+spread,640,18,Always mean bars,1.851079354885723,False,2,Distribution detail required,10 common bins
+spread,640,18,Always box,1.1396556448664992,False,12,Distribution detail required,10 common bins
+spread,640,18,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+spread,640,19,Automatic,0.4744877338761912,True,22,Distribution detail required,10 common bins
+spread,640,19,Always mean bars,1.7328525600164364,False,2,Distribution detail required,10 common bins
+spread,640,19,Always box,2.8757634286556852,False,12,Distribution detail required,10 common bins
+spread,640,19,Raw dots,0.0,True,640,Distribution detail required,10 common bins
+shape,40,0,Automatic,0.2607120469428488,True,2,Mean summary sufficient,Mean bars
+shape,40,0,Always mean bars,0.2607120469428488,True,2,Mean summary sufficient,Mean bars
+shape,40,0,Always box,0.5598940639170731,True,12,Mean summary sufficient,Mean bars
+shape,40,0,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,1,Automatic,0.47681591988819383,True,2,Mean summary sufficient,Mean bars
+shape,40,1,Always mean bars,0.47681591988819383,True,2,Mean summary sufficient,Mean bars
+shape,40,1,Always box,0.412066798138441,True,12,Mean summary sufficient,Mean bars
+shape,40,1,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,2,Automatic,0.45922785637722974,True,2,Mean summary sufficient,Mean bars
+shape,40,2,Always mean bars,0.45922785637722974,True,2,Mean summary sufficient,Mean bars
+shape,40,2,Always box,0.28231336124790735,True,12,Mean summary sufficient,Mean bars
+shape,40,2,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,3,Automatic,0.4255287190685482,True,2,Mean summary sufficient,Mean bars
+shape,40,3,Always mean bars,0.4255287190685482,True,2,Mean summary sufficient,Mean bars
+shape,40,3,Always box,0.32219024492577786,True,12,Mean summary sufficient,Mean bars
+shape,40,3,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,4,Automatic,0.4675440183211067,True,2,Mean summary sufficient,Mean bars
+shape,40,4,Always mean bars,0.4675440183211067,True,2,Mean summary sufficient,Mean bars
+shape,40,4,Always box,0.3740813479026172,True,12,Mean summary sufficient,Mean bars
+shape,40,4,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,5,Automatic,0.23684195986469542,True,2,Mean summary sufficient,Mean bars
+shape,40,5,Always mean bars,0.23684195986469542,True,2,Mean summary sufficient,Mean bars
+shape,40,5,Always box,0.26874600661669235,True,12,Mean summary sufficient,Mean bars
+shape,40,5,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,6,Automatic,0.35517072242554687,True,2,Mean summary sufficient,Mean bars
+shape,40,6,Always mean bars,0.35517072242554687,True,2,Mean summary sufficient,Mean bars
+shape,40,6,Always box,0.4743285197251674,True,12,Mean summary sufficient,Mean bars
+shape,40,6,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,7,Automatic,0.33089756414460286,True,2,Mean summary sufficient,Mean bars
+shape,40,7,Always mean bars,0.33089756414460286,True,2,Mean summary sufficient,Mean bars
+shape,40,7,Always box,0.5732283018423001,True,12,Mean summary sufficient,Mean bars
+shape,40,7,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,8,Automatic,0.606941008177395,True,2,Mean summary sufficient,Mean bars
+shape,40,8,Always mean bars,0.606941008177395,True,2,Mean summary sufficient,Mean bars
+shape,40,8,Always box,0.2734625365057526,True,12,Mean summary sufficient,Mean bars
+shape,40,8,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,9,Automatic,0.37093239949264983,True,2,Mean summary sufficient,Mean bars
+shape,40,9,Always mean bars,0.37093239949264983,True,2,Mean summary sufficient,Mean bars
+shape,40,9,Always box,0.19843535661747574,True,12,Mean summary sufficient,Mean bars
+shape,40,9,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,10,Automatic,0.38250240355978526,True,2,Mean summary sufficient,Mean bars
+shape,40,10,Always mean bars,0.38250240355978526,True,2,Mean summary sufficient,Mean bars
+shape,40,10,Always box,0.254050585040359,True,12,Mean summary sufficient,Mean bars
+shape,40,10,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,11,Automatic,0.4308833410052653,True,2,Mean summary sufficient,Mean bars
+shape,40,11,Always mean bars,0.4308833410052653,True,2,Mean summary sufficient,Mean bars
+shape,40,11,Always box,0.38053498576886574,True,12,Mean summary sufficient,Mean bars
+shape,40,11,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,12,Automatic,0.4484977699613944,True,2,Mean summary sufficient,Mean bars
+shape,40,12,Always mean bars,0.4484977699613944,True,2,Mean summary sufficient,Mean bars
+shape,40,12,Always box,0.2071238104546885,True,12,Mean summary sufficient,Mean bars
+shape,40,12,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,13,Automatic,0.4337841881715181,True,2,Mean summary sufficient,Mean bars
+shape,40,13,Always mean bars,0.4337841881715181,True,2,Mean summary sufficient,Mean bars
+shape,40,13,Always box,0.264290400395091,True,12,Mean summary sufficient,Mean bars
+shape,40,13,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,14,Automatic,0.45667490057701543,True,2,Mean summary sufficient,Mean bars
+shape,40,14,Always mean bars,0.45667490057701543,True,2,Mean summary sufficient,Mean bars
+shape,40,14,Always box,0.2425057467398962,True,12,Mean summary sufficient,Mean bars
+shape,40,14,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,15,Automatic,0.3414724986837671,True,2,Mean summary sufficient,Mean bars
+shape,40,15,Always mean bars,0.3414724986837671,True,2,Mean summary sufficient,Mean bars
+shape,40,15,Always box,0.17648863081227933,True,12,Mean summary sufficient,Mean bars
+shape,40,15,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,16,Automatic,0.3078679937864051,True,2,Mean summary sufficient,Mean bars
+shape,40,16,Always mean bars,0.3078679937864051,True,2,Mean summary sufficient,Mean bars
+shape,40,16,Always box,0.2446564718188612,True,12,Mean summary sufficient,Mean bars
+shape,40,16,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,17,Automatic,0.45548634375523794,True,2,Mean summary sufficient,Mean bars
+shape,40,17,Always mean bars,0.45548634375523794,True,2,Mean summary sufficient,Mean bars
+shape,40,17,Always box,0.4316136954976477,True,12,Mean summary sufficient,Mean bars
+shape,40,17,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,18,Automatic,0.3147382403194987,True,2,Mean summary sufficient,Mean bars
+shape,40,18,Always mean bars,0.3147382403194987,True,2,Mean summary sufficient,Mean bars
+shape,40,18,Always box,0.3647424036783256,True,12,Mean summary sufficient,Mean bars
+shape,40,18,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,40,19,Automatic,0.4623122865341632,True,2,Mean summary sufficient,Mean bars
+shape,40,19,Always mean bars,0.4623122865341632,True,2,Mean summary sufficient,Mean bars
+shape,40,19,Always box,0.33312691072202966,True,12,Mean summary sufficient,Mean bars
+shape,40,19,Raw dots,0.0,True,40,Mean summary sufficient,Mean bars
+shape,160,0,Automatic,0.4387472477369394,True,2,Mean summary sufficient,Mean bars
+shape,160,0,Always mean bars,0.4387472477369394,True,2,Mean summary sufficient,Mean bars
+shape,160,0,Always box,0.8870439684435834,True,12,Mean summary sufficient,Mean bars
+shape,160,0,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,1,Automatic,0.6029909451515365,True,2,Mean summary sufficient,Mean bars
+shape,160,1,Always mean bars,0.6029909451515365,True,2,Mean summary sufficient,Mean bars
+shape,160,1,Always box,0.6712848445613132,True,12,Mean summary sufficient,Mean bars
+shape,160,1,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,2,Automatic,0.5082147996703199,True,2,Mean summary sufficient,Mean bars
+shape,160,2,Always mean bars,0.5082147996703199,True,2,Mean summary sufficient,Mean bars
+shape,160,2,Always box,1.732719921188286,False,12,Mean summary sufficient,Mean bars
+shape,160,2,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,3,Automatic,0.4291540329305311,True,2,Mean summary sufficient,Mean bars
+shape,160,3,Always mean bars,0.4291540329305311,True,2,Mean summary sufficient,Mean bars
+shape,160,3,Always box,0.2961602959326057,True,12,Mean summary sufficient,Mean bars
+shape,160,3,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,4,Automatic,0.6085833523389361,True,2,Mean summary sufficient,Mean bars
+shape,160,4,Always mean bars,0.6085833523389361,True,2,Mean summary sufficient,Mean bars
+shape,160,4,Always box,0.5883572402304326,True,12,Mean summary sufficient,Mean bars
+shape,160,4,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,5,Automatic,0.4375479076352702,True,2,Mean summary sufficient,Mean bars
+shape,160,5,Always mean bars,0.4375479076352702,True,2,Mean summary sufficient,Mean bars
+shape,160,5,Always box,0.8356952713603177,True,12,Mean summary sufficient,Mean bars
+shape,160,5,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,6,Automatic,0.5641926908187431,True,2,Mean summary sufficient,Mean bars
+shape,160,6,Always mean bars,0.5641926908187431,True,2,Mean summary sufficient,Mean bars
+shape,160,6,Always box,0.38474924187281334,True,12,Mean summary sufficient,Mean bars
+shape,160,6,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,7,Automatic,0.5563668673318022,True,2,Mean summary sufficient,Mean bars
+shape,160,7,Always mean bars,0.5563668673318022,True,2,Mean summary sufficient,Mean bars
+shape,160,7,Always box,0.9814809783812729,True,12,Mean summary sufficient,Mean bars
+shape,160,7,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,8,Automatic,0.515574909483675,True,2,Mean summary sufficient,Mean bars
+shape,160,8,Always mean bars,0.515574909483675,True,2,Mean summary sufficient,Mean bars
+shape,160,8,Always box,0.5201128089266518,True,12,Mean summary sufficient,Mean bars
+shape,160,8,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,9,Automatic,0.5544842400594993,True,2,Mean summary sufficient,Mean bars
+shape,160,9,Always mean bars,0.5544842400594993,True,2,Mean summary sufficient,Mean bars
+shape,160,9,Always box,0.5193302683434778,True,12,Mean summary sufficient,Mean bars
+shape,160,9,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,10,Automatic,0.3651857850168278,True,2,Mean summary sufficient,Mean bars
+shape,160,10,Always mean bars,0.3651857850168278,True,2,Mean summary sufficient,Mean bars
+shape,160,10,Always box,0.6271215535851935,True,12,Mean summary sufficient,Mean bars
+shape,160,10,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,11,Automatic,0.3925118408169144,True,2,Mean summary sufficient,Mean bars
+shape,160,11,Always mean bars,0.3925118408169144,True,2,Mean summary sufficient,Mean bars
+shape,160,11,Always box,0.7285484144141597,True,12,Mean summary sufficient,Mean bars
+shape,160,11,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,12,Automatic,0.6338519435760596,True,2,Mean summary sufficient,Mean bars
+shape,160,12,Always mean bars,0.6338519435760596,True,2,Mean summary sufficient,Mean bars
+shape,160,12,Always box,0.35052566937128055,True,12,Mean summary sufficient,Mean bars
+shape,160,12,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,13,Automatic,0.3598207309375116,True,2,Mean summary sufficient,Mean bars
+shape,160,13,Always mean bars,0.3598207309375116,True,2,Mean summary sufficient,Mean bars
+shape,160,13,Always box,0.6691976157994187,True,12,Mean summary sufficient,Mean bars
+shape,160,13,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,14,Automatic,0.43618935592772606,True,2,Mean summary sufficient,Mean bars
+shape,160,14,Always mean bars,0.43618935592772606,True,2,Mean summary sufficient,Mean bars
+shape,160,14,Always box,0.6206348150657991,True,12,Mean summary sufficient,Mean bars
+shape,160,14,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,15,Automatic,0.3797491440432083,True,2,Mean summary sufficient,Mean bars
+shape,160,15,Always mean bars,0.3797491440432083,True,2,Mean summary sufficient,Mean bars
+shape,160,15,Always box,1.1631576036601718,False,12,Mean summary sufficient,Mean bars
+shape,160,15,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,16,Automatic,0.36071406808871226,True,2,Mean summary sufficient,Mean bars
+shape,160,16,Always mean bars,0.36071406808871226,True,2,Mean summary sufficient,Mean bars
+shape,160,16,Always box,0.4308551729539312,True,12,Mean summary sufficient,Mean bars
+shape,160,16,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,17,Automatic,0.6058193138096838,True,2,Mean summary sufficient,Mean bars
+shape,160,17,Always mean bars,0.6058193138096838,True,2,Mean summary sufficient,Mean bars
+shape,160,17,Always box,0.6283558058577371,True,12,Mean summary sufficient,Mean bars
+shape,160,17,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,18,Automatic,0.870198476316133,True,2,Mean summary sufficient,Mean bars
+shape,160,18,Always mean bars,0.870198476316133,True,2,Mean summary sufficient,Mean bars
+shape,160,18,Always box,0.41183313104934866,True,12,Mean summary sufficient,Mean bars
+shape,160,18,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,160,19,Automatic,0.5502573153065511,True,2,Mean summary sufficient,Mean bars
+shape,160,19,Always mean bars,0.5502573153065511,True,2,Mean summary sufficient,Mean bars
+shape,160,19,Always box,0.5465201492137688,True,12,Mean summary sufficient,Mean bars
+shape,160,19,Raw dots,0.0,True,160,Mean summary sufficient,Mean bars
+shape,640,0,Automatic,0.6098464230969846,True,2,Mean summary sufficient,Mean bars
+shape,640,0,Always mean bars,0.6098464230969846,True,2,Mean summary sufficient,Mean bars
+shape,640,0,Always box,2.135655674387312,False,12,Mean summary sufficient,Mean bars
+shape,640,0,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,1,Automatic,0.7055492044054509,True,2,Mean summary sufficient,Mean bars
+shape,640,1,Always mean bars,0.7055492044054509,True,2,Mean summary sufficient,Mean bars
+shape,640,1,Always box,2.3103009601466318,False,12,Mean summary sufficient,Mean bars
+shape,640,1,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,2,Automatic,1.028010647439846,False,2,Mean summary sufficient,Mean bars
+shape,640,2,Always mean bars,1.028010647439846,False,2,Mean summary sufficient,Mean bars
+shape,640,2,Always box,1.331524097609647,False,12,Mean summary sufficient,Mean bars
+shape,640,2,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,3,Automatic,0.6864445239079171,True,2,Mean summary sufficient,Mean bars
+shape,640,3,Always mean bars,0.6864445239079171,True,2,Mean summary sufficient,Mean bars
+shape,640,3,Always box,1.039212300756937,False,12,Mean summary sufficient,Mean bars
+shape,640,3,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,4,Automatic,0.7284919439950683,True,2,Mean summary sufficient,Mean bars
+shape,640,4,Always mean bars,0.7284919439950683,True,2,Mean summary sufficient,Mean bars
+shape,640,4,Always box,1.6186344156302097,False,12,Mean summary sufficient,Mean bars
+shape,640,4,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,5,Automatic,0.6152130903172747,True,2,Mean summary sufficient,Mean bars
+shape,640,5,Always mean bars,0.6152130903172747,True,2,Mean summary sufficient,Mean bars
+shape,640,5,Always box,1.4103036051113376,False,12,Mean summary sufficient,Mean bars
+shape,640,5,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,6,Automatic,0.6954727428044207,True,2,Mean summary sufficient,Mean bars
+shape,640,6,Always mean bars,0.6954727428044207,True,2,Mean summary sufficient,Mean bars
+shape,640,6,Always box,1.1467052364361032,False,12,Mean summary sufficient,Mean bars
+shape,640,6,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,7,Automatic,0.6889836764676606,True,2,Mean summary sufficient,Mean bars
+shape,640,7,Always mean bars,0.6889836764676606,True,2,Mean summary sufficient,Mean bars
+shape,640,7,Always box,1.430623711537905,False,12,Mean summary sufficient,Mean bars
+shape,640,7,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,8,Automatic,0.7070122985459967,True,2,Mean summary sufficient,Mean bars
+shape,640,8,Always mean bars,0.7070122985459967,True,2,Mean summary sufficient,Mean bars
+shape,640,8,Always box,1.2606001402013742,False,12,Mean summary sufficient,Mean bars
+shape,640,8,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,9,Automatic,0.6517928395836367,True,2,Mean summary sufficient,Mean bars
+shape,640,9,Always mean bars,0.6517928395836367,True,2,Mean summary sufficient,Mean bars
+shape,640,9,Always box,1.0215081657217486,False,12,Mean summary sufficient,Mean bars
+shape,640,9,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,10,Automatic,0.7526302070978131,True,2,Mean summary sufficient,Mean bars
+shape,640,10,Always mean bars,0.7526302070978131,True,2,Mean summary sufficient,Mean bars
+shape,640,10,Always box,1.4238975718739089,False,12,Mean summary sufficient,Mean bars
+shape,640,10,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,11,Automatic,0.852174854815519,True,2,Mean summary sufficient,Mean bars
+shape,640,11,Always mean bars,0.852174854815519,True,2,Mean summary sufficient,Mean bars
+shape,640,11,Always box,1.1674382709773896,False,12,Mean summary sufficient,Mean bars
+shape,640,11,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,12,Automatic,0.740581279913783,True,2,Mean summary sufficient,Mean bars
+shape,640,12,Always mean bars,0.740581279913783,True,2,Mean summary sufficient,Mean bars
+shape,640,12,Always box,1.811367015601924,False,12,Mean summary sufficient,Mean bars
+shape,640,12,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,13,Automatic,0.6283357156916687,True,2,Mean summary sufficient,Mean bars
+shape,640,13,Always mean bars,0.6283357156916687,True,2,Mean summary sufficient,Mean bars
+shape,640,13,Always box,1.2455519187644555,False,12,Mean summary sufficient,Mean bars
+shape,640,13,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,14,Automatic,0.7645373912039144,True,2,Mean summary sufficient,Mean bars
+shape,640,14,Always mean bars,0.7645373912039144,True,2,Mean summary sufficient,Mean bars
+shape,640,14,Always box,1.3360141973121995,False,12,Mean summary sufficient,Mean bars
+shape,640,14,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,15,Automatic,0.8472051046819775,True,2,Mean summary sufficient,Mean bars
+shape,640,15,Always mean bars,0.8472051046819775,True,2,Mean summary sufficient,Mean bars
+shape,640,15,Always box,1.7126653082419923,False,12,Mean summary sufficient,Mean bars
+shape,640,15,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,16,Automatic,0.8439202618958376,True,2,Mean summary sufficient,Mean bars
+shape,640,16,Always mean bars,0.8439202618958376,True,2,Mean summary sufficient,Mean bars
+shape,640,16,Always box,0.926146160840564,True,12,Mean summary sufficient,Mean bars
+shape,640,16,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,17,Automatic,0.610688790486085,True,2,Mean summary sufficient,Mean bars
+shape,640,17,Always mean bars,0.610688790486085,True,2,Mean summary sufficient,Mean bars
+shape,640,17,Always box,1.6190005857358531,False,12,Mean summary sufficient,Mean bars
+shape,640,17,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,18,Automatic,0.64065078729037,True,2,Mean summary sufficient,Mean bars
+shape,640,18,Always mean bars,0.64065078729037,True,2,Mean summary sufficient,Mean bars
+shape,640,18,Always box,1.2252219482767661,False,12,Mean summary sufficient,Mean bars
+shape,640,18,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars
+shape,640,19,Automatic,0.6934952724593297,True,2,Mean summary sufficient,Mean bars
+shape,640,19,Always mean bars,0.6934952724593297,True,2,Mean summary sufficient,Mean bars
+shape,640,19,Always box,1.7443746772258697,False,12,Mean summary sufficient,Mean bars
+shape,640,19,Raw dots,0.0,True,640,Mean summary sufficient,Mean bars

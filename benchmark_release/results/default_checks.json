@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "folds": 168,
+  "case_observer_pairs": 1060,
+  "no_heldout_units_in_training": true,
+  "transfer_values_verified": true
+}

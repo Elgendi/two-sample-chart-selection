@@ -1,0 +1,16 @@
+{
+  "H": 384,
+  "phases": [
+    0.125,
+    0.375,
+    0.625,
+    0.875
+  ],
+  "settings": [
+    "reference optimum",
+    "minimax regret optimum",
+    "fixed quantile plot"
+  ],
+  "selection": "settings selected on 128/256/512 results then kept unchanged",
+  "status": "new display stress test; not external physiological validation"
+}

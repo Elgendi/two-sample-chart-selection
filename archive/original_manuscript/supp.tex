@@ -1,0 +1,118 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=20mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,booktabs,longtable,array}
+\usepackage[super,sort&compress]{natbib}
+\usepackage{hyperref}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\emergencystretch=4em
+\renewcommand{\thefigure}{S\arabic{figure}}
+\title{Supplementary information\\Scoring rendered charts by recovery of two-sample differences}
+\author{Mohamed Elgendi}\date{}
+\begin{document}\maketitle
+\section*{S1. Scope and status of this revision}
+This Supplement describes the pixel-recovery development benchmark. Earlier compression results are archived in the reproducibility package and are not evidence for the current score. The current method uses 21 settings from seven implemented chart families after screening a 15-family catalogue. It has no human-reader data, held-out observer validation or universal chart-ranking claim. All source arrays remain unchanged. The study protocol was fixed for the reported computational run after implementation checks, not preregistered before development.
+
+\section*{S2. Complete catalogue of 15 families}
+Catalogue identifiers remain fixed and are not quality ranks. The catalogue is a familiar set specified for this project; no worldwide usage-frequency claim is made. Eligibility here means that an explicit decoder for the same five marginal quantile differences is implemented. An absent contract is not a score of zero. Some other families can be repurposed, but doing so requires a declared transformation and a newly evaluated contract.
+\begin{longtable}{rp{2.7cm}p{4.3cm}p{6.7cm}}\toprule
+ID & Family & Usual task & Current implementation\\\midrule\endhead
+1 & Bar chart & Category values & Group means; one setting\\
+2 & Line chart & Ordered trends & No trend target or implemented marginal decoder\\
+3 & Scatter plot & Joint relationships & No joint-association target or decoder\\
+4 & Pie chart & Parts of a whole & No declared composition transformation or decoder\\
+5 & Histogram & Numerical distribution & Five common-bin settings\\
+6 & Box plot & Median, spread, extrema & Five-number summary; one setting\\
+7 & Heatmap & Matrix patterns & Two group-probability strips; five bin settings\\
+8 & Stacked bar & Totals and composition & No declared composition transformation or decoder\\
+9 & Area chart & Ordered magnitude & No ordered-trend target or decoder\\
+10 & Bubble chart & Relationships and magnitude & No joint target or bubble-area decoder\\
+11 & Dot plot & Observations or category values & Means and raw observations; two settings\\
+12 & Treemap & Hierarchical composition & No hierarchy, composition target or decoder\\
+13 & Choropleth & Geographic values & No geographic identifiers, target or decoder\\
+14 & Violin plot & Distribution shape & Six sampled-density settings\\
+15 & Interval plot & Variability or uncertainty & Five-number variability display; one setting; not an uncertainty interval\\\bottomrule
+\end{longtable}
+
+\section*{S3. Exact computational contract}
+\textbf{Target.} NumPy's default linear empirical quantiles at probabilities $(.1,.25,.5,.75,.9)$ define five equally weighted differences, group B minus group A. The target is descriptive and marginal even when the source observations are paired. It is not a full-distribution metric or an estimate of individual change.
+
+\textbf{Normalization.} Pooled within-group standard deviation weights each sample variance by its degrees of freedom. If that standard deviation is zero, the implementation uses one source unit and records a fallback flag. This special case is not unit-invariant. All eligible candidates within a comparison share the same scale.
+
+\textbf{Range.} Let $h_g=\mathrm{SD}(g)n_g^{-1/5}$ and $b=\max(h_x,h_y,.01s)$. The measurement range is $[\min(0,\min(x,y)-4b),\max(0,\max(x,y)+4b)]$. If needed, a degenerate upper limit is replaced by the lower limit plus one. All families use this range, including histogram and heatmap bins. Zero inclusion supports bars but may reduce useful resolution for other displays; it is an explicit design limitation.
+
+\textbf{Inputs to the decoder.} RGB image, family, setting, panel resolution, image width, measurement limits, panel bounding coordinates and declared group colours. The decoder is not given samples, target quantiles, pre-rendered summary values, placement offset or jitter seed. It is given exact axes rather than recovering tick labels through optical character recognition. The chart type is known.
+
+\textbf{Raster geometry.} Two panels of side $H\in\{128,256,512\}$ are separated by 16 pixels. Each plotting region extends from local horizontal coordinate 8 to $H-9$ and vertical coordinate 8 to $H-9$. RGB colours are $(38,126,165)$ and $(223,120,54)$. Images are first drawn at fourfold resolution, reduced with Lanczos filtering and blurred by a Gaussian radius of 0.5 target pixels. Measurement marks use vertical offsets 0, .25, .5 and .75 pixels. These placements are sensitivity conditions, not independent samples of reader performance.
+
+\textbf{Bars and dots.} Mean bars have width $0.4H$ and extend from zero to the group mean. Mean dots have radius two target pixels. Raw dots have radius 1.5 pixels and uniformly jittered horizontal centres within $\pm0.35H$ of the panel centre. Random seeds are $20260920+r+100003g$, with zero-based placement index $r$ and group index $g$. Thus raw-dot realizations vary both placement and jitter. The dots are opaque; within-group overlaps are retained.
+
+\textbf{Boxes and intervals.} A one-pixel minimum--maximum line is common to both. A box has width $0.4H$ and spans the interquartile range, with a one-pixel black median line. The interval has a five-pixel interquartile line and black median marker of radius 2.5 pixels. These are five-number summaries of observations, not standard errors, confidence intervals or Tukey outlier conventions.
+
+\textbf{Histograms and heatmaps.} Bin counts $4,8,16,32,64$ share equal-width measurement bins. Histogram heights represent group probabilities on a fixed zero-to-one axis. Heatmap tiles encode probability $m$ as $(\mathrm{round}(255(1-m)),\mathrm{round}(255(1-m)),255)$. The heatmap strip occupies the middle 30\% of plot height; its raster is invariant across the four vertical placements. This known linear colour scale is an oracle supplied through the implemented decoder, not evidence of perceptual linearity.
+
+\textbf{Violins.} Group-specific Gaussian kernel densities use SciPy's Scott bandwidth and are sampled on common grids of $8,16,32,64,128,256$ points. Width is normalized separately by each group's peak to $0.4H$. The rendered polygon connects those grid points; no finer smoothing is inserted into the displayed figures. Constant samples use a Gaussian width of $.01s$, evaluated with a stabilized exponential to avoid underflow.
+
+\textbf{Pixel extraction.} A pixel is group-coloured if its Euclidean RGB distance from the known group colour is below 80. A black mark has RGB norm below $.78$ times the group-colour norm. Bars use rows with coloured width exceeding 20\% of plot width, taking the endpoint farther from zero. Mean dots use the coloured row-mass centroid. Box and interval extrema use any coloured or black mark; interquartile bounds use row width above 30\% of plot width for boxes or 2.5 pixels for intervals. Median position is the black row-mass centroid. Recovered five-number landmarks are monotonized and linearly interpolated to the target probabilities.
+
+Histogram probabilities come from the top coloured pixel at each bin-centre column relative to the known baseline. Heatmap probabilities come from inverse red intensity at tile centres. Negative recovered masses are clamped to zero and masses normalized. Their cumulative inverse uses linear interpolation within each nonempty bin. Violin and raw-dot decoders instead invert cumulative coloured pixel area by measurement row. This is an area-based observer, not a point-counting algorithm or an optimal image decoder. Empty recoveries fail explicitly.
+
+\textbf{Score and optimization.} For each realization, divide mean absolute contrast error by the shared scale. Average that loss over all four realizations, then transform by $100/(1+L)$. Do not average scores before optimization. A setting with any failed realization is excluded. Within each family select its lowest mean loss; ties can be displayed deterministically but remain equal scientific outcomes. Across families, absolute loss differences at most $10^{-12}$ are treated as ties, with no relative tolerance. Unrounded values determine rankings. Displaying three decimals does not assert precision or practical significance.
+
+\section*{S4. Mathematical interpretation and limitations}
+For finite nonnegative loss, $0<S\leq100$ and $dS/dL=-100/(1+L)^2<0$. Thus maximizing score exactly minimizes the stated recovery loss. A monotone logarithmic or reciprocal transformation cannot distinguish equal losses. Injecting chart-specific offsets would change the objective and cannot establish visual superiority.
+
+Let $e_{g,k}=\widetilde Q_g(p_k)-Q_g(p_k)$. Then the contrast error is $e_{y,k}-e_{x,k}$. Shared errors can cancel, yielding a high contrast score despite inaccurate group quantiles. Conversely, a sample's biological separation may be small yet faithfully recovered. Score is therefore neither a measure of separation nor a diagnostic of data quality.
+
+For population target $\Delta_k^{\mathrm{pop}}$, the triangle inequality gives
+\[
+\frac15\sum_k|\widetilde\Delta_k-\Delta_k^{\mathrm{pop}}|
+\leq \frac15\sum_k|\widetilde\Delta_k-\Delta_k|
++\frac15\sum_k|\Delta_k-\Delta_k^{\mathrm{pop}}|.
+\]
+Improving image recovery addresses the first term only. The current experiment does not estimate the second term or supply confidence coverage. Placement ranges are neither sampling intervals nor probabilities that a selected chart is correct.
+
+With nonconstant samples and ideal arithmetic, multiplying all observations by a positive constant scales the range, recovered values and normalization together. The checks verify this for the stated test inputs. Translation invariance is not asserted because the axis includes zero. Invariance checks on finite fixtures do not constitute a proof of all floating-point behaviour.
+
+\section*{S5. Data provenance and primary analysis}
+The nine primary resources contain 127 prepared comparisons: WDBC 30; Cleveland five; heart failure six; CKD 11; ILPD nine; retinopathy 16; HAR 40; BIDMC five; wrist five.\cite{wdbc,heart,failure,kidney,liver,retina,har,bidmc,wrist} HAR uses participant/activity medians for 30 people; BIDMC uses 46 patient-level summaries; wrist uses early--late reference summaries for eight participants.\cite{pimentel2017,jarchi2017} Retinopathy lacks verified participant linkage. The 22 Parkinsons features are retained only as exploratory data because parsed identifiers indicate 32 groups while source documentation states 31 participants.\cite{parkinsons}
+
+Two CKD potassium values, 39 and 47 at one-based source rows 62 and 129, remain unchanged; their correctness and units could not be resolved. Prior compression omission analyses are archived but are not claimed as sensitivity analyses of the present pixel score. Full acquisition records, checksums, exclusions and transformations appear in \texttt{DATA\_PROVENANCE.md} and the prepared-data pipeline.
+
+\section*{S6. Verification and reproducibility files}
+The executable checks cover all 21 settings using known numerical inputs. They test finite monotone quantile output, positive-unit rescaling, blank-image rejection, PNG/metadata round-trip recovery and response to changing one group's pixels. They also restrict the decoder's metadata keys to exclude samples and targets. These tests establish plumbing and numerical consistency, not human validity or optimality of the decoder.
+
+\begin{tabular}{p{6cm}p{9cm}}\toprule
+File in \texttt{rendered\_study/results/} & Contents\\\midrule
+\texttt{render\_trials.csv} & All 37,548 realized scores, losses and recovery failures\\
+\texttt{configuration\_scores.csv} & All 9,387 setting--resolution results, averaged over four placements\\
+\texttt{family\_scores.csv} & All 3,129 best-family results across comparisons and resolutions\\
+\texttt{winners.csv} & All 447 winning sets and tie counts\\
+\texttt{summary.json} & Primary and exploratory counts, failures and sensitivity summaries\\
+\texttt{checks.json} & Executed software-check outcomes\\\bottomrule
+\end{tabular}
+
+Run \texttt{python reproduce\_revision.py} from the package root to execute checks, benchmark and report. Dependencies are pinned in \texttt{requirements.txt}. The benchmark uses four worker processes and records deterministic seeds. To regenerate figures without rerunning the benchmark, execute \texttt{python rendered\_study/report.py}. The Overleaf ZIP is a separate, minimal typesetting package; set \texttt{main.tex} as its main document and compile \texttt{supp.tex} separately for this Supplement.
+
+\subsection*{Recovery failures in primary trials}
+Counts below refer to individual rendering realizations across all settings in each family; families have different numbers of settings. A setting must recover successfully in all four realizations to enter selection. A failure reflects this decoder's inability to recover its required marks or positive mass under the stated rendering conditions. It does not establish that a human or a different decoder could not read the chart.
+\begin{center}\input{rendered_study/results/failure_table.tex}\end{center}
+
+\section*{S7. Prospective validation required}
+A reader study should specify the intended population and expertise strata, accessible displays, the five quantile-difference questions, randomization, exclusions and time limits before recruitment. Candidate settings and scores should be frozen using development data; evaluation should use untouched datasets. Primary human outcomes should be estimation error in source units and normalized units, with response time and confidence secondary. Repeated responses require participant and dataset dependence to be handled in the analysis. Sample size should follow a prospective power analysis for a prespecified practically meaningful difference. No participant count, approval, power result or measured reader benefit is asserted here. The included reader-study document remains a planning aid and must be reconciled with this frozen pixel protocol before use.
+
+\section*{S8. Inspectable score arithmetic for illustrated optima}
+The five examples in main Figures 2 and 3 are reported here. The target differences are computed from observations; recovered differences come only from the raster decoder. Means below average the four realizations. The final column averages absolute error before normalizing, so it need not equal the absolute difference between the preceding two columns. Averaging the final column gives the loss used in the score. The CSV preserves every realization separately.
+
+\input{rendered_study/results/example_recovery.tex}
+
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{rendered_study/figures/Figure_S1_Resolution.pdf}
+\caption{\textbf{Rendering robustness and the lowest-scoring reference optimum.} The former main Figure 3 is retained here to distinguish resolution sensitivity from limited gain over a strong baseline. Winner sets change for 77 of 127 primary comparisons between 128 and 512 pixels. The lowest reference optimum is 81.015 for HAR gravity-acceleration variability. All original scores and failures remain unchanged. This analysis does not establish a source-data ceiling on human performance.}
+\end{figure}
+
+\section*{S9. Complete primary reference-resolution audit}
+All 127 primary comparisons are listed below. The full seven-family rankings and all 21 settings for each comparison are in the accompanying CSV files. Scores are computational and conditional; this table is not a clinical comparison of datasets.
+\small\input{rendered_study/results/audit_table.tex}\normalsize
+\clearpage
+\begingroup\footnotesize\bibliographystyle{viznumbered}\bibliography{references}\endgroup
+\end{document}

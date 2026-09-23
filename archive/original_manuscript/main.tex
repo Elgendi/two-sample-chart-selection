@@ -1,0 +1,148 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=22mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,caption,booktabs,array}
+\usepackage[super,sort&compress]{natbib}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue,citecolor=blue,linkcolor=blue}
+\widowpenalty=10000\clubpenalty=10000
+\setlength{\parskip}{5pt}\setlength{\parindent}{0pt}\emergencystretch=4em
+\input{rendered_study/results/numbers.tex}
+\title{Scoring rendered charts by recovery of two-sample differences}
+\author{Mohamed Elgendi\\Khalifa University, Abu Dhabi, United Arab Emirates}
+\date{}
+\begin{document}\maketitle
+\begin{abstract}
+Selecting a chart requires a definition of what its reader should recover. We present a computational development benchmark that scores rendered charts by the accuracy with which a specified pixel decoder recovers differences between two samples. The target comprises five quantile differences; a positive score approaches 100 as scale-normalized recovery error approaches zero. The decoder receives chart pixels and axis calibration, but no observations or target values. A catalogue of 15 familiar chart families is screened for the declared task; seven implemented families contribute 21 rendering settings. We evaluate 127 comparisons from nine public medical and digital-health resources at three resolutions and four placements, with 22 additional comparisons excluded from the primary analysis because participant identifiers remain unresolved. At the reference resolution, \UniqueWinners{} of 127 primary comparisons have a unique winning family. The winning family set changes in \ResolutionChanges{} comparisons between the smallest and largest resolutions. These results demonstrate a reproducible conditional optimization, not a universal hierarchy of chart types. The benchmark distinguishes numerical summaries that look different when rendered, retains genuine ties and exposes dependence on rendering and decoder assumptions. Scores have not been validated against human reading accuracy, speed or clinical decisions.
+\end{abstract}
+
+\section*{Introduction}
+\textbf{A chart should be judged against the question it is meant to answer.} When comparing two groups, a researcher may need to recover a difference in typical values, variability or distribution shape. These questions require different information. A group mean alone cannot describe all differences between distributions.\cite{weissgerber2015,rousselet2017} Yet retaining every observation does not itself establish that a display makes the intended comparison easy to read. Scientific visualization therefore needs explicit, testable objectives as well as familiar chart forms.\cite{elgendi2017,elgendi2020}
+
+Automated graphical design, constraint-based recommendation and learned visualization recommendation provide established approaches to chart selection.\cite{mackinlay1986,draco,vizml} Task taxonomies emphasize that visualization serves different analytic purposes.\cite{amar2005} Graphical-perception research separately evaluates how encodings affect judgments.\cite{cleveland1984} Our narrower contribution is an executable link between a declared comparison, actual rendered pixels, a specified decoder and a positive recovery score. We do not introduce a new quantile statistic or claim to replace human perceptual evaluation.
+
+The central distinction is between preserving numbers and recovering information from a display. A histogram and a heatmap can store the same bin probabilities but encode those probabilities through different pixel patterns. A score computed only from their stored probabilities must tie them. A pixel-based calculation can distinguish them, although its conclusion is conditional on the decoder and renderer. This paper develops that conditional benchmark and makes its limitations inspectable.
+
+The intended question is descriptive: how do the lower, middle and upper parts of two marginal distributions differ? The study does not estimate a treatment effect, diagnostic accuracy, a temporal trend or a geographic pattern. Nor does it establish which chart people prefer. Its output is a reproducible ranking for one task under declared rendering conditions.
+
+\section*{Results}
+\subsection*{A positive score connects the target to rendered pixels}
+For samples $x$ and $y$, define five empirical quantile differences
+\begin{equation}
+\Delta_k=Q_y(p_k)-Q_x(p_k),\qquad (p_1,\ldots,p_5)=(0.10,0.25,0.50,0.75,0.90).
+\label{eq:target}
+\end{equation}
+For example, the middle task asks for the difference between group medians. The outer tasks ask for differences near the lower and upper ends of the central distribution. All five receive equal weight. Their values are computed from the observations only by the evaluator.
+
+Candidate $c$ is rendered as image $I_{c,r}$ at placement $r$. The computational observer receives this image and public axis and layout metadata $A_c$. It estimates the five quantiles in each group, giving
+\begin{equation}
+\widetilde\Delta_{c,r,k}=D_y(I_{c,r},A_c)_k-D_x(I_{c,r},A_c)_k.
+\end{equation}
+The observer does not receive the observations, their quantiles, stored bin probabilities or the target contrast. Its normalized recovery loss and positive score are
+\begin{align}
+L_{c,r}&=\frac{1}{5s}\sum_{k=1}^{5}|\widetilde\Delta_{c,r,k}-\Delta_k|,\\
+\overline L_c&=\frac14\sum_{r=1}^{4}L_{c,r},\qquad
+S_c=\frac{100}{1+\overline L_c},\label{eq:score}\\
+s^2&=\frac{(n_x-1)s_x^2+(n_y-1)s_y^2}{n_x+n_y-2}.
+\end{align}
+The same pooled within-group standard deviation $s$ normalizes every candidate for a comparison. A declared one-source-unit fallback applies when $s=0$. Score 100 denotes exact recovery of these five empirical differences. A score of 80 corresponds to a mean absolute error of $0.25s$; it does not denote 80\% correct readers or 80\% retained information.
+
+The selected set is
+\begin{equation}
+\mathcal C^*=\operatorname*{arg\,max}_{c\in\mathcal C_{\mathrm{valid}}}S_c
+=\operatorname*{arg\,min}_{c\in\mathcal C_{\mathrm{valid}}}\overline L_c.
+\label{eq:selection}
+\end{equation}
+A valid setting must decode successfully at every evaluated placement. Within each family, its best valid setting is reported; the family table is sorted by unrounded score. Equal losses within $10^{-12}$ are retained as computational ties. Display positions may be unique even when merit is tied. No chart-specific score offset, logarithmic tie-break or payload-size reward is used.
+
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{rendered_study/figures/Figure_1_Workflow.pdf}
+\caption{\textbf{From observations to an auditable chart score.} Two columns of WDBC radius-standard-error observations illustrate the input.\cite{wdbc} The complete samples, not the displayed excerpt, determine the targets and rendered charts. Each eligible setting is rendered at a declared resolution. A computational observer reads only pixels and axis calibration; its recovered quantile differences are compared with the empirical targets. Candidate scores descend, with the highest score identifying the conditional optimum. The example score and selected chart are computed, not schematic values. Fifteen catalogue families are screened; seven have implemented contracts for this task.}\label{fig:workflow}
+\end{figure}
+
+\subsection*{The benchmark evaluates renderings, not chart names alone}
+The catalogue records 15 familiar families, each with a fixed identifier: bar, line, scatter, pie, histogram, box, heatmap, stacked bar, area, bubble, dot, treemap, choropleth, violin and interval plots. This is a declared catalogue, not an empirical ranking of worldwide usage. Seven families have implemented contracts for the current marginal-comparison task (Table~\ref{tab:contracts}). The other eight are documented in the Supplement with the different task or data structure needed to evaluate them. Consequently, this implementation optimizes seven eligible families after screening 15; it does not claim numerical optimization of all 15.
+
+\begin{table}[ht]\centering\small
+\caption{\textbf{The 21 evaluated settings.} All recover the same five quantile differences. The interval display represents observed variability, not inferential uncertainty.}\label{tab:contracts}
+\begin{tabular}{p{2.7cm}p{4.0cm}p{7.1cm}}\toprule
+Family & Rendering settings & Pixel recovery rule\\\midrule
+Bar chart & Group means & Locate bar endpoint; use the mean for each target quantile\\
+Dot plot & Mean dots; raw dots & Locate mean marker or integrate occupied pixel area by value\\
+Box plot & Five-number summary & Locate extrema, box edges and median; interpolate quantiles\\
+Interval plot & Five-number summary & Locate thin and thick intervals and median; interpolate\\
+Histogram & 4, 8, 16, 32, 64 bins & Recover bar heights; invert normalized cumulative mass\\
+Heatmap & 4, 8, 16, 32, 64 bins & Recover tile intensity; invert normalized cumulative mass\\
+Violin plot & 8, 16, 32, 64, 128, 256 grid points & Integrate coloured pixel width over measurement values\\\bottomrule
+\end{tabular}
+\end{table}
+
+Renderings use separate group panels, a common measurement range, fixed colours and a fixed blur. Each panel is 128, 256 or 512 pixels square. Four vertical subpixel placements are evaluated at each resolution; raw-dot jitter also varies deterministically across these four realizations. The reference condition is 256 pixels. The complete study contains 37,548 setting--resolution--placement trials, including excluded exploratory data. No reader responses are simulated or represented as observations.
+
+\subsection*{Public-data results reveal both selection and sensitivity}
+The primary analysis contains 127 feature comparisons from nine resources: breast tumour measurements, Cleveland heart disease, heart failure, chronic kidney disease, liver disease, retinopathy, smartphone activity, bedside-monitor numerics and wrist-exercise references.\cite{wdbc,heart,failure,kidney,liver,retina,har,bidmc,wrist} Features within a resource are correlated, so these comparisons are not 127 independent replications of generalization. Twenty-two Parkinsons comparisons remain exploratory because 32 parsed identifier groups cannot be reconciled with 31 documented participants.\cite{parkinsons}
+
+At 256 pixels, \UniqueWinners{} primary comparisons have a unique winning family and \TiedWinners{} have tied winning families. The median best score is \MedianBest{}, with range \MinBest{}--\MaxBest{}. Across all three resolutions, \FailedTrials{} of the 32,004 primary render/decode trials fail recovery; failures are recorded rather than assigned invented scores. Table~\ref{tab:winners} reports the full primary family results. These are in-sample development outcomes: settings are selected using the same empirical targets on which scores are reported.
+
+\begin{table}[ht]\centering\small
+\caption{\textbf{Reference-resolution results across 127 comparisons.} A family is counted whenever it belongs to the best-scoring set, so tied memberships may make the total exceed 127. Median family scores use its best valid setting in each comparison.}\label{tab:winners}
+\input{rendered_study/results/winner_table.tex}
+\end{table}
+
+Figure~\ref{fig:examples} contrasts mean bars with the best-scoring displays for WDBC worst fractal dimension, HAR gyroscope-jerk variability and Cleveland ST depression.\cite{wdbc,har,heart} Their gains are 25.70, 46.81 and 28.62 score points. The selected displays reveal distributional structure omitted by the mean summary. Below each pair, the empirical quantile contrast is compared with the contrasts recovered from mean bars and from the selected chart. This connects the visible summaries to the numerical task without assuming that readers perform like the decoder. All seven eligible families remain ranked in each panel. These examples were chosen after inspecting results for substantial gains and legible renderings; they are illustrations, not a representative estimate of benefit. The scored pixels, parameters and stored results were not altered to improve their appearance.
+
+\begin{figure}[p]\centering\captionsetup{font=small}
+\includegraphics[width=\linewidth,height=.88\textheight,keepaspectratio]{rendered_study/figures/Figure_2_Examples.pdf}
+\caption{\textbf{When changing the chart helps the computational task.} \textbf{a}, Breast tumour fractal dimension; \textbf{b}, activity-related gyroscope-jerk variability; \textbf{c}, Cleveland ST depression.\cite{wdbc,har,heart} Scored rasters retain common measurement ranges. Lower panels show true differences (dark circles), mean-bar recovery (grey dashes) and selected-chart recovery (green squares), in pooled-standard-deviation units. Lines average four recovered contrasts; scores transform mean absolute recovery loss. All seven families are ranked by unrounded score. The examples illustrate numerical recovery, not measured human-reading benefit.}\label{fig:examples}
+\end{figure}
+
+\subsection*{Optimization can add little when the baseline already scores well}
+Figure~\ref{fig:limits} makes the complementary case. For the wrist-exercise mean-heart-rate comparison, mean bars are already optimal at 95.35, giving zero improvement. For BIDMC mean heart rate, switching from mean bars to the selected violin raises the score from 95.38 to 98.02, a gain of 2.64 points.\cite{wrist,bidmc} Both baseline scores are high for this particular marginal task. A more detailed display therefore need not provide a large additional recovery benefit. These are deliberately selected low-gain examples, not evidence of statistical equivalence, clinical interchangeability or poor source data. No significance test of reader improvement was performed.
+
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{rendered_study/figures/Figure_3_Limits.pdf}
+\caption{\textbf{When changing the chart adds little.} \textbf{a}, Early versus late wrist-exercise mean heart rate: mean bars remain the selected chart, so the score gain is exactly zero. \textbf{b}, ECG-derived versus PPG-derived patient-mean heart rate in BIDMC: the baseline already scores 95.38; the selected violin adds 2.64 points.\cite{wrist,bidmc} Before--after measurement ranges are identical. Lower contrast panels use the same $-0.25$ to $0.25$ pooled-standard-deviation scale, with symbols matching Fig.~\ref{fig:examples}. Both include complete descending family rankings. Small gain is a descriptive computational result, not a claim of nonsignificant human benefit or agreement of the two measurement systems.}\label{fig:limits}
+\end{figure}
+
+\subsection*{A winning chart remains conditional on the rendering}
+The winning family set changes in \ResolutionChanges{} of 127 primary comparisons between 128 and 512 pixels. Settings are optimized separately at each resolution; this is a sensitivity analysis, not transfer of a frozen setting to a new display. The frequency of changes prevents treating the reference winner as a stable recommendation across display resolutions. Placement score ranges describe the four specified render realizations, not sampling confidence intervals. Supplementary Figure S1 retains the resolution comparison and the lowest-scoring primary optimum; these address robustness, a different limitation from the small incremental gains in Fig.~\ref{fig:limits}.
+
+A score below 100 can arise from summarization, finite pixels, marker overlap, colour quantization, smoothing or limitations of the decoder. It cannot be attributed to defective source data from the score alone. Likewise, a score near 100 may arise when both groups have similar biases that cancel in their difference. The objective evaluates contrast recovery, not perfect recovery of both distributions. The benchmark therefore does not establish a ceiling on how well a person could read the data.
+
+Checks cover all 21 settings: decoder inputs contain no observations or targets; saving and reloading image and metadata preserves recovery; blank images fail; moving only one group's pixels changes its decoded estimates; and positive rescaling preserves the tested normalized scores. These checks support implementation consistency, not perceptual validity. No score perturbation is added to make winning values unique.
+
+\section*{Discussion}
+The useful result is a conditional, inspectable optimization: a declared task determines the target, rendered pixels constrain the recovery, and one monotone score determines the ranking. The score does not secretly optimize a different quantity from the displayed order. Equivalent stored summaries can produce different raster scores because their encodings and decoders differ. If they recover the same contrast equally well, the method correctly retains a tie.
+
+This approach replaces the earlier compression objective for the present manuscript. Counting retained values addresses compactness; it does not measure recovery from an image. The current score contains no retained-size term or qualification threshold. Raw dots receive neither an automatic perfect score nor an automatic penalty. Their ranking follows the same recovery objective as the other candidates. Legacy compression analyses are archived separately and provide no validation of this new benchmark.
+
+The main limitation is the observer itself. It is a family-specific geometric and colour decoder with exact axis calibration, not a calibrated model of human perception. Histogram heights and heatmap intensities are recovered by different operations; box and interval features face different raster effects. The resulting differences measure these implemented contracts. A faint probability heatmap can score well for a decoder that reads calibrated RGB intensities, without being easy for a person to interpret. They cannot establish that a histogram is inherently easier to read than a heatmap, or that a close score difference is perceptible. Experimental graphical-perception work addresses a different evidential question.\cite{cleveland1984}
+
+Further limitations concern the target, scale and sample. Five quantiles omit rare-tail events and can miss differences between the tested ranks. A small contrast-recovery error can coexist with large group-specific errors. Pooled standard deviation is sensitive to extremes, while the shared axis range can reduce useful resolution when extremes dominate. The zero-inclusive range favours comparability with bars but can waste space for other encodings. Positive unit rescaling does not establish translation invariance because zero is explicitly included. The constant-sample fallback has source-unit dependence. Median best scores across heterogeneous datasets are descriptive summaries, not calibrated quality thresholds.
+
+The public resources were available during development, and the rendering protocol was fixed for this run after software checks; it was not preregistered. No untouched external dataset, independently validated observer or human-reader experiment is supplied. Retinopathy lacks verified participant linkage, and wrist summaries cover only eight participants. CKD potassium values 39 and 47 remain unresolved in the source audit and are retained unchanged. Those concerns require source investigation, not chart-score manipulation.
+
+Human evaluation is the next decisive test. A prospective study should freeze the candidate renders and task wording, randomize presentation, and compare quantile-difference estimation errors with response times and uncertainty. It should test whether score differences predict reader differences on held-out data, across expertise levels and accessible display conditions. The supplied protocol is prospective; no participant results are claimed. Until that validation exists, the benchmark supports a bounded statement: \textbf{it identifies which implemented rendering and setting best supports a specified computational recovery task under declared conditions.}
+
+\section*{Methods}
+\subsection*{Observations and analysis units}
+The prepared source arrays and transformations are retained unchanged. WDBC contributes 30 comparisons, Cleveland five, heart failure six, CKD 11, ILPD nine, retinopathy 16, HAR 40, BIDMC five and wrist exercise five. Missing values are excluded as recorded in the preparation pipeline. HAR uses participant/activity medians for 30 participants; BIDMC aggregates readings within 46 source patients; wrist data use early--late ECG-reference summaries within eight participants.\cite{pimentel2017,jarchi2017} Pairing is recorded but the current target compares marginal quantiles, not individual differences. For example, reversing $(0,1,2,3)$ preserves its marginal quantiles while changing every paired difference.
+
+\subsection*{Rendering and decoding}
+Empirical quantiles use linear interpolation. The shared measurement interval includes zero and extends four times the larger Scott bandwidth beyond the observed extremes. A bandwidth floor of $0.01s$ is used for this range, with the declared constant-scale fallback. Histogram and heatmap bins span this same range. Violin densities use group-specific Scott-bandwidth Gaussian kernels sampled on a common grid; constant groups use a narrow Gaussian fallback. Box and interval displays encode the minimum, quartiles, median and maximum. Their whiskers are extrema, not Tukey fences or confidence limits.
+
+The renderer draws each image at four times its target dimensions, downsamples with Lanczos filtering and applies a 0.5-pixel Gaussian blur. The two groups occupy separate panels to avoid inter-group occlusion. Mark sizes, colours, margins and thresholds are fixed in the executable specification. Raw dots are opaque, with deterministic horizontal jitter. Their decoder uses occupied area by measurement row and therefore cannot perfectly count overlapping observations. Violin recovery likewise integrates coloured area. Bar and mean-dot decoders use one value for all five quantiles. Five-number decoders interpolate through recovered landmarks. Histogram and heatmap decoders recover probabilities and assume uniform mass within each bin. Full parameters are in Supplementary Methods and \texttt{observer.py}.
+
+\subsection*{Selection, sensitivity and reproducibility}
+Each setting is evaluated at vertical placements 0, 0.25, 0.50 and 0.75 pixels at each panel resolution. Raw-dot jitter seeds are $20260920+r$ for zero-based placement index $r$, with a fixed group offset. Heatmaps have no vertical-phase change in this implementation; their four measurements repeat the same raster. The four-placement mean loss is transformed once to a score; scores are not averaged before selection. Undecodable settings are ineligible and remain recorded with their failure reason. Families without a valid setting are disclosed rather than assigned a numerical performance value. Exact ties use an absolute loss tolerance of $10^{-12}$; deterministic display ordering does not change their scientific status. All source arrays, per-trial outputs, settings, checks and figure scripts accompany the paper.
+
+\section*{Data availability}
+Source resources are available through the cited UCI and PhysioNet records. The reproducibility package contains prepared inputs, source attribution, transformation records and derived results; original source terms are documented in \texttt{DATA\_PROVENANCE.md}. No human-reader data were collected.
+\section*{Code availability}
+The supplied package is authoritative for this revision. Run \texttt{python reproduce\_revision.py} to execute the pixel benchmark, checks and figure generation. Full per-trial and per-setting CSV files permit independent reanalysis. A versioned release should be deposited at \url{https://github.com/Elgendi/two-sample-chart-selection} before submission; that live repository was not updated in this revision. The Overleaf package contains the complete manuscript, Supplement, bibliography and figures.
+\section*{Author contributions}
+M.E. conceived the study, developed the methodology, performed the analyses, interpreted the results, prepared the figures and wrote and revised the manuscript.
+\section*{Competing interests}
+M.E. serves on the editorial boards of Communications Medicine and npj Biosensing. The author declares no other competing interests.
+\begingroup\footnotesize\setlength{\bibsep}{1pt}\bibliographystyle{viznumbered}\bibliography{references}\endgroup
+\end{document}

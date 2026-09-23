@@ -1,0 +1,150 @@
+key,selected,stratum
+BIDMC__00,Dot; Line; Raincloud; Scatter,Distribution detail
+BIDMC__01,Dot; Line; Raincloud; Scatter,Distribution detail
+BIDMC__02,Dot; Line; Raincloud; Scatter,Distribution detail
+BIDMC__03,Dot; Line; Raincloud; Scatter,Distribution detail
+BIDMC__04,Dot; Line; Raincloud; Scatter,Distribution detail
+CKD__00,Dot; Raincloud,Distribution detail
+CKD__01,Dot; Raincloud,Distribution detail
+CKD__02,Dot; Raincloud,Distribution detail
+CKD__03,Heatmap; Histogram,Distribution detail
+CKD__04,Dot; Raincloud,Distribution detail
+CKD__05,Dot; Raincloud,Distribution detail
+CKD__06,Dot; Raincloud,Distribution detail
+CKD__07,Dot; Raincloud,Distribution detail
+CKD__08,Dot; Raincloud,Distribution detail
+CKD__09,Dot; Raincloud,Distribution detail
+CKD__10,Dot; Raincloud,Distribution detail
+Cleveland__00,Dot; Raincloud,Distribution detail
+Cleveland__01,Dot; Raincloud,Distribution detail
+Cleveland__02,Heatmap; Histogram,Distribution detail
+Cleveland__03,Dot; Raincloud,Distribution detail
+Cleveland__04,Dot; Raincloud,Distribution detail
+HAR__00,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__01,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__02,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__03,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__04,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__05,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__06,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__07,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__08,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__09,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__10,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__11,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__12,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__13,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__14,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__15,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__16,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__17,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__18,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__19,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__20,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__21,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__22,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__23,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__24,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__25,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__26,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__27,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__28,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__29,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__30,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__31,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__32,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__33,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__34,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__35,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__36,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__37,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__38,Dot; Line; Raincloud; Scatter,Distribution detail
+HAR__39,Dot; Line; Raincloud; Scatter,Distribution detail
+HeartFailure__00,Dot; Raincloud,Distribution detail
+HeartFailure__01,Dot; Raincloud,Distribution detail
+HeartFailure__02,Dot; Raincloud,Distribution detail
+HeartFailure__03,Dot; Raincloud,Distribution detail
+HeartFailure__04,Dot; Raincloud,Distribution detail
+HeartFailure__05,Dot; Raincloud,Distribution detail
+ILPD__00,Dot; Raincloud,Distribution detail
+ILPD__01,Dot; Raincloud,Distribution detail
+ILPD__02,Dot; Raincloud,Distribution detail
+ILPD__03,Dot; Raincloud,Distribution detail
+ILPD__04,Dot; Raincloud,Distribution detail
+ILPD__05,Dot; Raincloud,Distribution detail
+ILPD__06,Dot; Raincloud,Distribution detail
+ILPD__07,Dot; Raincloud,Distribution detail
+ILPD__08,Dot; Raincloud,Distribution detail
+Parkinsons__00,Dot; Raincloud,Distribution detail
+Parkinsons__01,Dot; Raincloud,Distribution detail
+Parkinsons__02,Dot; Raincloud,Distribution detail
+Parkinsons__03,Dot; Raincloud,Distribution detail
+Parkinsons__04,Dot; Raincloud,Distribution detail
+Parkinsons__05,Dot; Raincloud,Distribution detail
+Parkinsons__06,Dot; Raincloud,Distribution detail
+Parkinsons__07,Dot; Raincloud,Distribution detail
+Parkinsons__08,Dot; Raincloud,Distribution detail
+Parkinsons__09,Dot; Raincloud,Distribution detail
+Parkinsons__10,Dot; Raincloud,Distribution detail
+Parkinsons__11,Dot; Raincloud,Distribution detail
+Parkinsons__12,Dot; Raincloud,Distribution detail
+Parkinsons__13,Dot; Raincloud,Distribution detail
+Parkinsons__14,Dot; Raincloud,Distribution detail
+Parkinsons__15,Dot; Raincloud,Distribution detail
+Parkinsons__16,Dot; Raincloud,Distribution detail
+Parkinsons__17,Dot; Raincloud,Distribution detail
+Parkinsons__18,Dot; Raincloud,Distribution detail
+Parkinsons__19,Dot; Raincloud,Distribution detail
+Parkinsons__20,Dot; Raincloud,Distribution detail
+Parkinsons__21,Dot; Raincloud,Distribution detail
+Retinopathy__00,Heatmap; Histogram,Distribution detail
+Retinopathy__01,Heatmap; Histogram,Distribution detail
+Retinopathy__02,Heatmap; Histogram,Distribution detail
+Retinopathy__03,Heatmap; Histogram,Distribution detail
+Retinopathy__04,Heatmap; Histogram,Distribution detail
+Retinopathy__05,Dot; Raincloud,Distribution detail
+Retinopathy__06,Dot; Raincloud,Distribution detail
+Retinopathy__07,Dot; Raincloud,Distribution detail
+Retinopathy__08,Heatmap; Histogram,Distribution detail
+Retinopathy__09,Heatmap; Histogram,Distribution detail
+Retinopathy__10,Dot; Raincloud,Distribution detail
+Retinopathy__11,Dot; Raincloud,Distribution detail
+Retinopathy__12,Dot; Raincloud,Distribution detail
+Retinopathy__13,Dot; Raincloud,Distribution detail
+Retinopathy__14,Heatmap; Histogram,Distribution detail
+Retinopathy__15,Heatmap; Histogram,Distribution detail
+WDBC__00,Dot; Raincloud,Distribution detail
+WDBC__01,Dot; Raincloud,Distribution detail
+WDBC__02,Dot; Raincloud,Distribution detail
+WDBC__03,Dot; Raincloud,Distribution detail
+WDBC__04,Heatmap; Histogram,Distribution detail
+WDBC__05,Heatmap; Histogram,Distribution detail
+WDBC__06,Dot; Raincloud,Distribution detail
+WDBC__07,Dot; Raincloud,Distribution detail
+WDBC__08,Dot; Raincloud,Distribution detail
+WDBC__09,Dot; Raincloud,Distribution detail
+WDBC__10,Dot; Raincloud,Distribution detail
+WDBC__11,Dot; Raincloud,Distribution detail
+WDBC__12,Dot; Raincloud,Distribution detail
+WDBC__13,Dot; Raincloud,Distribution detail
+WDBC__14,Dot; Raincloud,Distribution detail
+WDBC__15,Dot; Raincloud,Distribution detail
+WDBC__16,Dot; Raincloud,Distribution detail
+WDBC__17,Dot; Raincloud,Distribution detail
+WDBC__18,Dot; Raincloud,Distribution detail
+WDBC__19,Dot; Raincloud,Distribution detail
+WDBC__20,Dot; Raincloud,Distribution detail
+WDBC__21,Heatmap; Histogram,Distribution detail
+WDBC__22,Dot; Raincloud,Distribution detail
+WDBC__23,Dot; Raincloud,Distribution detail
+WDBC__24,Dot; Raincloud,Distribution detail
+WDBC__25,Dot; Raincloud,Distribution detail
+WDBC__26,Heatmap; Histogram,Distribution detail
+WDBC__27,Heatmap; Histogram,Distribution detail
+WDBC__28,Dot; Raincloud,Distribution detail
+WDBC__29,Dot; Raincloud,Distribution detail
+Wrist__00,Dot; Line; Raincloud; Scatter,Distribution detail
+Wrist__01,Dot; Line; Raincloud; Scatter,Distribution detail
+Wrist__02,Dot; Line; Raincloud; Scatter,Distribution detail
+Wrist__03,Dot; Line; Raincloud; Scatter,Distribution detail
+Wrist__04,Dot; Line; Raincloud; Scatter,Distribution detail

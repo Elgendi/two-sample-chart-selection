@@ -1,0 +1,13 @@
+{
+  "task": "composition",
+  "observer": "hard",
+  "selected": "Pie chart",
+  "all_reference_ties": [
+    "Pie chart"
+  ],
+  "default": "Pie chart",
+  "default_test_loss": 0.00045770693241808935,
+  "selected_test_loss": 0.00045770693241808935,
+  "gain": 0.0,
+  "interpretation": "Positive gain favors selection for this computational task and decoder; no inference about human understanding. The default was trained on the bundled empirical benchmark."
+}

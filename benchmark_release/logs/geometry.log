@@ -1,0 +1,17 @@
+kind       H    family     
+empirical  256  Bar chart      10
+                Donut chart    13
+                Pie chart      13
+                Stacked bar     1
+           384  Bar chart      14
+                Donut chart    10
+                Pie chart      10
+                Stacked bar     0
+synthetic  256  Bar chart      10
+                Donut chart    38
+                Pie chart      38
+                Stacked bar     0
+           384  Bar chart      12
+                Donut chart    33
+                Pie chart      33
+                Stacked bar     3

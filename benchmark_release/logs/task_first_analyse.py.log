@@ -1,0 +1,24 @@
+{
+  "trial_rows": 10912,
+  "valid_trial_rows": 10912,
+  "failed_trial_rows": 0,
+  "maximum_loss_recomputation_error": 4.440892098500626e-16,
+  "case_counts": "{('association', 'empirical'): 53, ('composition', 'empirical'): 24, ('composition', 'synthetic'): 48, ('profile', 'empirical'): 72}",
+  "reference_selection_excludes_transfer": true,
+  "legacy_data_unchanged": true
+}
+       task      kind observer   H       family  cases  wins  valid  median_score  mean_loss
+association empirical     hard 256      Heatmap     53    44     53     99.644543   0.004750
+association empirical     hard 256 Scatter plot     53     9     53     97.087839   0.038434
+composition empirical     hard 256    Bar chart     24     0     24     99.192347   0.007036
+composition empirical     hard 256  Donut chart     24     8     24     99.745151   0.002327
+composition empirical     hard 256    Pie chart     24    16     24     99.734792   0.002263
+composition empirical     hard 256  Stacked bar     24     0     24     99.344431   0.005803
+composition synthetic     hard 256    Bar chart     48     1     48     99.459955   0.010993
+composition synthetic     hard 256  Donut chart     48    26     48     99.835796   0.003043
+composition synthetic     hard 256    Pie chart     48    21     48     99.801024   0.002675
+composition synthetic     hard 256  Stacked bar     48     0     48     99.488304   0.006632
+    profile empirical     hard 256   Area chart     72     0     72     84.688349   0.364786
+    profile empirical     hard 256    Bar chart     72     0     72     83.119481   0.379217
+    profile empirical     hard 256     Dot plot     72    66     72     93.460349   0.128912
+    profile empirical     hard 256   Line chart     72     6     72     92.449259   0.153294

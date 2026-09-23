@@ -1,0 +1,7 @@
+Running validation_v3/verify.py
+Passed in 5.501 seconds
+Running benchmark_release/compare_defaults.py
+Passed in 5.599 seconds
+Running benchmark_release/verify_release.py
+Passed in 2.821 seconds
+Completed. Read main.pdf and benchmark_release/results/verification.json.

@@ -1,0 +1,17 @@
+figure,panel,key,task,selected,reference_score,left_family,right_family,left_score,right_score,H,eligible_count,title,displayed_gap
+2,a,WDBC__03,five,Dot plot,97.69772771204,Bar chart,Dot plot,60.16636650913821,97.69772771204,256,7,Cell-nucleus area,37.5313612029018
+2,b,Cleveland__00,five,Histogram,96.6875874399544,Bar chart,Histogram,81.03779090591816,96.6875874399544,256,7,Age in the Cleveland cohort,15.64979653403624
+2,c,Cleveland__04,five,Violin plot,92.48094652201132,Bar chart,Violin plot,64.21952736947868,92.48094652201132,256,7,Exercise-related ECG change,28.26141915253264
+2,d,HeartFailure__00,five,Heatmap,96.27279347388196,Bar chart,Heatmap,79.38464557595267,96.27279347388196,256,7,Age in the heart-failure cohort,16.888147897929287
+2,e,WDBC__07,spread,Box plot,98.64675910846562,Bar chart,Box plot,53.73526946949013,98.64675910846562,256,7,Cell-nucleus boundary shape,44.91148963897549
+2,f,cohort_HeartFailure,composition,Pie chart,99.95024323078222,Bar chart,Pie chart,99.72501992977894,99.95024323078222,256,4,Heart-failure cohort composition,0.2252233010032824
+2,g,profile_bidmc_04,profile,Line chart,96.8382572267041,Bar chart,Line chart,90.21662213321584,96.8382572267041,256,4,Heart rate over one recording,6.6216350934882655
+2,h,assoc_bidmc_22,association,Scatter plot,99.8030977716222,Heatmap,Scatter plot,99.20593083440752,99.8030977716222,256,2,ECG-pulse association,0.5971669372146806
+3,a,HAR__17,five,Dot plot,91.8932802177808,Dot plot,Heatmap,82.34692286521854,84.09032950049722,384,7,Acceleration-change variability,1.7434066352786743
+3,b,ILPD__04,five,Histogram,95.4280520477596,Histogram,Dot plot,95.1171265038137,96.66409385254404,384,7,Liver enzyme ALT,1.546967348730348
+3,c,HAR__09,five,Violin plot,81.01481670634064,Violin plot,Dot plot,75.95300081544566,81.11678754717089,384,7,Gravity-signal variability,5.163786731725224
+3,d,ILPD__05,five,Heatmap,88.73477004363743,Heatmap,Dot plot,88.73477004363743,90.63975021844632,384,7,Liver enzyme AST,1.904980174808898
+3,e,WDBC__25,spread,Box plot,97.8117087713984,Box plot,Interval plot,98.02495832407276,99.59300044997842,384,7,Cell-nucleus compactness,1.568042125905663
+3,f,cohort_CKD,composition,Pie chart,99.9055360961621,Pie chart,Pie chart,99.94324982769156,99.94324982769156,384,4,Kidney-cohort composition,0.0
+3,g,profile_bidmc_07,profile,Line chart,61.12975025825862,Line chart,Dot plot,61.66212362022653,68.13977049362178,384,4,Heart rate over one recording,6.477646873395251
+3,h,assoc_bidmc_41,association,Scatter plot,99.45564567421717,Scatter plot,Heatmap,98.8835899835972,99.16991345691036,384,2,ECG-pulse association,0.2863234733131605

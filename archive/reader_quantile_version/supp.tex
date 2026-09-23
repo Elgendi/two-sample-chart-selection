@@ -1,0 +1,224 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=20mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,booktabs,longtable,array}
+\usepackage[super,sort&compress]{natbib}
+\usepackage{hyperref}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\emergencystretch=4em
+\title{Supplementary information\\Task-matched baselines reveal the limits of computational chart selection}
+\author{Mohamed Elgendi}\date{}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\begin{document}\maketitle
+\section*{S1. Analysis status and file hierarchy}
+Version 3 adds the six-task fixed-configuration and policy-transfer experiment in Sections S13--S15. The detailed version 2 audit is preserved below. Version 2 expands the original benchmark from seven families and 21 settings to nine families and 23 settings. The two added families are an ECDF and a direct five-quantile plot. The 15-family list below is a contextual catalogue; ECDF and quantile plots extend it rather than being silently relabeled as members of that list. No ranking of worldwide chart usage is asserted.
+
+The primary analysis uses 127 unchanged comparisons from nine resources. The extension is retrospective and not preregistered. All reported version 2 numerical results are in \texttt{validation\_v2/results/}; the original pixel benchmark is retained under \texttt{rendered\_study/}. Earlier compression analyses are historical and do not validate this benchmark. There are no human-reader data or untouched external medical cohorts in the present study.
+
+The original reference losses are reproduced for all 2,667 setting--comparison combinations, with missing failures compared as missing. The final run's protocol, source files and input arrays are identified by SHA-256 hashes. A fixture-driven change from a one-pixel to a two-pixel ECDF stroke is documented in \texttt{DEVELOPMENT\_LOG.md}; the initial stopped run contributes no reported results.
+\section*{S2. Contextual catalogue of 15 familiar families}
+Catalogue identifiers remain fixed and are not quality ranks. The catalogue is a familiar set specified for this project; no worldwide usage-frequency claim is made. Eligibility here means that an explicit decoder for the same five marginal quantile differences is implemented. An absent contract is not a score of zero. Some other families can be repurposed, but doing so requires a declared transformation and a newly evaluated contract.
+\begin{longtable}{rp{2.7cm}p{4.3cm}p{6.7cm}}\toprule
+ID & Family & Usual task & Current implementation\\\midrule\endhead
+1 & Bar chart & Category values & Group means; one setting\\
+2 & Line chart & Ordered trends & No trend target or implemented marginal decoder\\
+3 & Scatter plot & Joint relationships & No joint-association target or decoder\\
+4 & Pie chart & Parts of a whole & No declared composition transformation or decoder\\
+5 & Histogram & Numerical distribution & Five common-bin settings\\
+6 & Box plot & Median, spread, extrema & Five-number summary; one setting\\
+7 & Heatmap & Matrix patterns & Two group-probability strips; five bin settings\\
+8 & Stacked bar & Totals and composition & No declared composition transformation or decoder\\
+9 & Area chart & Ordered magnitude & No ordered-trend target or decoder\\
+10 & Bubble chart & Relationships and magnitude & No joint target or bubble-area decoder\\
+11 & Dot plot & Observations or category values & Means and raw observations; two settings\\
+12 & Treemap & Hierarchical composition & No hierarchy, composition target or decoder\\
+13 & Choropleth & Geographic values & No geographic identifiers, target or decoder\\
+14 & Violin plot & Distribution shape & Six sampled-density settings\\
+15 & Interval plot & Variability or uncertainty & Five-number variability display; one setting; not an uncertainty interval\\\bottomrule
+\end{longtable}
+
+\section*{S3. Original seven-family rendering and threshold-observer contract}
+\textbf{Target.} NumPy's default linear empirical quantiles at probabilities $(.1,.25,.5,.75,.9)$ define five equally weighted differences, group B minus group A. The target is descriptive and marginal even when the source observations are paired. It is not a full-distribution metric or an estimate of individual change.
+
+\textbf{Normalization.} Pooled within-group standard deviation weights each sample variance by its degrees of freedom. If that standard deviation is zero, the implementation uses one source unit and records a fallback flag. This special case is not unit-invariant. All eligible candidates within a comparison share the same scale.
+
+\textbf{Range.} Let $h_g=\mathrm{SD}(g)n_g^{-1/5}$ and $b=\max(h_x,h_y,.01s)$. The measurement range is $[\min(0,\min(x,y)-4b),\max(0,\max(x,y)+4b)]$. If needed, a degenerate upper limit is replaced by the lower limit plus one. All families use this range, including histogram and heatmap bins. Zero inclusion supports bars but may reduce useful resolution for other displays; it is an explicit design limitation.
+
+\textbf{Inputs to the decoder.} RGB image, family, setting, panel resolution, image width, measurement limits, panel bounding coordinates and declared group colours. The decoder is not given samples, target quantiles, pre-rendered summary values, placement offset or jitter seed. It is given exact axes rather than recovering tick labels through optical character recognition. The chart type is known.
+
+\textbf{Raster geometry.} Two panels of side $H\in\{128,256,512\}$ are separated by 16 pixels. Each plotting region extends from local horizontal coordinate 8 to $H-9$ and vertical coordinate 8 to $H-9$. RGB colours are $(38,126,165)$ and $(223,120,54)$. Images are first drawn at fourfold resolution, reduced with Lanczos filtering and blurred by a Gaussian radius of 0.5 target pixels. Measurement marks use vertical offsets 0, .25, .5 and .75 pixels. These placements are sensitivity conditions, not independent samples of reader performance.
+
+\textbf{Bars and dots.} Mean bars have width $0.4H$ and extend from zero to the group mean. Mean dots have radius two target pixels. Raw dots have radius 1.5 pixels and uniformly jittered horizontal centres within $\pm0.35H$ of the panel centre. Random seeds are $20260920+r+100003g$, with zero-based placement index $r$ and group index $g$. Thus raw-dot realizations vary both placement and jitter. The dots are opaque; within-group overlaps are retained.
+
+\textbf{Boxes and intervals.} A one-pixel minimum--maximum line is common to both. A box has width $0.4H$ and spans the interquartile range, with a one-pixel black median line. The interval has a five-pixel interquartile line and black median marker of radius 2.5 pixels. These are five-number summaries of observations, not standard errors, confidence intervals or Tukey outlier conventions.
+
+\textbf{Histograms and heatmaps.} Bin counts $4,8,16,32,64$ share equal-width measurement bins. Histogram heights represent group probabilities on a fixed zero-to-one axis. Heatmap tiles encode probability $m$ as $(\mathrm{round}(255(1-m)),\mathrm{round}(255(1-m)),255)$. The heatmap strip occupies the middle 30\% of plot height; its raster is invariant across the four vertical placements. This known linear colour scale is an oracle supplied through the implemented decoder, not evidence of perceptual linearity.
+
+\textbf{Violins.} Group-specific Gaussian kernel densities use SciPy's Scott bandwidth and are sampled on common grids of $8,16,32,64,128,256$ points. Width is normalized separately by each group's peak to $0.4H$. The rendered polygon connects those grid points; no finer smoothing is inserted into the displayed figures. Constant samples use a Gaussian width of $.01s$, evaluated with a stabilized exponential to avoid underflow.
+
+\textbf{Pixel extraction.} A pixel is group-coloured if its Euclidean RGB distance from the known group colour is below 80. A black mark has RGB norm below $.78$ times the group-colour norm. Bars use rows with coloured width exceeding 20\% of plot width, taking the endpoint farther from zero. Mean dots use the coloured row-mass centroid. Box and interval extrema use any coloured or black mark; interquartile bounds use row width above 30\% of plot width for boxes or 2.5 pixels for intervals. Median position is the black row-mass centroid. Recovered five-number landmarks are monotonized and linearly interpolated to the target probabilities.
+
+Histogram probabilities come from the top coloured pixel at each bin-centre column relative to the known baseline. Heatmap probabilities come from inverse red intensity at tile centres. Negative recovered masses are clamped to zero and masses normalized. Their cumulative inverse uses linear interpolation within each nonempty bin. Violin and raw-dot decoders instead invert cumulative coloured pixel area by measurement row. This is an area-based observer, not a point-counting algorithm or an optimal image decoder. Empty recoveries fail explicitly.
+
+\textbf{Score and optimization.} For each realization, divide mean absolute contrast error by the shared scale. Average that loss over all four realizations, then transform by $100/(1+L)$. Do not average scores before optimization. A setting with any failed realization is excluded. Within each family select its lowest mean loss; ties can be displayed deterministically but remain equal scientific outcomes. Across families, absolute loss differences at most $10^{-12}$ are treated as ties, with no relative tolerance. Unrounded values determine rankings. Displaying three decimals does not assert precision or practical significance.
+
+
+\section*{S4. Added baselines and alternative observer}
+\textbf{ECDF.} Sort each group's observations. At every observation, draw the horizontal cumulative-probability step from $i/n$ to $(i+1)/n$, with measurement mapped to vertical position; join steps vertically and extend to the declared measurement bounds. The stroke is two target pixels wide. This is the ordinary empirical cumulative step function with axes transposed, not a smoothed density. For each requested probability, read the colored pixel column and estimate its vertical centroid. Finite-pixel vertical segments and the difference between the ECDF inverse and linear-interpolated sample quantiles can generate error.
+
+\textbf{Quantile plot.} Render five colored markers with radius two target pixels at horizontal positions $p_k$ and vertical positions $Q_g(p_k)$. Read a five-column window around each target probability and calculate the vertical pixel-mass centroid. The decoder receives the declared probability locations, which are task metadata shared across all comparisons, but no numerical quantile values. Monotonize the recovered sequence with a cumulative maximum. A display constructed from task-relevant summaries is allowed; transferring those summaries to the decoder as numerical metadata is not.
+
+\textbf{Alpha observer.} For RGB pixel $a$ and known group color $c$, compute
+\[
+\alpha(a)=\operatorname{clip}_{[0,1]}\left\{\frac{(255-a)\cdot(255-c)}{\|255-c\|^2}\right\}.
+\]
+Geometric masks use $\alpha>0.2$. Integrated row mass sums $\alpha$ only where it exceeds 0.05. Bar, mean-dot, box, interval, histogram, raw-dot and violin recovery otherwise follow the declared geometric contracts. Black median detection retains the original threshold. Heatmaps instead average the red channel over a local $3\times3$ neighborhood before inversion. The added ECDF and quantile plots use projected ink above 0.05 for their column or window centroids. The original observer uses the RGB-distance mask.
+
+This observer is an alternative implementation, not an optimal decoder, an independent laboratory replication or a validated human model. It shares axis calibration, chart knowledge and much geometry with the original. The analysis evaluates sensitivity to specified extraction choices, not robustness to all possible readers.
+
+\section*{S5. Mathematical interpretation and limits}
+For finite nonnegative loss, $0<S\leq100$. The reciprocal transformation preserves the complete loss ordering and all ties. A logarithmic transformation would also preserve ties. There is no valid mathematical reason to inject chart-specific offsets solely to create distinct ranks.
+
+\textbf{Shared-error cancellation.} Let $e_{g,k}=\widetilde Q_g(p_k)-Q_g(p_k)$. Contrast error is $e_{y,k}-e_{x,k}$, so the triangle inequality yields $L\leq2G$. If $e_{y,k}=e_{x,k}=b$ for every $k$, contrast loss is zero but group loss is $|b|/s$. Therefore a high contrast score cannot certify faithful recovery of either distribution. Both quantities are retained.
+
+\textbf{A mean-only identifiability limit.} Consider a common fixed axis, equal group sample sizes and
+\[
+ x=(2,2,4,4),\quad y^{(1)}=x,\quad y^{(2)}=(3-\sqrt2,3,3,3+\sqrt2).
+\]
+Every group has mean 3 and sample variance $4/3$. Thus the mean-only images and calibration can be identical in the two scenarios, while their quantile-contrast vectors differ. The common scale is $s=\sqrt{4/3}$. If a decoder returns the same contrast vector $z$ for those identical inputs, then
+\[
+ \max\!\left\{\frac{\|z-\Delta^{(1)}\|_1}{5s},\frac{\|z-\Delta^{(2)}\|_1}{5s}\right\}
+ \geq \frac{\|\Delta^{(1)}-\Delta^{(2)}\|_1}{10s}>0.
+\]
+This elementary bound concerns information omitted by the mean summary. The common fixed axis is essential: data-dependent axes could otherwise transmit extra information. The construction does not claim that every mean-bar rendering is poor or that its numerical lower bound applies to the benchmark's adaptive axes.
+
+\textbf{Empirical versus population target.} For population contrast $\Delta^{\mathrm{pop}}$,
+\[
+\frac15\sum_k|\widetilde\Delta_k-\Delta^{\mathrm{pop}}_k|
+\leq\frac15\sum_k|\widetilde\Delta_k-\Delta_k|+\frac15\sum_k|\Delta_k-\Delta^{\mathrm{pop}}_k|.
+\]
+The benchmark evaluates the first term. It does not provide confidence coverage for the second. Resolution sensitivity is not sampling uncertainty.
+
+\textbf{Scale and translation.} For nonconstant samples, positive unit scaling multiplies the range, target, recovered values and normalization together. Fixture checks verify this behavior. Zero-inclusive axes are not translation invariant. Tight axes remove the zero inclusion but retain the four-bandwidth padding. Bars are excluded from both sides of that sensitivity. A different positive normalizer shared by every candidate for one comparison cannot change its loss ordering, but can change cross-comparison summaries. The constant-scale fallback is explicitly source-unit dependent.
+
+\section*{S6. Selection, tuning budgets and environmental robustness}
+The original seven families contribute 21 settings and the two baselines one each. Family reference scores minimize loss over valid settings. The fixed-budget analysis allows exactly one setting per family: means, raw dots, five-number boxes, five-number intervals, 16-bin histogram, 16-bin heatmap, 64-grid violin, full ECDF and five-quantile plot. These controls expose unequal search budgets rather than pretending that every family has equally many plausible variants.
+
+A setting is valid in an environment only if every one of its four placements decodes. Robust settings must be valid in all six environments (three panel resolutions times two observers). For each environment, regret subtracts the best loss among all settings valid in that environment. Minimax selection minimizes the largest such regret over the declared environments. The worst-regret gain on those same environments is an optimization property, not external validation.
+
+The separate display-transfer protocol was written before inspecting its results. At 384 pixels and placements $0.125,0.375,0.625,0.875$, the reference optimum, minimax optimum and fixed quantile plot are evaluated without changing their settings. Raw-dot jitter seeds are also new. Transfer results average within each resource first. This tests a new display condition on known source comparisons; it is not an external-data or human-reader study.
+
+\input{validation_v2/results/display_table.tex}
+
+Excess-loss choice sets use fixed budgets of 0.001, 0.005, 0.01 and 0.025 pooled SD. These are sensitivity parameters supplied for inspection, not thresholds calibrated to human judgments. The complete margins and membership counts are available in \texttt{margins.csv}; exact tied sets are in \texttt{winning\_sets.csv}. Deterministic representative rows are used for plots and transfer, with tied membership retained separately.
+
+\section*{S7. Resource-disjoint evaluation and descriptive intervals}
+For each omitted resource, candidate settings that fail any training comparison are ineligible. For the others, feature losses are averaged within each of the eight training resources, then resource means receive equal weight. The globally selected family and setting are applied to all comparisons in the omitted resource without retuning. The outputs below are retrospective: the datasets had been available during method development.
+
+\begin{center}\small\input{validation_v2/results/transfer.tex}\end{center}
+
+For each family, subtract the fixed quantile plot's contrast loss for each valid comparison. Average those paired differences within each resource. Resample resource means with replacement 5,000 times using seed 2026092021. The 2.5th and 97.5th percentiles describe uncertainty in this equal-resource summary; they are not feature-IID intervals or evidence that the nine convenience resources represent all science. Positive values favor the quantile plot. Missing decodes are omitted only in this paired summary, with valid counts disclosed; failure tables remain separate.
+
+\begin{center}\small\input{validation_v2/results/bootstrap.tex}\end{center}
+
+\section*{S8. Synthetic stress tests}
+Seed 2026092017 generates 72 comparisons: six regimes, three sample sizes and four replicates. Group sizes are equal within a case ($n=20,100,500$). The regimes are: independent standard normal groups (null); standard normal versus normal mean 0.5 and SD 1 (location); standard normal versus normal SD 1.8 (scale); lognormal groups with log-SDs 0.5 and 1 and log-mean zero (skew); standard normal versus an equal mixture of normals centered at $-1.5$ and $1.5$ with SD 0.4 (mixture); and $t_3$ versus $0.3+1.3t_3$ (heavy tail).
+
+Every case evaluates the nine fixed settings at 256 pixels, four placements and both observers. This gives 5,184 render--decode evaluations; a single rendered image is shared by the two observers. Targets are sample quantile contrasts. A null population case generally has nonzero empirical contrasts. Neither simulated human responses nor population-quantile recovery is claimed. Four replicates per cell limit precision; these are stress examples, not an exhaustive distributional validation.
+
+\subsection*{Secondary task sensitivity}
+After the initial primary comparisons showed strong direct-quantile performance, a separate protocol specified median-only and dense-19-quantile tasks on the same 127 cases. This timing is disclosed: the analysis is retrospective and exploratory. Renderings remain fixed at the nine one-setting controls and the reference resolution. No chart gains additional marks. The quantile-plot decoder interpolates its five recovered group quantiles and uses constant extrapolation below 0.1 and above 0.9. Histogram, heatmap, violin, raw-dot, box, interval and ECDF recovery substitutes the requested probabilities into the same inverse or interpolation rules. Mean-only decoders repeat the recovered mean. The median and five-quantile losses use the original decoder outputs; dense-target decoding has its own failure status. All tasks normalize by the same pooled scale.
+
+\input{validation_v2/results/task_table.tex}
+
+\section*{S9. Source audit and sensitivities}
+Source attribution, transformations and licensing are recorded in \texttt{DATA\_PROVENANCE.md}. The nine primary resources and comparison counts are WDBC 30; Cleveland five; heart failure six; CKD 11; ILPD nine; retinopathy 16; HAR 40; BIDMC five; and wrist five.\cite{wdbc,heart,failure,kidney,liver,retina,har,bidmc,wrist} HAR uses participant/activity medians, BIDMC patient-level aggregates and wrist participant-level early/late reference summaries.\cite{pimentel2017,jarchi2017} The task is marginal even for paired resources; no participant-level treatment or agreement inference is drawn from the plotted contrasts.
+
+Twenty-two Parkinsons comparisons are archived as exploratory because 32 parsed identifier groups conflict with 31 documented participants.\cite{parkinsons} Retinopathy's participant linkage remains unresolved; the technical pixel-recovery analysis includes its records as provided, and the sensitivity reports winners after omitting its 16 features.
+
+CKD potassium values 39 and 47 remain unresolved in the source. The version 2 sensitivity removes those values from the prepared potassium arrays and recomputes the pixel benchmark at the reference resolution with both observers. It does not impute, divide or correct them. The threshold-observer comparison is:
+
+\begin{center}\input{validation_v2/results/ckd.tex}\end{center}
+
+\input{validation_v2/results/source_sensitivity.tex}
+
+\section*{S10. Failures, verification and reproduction}
+Every failed render--decode evaluation is retained with a reason. The counts below combine all primary conditions, including the tight-axis condition; bars have fewer trials because they are excluded there. The same raster may be decoded by two observers and counted twice, so these are decoder evaluations, not independent images or participants.
+
+\small\input{validation_v2/results/failures.tex}\normalsize
+
+The checks verify 46 setting--observer combinations on deterministic fixtures: finite monotone quantile estimates, positive scaling, blank-image failure, pixel dependence and metadata restrictions. Original-family fixture images and threshold estimates match the original implementation. Complete original reference CSV losses are compared with the expanded results, including failures. The inequality $L\leq2G$ is checked on every finite aggregated output. These are numerical checks, not evidence of perceptual validity.
+
+Run \texttt{python reproduce\_strengthened.py} in the reproducibility archive. It runs checks, the expanded benchmark, aggregate analysis, display transfer and figure generation. The pinned environment uses NumPy 2.3.5, pandas 2.2.3, SciPy 1.17.0, Matplotlib 3.10.8 and Pillow 12.3.0. Compile \texttt{main.tex} and \texttt{supp.tex} separately with pdfLaTeX/BibTeX. No network access is needed when the supplied arrays and source files are retained.
+
+\begin{longtable}{p{5.5cm}p{10cm}}\toprule
+File in \texttt{validation\_v2/results/} & Contents\\\midrule\endhead
+\texttt{trials.csv} & All primary decoder evaluations, recovered group quantiles, errors and failures\\
+\texttt{configurations.csv} & Four-placement aggregates for every setting and environment\\
+\texttt{families.csv}, \texttt{winning\_sets.csv} & Best setting per family and exact tied winning memberships\\
+\texttt{margins.csv} & Best--second-best margins and excess-error choice-set sizes\\
+\texttt{robust\_settings.csv}, \texttt{robust\_choices.csv} & Six-environment regret and selected fixed configurations\\
+\texttt{display\_transfer.csv} & Unchanged selections at a new display resolution\\
+\texttt{resource\_transfer.csv} & Resource-disjoint global-setting evaluation\\
+\texttt{resource\_bootstrap.csv} & Resource-level paired-loss intervals and valid counts\\
+\texttt{group\_error\_and\_}\allowbreak\texttt{zero\_baseline.csv} & Group error and skill relative to zero contrast\\
+\texttt{simulation\_inputs.json}, \texttt{simulation\_trials.csv} & Synthetic observations and all simulation decoder evaluations\\
+\texttt{ckd\_omission\_trials.csv} & Pixel-level flagged-value sensitivity\\
+\texttt{checks.json}, \texttt{run\_manifest.json} & Executed checks and protocol/source/input hashes\\\bottomrule
+\end{longtable}
+
+\section*{S11. Complete primary reference audit}
+Scores are conditional on the threshold observer at 256 pixels. $G$ is normalized group-specific error. ``Margin'' is the best--second-best family score difference. ``Near'' counts families within excess loss 0.01; it is not a human-equivalence finding. Keys identify source features in the prepared array metadata. The complete nine-family rankings are supplied electronically.
+\small\input{validation_v2/results/audit.tex}\normalsize
+
+\section*{S12. Prospective human validation: required, not performed}
+The accompanying reader-study protocol specifies a prospective test of whether frozen computational predictions explain human estimation error beyond chart-family labels and direct quantile baselines. It separates training, pilot and test cases; defines numerical responses, timing and confidence; and accounts for repeated participants and cases. A planning script supplies transparent sample-size sensitivity calculations under stated hypothetical assumptions. They are not a completed power analysis for a recruited study. No participant results or approvals are represented as existing evidence.
+\section*{S13. Six-task protocol and policy evaluation}
+The new extension was specified in \texttt{validation\_v3/protocol.json} before its numerical run, after the earlier quantile-dominance results were known. It is retrospective. The ten configurations comprise the nine one-setting controls plus a 19-marker quantile plot; family tuning budgets are consequently unequal and winning configurations are reported without aggregation that hides this difference. The marker radius, colour, common axis and blur match the five-marker plot. Marker probability locations are public task metadata; numerical quantile ordinates are withheld from the decoder.
+
+All 127 primary cases are evaluated with two observers, two display conditions and four placements: 20,320 image--decoder trials yield 121,920 task losses. These are repeated computational evaluations, not additional biological samples. The targets and normalization are defined in the main text. Group quantiles are recovered at probabilities $.05,.10,\ldots,.95$ and then transformed into each target. With coefficient vector $w$, scalar target error satisfies $|w^T(\widetilde d-d)|\leq\|w\|_1\|\widetilde d-d\|_\infty$. Median, spread, asymmetry and upper-tail targets have coefficient norms 1, 2, 4 and 2. Their errors therefore have different arithmetic conditioning; losses are not combined into a task-averaged leaderboard.
+
+Training uses 256-pixel panels and phases $0,.25,.5,.75$. Transfer uses 384-pixel panels and phases $.125,.375,.625,.875$. The same observer is used on the training and transfer sides of each comparison, with results stratified by observer. Raw-dot seeds remain matched across display conditions, so this experiment changes resolution and phase but does not claim independent jitter realizations. All renderers are unchanged across tasks.
+
+For each omitted resource, task and observer, the task default minimizes the mean of the other eight resource means at the training display. Candidates must decode every training case at every placement. No omitted-resource or transfer loss enters default selection. The case-specific rule selects the reference minimum for the corresponding case at the training display. At the transfer display, its result is compared with the unchanged default and three fixed controls. A separate zero-target prediction, added as a post-run diagnostic and recorded in the analysis addendum, is evaluated without rendering; it is not included in the chart oracle and can outperform that restricted oracle. A test-display oracle is a lower bound on this finite candidate set, not a deployable out-of-sample policy. Any failed placement invalidates a configuration; policy failures and valid denominators are reported. Deterministic configuration order resolves deployment ties, while scientific memberships retain every absolute-loss tie within $10^{-12}$.
+
+For each task and observer, policy differences are first computed on paired cases and averaged within each resource. Five thousand resamples of the nine resource differences produce percentile intervals. These describe the convenience resources; they are exploratory, unadjusted for multiple task comparisons and not population confidence guarantees. The $.01$ pooled-SD budget below is computational, not a human equivalence threshold. ``Within .01'' counts policies whose transfer loss is within that budget of the test-display oracle.
+
+\input{validation_v3/results/full_policy_table.tex}
+
+\section*{S14. Verification and release contents}
+\texttt{validation\_v3/results/decoded\_trials.csv} retains recovered and true group quantiles with public case identifiers. True quantiles are evaluation outputs, never decoder inputs. \texttt{trials.csv} stores every task loss. Configuration aggregates, all scientific winner memberships, default-training folds, policy choices and per-case transfer losses are separate tables. The verification script independently recomputes all six targets from saved pixel recoveries, checks every held-out fold, confirms every policy evaluation uses the transfer display, and compares all 2,286 original fixed-setting five-task losses with version 2. It also checks the pairing witness, blank-image failure for the dense control, unit scaling, metadata restrictions and the encoding/pixel triangle bounds.
+
+For the direct quantile controls, ideal encoding targets are computed from the exact plotted summaries using the same declared interpolation rule as recovery. Pixel loss is measured relative to that ideal target; omitted-information loss is measured relative to the empirical target. Their magnitudes cannot be assumed to add, since signed errors can cancel. No equivalent decomposition is claimed for other chart families without defining their ideal readout.
+
+\section*{S15. Preserved earlier diagnostics}
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{validation_v2/figures/Figure_2_Baselines.pdf}
+\caption{\textbf{Supplementary Fig. S1. Earlier baseline audit.} Panels retain the expanded five-quantile analysis and the preliminary three-task study. The latter includes only five-marker quantile plots; its 19-quantile ranking is superseded for matched-control interpretation by the ten-configuration experiment in the main text. Neither analysis is discarded or relabeled as confirmatory.}
+\end{figure}
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{validation_v2/figures/Figure_3_Robustness.pdf}
+\caption{\textbf{Supplementary Fig. S2. Earlier five-quantile robustness audit.} The original resolution, margin, tolerance and minimax-transfer diagnostics remain unchanged. These results complement the six-task policy experiment.}
+\end{figure}
+\clearpage
+\clearpage
+\section*{S16. Detailed diagnostic figures retained from the technical presentation}
+The main text uses three worked visual explanations. The following figures retain the complete information-eligibility witness, winning memberships, policy-effect intervals and encoding/pixel diagnostics; no numerical result has been removed.
+\begin{figure}[ht]\centering
+\includegraphics[width=\linewidth]{validation_v3/figures/Figure_1_Eligibility.pdf}
+\caption{\textbf{Information lost before rendering cannot be recovered by ranking charts.} Two explicitly synthetic pairings have the same group marginals but median changes of zero and one. Connections preserve the information needed for the paired task; separate marginal summaries omit it. The witness concerns median within-person change, not the difference of marginal medians or the mean paired change. No empirical patient result is represented.}\label{fig:supp3}
+\end{figure}
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{validation_v3/figures/Figure_2_Tasks.pdf}
+\caption{\textbf{Task dependence with a matched dense control.} Winning configuration memberships at 384 pixels, averaged over four placements, are reported separately for each task and observer. Scientific ties are retained, so a column can exceed 127 memberships. Five- and 19-marker controls are separate configurations. A change in winner does not by itself establish an advantage for adaptive selection, which is tested in Supplementary Fig.~S5.}\label{fig:supp4}
+\end{figure}
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{validation_v3/figures/Figure_3_Policies.pdf}
+\caption{\textbf{Incremental benefit must survive transfer.} Points show task-default loss minus case-specific-selection loss at 384 pixels; positive values favor case-specific selection. Lines are descriptive 95\% paired bootstrap intervals over the nine resource means. Selections were made at 256 pixels. Neither these intervals nor the two computational observers establish human performance. Tasks are analyzed separately, with no combined utility score.}\label{fig:supp5}
+\end{figure}
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{validation_v3/figures/Figure_4_Encoding.pdf}
+\caption{\textbf{A task change can expose omitted information without creating a new selector.} The first WDBC feature by canonical key is shown in all panels. Exact five-marker interpolation, exact 19-marker values, and the corresponding recovered curves distinguish target coverage from raster error. Lower panels summarize encoding and pixel error across all nine resources at 384 pixels under the threshold observer. Their sum is an upper bound on total error, not an equality.}\label{fig:supp6}
+\end{figure}
+\clearpage
+\begingroup\footnotesize\bibliographystyle{viznumbered}\bibliography{references}\endgroup
+\end{document}

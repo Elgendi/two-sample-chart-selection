@@ -1,0 +1,5 @@
+method,test_pass_rate,median_retained_values,median_error_ratio
+Always box,0.7416666666666667,12.0,0.5748112062818196
+Always mean bars,0.8458333333333333,2.0,0.4917536363056803
+Automatic,0.95,2.0,0.4565940993940393
+Raw dots,1.0,160.0,0.0

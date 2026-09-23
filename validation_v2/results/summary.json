@@ -1,0 +1,116 @@
+{
+  "primary_cases": 127,
+  "resources": 9,
+  "trials": 92456,
+  "failed": 217,
+  "legacy_reference_parity": true,
+  "wins": {
+    "Quantile plot": 122,
+    "ECDF": 2,
+    "Heatmap": 2,
+    "Violin plot": 1
+  },
+  "fixed_budget_wins": {
+    "Quantile plot": 123,
+    "ECDF": 2,
+    "Dot plot": 1,
+    "Heatmap": 1
+  },
+  "median_best": 99.17239575287257,
+  "median_quantile": 99.16727441480542,
+  "median_ecdf": 97.82630226864046,
+  "median_old_best": 96.41358243428554,
+  "quantile_beats_legacy": 124,
+  "ecdf_beats_legacy": 76,
+  "median_margin_score": 1.2723698453736887,
+  "margins_below_point_one": 2,
+  "median_margin_loss": 0.0131531503473629,
+  "near_counts": {
+    "0.001": 2,
+    "0.005": 27,
+    "0.01": 51,
+    "0.025": 89
+  },
+  "resolution_changes": 13,
+  "sensitivity": [
+    {
+      "axis": "zero",
+      "H": 128,
+      "observer": "threshold",
+      "changed_families": 13,
+      "cases": 127
+    },
+    {
+      "axis": "zero",
+      "H": 512,
+      "observer": "threshold",
+      "changed_families": 7,
+      "cases": 127
+    },
+    {
+      "axis": "zero",
+      "H": 256,
+      "observer": "alpha",
+      "changed_families": 14,
+      "cases": 127
+    },
+    {
+      "axis": "tight",
+      "H": 256,
+      "observer": "threshold",
+      "changed_families": 2,
+      "cases": 127
+    }
+  ],
+  "robust_wins": {
+    "Quantile plot": 122,
+    "ECDF": 2,
+    "Heatmap": 2,
+    "Dot plot": 1
+  },
+  "median_reference_worst_regret": 0.0,
+  "median_robust_worst_regret": 0.0,
+  "reference_incomplete_settings": 0,
+  "transfer_selected": {
+    "BIDMC": "Quantile plot",
+    "CKD": "Quantile plot",
+    "Cleveland": "Quantile plot",
+    "HAR": "Quantile plot",
+    "HeartFailure": "Quantile plot",
+    "ILPD": "Quantile plot",
+    "Retinopathy": "Quantile plot",
+    "WDBC": "Quantile plot",
+    "Wrist": "Quantile plot"
+  },
+  "transfer_mean_resource_loss": 0.00925406545305177,
+  "transfer_failures": 0,
+  "simulation_cases": 72,
+  "simulation_threshold_wins": {
+    "Quantile plot": 70,
+    "ECDF": 2
+  },
+  "simulation_alpha_wins": {
+    "Quantile plot": 68,
+    "ECDF": 4
+  },
+  "ckd_omission_winners": [
+    {
+      "observer": "threshold",
+      "family": "Quantile plot",
+      "setting": "five",
+      "score": 99.19144835463409
+    },
+    {
+      "observer": "alpha",
+      "family": "Quantile plot",
+      "setting": "five",
+      "score": 99.54195359168718
+    }
+  ],
+  "wins_without_retinopathy": {
+    "Quantile plot": 108,
+    "ECDF": 2,
+    "Violin plot": 1
+  },
+  "tied_cases": 0
+}

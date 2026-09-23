@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "real_comparisons": 149,
+  "family_records": 2235,
+  "known_empirical_location_spread_shape_checks": true,
+  "positive_affine_invariance_check": true,
+  "simulation_datasets": 240,
+  "simulation_evaluations": 960,
+  "training_fraction": 0.5,
+  "reader_performance_tested": false
+}

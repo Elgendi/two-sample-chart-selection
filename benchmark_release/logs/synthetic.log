@@ -1,0 +1,25 @@
+Synthetic marginal 1 / 36
+Synthetic marginal 7 / 36
+Synthetic marginal 13 / 36
+Synthetic marginal 19 / 36
+Synthetic marginal 25 / 36
+Synthetic marginal 31 / 36
+Synthetic extension 1 / 120
+Synthetic extension 21 / 120
+Synthetic extension 41 / 120
+Synthetic extension 61 / 120
+Synthetic extension 81 / 120
+Synthetic extension 101 / 120
+       task observer  cases  paired_n  default_failures  selected_failures  default_loss  selected_loss      gain  improved  worsened  tied
+association     hard     36        36                 0                  0      0.007120       0.003435  0.003684        23         3    10
+association     soft     36        36                 0                  0      0.007120       0.000759  0.006361        33         0     3
+composition     hard     48        48                 0                  0      0.001905       0.001694  0.000211        27         2    19
+composition     soft     48        48                 0                  0      0.002775       0.002710  0.000065         9         1    38
+       five     hard     36        36                 0                  0      0.004390       0.004390  0.000000         0         0    36
+       five     soft     36        36                 0                  0      0.002134       0.002230 -0.000096         0         1    35
+     median     hard     36        36                 0                  0      0.004214       0.005383 -0.001169         4         9    23
+     median     soft     36        36                 0                  0      0.002295       0.003583 -0.001288         3        12    21
+    profile     hard     36        36                 0                  0      0.066986       0.066986  0.000000         0         0    36
+    profile     soft     36        36                 0                  0      0.064074       0.064074  0.000000         0         0    36
+     spread     hard     36        36                 0                  0      0.006238       0.008397 -0.002159         2        12    22
+     spread     soft     36        36                 0                  0      0.003361       0.005765 -0.002404         1        10    25

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "configurations": 30480,
+  "decoded_trials": 20320,
+  "task_loss_recomputations": 30480,
+  "original_five_task_matches": 2286,
+  "heldout_folds_verified": 108,
+  "policy_transfer_values_verified": 9144,
+  "pairing_witness": {
+    "x": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "y_aligned": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "y_permuted": [
+      1.0,
+      2.0,
+      0.0
+    ],
+    "median_changes": [
+      0,
+      1
+    ]
+  },
+  "unit_scaling_passed": true,
+  "metadata_check_passed": true,
+  "encoding_triangle_bounds_passed": true,
+  "source_sha256": {
+    "validation_v3/analyse.py": "78cd2d7990dc92ff85b4258655327804dc0deb21ab4d575574fab85726ee4529",
+    "validation_v3/benchmark.py": "005901b287fe821be1e19c2819b4be20031f9ae3a57098efa27ce5b278ee1386",
+    "validation_v3/figures.py": "538c265eabf33d5ba94485bf9b657619ae4fdab058a656ec13602e5c83a86c11",
+    "validation_v3/verify.py": "8d455fea57293652e155e93295f09307f0d5cd71985acafcfb7aa1b8511b032b"
+  }
+}

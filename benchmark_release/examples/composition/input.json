@@ -1,0 +1,14 @@
+{
+  "key": "user",
+  "dataset": "User",
+  "kind": "user",
+  "task": "composition",
+  "values": [
+    0.6789297658862876,
+    0.3210702341137124
+  ],
+  "labels": [
+    "Survived",
+    "Died"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "method": "Independent execution from code and inputs only",
+  "identical_outputs": [
+    "automatic_selections.csv",
+    "all_family_scores.csv",
+    "complete_variable_scores.csv",
+    "simulation_holdout.csv",
+    "before_after_examples.csv",
+    "example_recommendations.csv",
+    "figure_data_sources.csv"
+  ],
+  "revision": 13
+}

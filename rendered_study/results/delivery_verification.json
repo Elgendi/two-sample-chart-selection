@@ -1,0 +1,15 @@
+{
+  "trial_count": 37548,
+  "setting_resolution_count": 9387,
+  "family_resolution_count": 3129,
+  "score_formula_verified": true,
+  "all_winners_match_scores": true,
+  "all_21_settings_recorded": true,
+  "catalogue_families": 15,
+  "implemented_families": 7,
+  "main_pdf_pages": 10,
+  "supp_pdf_pages": 9,
+  "latex_no_overflow_or_undefined_references": true,
+  "figures_visually_inspected": true,
+  "new_data_cli_matches_benchmark_all_21_settings": true
+}

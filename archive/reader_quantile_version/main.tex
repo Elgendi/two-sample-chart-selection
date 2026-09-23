@@ -1,0 +1,224 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=22mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,caption,booktabs,array}
+\usepackage[super,sort&compress]{natbib}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue,citecolor=blue,linkcolor=blue}
+\widowpenalty=10000\clubpenalty=10000
+\setlength{\parskip}{5pt}\setlength{\parindent}{0pt}\emergencystretch=4em
+\input{validation_v2/results/numbers.tex}
+\input{validation_v2/results/task_numbers.tex}
+\title{Task-matched baselines reveal the limits of computational chart selection}
+\author{Mohamed Elgendi\\Khalifa University, Abu Dhabi, United Arab Emirates}
+\date{}
+\begin{document}\maketitle
+\begin{abstract}
+A chart selector should improve on a simple task-matched default, not merely beat displays that omit the requested information. We test this requirement in a rendered-image benchmark of 127 two-group comparisons from nine public resources. An initial five-quantile task favors a direct five-marker display in 122 comparisons, exposing the weakness of mean-only controls. We then evaluate six quantile-based tasks with ten fixed configurations, including both five- and 19-marker controls, under two computational observers. Resource-disjoint task defaults and case-specific selections are frozen at 256 pixels and evaluated at 384 pixels with new placements. Case-specific selection does not consistently beat the task default: its threshold-observer point estimate improves only for tail asymmetry, and that improvement is uncertain under the alternative observer. The dense quantile control belongs to the 19-quantile winning set in 127 and 126 comparisons under the two observers, respectively. We additionally distinguish information omitted by an encoding from raster recovery error, and demonstrate why marginal charts cannot identify median within-person change. The contribution is an executable evaluation of when chart optimization adds value and when its apparent benefit follows from task or decoder choices. These retrospective computational results do not establish human reading accuracy or generalization to an untouched population.
+\end{abstract}
+
+\section*{Introduction}
+A chart should be evaluated against the question its reader is expected to answer. Comparing two means, comparing distributional shapes and estimating individual change are different tasks. Displays that omit the required information cannot become adequate simply through higher resolution. Conversely, retaining observations does not establish that a reader can recover the relevant information accurately. Distributional comparisons and shift functions have long provided alternatives to mean-only summaries.\cite{weissgerber2015,rousselet2017} Scientific visualization requires explicit objectives and evidence that the resulting displays support those objectives.\cite{elgendi2017,elgendi2020}
+
+Automated graphical design, constraint-based systems and learned recommenders address chart construction and recommendation.\cite{mackinlay1986,draco,vizml} Task taxonomies clarify the analytic operations a visualization should support, while graphical-perception experiments evaluate human judgments.\cite{amar2005,cleveland1984} These contributions motivate, but do not validate, a separate computational question: given known data and a specified recovery algorithm, which rendering most accurately communicates a declared numerical target?
+
+A score alone does not answer whether the recommended chart is useful. A color-calibrated decoder may recover faint heatmap intensities more accurately than a person. A mean-only baseline can be predictably weak for a distributional task. Searching more settings in one family can increase its opportunity to win. Nearly identical scores may exchange rank with a small change in resolution. These concerns require explicit controls rather than a transformation that forces every chart to have a unique score.
+
+We ask a falsifiable question: after admitting a strong task-matched default, does case-specific selection reduce recovery error at a display condition excluded from selection? The benchmark distinguishes three issues: whether the encoding retains the requested information, how accurately a computational observer recovers it, and whether optimization improves on a fixed rule. Its contributions are a worked scoring procedure, an explicit information-eligibility check, a matched-control study across six quantile-based tasks, and resource-disjoint, display-transfer comparisons against simple defaults. The supplied counterexamples and minimax formulation are applications of elementary identifiability and decision principles, not new mathematical theorems. The intended advance is a reproducible stress test of claims made for computational chart selection.
+
+The main figures follow a practical sequence. Figure~\ref{fig:scoring} works through the score for one comparison; Fig.~\ref{fig:improvement} shows a large gain from replacing an information-poor starting display; and Fig.~\ref{fig:limits} shows a tie and a gain that fails to transfer. These examples explain how to use and interpret the score. The complete benchmark, rather than the selected examples, determines the scope of the findings.
+
+\section*{Results}
+\subsection*{A declared task connects the image to the score}
+For samples $x$ and $y$, the evaluator computes
+\begin{equation}
+\Delta_k=Q_y(p_k)-Q_x(p_k),\quad p_k\in\{0.10,0.25,0.50,0.75,0.90\}.
+\label{eq:target}
+\end{equation}
+These five equally weighted differences describe the lower, middle and upper central portions of two marginal distributions. They do not estimate diagnostic accuracy, a causal treatment effect or within-person change. The empirical quantiles use linear interpolation.
+
+Let $c$ identify a chart family and setting, and $e$ a resolution--observer environment. The renderer produces an image $I_{c,e,r}$ at placement $r$. The decoder receives only that image and public calibration metadata $A_c$, including chart type, panel bounds and measurement limits. It returns estimated group quantiles $\widetilde Q_{g,c,e,r}(p_k)$. Observations, target quantiles and stored summary values are unavailable to the decoder. Define
+\begin{align}
+L_{c,e,r}&=\frac{1}{5s}\sum_{k=1}^5|\widetilde Q_{y,c,e,r}(p_k)-\widetilde Q_{x,c,e,r}(p_k)-\Delta_k|,\\
+\overline L_{c,e}&=\frac14\sum_{r=1}^4L_{c,e,r},\qquad S_{c,e}=\frac{100}{1+\overline L_{c,e}},\label{eq:score}\\
+s^2&=\frac{(n_x-1)s_x^2+(n_y-1)s_y^2}{n_x+n_y-2}.
+\end{align}
+All candidates for a comparison share the same pooled within-group scale $s$. A recorded one-source-unit fallback is retained for zero scale. This special case is not unit invariant. A score of 80 means an average absolute contrast error of $0.25s$, not 80\% correct readers or retained information.
+
+Since $dS/dL=-100/(1+L)^2<0$, maximizing $S$ is exactly equivalent to minimizing the declared loss. The reciprocal transformation adds interpretability, not information or mathematical novelty. Equal losses remain equal after any strictly monotone transformation. We retain computational ties within absolute loss tolerance $10^{-12}$ and report winning margins rather than manufacturing uniqueness.
+
+\subsection*{A worked example makes the score interpretable}
+In the tumour-radius example (WDBC feature 00), the ten fixed candidate configurations receive scores from 67.66 to 99.14 for the same five-quantile question (Fig.~\ref{fig:scoring}). The five- and 19-marker quantile plots are tied for best within the declared numerical tolerance. The figure shows the actual chart, all candidate scores, the five empirical group gaps, the corresponding reading errors and the arithmetic producing the score. ``Data spread'' in the figure denotes the pooled within-group standard deviation $s$. A simple workflow is therefore to define the question, render eligible candidates, recover the requested quantities, calculate their error and retain the best or near-best choices. A tie does not require an artificial tie-breaking score.
+
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth,height=.88\textheight,keepaspectratio]{reader_figures/figures/Figure_1_How_scoring_works.pdf}
+\caption{\textbf{How a chart earns its score.} Tumour-radius data illustrate the five-quantile task at 256 pixels under the threshold observer. \textbf{a}, Scores for all ten fixed configurations, including both marker budgets; tied optima remain tied. \textbf{b}, An actual rendering of the five-marker optimum, with group labels and axes added outside the scored plotting areas. Percentiles describe positions from lower to higher values within each group. \textbf{c}, Empirical malignant-minus-benign gaps and mean absolute reading errors at the five probabilities. Absolute errors are averaged over four placements before averaging across probabilities and dividing by pooled within-group SD; displayed values are rounded after calculation. The plotted raster is the first placement. The score measures computational recovery, not the proportion of people reading correctly.}\label{fig:scoring}
+\end{figure}
+
+\subsection*{Information eligibility precedes numerical ranking}
+Let $E_c(D)$ denote the complete image and public calibration supplied by a chart for data $D$, and let $T(D)$ denote the requested target. A necessary condition for exact recovery is
+\[
+ E_c(D_1)=E_c(D_2)\ \Longrightarrow\ T(D_1)=T(D_2).
+\]
+If two inputs have identical encoded information but different targets, any decoder must give the same answer to both. For a scalar target under absolute loss, at least one of its two errors is therefore at least $|T(D_1)-T(D_2)|/2$. This elementary observation separates missing information from imperfect pixel extraction. Lossy summaries such as mean bars remain diagnostic negative controls: an occasional win on a near-zero target does not make them sufficient distributional representations.
+
+For example (Supplementary Fig.~S3), take paired observations $x=(0,1,2)$. Pairing them with $y=(0,1,2)$ produces median change zero; pairing them with $y=(1,2,0)$ produces median change one. The marginal distributions, common axes and marginal chart inputs are identical. A chart that retains only those marginals cannot identify the median within-person change, regardless of its resolution or decoder. We therefore reject that task for the implemented marginal representations rather than report a misleading score. Means of paired changes are a different case: their average equals the difference of marginal means. The restriction concerns targets that actually depend on pairing.
+
+
+\subsection*{Strong baselines expose the value of task-matched displays}
+The expanded benchmark evaluates 23 settings across nine families (Table~\ref{tab:settings}). The original seven families comprise mean bars, dot plots, box plots, variability intervals, histograms, probability heatmaps and violins. Two new baselines address the distributional task directly: an empirical cumulative distribution function (ECDF) and five quantile markers. The latter shows exactly the group summaries needed for the target; it is a deliberately strong task-matched control, not a novel visualization. The renderer may use data to construct the chart, but the decoder must recover its values from pixels. This distinction prevents target leakage into recovery while allowing task-appropriate encodings.
+
+\begin{table}[ht]\centering\small
+\caption{\textbf{Candidate settings and the equal-budget control.} Fixed settings are chosen before the expanded results are inspected. The original 15-family contextual catalogue is retained in the Supplement; it is not a claim that all 15 support this task.}\label{tab:settings}
+\begin{tabular}{p{3.1cm}p{6.2cm}p{4.2cm}}\toprule
+Family & Full search & One-setting control\\\midrule
+Bar chart & Group means & Group means\\
+Dot plot & Mean dots; opaque raw dots & Raw dots\\
+Box plot & Minimum, quartiles, median, maximum & Same\\
+Interval plot & Five-number variability display & Same\\
+Histogram & 4, 8, 16, 32, 64 bins & 16 bins\\
+Heatmap & 4, 8, 16, 32, 64 probability bins & 16 bins\\
+Violin plot & 8, 16, 32, 64, 128, 256 density grid points & 64 points\\
+ECDF & Full empirical cumulative step function & Same\\
+Quantile plot & Five target group quantiles & Same\\\bottomrule
+\end{tabular}
+\end{table}
+
+The primary arrays contain 127 feature comparisons from nine public resources.\cite{wdbc,heart,failure,kidney,liver,retina,har,bidmc,wrist} The reference condition is the original threshold observer at 256 pixels per group panel, averaged over four placements. The new implementation reproduces every original reference-setting loss, including failures, for the 21 existing settings. This parity check isolates the added comparisons from changes to the historical calculation.
+
+The median best reference score is \BestMedian{}. The fixed quantile and ECDF baselines have median scores \QuantileMedian{} and \ECDFMedian{}, respectively; the median best score among the original seven families is \LegacyMedian{}. The quantile baseline beats that seven-family optimum in \QuantileBetter{} of 127 comparisons, and the ECDF does so in \ECDFBetter{}. Table~\ref{tab:results} reports adaptive family scores and wins under an equal setting budget. The full score distributions and original equal-budget analysis are retained in Supplementary Fig.~S1. Family wins are descriptive development outcomes, not independent replications of superiority.
+
+\begin{table}[ht]\centering\small
+\caption{\textbf{Reference results across 127 comparisons.} ``Wins'' permits all 23 settings; ``Fixed wins'' permits one setting per family. Median $S$ and group error $G$ use each family's best valid reference setting. Failed settings are excluded from selection, not assigned favorable values.}\label{tab:results}
+\input{validation_v2/results/family_table.tex}
+\end{table}
+
+\subsection*{A better display can preserve information hidden by averages}
+Figure~\ref{fig:improvement} uses activity data to make the benefit visible. For the selected body-motion feature, mean bars score 48.15, whereas a five-marker quantile plot scores 99.04, a gain of 50.89 points. The improvement corresponds to 99.1\% lower normalized recovery error for this task, not a 99.1\% improvement in human understanding. The underlying observations, axes, panel size and scoring rule are unchanged. Mean bars communicate one average gap; the five requested gaps vary across the distributions, and the task-matched display preserves that variation. This example was selected retrospectively to illustrate a large gain and is not an unbiased estimate of the benefit across cases. A stronger starting chart can eliminate the gain, as the next comparison tests.
+
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth,height=.88\textheight,keepaspectratio]{reader_figures/figures/Figure_2_When_optimization_helps.pdf}
+\caption{\textbf{When optimization improves recovery.} The activity example uses subject-level summaries of body gyroscope jerk variability (HAR feature 29), comparing sitting with walking. Negative values reflect the source dataset's normalization. The actual mean-bar and five-marker renderings use the same 256-pixel panels and measurement limits; the five-marker display is a tied optimum among ten fixed configurations. Large score labels expose the before--after difference. The lower panel compares the true walking-minus-sitting quantile gaps with recovered gaps averaged over four placements. Scores instead average absolute error before transformation; error cancellation in the displayed mean curve cannot improve the reported score. The large gain is relative to mean bars and does not establish superiority over strong distributional defaults.}\label{fig:improvement}
+\end{figure}
+
+\subsection*{Six tasks and a stronger control test incremental value}
+The five-quantile result motivates an explicitly retrospective extension. We retain the nine fixed configurations and add a 19-marker quantile control. Without that additional control, asking for 19 quantiles would disadvantage a display containing only five. Supplementary Fig.~S4 reports the complete winning memberships. The two marker budgets are reported as separate configurations; this experiment is not described as an equal tuning budget per family.
+
+Let $d_p=Q_y(p)-Q_x(p)$. The six targets are the median contrast $d_{.5}$; interquartile-spread contrast $d_{.75}-d_{.25}$; unnormalized tail-asymmetry contrast $d_{.9}+d_{.1}-2d_{.5}$; upper-tail-extent contrast $d_{.95}-d_{.5}$; the original five contrasts; and 19 contrasts at $p=.05,.10,\ldots,.95$. Each scalar loss is absolute target error divided by $s$; vector losses average coordinatewise absolute errors before division. These are six related distributional questions, not a comprehensive taxonomy of scientific tasks. In particular, they do not test multimodality detection, causal inference or paired change. No weighted score combines their losses.
+
+All charts are rendered unchanged across tasks. Five-marker values are interpolated linearly between marks and constantly beyond their range; the 19-marker control directly encodes all probabilities used here. ECDF and other distributional decoders recover the requested quantiles from their respective image representations. The dense control has no omitted-target error for these tasks by construction, but still incurs pixel recovery error. This is an intentionally demanding control, not evidence of a novel chart design.
+
+We compare six chart policies: fixed five-marker, fixed 19-marker and ECDF displays; a resource-disjoint task default; case-specific reference selection; and a test-condition oracle used only as a descriptive bound. For each task and observer, the default selects one configuration using the other eight resources at 256 pixels, with equal weight per resource. The case-specific policy instead selects the best configuration for that case at 256 pixels. Both choices are frozen and evaluated at 384 pixels and four new placements. No test-display losses enter either selection. A seventh, non-graphical control predicts a zero target for each task; it tests whether a small recovery error adds value beyond assuming no difference. Because the resources and display conditions were already involved in development, this is a retrospective transfer experiment, not an untouched validation study.
+
+Table~\ref{tab:policies} reports resource-balanced transfer loss under the threshold observer. Positive gain means lower loss for case-specific selection than for the resource-disjoint task default. The intervals resample nine paired resource summaries, not 127 independent features. They are exploratory descriptive intervals without simultaneous multiplicity coverage; they do not establish practical human benefit. Both observers, fixed controls, failures and computational tolerance counts are supplied in the Supplement.
+
+\begin{table}[ht]\centering\scriptsize
+\caption{\textbf{Does case-specific selection improve on a task default at a new display condition?} Each resource has equal weight. Q19 is the fixed 19-marker control. Gain is default loss minus case-selection loss; negative values favor the simpler default. Intervals use 5,000 paired resource bootstrap resamples. All losses are in pooled-SD units.}\label{tab:policies}
+\input{validation_v3/results/policy_table.tex}
+\end{table}
+
+\input{validation_v3/results/findings.tex}
+
+\subsection*{The same evaluation must show when replacement is unnecessary}
+A different question can favor a different display. For median age in the CKD resource (feature 00), a box plot already scores 99.61 and is a best-scoring candidate among the ten fixed configurations (Fig.~\ref{fig:limits}a). Optimization can retain that chart: the before and after scores are both 99.61. This example tests one median contrast, rather than the five contrasts in Figs.~\ref{fig:scoring} and \ref{fig:improvement}; scores across different tasks are not interpreted as a common difficulty scale. Across the 127 five-quantile comparisons at the transfer display, case-specific selection yields higher scores than the resource-disjoint task default in seven cases, equal losses within tolerance in 110, and lower scores in ten (Fig.~\ref{fig:limits}b). These are descriptive counts of correlated feature comparisons, not independent human outcomes. The gain can also reverse: for HAR feature 10, selection favors raw dots over five quantile markers at 256 pixels (84.92 versus 84.49), but the same choice performs worse at 384 pixels and new placements (88.05 versus 88.62). A responsible implementation must expose such ties and reversals alongside favorable examples.
+
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth,height=.88\textheight,keepaspectratio]{reader_figures/figures/Figure_3_When_optimization_does_not_help.pdf}
+\caption{\textbf{When optimization adds no value or the gain does not transfer.} \textbf{a}, For the median-age contrast between the non-CKD and CKD (chronic kidney disease) groups (CKD feature 00), the starting box plot is already a best-scoring candidate at 256 pixels. The before and after renderings are identical because retaining that candidate is an optimal choice. The black line marks the median. This one-contrast task differs from the five-quantile target used in Figs.~\ref{fig:scoring} and \ref{fig:improvement}. \textbf{b}, Every primary comparison is represented by one dot. At the 384-pixel transfer display, frozen case-specific choices are compared with resource-disjoint task defaults for the five-quantile target under the threshold observer. Equal loss means an absolute difference no greater than $10^{-12}$; no perceptual equivalence threshold is asserted. The bottom example is HAR feature 10, chosen retrospectively to show a reversal. Both display size and placements change between selection and transfer. The complete multi-task, two-observer results remain in the tables and supplementary figures.}\label{fig:limits}
+\end{figure}
+
+
+
+
+
+\subsection*{Separate omitted information from raster error}
+For the direct controls, let $T_c^*$ be the target implied by exact plotted markers and the declared interpolation rule before rasterization, and let $\widetilde T_c$ be recovered from pixels. Define $L_{\rm enc}=\|T_c^*-T\|_1/(ms)$ and $L_{\rm pix}=\|\widetilde T_c-T_c^*\|_1/(ms)$ for a target with $m$ coordinates. The triangle and reverse-triangle inequalities give
+\[
+ |L_{\rm enc}-L_{\rm pix}|\leq L\leq L_{\rm enc}+L_{\rm pix}.
+\]
+These are bounds, not an additive decomposition: encoding and pixel errors may cancel. The 19-marker control has $L_{\rm enc}=0$ for every tested task. The five-marker control has zero encoding error for the median, spread, asymmetry and five-quantile tasks, but can omit information needed for the upper-tail and dense tasks. Supplementary Fig.~S6 uses the same prespecified WDBC feature across displays; it does not select a different favorable case for each chart.
+
+
+\clearpage
+\subsection*{Group fidelity and trivial baselines qualify a high score}
+Contrast recovery can hide errors in both groups. We therefore report, without combining it into a new weighted score,
+\begin{equation}
+G_{c,e}=\frac{1}{4}\sum_r\frac{1}{10s}\sum_{g\in\{x,y\}}\sum_k|\widetilde Q_{g,c,e,r}(p_k)-Q_g(p_k)|.
+\end{equation}
+By the triangle inequality, $\overline L_{c,e}\leq2G_{c,e}$, but a small $L$ does not imply a small $G$. Adding the same error to both recovered groups yields zero contrast error while distorting both distributions. This is a mathematical limitation of the objective, not a decoder-specific anomaly.
+
+A second control predicts zero difference at every quantile, with $L_0=(5s)^{-1}\sum_k|\Delta_k|$. We report $1-\overline L/L_0$ when $L_0>0$; negative values mean that decoding performs worse than this trivial prediction. When $L_0=0$, the relative skill is undefined and remains missing. Full group errors, zero-baseline losses and relative skills accompany every family result. Near-null contrasts can have high absolute scores even when the image adds little beyond predicting no difference.
+
+A more basic limit occurs before rasterization: different distributions can have the same displayed summary. Under a common fixed axis, two mean-only displays may be identical despite different quantile targets. No decoder receiving the same image and metadata can distinguish those cases perfectly. The Supplement gives an explicit equal-mean, equal-variance construction and a lower bound. This motivates strong baselines that actually encode the declared target.
+
+\subsection*{Robust choices complement precise-looking reference ranks}
+The best family changes in \ResolutionChanged{} of 127 comparisons between 128 and 512 pixels. The alternative alpha-based observer changes \ObserverChanged{} reference winners at 256 pixels. These observers share chart geometry and design assumptions; their comparison is algorithmic sensitivity, not independent perceptual validation. Tight measurement axes are evaluated separately, excluding mean bars from both sides because removing zero can invalidate their baseline.
+
+The median best-versus-second-best family score margin is \MarginMedian{}; \SmallMargins{} comparisons have margins below 0.1 points. Reporting three decimals therefore does not imply that the differences are perceptible or stable. For an explicit excess-error budget $\epsilon$, define
+\begin{equation}
+\mathcal C_\epsilon(e)=\{c:\overline L_{c,e}\leq\min_j\overline L_{j,e}+\epsilon\}.
+\end{equation}
+We report family membership at $\epsilon\in\{0.001,0.005,0.01,0.025\}$ pooled standard deviations. At $\epsilon=0.01$, \NearCount{} comparisons admit multiple families. These are declared computational tolerances, not empirically validated thresholds of human equivalence.
+
+If a single unchanged setting must operate across environments $\mathcal E$, define
+\begin{equation}
+R_c=\max_{e\in\mathcal E}\left[\overline L_{c,e}-\min_{j\in\mathcal C_{\mathrm{valid}}(e)}\overline L_{j,e}\right],
+\qquad\mathcal C_{\mathrm{robust}}=\operatorname*{arg\,min}_{c\in\cap_e\mathcal C_{\mathrm{valid}}(e)}R_c.
+\label{eq:regret}
+\end{equation}
+The six selection environments combine two observers with three resolutions. A candidate must decode at every placement in every environment to qualify as robust. The environment-specific comparator may use any setting valid in that environment. This is a standard minimax-regret construction applied to a declared chart benchmark; it is not a claim of a new optimization theorem. Its training-envelope advantage follows from its definition and must not be mistaken for out-of-environment validation.
+
+We therefore freeze each comparison's reference and minimax settings and transfer them to 384-pixel panels with placements $0.125,0.375,0.625,0.875$, which are excluded from selection. The fixed quantile plot is transferred alongside them. Supplementary Fig.~S2 and the accompanying tables report resource-balanced errors for both observers, including any failure. At the new display condition, resource-balanced mean losses for the fixed quantile, reference-selected and minimax-selected charts are 0.00638, 0.00646 and 0.00655 for the threshold observer, and 0.00339, 0.00383 and 0.00351 for the alpha observer. Thus minimax selection does not consistently improve on reference selection, and the simple fixed quantile baseline has the lowest mean loss for both observers. This separates retrospective optimization from performance at a new display condition. It does not test an unseen medical population.
+
+\subsection*{Resource transfer and simulation extend the development audit}
+A leave-one-resource-out analysis selects one global configuration using mean loss on the other eight resources, weighting resources equally. The selected setting is then evaluated on every comparison in the omitted resource without case-specific tuning. Its resource-balanced held-out loss is \TransferLoss{}. The chosen configurations and comparison-level outputs are reported in the Supplement. Because all resources were available during development, this is retrospective resource-disjoint evaluation, not untouched external validation.
+
+Seventy-two synthetic comparisons span null, location-shift, scale-change, skewed, mixture and heavy-tailed regimes; sample sizes are 20, 100 and 500 per group, with four replicates per cell. The nine fixed settings, seeds and generation rules are declared before the synthetic run. Scores are evaluated against each generated sample's empirical target, not its population quantile difference. These modest simulations expose controlled failure modes; they do not establish universal performance across distributions or replace human observations.
+
+Data-specific sensitivities omit the two flagged CKD potassium values without replacing them and repeat results after excluding the 16 retinopathy features with unresolved participant linkage. The Parkinsons comparisons remain outside the primary analysis because parsed identifier groups conflict with documented participant counts. No data correction is chosen to improve chart scores.
+
+\section*{Discussion}
+The central result is a test of incremental value, not a claim that every dataset needs a different chart. A five-quantile target predictably favors a display of those five quantities. Expanding the task requires expanding its matched control as well; otherwise an apparent winner reversal may simply reveal information omitted from the earlier baseline. The six-task study and display-transfer comparison make this distinction measurable. They support conditional computational conclusions, while placing limits on claims of a general-purpose recommender.
+
+The elementary eligibility criterion also separates questions that chart optimization cannot resolve. A marginal representation cannot recover a pairing-dependent target merely because its marginal quantiles are accurate. The same logic applies whenever distinct inputs collapse to the same encoded summary. An operational selector should reject an unsupported target and request an appropriate representation. It should then compare any admissible optimization with a strong default and report near-equivalent choices, failures and sensitivity rather than a uniquely authoritative rank.
+
+These results do not establish that a 19-marker display is easier for a person to use than an interval or ECDF. It directly includes all summaries used in this benchmark, and a calibrated machine can exploit that alignment. Estimation effort, visual clutter, task switching and reader expertise are absent from the objective. Adding arbitrary penalties for those factors would not supply the missing evidence. A claim that optimization improves scientific communication requires those outcomes to be measured.
+
+Decoder dependence remains a central limitation. The threshold observer and alpha observer use known calibration and family-specific recovery rules. Neither is independently trained or validated against human behavior. A probability heatmap's calibrated intensities are machine-readable without establishing perceptual accessibility.\cite{crameri2020} Opaque-dot overlap can impair an area-based decoder without implying that a different algorithm or person fails identically. Agreement between the two observers is therefore reassuring only within this narrow class of algorithms. Disagreement reveals fragility; it does not identify which observer better models a reader.
+
+The benchmark also separates three kinds of uncertainty. Placement and resolution checks address rendering sensitivity. Resampling resource-level summaries describes variation among the nine convenience resources. Sampling uncertainty in population quantile differences is a different problem and is not estimated by either procedure. Participant-level source aggregation reduces repeated-measure inflation in HAR, BIDMC and wrist data, but features within a resource remain correlated. Small wrist cohorts, unresolved retinopathy linkage and questionable CKD values constrain biological interpretation. We study empirical image recovery, not disease effects inferred from these resources.
+
+The zero-inclusive axis and SD normalization are deliberate but imperfect choices. Including zero can waste space for non-bar encodings; tight-axis results expose this dependence. Pooled SD is sensitive to extremes. Changing to another positive scale shared across candidates would rescale their losses without changing the ranking for that comparison; it could change pooled summaries across comparisons. Zero-scale fallback remains source-unit dependent. We disclose these limits rather than presenting a score threshold as a universal quality certificate.
+
+Human validation remains the decisive next step for claims about readers. The included prospective protocol now treats selection versus a frozen task-matched default as its primary policy comparison and includes the dense control; it is a study plan, not completed evidence. A prospective experiment must freeze stimuli and computational predictions, use untouched cases, randomize display assignment, and measure estimation error alongside time and confidence. It should test whether the score adds predictive value beyond chart family and direct quantile baselines, accounting for repeated participants and cases. The accompanying protocol specifies these analyses and provides planning tools, but supplies no recruited participants, responses or approval claims. The present evidence supports computationally auditable choices for a fixed task; it does not establish improved human interpretation or clinical decisions.
+
+\section*{Methods}
+\subsection*{Source arrays and units of analysis}
+The original prepared arrays are retained: WDBC 30 comparisons, Cleveland five, heart failure six, CKD 11, ILPD nine, retinopathy 16, HAR 40, BIDMC five and wrist five. HAR uses subject/activity medians from 30 participants. BIDMC summarizes readings within 46 source patients. Wrist exercise uses early/late ECG-reference summaries within eight participants.\cite{pimentel2017,jarchi2017} Missing observations and transformations remain recorded in the preparation pipeline. Paired resources are explicitly labeled, but the target compares marginal quantiles. Parkinsons contributes 22 exploratory comparisons only in the archived analysis.
+
+\subsection*{Rendering and recovery}
+The common reference interval includes zero and extends four times the larger group Scott bandwidth beyond the observed extremes, with a bandwidth floor of $0.01s$. Each group occupies a separate square panel of side 128, 256 or 512 pixels, with common measurement limits. Images are drawn at fourfold resolution, reduced with Lanczos filtering and blurred by a 0.5-pixel Gaussian. Original mark sizes and colors are unchanged. Four vertical placements are evaluated; raw-dot jitter also changes deterministically, whereas heatmap placements repeat the same strip. These are specified stress conditions, not independent random reader samples.
+
+The original observer extracts thresholded colored or black pixels. The alternative projects RGB deviation from white onto the known group-color direction, clips the resulting alpha estimate to $[0,1]$, uses an alpha threshold of 0.2 for geometric masks and integrates alpha above 0.05 for area recovery. Heatmap recovery averages a local $3\times3$ neighborhood in the alternative observer. Both observers retain known layout and family-specific geometric assumptions. The Supplement and source code give exact rules and failure conditions.
+
+The ECDF is a two-pixel step curve with cumulative probability on the horizontal axis and measurement on the vertical axis. Decoding estimates the ordinate at each target probability column. Finite-sample ECDF inversion differs from linear-interpolated empirical quantiles, a retained source of error. Quantile plots place radius-two-pixel markers at the five target probabilities; decoding uses local pixel-mass centroids, with no numerical target values in metadata. These baselines occupy the same panel area as the other charts. The six-task extension adds 19 markers at probabilities $.05,.10,\ldots,.95$, with the same radius and extraction window. Recovered quantiles are monotonized by cumulative maximum; consequently, a denser sequence can also change the recovered values at shared probabilities when adjacent estimates violate monotonicity. The extension evaluates 256- and 384-pixel panels with the placements specified above.
+
+\subsection*{Selection and validation}
+Loss is averaged across four placements before transformation. A failed placement invalidates the setting in that environment. Family summaries use the minimum valid loss within family. Exact ties use absolute tolerance $10^{-12}$; deterministic display order does not imply scientific superiority. Equal-budget controls use the fixed settings in Table~\ref{tab:settings}. The minimax rule requires a configuration to succeed in all six selection environments. The new-resolution transfer uses fixed selections and new placements without retuning.
+
+Resource-disjoint selection requires a candidate to decode every training comparison, averages feature loss within each training resource and then weights resources equally. The selected configuration's held-out failures are retained. Descriptive bootstrap intervals for each family's loss difference from the quantile baseline resample resource means 5,000 times with a fixed seed; invalid comparisons are omitted and counts disclosed. These intervals concern the sampled resource summaries and are not population-generalization guarantees.
+
+Both protocols are retrospective extensions, not preregistrations. In the earlier audit, a deterministic fixture failure motivated increasing the new ECDF stroke from one to two pixels before the final run; the stopped initial run supplies no reported results. Protocol, source and input hashes are recorded. The earlier checks cover all 23 settings and both observers, including blank-image rejection, pixel dependence, positive unit rescaling and metadata restrictions. Original reference losses are independently compared with the supplied archived CSVs. The six-task verification additionally recomputes every target from saved recovered quantiles, verifies resource exclusion for all 108 default-selection folds, and checks all 9,144 chart-policy transfer values. A zero-target control is evaluated separately and documented as a post-run diagnostic. Source code, per-trial recovered values, aggregate outputs and figure-generation scripts are included.
+
+\section*{Data availability}
+The source resources are available through the cited UCI and PhysioNet records. The accompanying reproducibility archive contains prepared arrays, source copies where supplied, acquisition records, attribution, transformations and checksums. Source-specific terms are documented in \texttt{DATA\_PROVENANCE.md}; original licenses are retained. Synthetic inputs are explicitly identified and included. No human-reader data were collected.
+
+\section*{Code availability}
+Code, data and outputs accompany this manuscript. \texttt{score\_my\_data.py} evaluates a two-column CSV; the supplied example reproduces Fig.~\ref{fig:scoring}. \texttt{reader\_figures/make\_figures.py} regenerates the main figures. Full audits use \texttt{reproduce\_v3.py} and \texttt{reproduce\_strengthened.py}. Pinned dependencies, seeds and checksums are supplied. Project repository: \url{https://github.com/Elgendi/two-sample-chart-selection}.
+
+\section*{Author contributions}
+M.E. conceived the study, developed the methodology, performed the analyses, interpreted the results, and wrote and revised the manuscript.
+\section*{Competing interests}
+M.E. serves on the editorial boards of Communications Medicine and npj Biosensing. The author declares no other competing interests.
+\begingroup\scriptsize\setlength{\bibsep}{0pt}\bibliographystyle{viznumbered}\bibliography{references}\endgroup
+\end{document}

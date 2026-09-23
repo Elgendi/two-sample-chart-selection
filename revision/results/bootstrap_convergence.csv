@@ -1,0 +1,597 @@
+key,dataset,feature,primary,n_A,n_B,B,tolerance,configuration,detail,stream
+WDBC__00,WDBC,mean radius,True,357,212,99,1.8180331753554495,bins_8,Distribution,nested
+WDBC__00,WDBC,mean radius,True,357,212,499,1.8681658767772489,bins_8,Distribution,nested
+WDBC__00,WDBC,mean radius,True,357,212,999,1.874611374407581,bins_8,Distribution,nested
+WDBC__00,WDBC,mean radius,True,357,212,999,1.9665453298897724,bins_4,Distribution,independent
+WDBC__01,WDBC,mean texture,True,357,212,99,3.2150836040257778,means,Mean,nested
+WDBC__01,WDBC,mean texture,True,357,212,499,3.2408208371052782,means,Mean,nested
+WDBC__01,WDBC,mean texture,True,357,212,999,3.2257984450716193,means,Mean,nested
+WDBC__01,WDBC,mean texture,True,357,212,999,3.0942752808988794,means,Mean,independent
+WDBC__02,WDBC,mean perimeter,True,357,212,99,14.052071090047386,bins_8,Distribution,nested
+WDBC__02,WDBC,mean perimeter,True,357,212,499,12.78682938388626,bins_8,Distribution,nested
+WDBC__02,WDBC,mean perimeter,True,357,212,999,13.034710900473918,bins_8,Distribution,nested
+WDBC__02,WDBC,mean perimeter,True,357,212,999,12.521990521327,bins_8,Distribution,independent
+WDBC__03,WDBC,mean area,True,357,212,99,268.9302037914692,bins_4,Distribution,nested
+WDBC__03,WDBC,mean area,True,357,212,499,274.649,bins_4,Distribution,nested
+WDBC__03,WDBC,mean area,True,357,212,999,271.91739336492896,bins_4,Distribution,nested
+WDBC__03,WDBC,mean area,True,357,212,999,271.88445497630335,bins_4,Distribution,independent
+WDBC__04,WDBC,mean smoothness,True,357,212,99,0.007290308988764045,means,Mean,nested
+WDBC__04,WDBC,mean smoothness,True,357,212,499,0.007751382022471868,means,Mean,nested
+WDBC__04,WDBC,mean smoothness,True,357,212,999,0.00756055647265563,means,Mean,nested
+WDBC__04,WDBC,mean smoothness,True,357,212,999,0.008265825842696603,means,Mean,independent
+WDBC__05,WDBC,mean compactness,True,357,212,99,0.033293601895734604,five_number,Quartiles,nested
+WDBC__05,WDBC,mean compactness,True,357,212,499,0.03700170616113748,five_number,Quartiles,nested
+WDBC__05,WDBC,mean compactness,True,357,212,999,0.03806545023696684,five_number,Quartiles,nested
+WDBC__05,WDBC,mean compactness,True,357,212,999,0.03938213270142176,five_number,Quartiles,independent
+WDBC__06,WDBC,mean concavity,True,357,212,99,0.04973207865168541,bins_4,Distribution,nested
+WDBC__06,WDBC,mean concavity,True,357,212,499,0.061505971563981,bins_4,Distribution,nested
+WDBC__06,WDBC,mean concavity,True,357,212,999,0.06240066350710902,bins_4,Distribution,nested
+WDBC__06,WDBC,mean concavity,True,357,212,999,0.05967614691943128,bins_4,Distribution,independent
+WDBC__07,WDBC,mean concave points,True,357,212,99,0.021429464454976302,bins_4,Quartiles,nested
+WDBC__07,WDBC,mean concave points,True,357,212,499,0.02109423632781299,bins_4,Quartiles,nested
+WDBC__07,WDBC,mean concave points,True,357,212,999,0.02105628744874596,bins_4,Quartiles,nested
+WDBC__07,WDBC,mean concave points,True,357,212,999,0.02128277879546302,bins_4,Quartiles,independent
+WDBC__08,WDBC,mean symmetry,True,357,212,99,0.01790098876404493,means,Mean,nested
+WDBC__08,WDBC,mean symmetry,True,357,212,499,0.01790043601895732,means,Mean,nested
+WDBC__08,WDBC,mean symmetry,True,357,212,999,0.018083080568720385,means,Mean,nested
+WDBC__08,WDBC,mean symmetry,True,357,212,999,0.01843033175355444,means,Mean,independent
+WDBC__09,WDBC,mean fractal dimension,True,357,212,99,0.005028286516853929,means,Mean,nested
+WDBC__09,WDBC,mean fractal dimension,True,357,212,499,0.005138976303317518,means,Mean,nested
+WDBC__09,WDBC,mean fractal dimension,True,357,212,999,0.005147545023696683,means,Mean,nested
+WDBC__09,WDBC,mean fractal dimension,True,357,212,999,0.005183146067415725,means,Mean,independent
+WDBC__10,WDBC,radius error,True,357,212,99,0.16722573459715637,bins_8,Distribution,nested
+WDBC__10,WDBC,radius error,True,357,212,499,0.17798308988764044,bins_8,Distribution,nested
+WDBC__10,WDBC,radius error,True,357,212,999,0.17649163483146055,bins_8,Distribution,nested
+WDBC__10,WDBC,radius error,True,357,212,999,0.16888096038127706,bins_8,Distribution,independent
+WDBC__11,WDBC,texture error,True,357,212,99,0.4581904494382,means,Mean,nested
+WDBC__11,WDBC,texture error,True,357,212,499,0.4448723033707862,means,Mean,nested
+WDBC__11,WDBC,texture error,True,357,212,999,0.43198289099525417,means,Mean,nested
+WDBC__11,WDBC,texture error,True,357,212,999,0.43592890995260714,means,Mean,independent
+WDBC__12,WDBC,perimeter error,True,357,212,99,1.3741976303317534,bins_8,Distribution,nested
+WDBC__12,WDBC,perimeter error,True,357,212,499,1.3605123222748818,bins_8,Distribution,nested
+WDBC__12,WDBC,perimeter error,True,357,212,999,1.3863299999999998,bins_8,Distribution,nested
+WDBC__12,WDBC,perimeter error,True,357,212,999,1.379485308056871,bins_8,Distribution,independent
+WDBC__13,WDBC,area error,True,357,212,99,30.484056872037915,bins_16,Distribution,nested
+WDBC__13,WDBC,area error,True,357,212,499,28.79305450236962,bins_16,Distribution,nested
+WDBC__13,WDBC,area error,True,357,212,999,27.48239810426537,bins_16,Distribution,nested
+WDBC__13,WDBC,area error,True,357,212,999,29.802299999999786,bins_16,Distribution,independent
+WDBC__14,WDBC,smoothness error,True,357,212,99,0.0019145957345971544,bins_4,Distribution,nested
+WDBC__14,WDBC,smoothness error,True,357,212,499,0.0018756552199265142,bins_4,Distribution,nested
+WDBC__14,WDBC,smoothness error,True,357,212,999,0.001959723595505616,bins_4,Distribution,nested
+WDBC__14,WDBC,smoothness error,True,357,212,999,0.001952365168539327,bins_4,Distribution,independent
+WDBC__15,WDBC,compactness error,True,357,212,99,0.018127519431279594,means,Mean,nested
+WDBC__15,WDBC,compactness error,True,357,212,499,0.016667879213483134,means,Mean,nested
+WDBC__15,WDBC,compactness error,True,357,212,999,0.017328799052132644,means,Mean,nested
+WDBC__15,WDBC,compactness error,True,357,212,999,0.017555521806272945,means,Mean,independent
+WDBC__16,WDBC,concavity error,True,357,212,99,0.023334880930826942,means,Mean,nested
+WDBC__16,WDBC,concavity error,True,357,212,499,0.02424067865168534,means,Mean,nested
+WDBC__16,WDBC,concavity error,True,357,212,999,0.024739228651685315,means,Mean,nested
+WDBC__16,WDBC,concavity error,True,357,212,999,0.024145339315192537,means,Mean,independent
+WDBC__17,WDBC,concave points error,True,357,212,99,0.004354605617977526,means,Mean,nested
+WDBC__17,WDBC,concave points error,True,357,212,499,0.004560053802119396,means,Mean,nested
+WDBC__17,WDBC,concave points error,True,357,212,999,0.00453000087864103,means,Mean,nested
+WDBC__17,WDBC,concave points error,True,357,212,999,0.004479215892752554,means,Mean,independent
+WDBC__18,WDBC,symmetry error,True,357,212,99,0.013793009478672992,means,Mean,nested
+WDBC__18,WDBC,symmetry error,True,357,212,499,0.014051985781990507,means,Mean,nested
+WDBC__18,WDBC,symmetry error,True,357,212,999,0.013870130331753544,means,Mean,nested
+WDBC__18,WDBC,symmetry error,True,357,212,999,0.013993786729857821,means,Mean,independent
+WDBC__19,WDBC,fractal dimension error,True,357,212,99,0.0027089705056179813,means,Mean,nested
+WDBC__19,WDBC,fractal dimension error,True,357,212,499,0.002575146540284359,means,Mean,nested
+WDBC__19,WDBC,fractal dimension error,True,357,212,999,0.0025986853370786444,means,Mean,nested
+WDBC__19,WDBC,fractal dimension error,True,357,212,999,0.0024330044943820205,means,Mean,independent
+WDBC__20,WDBC,worst radius,True,357,212,99,2.6772132701421807,bins_8,Distribution,nested
+WDBC__20,WDBC,worst radius,True,357,212,499,2.5637014218009493,bins_8,Distribution,nested
+WDBC__20,WDBC,worst radius,True,357,212,999,2.5850710900473897,bins_8,Distribution,nested
+WDBC__20,WDBC,worst radius,True,357,212,999,2.515213981042652,bins_8,Distribution,independent
+WDBC__21,WDBC,worst texture,True,357,212,99,3.53051123595505,means,Mean,nested
+WDBC__21,WDBC,worst texture,True,357,212,499,3.5524562543266383,means,Mean,nested
+WDBC__21,WDBC,worst texture,True,357,212,999,3.7967778635710028,means,Mean,nested
+WDBC__21,WDBC,worst texture,True,357,212,999,3.522087810852537,means,Mean,independent
+WDBC__22,WDBC,worst perimeter,True,357,212,99,17.881601123595456,density_8,Distribution,nested
+WDBC__22,WDBC,worst perimeter,True,357,212,499,17.357203791469182,density_8,Distribution,nested
+WDBC__22,WDBC,worst perimeter,True,357,212,999,17.583933649289065,density_8,Distribution,nested
+WDBC__22,WDBC,worst perimeter,True,357,212,999,17.786861787102605,density_8,Distribution,independent
+WDBC__23,WDBC,worst area,True,357,212,99,426.3289573459716,bins_4,Distribution,nested
+WDBC__23,WDBC,worst area,True,357,212,499,410.15241706161123,bins_4,Distribution,nested
+WDBC__23,WDBC,worst area,True,357,212,999,406.944075829384,bins_4,Distribution,nested
+WDBC__23,WDBC,worst area,True,357,212,999,408.29218009478706,bins_4,Distribution,independent
+WDBC__24,WDBC,worst smoothness,True,357,212,99,0.011119999999999974,means,Mean,nested
+WDBC__24,WDBC,worst smoothness,True,357,212,499,0.011660324298418429,means,Mean,nested
+WDBC__24,WDBC,worst smoothness,True,357,212,999,0.011645780898876343,means,Mean,nested
+WDBC__24,WDBC,worst smoothness,True,357,212,999,0.011503499999999972,means,Mean,independent
+WDBC__25,WDBC,worst compactness,True,357,212,99,0.09977919431279639,bins_4,Quartiles,nested
+WDBC__25,WDBC,worst compactness,True,357,212,499,0.10722916113744066,bins_4,Quartiles,nested
+WDBC__25,WDBC,worst compactness,True,357,212,999,0.10756496208530704,bins_4,Quartiles,nested
+WDBC__25,WDBC,worst compactness,True,357,212,999,0.10792406635071079,bins_4,Quartiles,independent
+WDBC__26,WDBC,worst concavity,True,357,212,99,0.11899232227488143,means,Mean,nested
+WDBC__26,WDBC,worst concavity,True,357,212,499,0.126257581873369,means,Mean,nested
+WDBC__26,WDBC,worst concavity,True,357,212,999,0.13074056872037929,means,Mean,nested
+WDBC__26,WDBC,worst concavity,True,357,212,999,0.13464614782469775,means,Mean,independent
+WDBC__27,WDBC,worst concave points,True,357,212,99,0.027499886516853932,means,Mean,nested
+WDBC__27,WDBC,worst concave points,True,357,212,499,0.02640700337078652,means,Mean,nested
+WDBC__27,WDBC,worst concave points,True,357,212,999,0.025817102606635042,means,Mean,nested
+WDBC__27,WDBC,worst concave points,True,357,212,999,0.02455893258426966,means,Mean,independent
+WDBC__28,WDBC,worst symmetry,True,357,212,99,0.05216845838436552,bins_8,Distribution,nested
+WDBC__28,WDBC,worst symmetry,True,357,212,499,0.05188065019436606,bins_8,Distribution,nested
+WDBC__28,WDBC,worst symmetry,True,357,212,999,0.05215373595505617,bins_8,Distribution,nested
+WDBC__28,WDBC,worst symmetry,True,357,212,999,0.04877140063368659,bins_8,Distribution,independent
+WDBC__29,WDBC,worst fractal dimension,True,357,212,99,0.013089499999999922,means,Mean,nested
+WDBC__29,WDBC,worst fractal dimension,True,357,212,499,0.013714548911017609,means,Mean,nested
+WDBC__29,WDBC,worst fractal dimension,True,357,212,999,0.013429265402843584,means,Mean,nested
+WDBC__29,WDBC,worst fractal dimension,True,357,212,999,0.01472051538953088,means,Mean,independent
+Cleveland__00,Cleveland,age,True,164,139,99,5.099999999999994,means,Mean,nested
+Cleveland__00,Cleveland,age,True,164,139,499,6.0,means,Mean,nested
+Cleveland__00,Cleveland,age,True,164,139,999,6.0,means,Mean,nested
+Cleveland__00,Cleveland,age,True,164,139,999,6.0,means,Mean,independent
+Cleveland__01,Cleveland,trestbps,True,164,139,99,15.478260869565219,means,Mean,nested
+Cleveland__01,Cleveland,trestbps,True,164,139,499,15.478260869565219,means,Mean,nested
+Cleveland__01,Cleveland,trestbps,True,164,139,999,15.719999999999969,means,Mean,nested
+Cleveland__01,Cleveland,trestbps,True,164,139,999,16.0,means,Mean,independent
+Cleveland__02,Cleveland,chol,True,164,139,99,37.21349693251531,means,Mean,nested
+Cleveland__02,Cleveland,chol,True,164,139,499,35.12699386503069,means,Mean,nested
+Cleveland__02,Cleveland,chol,True,164,139,999,34.701779141104296,means,Mean,nested
+Cleveland__02,Cleveland,chol,True,164,139,999,35.18907975460121,means,Mean,independent
+Cleveland__03,Cleveland,thalach,True,164,139,99,16.03695652173913,means,Mean,nested
+Cleveland__03,Cleveland,thalach,True,164,139,499,16.0,means,Mean,nested
+Cleveland__03,Cleveland,thalach,True,164,139,999,16.0,means,Mean,nested
+Cleveland__03,Cleveland,thalach,True,164,139,999,15.705521472392633,means,Mean,independent
+Cleveland__04,Cleveland,oldpeak,True,164,139,99,0.8,five_number,Quartiles,nested
+Cleveland__04,Cleveland,oldpeak,True,164,139,499,0.8,five_number,Quartiles,nested
+Cleveland__04,Cleveland,oldpeak,True,164,139,999,0.8,five_number,Quartiles,nested
+Cleveland__04,Cleveland,oldpeak,True,164,139,999,0.8,five_number,Quartiles,independent
+HeartFailure__00,HeartFailure,age,True,203,96,99,10.0,means,Mean,nested
+HeartFailure__00,HeartFailure,age,True,203,96,499,10.0,means,Mean,nested
+HeartFailure__00,HeartFailure,age,True,203,96,999,10.0,means,Mean,nested
+HeartFailure__00,HeartFailure,age,True,203,96,999,10.0,means,Mean,independent
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,99,3060.8726315789436,means,Mean,nested
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,499,3719.1999999999975,means,Mean,nested
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,999,3716.859999999997,means,Mean,nested
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,True,203,96,999,3764.7336842105256,means,Mean,independent
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,99,15.962376237623799,means,Mean,nested
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,499,15.0,means,Mean,nested
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,999,15.0,means,Mean,nested
+HeartFailure__02,HeartFailure,ejection_fraction,True,203,96,999,15.0,means,Mean,independent
+HeartFailure__03,HeartFailure,platelets,True,203,96,99,82599.64564877542,means,Mean,nested
+HeartFailure__03,HeartFailure,platelets,True,203,96,499,88767.10526315783,means,Mean,nested
+HeartFailure__03,HeartFailure,platelets,True,203,96,999,92318.4210526312,means,Mean,nested
+HeartFailure__03,HeartFailure,platelets,True,203,96,999,95363.42105263125,means,Mean,independent
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,99,2.8899999999999992,means,Mean,nested
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,499,2.8819999999999997,means,Mean,nested
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,999,2.977157894736842,means,Mean,nested
+HeartFailure__04,HeartFailure,serum_creatinine,True,203,96,999,3.2499999999999996,means,Mean,independent
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,99,4.356435643564353,means,Mean,nested
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,499,4.659999999999976,means,Mean,nested
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,999,4.999999999999988,means,Mean,nested
+HeartFailure__05,HeartFailure,serum_sodium,True,203,96,999,4.413465346534647,means,Mean,independent
+CKD__00,CKD,age,True,149,242,99,15.090041493775928,bins_4,Quartiles,nested
+CKD__00,CKD,age,True,149,242,499,16.050207468879655,bins_4,Quartiles,nested
+CKD__00,CKD,age,True,149,242,999,16.0,bins_4,Quartiles,nested
+CKD__00,CKD,age,True,149,242,999,16.366390041493766,bins_4,Quartiles,independent
+CKD__01,CKD,bp,True,148,240,99,10.0,bins_8,Distribution,nested
+CKD__01,CKD,bp,True,148,240,499,10.0,bins_8,Distribution,nested
+CKD__01,CKD,bp,True,148,240,999,10.0,bins_8,Distribution,nested
+CKD__01,CKD,bp,True,148,240,999,10.0,bins_8,Distribution,independent
+CKD__02,CKD,bgr,True,144,212,99,73.06919431279614,bins_4,Distribution,nested
+CKD__02,CKD,bgr,True,144,212,499,71.19289099526065,bins_4,Distribution,nested
+CKD__02,CKD,bgr,True,144,212,999,73.00999999999998,bins_4,Distribution,nested
+CKD__02,CKD,bgr,True,144,212,999,74.0,bins_4,Distribution,independent
+CKD__03,CKD,bu,True,144,237,99,37.06949152542372,bins_8,Distribution,nested
+CKD__03,CKD,bu,True,144,237,499,38.0,bins_4,Distribution,nested
+CKD__03,CKD,bu,True,144,237,999,38.09999999999991,bins_4,Distribution,nested
+CKD__03,CKD,bu,True,144,237,999,40.0,bins_4,Distribution,independent
+CKD__04,CKD,sc,True,145,238,99,4.200000000000001,bins_16,Distribution,nested
+CKD__04,CKD,sc,True,145,238,499,4.400000000000001,bins_16,Distribution,nested
+CKD__04,CKD,sc,True,145,238,999,4.300000000000002,bins_16,Distribution,nested
+CKD__04,CKD,sc,True,145,238,999,4.300000000000002,bins_16,Distribution,independent
+CKD__05,CKD,sod,True,145,168,99,9.0,means,Mean,nested
+CKD__05,CKD,sod,True,145,168,499,9.0,means,Mean,nested
+CKD__05,CKD,sod,True,145,168,999,9.0,means,Mean,nested
+CKD__05,CKD,sod,True,145,168,999,9.0,means,Mean,independent
+CKD__06,CKD,pot,True,145,167,99,0.5999999999999998,bins_32,Distribution,nested
+CKD__06,CKD,pot,True,145,167,499,0.6000000000000005,bins_32,Distribution,nested
+CKD__06,CKD,pot,True,145,167,999,0.5999999999999996,bins_32,Distribution,nested
+CKD__06,CKD,pot,True,145,167,999,0.5999999999999996,bins_32,Distribution,independent
+CKD__07,CKD,hemo,True,144,204,99,1.407,bins_8,Distribution,nested
+CKD__07,CKD,hemo,True,144,204,499,1.3999999999999995,bins_8,Distribution,nested
+CKD__07,CKD,hemo,True,144,204,999,1.3999999999999995,bins_8,Distribution,nested
+CKD__07,CKD,hemo,True,144,204,999,1.395566502463054,bins_8,Distribution,independent
+CKD__08,CKD,pcv,True,146,183,99,4.074999999999996,bins_8,Distribution,nested
+CKD__08,CKD,pcv,True,146,183,499,4.0,bins_8,Distribution,nested
+CKD__08,CKD,pcv,True,146,183,999,4.0,bins_8,Distribution,nested
+CKD__08,CKD,pcv,True,146,183,999,4.0,bins_8,Distribution,independent
+CKD__09,CKD,wc,True,143,151,99,2419.999999999999,bins_4,Distribution,nested
+CKD__09,CKD,wc,True,143,151,499,2600.0,bins_4,Distribution,nested
+CKD__09,CKD,wc,True,143,151,999,2500.0,bins_4,Distribution,nested
+CKD__09,CKD,wc,True,143,151,999,2600.0,bins_4,Distribution,independent
+CKD__10,CKD,rc,True,143,126,99,0.5100000000000002,means,Mean,nested
+CKD__10,CKD,rc,True,143,126,499,0.5956799999999992,means,Mean,nested
+CKD__10,CKD,rc,True,143,126,999,0.5683802816901417,means,Mean,nested
+CKD__10,CKD,rc,True,143,126,999,0.5148591549295779,means,Mean,independent
+ILPD__00,ILPD,age,True,167,416,99,9.019999999999998,means,Mean,nested
+ILPD__00,ILPD,age,True,167,416,499,9.0,means,Mean,nested
+ILPD__00,ILPD,age,True,167,416,999,9.0,means,Mean,nested
+ILPD__00,ILPD,age,True,167,416,999,9.0,means,Mean,independent
+ILPD__01,ILPD,total_bilirubin,True,167,416,99,5.107999999999998,bins_16,Distribution,nested
+ILPD__01,ILPD,total_bilirubin,True,167,416,499,5.2620000000000005,bins_16,Distribution,nested
+ILPD__01,ILPD,total_bilirubin,True,167,416,999,5.203999999999996,bins_16,Distribution,nested
+ILPD__01,ILPD,total_bilirubin,True,167,416,999,5.020000000000001,bins_16,Distribution,independent
+ILPD__02,ILPD,direct_bilirubin,True,167,416,99,2.807999999999999,bins_8,Distribution,nested
+ILPD__02,ILPD,direct_bilirubin,True,167,416,499,2.8,bins_8,Distribution,nested
+ILPD__02,ILPD,direct_bilirubin,True,167,416,999,2.781999999999999,bins_8,Distribution,nested
+ILPD__02,ILPD,direct_bilirubin,True,167,416,999,2.8000000000000007,bins_8,Distribution,independent
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,99,213.32,five_number,Quartiles,nested
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,499,209.04,five_number,Quartiles,nested
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,999,216.35499999999976,five_number,Quartiles,nested
+ILPD__03,ILPD,alkaline_phosphatase,True,167,416,999,215.08499999999913,five_number,Quartiles,independent
+ILPD__04,ILPD,ALT,True,167,416,99,168.7999999999999,bins_16,Distribution,nested
+ILPD__04,ILPD,ALT,True,167,416,499,168.84499999999994,bins_16,Distribution,nested
+ILPD__04,ILPD,ALT,True,167,416,999,171.2,bins_16,Distribution,nested
+ILPD__04,ILPD,ALT,True,167,416,999,166.86499999999978,bins_16,Distribution,independent
+ILPD__05,ILPD,AST,True,167,416,99,216.58000000000007,density_16,Distribution,nested
+ILPD__05,ILPD,AST,True,167,416,499,216.04,density_16,Distribution,nested
+ILPD__05,ILPD,AST,True,167,416,999,212.0999999999999,density_16,Distribution,nested
+ILPD__05,ILPD,AST,True,167,416,999,217.03999999999996,density_16,Distribution,independent
+ILPD__06,ILPD,total_protein,True,167,416,99,0.7240000000000012,means,Mean,nested
+ILPD__06,ILPD,total_protein,True,167,416,499,0.7000000000000002,means,Mean,nested
+ILPD__06,ILPD,total_protein,True,167,416,999,0.7000000000000002,means,Mean,nested
+ILPD__06,ILPD,total_protein,True,167,416,999,0.6999999999999993,means,Mean,independent
+ILPD__07,ILPD,albumin,True,167,416,99,0.5,means,Mean,nested
+ILPD__07,ILPD,albumin,True,167,416,499,0.49999999999999956,means,Mean,nested
+ILPD__07,ILPD,albumin,True,167,416,999,0.49999999999999956,means,Mean,nested
+ILPD__07,ILPD,albumin,True,167,416,999,0.49999999999999917,means,Mean,independent
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,99,0.30000000000000004,means,Mean,nested
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,499,0.30000000000000004,means,Mean,nested
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,999,0.30000000000000004,means,Mean,nested
+ILPD__08,ILPD,albumin_globulin_ratio,True,165,414,999,0.30000000000000004,means,Mean,independent
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,99,95.85494720496891,means,Mean,nested
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,499,101.40685714285715,means,Mean,nested
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,999,100.5907649068323,means,Mean,nested
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,999,100.19211428571427,means,Mean,independent
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,99,225.18884782608697,means,Mean,nested
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,499,221.62065217391304,means,Mean,nested
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,999,220.183,means,Mean,nested
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,999,220.32676521739117,means,Mean,independent
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,99,96.43354285714281,means,Mean,nested
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,499,107.88950000000001,means,Mean,nested
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,999,106.19204285714284,means,Mean,nested
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,999,102.17583043478264,means,Mean,independent
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,99,0.00923804347826087,means,Mean,nested
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,499,0.009263913043478261,means,Mean,nested
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,999,0.009330000000000001,means,Mean,nested
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,999,0.009181347826086955,means,Mean,independent
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,99,5.3043478260869554e-05,means,Mean,nested
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,499,4.999999999999999e-05,means,Mean,nested
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,999,4.999999999999999e-05,means,Mean,nested
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,999,4.999999999999999e-05,means,Mean,independent
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,99,0.005918086956521739,means,Mean,nested
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,499,0.0059458695652173914,means,Mean,nested
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,999,0.0059458695652173914,means,Mean,nested
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,999,0.006229565217391306,means,Mean,independent
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,99,0.005233131521739129,means,Mean,nested
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,499,0.005138699999999994,means,Mean,nested
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,999,0.005127804347826085,means,Mean,nested
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,999,0.005165249999999998,means,Mean,independent
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,99,0.01773717391304348,means,Mean,nested
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,499,0.017894565217391308,means,Mean,nested
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,999,0.01868673913043479,means,Mean,nested
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,999,0.01874760869565218,means,Mean,independent
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,99,0.017295043478260868,bins_4,Quartiles,nested
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,499,0.020178630434782605,bins_4,Quartiles,nested
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,999,0.019857900621118016,bins_4,Quartiles,nested
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,999,0.01990121739130434,bins_4,Quartiles,independent
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,99,0.3216217391304348,means,Mean,nested
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,499,0.3215,means,Mean,nested
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,999,0.3215,means,Mean,nested
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,999,0.3215,means,Mean,independent
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,99,0.010658978260869569,five_number,Quartiles,nested
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,499,0.010587108695652171,five_number,Quartiles,nested
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,999,0.010312218478260865,five_number,Quartiles,nested
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,999,0.010407608695652179,five_number,Quartiles,independent
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,99,0.01474291304347826,bins_4,Quartiles,nested
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,499,0.015050413043478258,bins_4,Quartiles,nested
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,999,0.01489630434782609,bins_4,Quartiles,nested
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,999,0.015015136956521742,bins_4,Quartiles,independent
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,99,0.025092956521739124,means,Mean,nested
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,499,0.02546,means,Mean,nested
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,999,0.02546,means,Mean,nested
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,999,0.02546,means,Mean,independent
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,99,0.031050918478260862,five_number,Quartiles,nested
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,499,0.03024586956521739,five_number,Quartiles,nested
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,999,0.02983217934782608,five_number,Quartiles,nested
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,999,0.03104199999999996,five_number,Quartiles,independent
+Parkinsons__14,Parkinsons,NHR,False,8,24,99,0.08207087499999992,means,Mean,nested
+Parkinsons__14,Parkinsons,NHR,False,8,24,499,0.08139237499999989,means,Mean,nested
+Parkinsons__14,Parkinsons,NHR,False,8,24,999,0.09469500000000002,means,Mean,nested
+Parkinsons__14,Parkinsons,NHR,False,8,24,999,0.09475069565217388,means,Mean,independent
+Parkinsons__15,Parkinsons,HNR,False,8,24,99,7.1789347826086924,means,Mean,nested
+Parkinsons__15,Parkinsons,HNR,False,8,24,499,7.480845652173913,means,Mean,nested
+Parkinsons__15,Parkinsons,HNR,False,8,24,999,7.501173913043477,means,Mean,nested
+Parkinsons__15,Parkinsons,HNR,False,8,24,999,7.343447204968945,means,Mean,independent
+Parkinsons__16,Parkinsons,RPDE,False,8,24,99,0.14685742236024846,means,Mean,nested
+Parkinsons__16,Parkinsons,RPDE,False,8,24,499,0.1375866132608696,means,Mean,nested
+Parkinsons__16,Parkinsons,RPDE,False,8,24,999,0.1449521857142857,means,Mean,nested
+Parkinsons__16,Parkinsons,RPDE,False,8,24,999,0.14167314285714294,means,Mean,independent
+Parkinsons__17,Parkinsons,DFA,False,8,24,99,0.11956521925465853,means,Mean,nested
+Parkinsons__17,Parkinsons,DFA,False,8,24,499,0.11373598571428571,means,Mean,nested
+Parkinsons__17,Parkinsons,DFA,False,8,24,999,0.10880097826086954,means,Mean,nested
+Parkinsons__17,Parkinsons,DFA,False,8,24,999,0.10935693850931666,means,Mean,independent
+Parkinsons__18,Parkinsons,spread1,False,8,24,99,1.1706060344720493,means,Mean,nested
+Parkinsons__18,Parkinsons,spread1,False,8,24,499,1.2098351304347803,means,Mean,nested
+Parkinsons__18,Parkinsons,spread1,False,8,24,999,1.21181572173913,means,Mean,nested
+Parkinsons__18,Parkinsons,spread1,False,8,24,999,1.2604683357142865,means,Mean,independent
+Parkinsons__19,Parkinsons,spread2,False,8,24,99,0.11160004489130436,means,Mean,nested
+Parkinsons__19,Parkinsons,spread2,False,8,24,499,0.10996124285714282,means,Mean,nested
+Parkinsons__19,Parkinsons,spread2,False,8,24,999,0.11022057142857145,means,Mean,nested
+Parkinsons__19,Parkinsons,spread2,False,8,24,999,0.10993242857142854,means,Mean,independent
+Parkinsons__20,Parkinsons,D2,False,8,24,99,0.512352286956522,means,Mean,nested
+Parkinsons__20,Parkinsons,D2,False,8,24,499,0.5135662826086955,means,Mean,nested
+Parkinsons__20,Parkinsons,D2,False,8,24,999,0.5135662826086955,means,Mean,nested
+Parkinsons__20,Parkinsons,D2,False,8,24,999,0.5306742671739131,means,Mean,independent
+Parkinsons__21,Parkinsons,PPE,False,8,24,99,0.11887557826086957,means,Mean,nested
+Parkinsons__21,Parkinsons,PPE,False,8,24,499,0.12166254347826089,means,Mean,nested
+Parkinsons__21,Parkinsons,PPE,False,8,24,999,0.12256900000000001,means,Mean,nested
+Parkinsons__21,Parkinsons,PPE,False,8,24,999,0.12494476086956527,means,Mean,independent
+Retinopathy__00,Retinopathy,feature_2,True,540,611,99,9.049999999999997,bins_4,Distribution,nested
+Retinopathy__00,Retinopathy,feature_2,True,540,611,499,9.502950819672133,bins_4,Distribution,nested
+Retinopathy__00,Retinopathy,feature_2,True,540,611,999,9.5,bins_4,Distribution,nested
+Retinopathy__00,Retinopathy,feature_2,True,540,611,999,9.983606557377072,bins_4,Distribution,independent
+Retinopathy__01,Retinopathy,feature_3,True,540,611,99,7.5219672131147854,bins_4,Distribution,nested
+Retinopathy__01,Retinopathy,feature_3,True,540,611,499,8.0,bins_4,Distribution,nested
+Retinopathy__01,Retinopathy,feature_3,True,540,611,999,8.0,bins_4,Distribution,nested
+Retinopathy__01,Retinopathy,feature_3,True,540,611,999,8.0,bins_4,Distribution,independent
+Retinopathy__02,Retinopathy,feature_4,True,540,611,99,7.0,bins_4,Distribution,nested
+Retinopathy__02,Retinopathy,feature_4,True,540,611,499,8.0,means,Mean,nested
+Retinopathy__02,Retinopathy,feature_4,True,540,611,999,8.0,means,Mean,nested
+Retinopathy__02,Retinopathy,feature_4,True,540,611,999,8.372131147540976,means,Mean,independent
+Retinopathy__03,Retinopathy,feature_5,True,540,611,99,7.027213114754095,means,Mean,nested
+Retinopathy__03,Retinopathy,feature_5,True,540,611,499,8.0,means,Mean,nested
+Retinopathy__03,Retinopathy,feature_5,True,540,611,999,7.9999999999999485,means,Mean,nested
+Retinopathy__03,Retinopathy,feature_5,True,540,611,999,8.0,means,Mean,independent
+Retinopathy__04,Retinopathy,feature_6,True,540,611,99,7.099999999999994,means,Mean,nested
+Retinopathy__04,Retinopathy,feature_6,True,540,611,499,7.027213114754087,means,Mean,nested
+Retinopathy__04,Retinopathy,feature_6,True,540,611,999,7.026065573770505,means,Mean,nested
+Retinopathy__04,Retinopathy,feature_6,True,540,611,999,7.0,means,Mean,independent
+Retinopathy__05,Retinopathy,feature_7,True,540,611,99,6.0,means,Mean,nested
+Retinopathy__05,Retinopathy,feature_7,True,540,611,499,6.0,means,Mean,nested
+Retinopathy__05,Retinopathy,feature_7,True,540,611,999,6.0,means,Mean,nested
+Retinopathy__05,Retinopathy,feature_7,True,540,611,999,6.0,means,Mean,independent
+Retinopathy__06,Retinopathy,feature_8,True,540,611,99,30.62958628643999,bins_4,Distribution,nested
+Retinopathy__06,Retinopathy,feature_8,True,540,611,499,33.644406287012984,bins_4,Distribution,nested
+Retinopathy__06,Retinopathy,feature_8,True,540,611,999,33.57905280779221,bins_4,Distribution,nested
+Retinopathy__06,Retinopathy,feature_8,True,540,611,999,32.42858951509896,bins_4,Distribution,independent
+Retinopathy__07,Retinopathy,feature_9,True,540,611,99,13.53198258885246,bins_4,Quartiles,nested
+Retinopathy__07,Retinopathy,feature_9,True,540,611,499,14.46378455046381,bins_4,Quartiles,nested
+Retinopathy__07,Retinopathy,feature_9,True,540,611,999,14.878360684230108,bins_4,Quartiles,nested
+Retinopathy__07,Retinopathy,feature_9,True,540,611,999,14.798183810943513,bins_4,Quartiles,independent
+Retinopathy__08,Retinopathy,feature_10,True,540,611,99,7.966803586475414,bins_4,Distribution,nested
+Retinopathy__08,Retinopathy,feature_10,True,540,611,499,7.962433382950823,bins_4,Distribution,nested
+Retinopathy__08,Retinopathy,feature_10,True,540,611,999,7.77873467040984,bins_4,Distribution,nested
+Retinopathy__08,Retinopathy,feature_10,True,540,611,999,7.990441482786885,bins_4,Distribution,independent
+Retinopathy__09,Retinopathy,feature_11,True,540,611,99,2.197912928571424,density_16,Distribution,nested
+Retinopathy__09,Retinopathy,feature_11,True,540,611,499,2.436897752153047,density_16,Distribution,nested
+Retinopathy__09,Retinopathy,feature_11,True,540,611,999,2.5882556619672124,means,Mean,nested
+Retinopathy__09,Retinopathy,feature_11,True,540,611,999,2.533071000524954,means,Mean,independent
+Retinopathy__10,Retinopathy,feature_12,True,540,611,99,1.6521098509016392,density_8,Distribution,nested
+Retinopathy__10,Retinopathy,feature_12,True,540,611,499,1.5673815631967187,density_8,Distribution,nested
+Retinopathy__10,Retinopathy,feature_12,True,540,611,999,1.5847792828688532,density_8,Distribution,nested
+Retinopathy__10,Retinopathy,feature_12,True,540,611,999,1.5928850747540992,density_8,Distribution,independent
+Retinopathy__11,Retinopathy,feature_13,True,540,611,99,0.6192086616770582,density_32,Distribution,nested
+Retinopathy__11,Retinopathy,feature_13,True,540,611,499,0.6411569965573769,density_32,Distribution,nested
+Retinopathy__11,Retinopathy,feature_13,True,540,611,999,0.674411875409836,density_32,Distribution,nested
+Retinopathy__11,Retinopathy,feature_13,True,540,611,999,0.6843717573770491,density_32,Distribution,independent
+Retinopathy__12,Retinopathy,feature_14,True,540,611,99,0.3168583623770491,bins_32,Distribution,nested
+Retinopathy__12,Retinopathy,feature_14,True,540,611,499,0.37895901131147525,bins_16,Distribution,nested
+Retinopathy__12,Retinopathy,feature_14,True,540,611,999,0.36692679016393337,bins_16,Distribution,nested
+Retinopathy__12,Retinopathy,feature_14,True,540,611,999,0.3670527557377047,bins_16,Distribution,independent
+Retinopathy__13,Retinopathy,feature_15,True,540,611,99,0.12834633590163935,bins_32,Distribution,nested
+Retinopathy__13,Retinopathy,feature_15,True,540,611,499,0.13704938032786879,bins_32,Distribution,nested
+Retinopathy__13,Retinopathy,feature_15,True,540,611,999,0.1390811980327868,bins_32,Distribution,nested
+Retinopathy__13,Retinopathy,feature_15,True,540,611,999,0.1420952549180328,bins_32,Distribution,independent
+Retinopathy__14,Retinopathy,feature_16,True,540,611,99,0.009416273606557422,means,Mean,nested
+Retinopathy__14,Retinopathy,feature_16,True,540,611,499,0.00912833822804826,means,Mean,nested
+Retinopathy__14,Retinopathy,feature_16,True,540,611,999,0.009065805751391442,means,Mean,nested
+Retinopathy__14,Retinopathy,feature_16,True,540,611,999,0.009584102782931389,means,Mean,independent
+Retinopathy__15,Retinopathy,feature_17,True,540,611,99,0.0069505533532041525,means,Mean,nested
+Retinopathy__15,Retinopathy,feature_17,True,540,611,499,0.006553924741324241,means,Mean,nested
+Retinopathy__15,Retinopathy,feature_17,True,540,611,999,0.00653249128014845,means,Mean,nested
+Retinopathy__15,Retinopathy,feature_17,True,540,611,999,0.006456557012987012,means,Mean,independent
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,99,0.007449590000000006,five_number,Quartiles,nested
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,499,0.00805984500000001,five_number,Quartiles,nested
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,999,0.00805984500000001,five_number,Quartiles,nested
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,999,0.00805984500000001,five_number,Quartiles,independent
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,99,0.0025982350499999993,means,Mean,nested
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,499,0.002624947450000001,means,Mean,nested
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,999,0.0026366875,means,Mean,nested
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,999,0.002596807349999999,means,Mean,independent
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,99,0.007653733335000013,means,Mean,nested
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,499,0.007924100589999988,means,Mean,nested
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,999,0.007767631485000001,means,Mean,nested
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,999,0.008102518950000004,means,Mean,independent
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,99,0.15961384499999987,five_number,Quartiles,nested
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,499,0.16227299595,five_number,Quartiles,nested
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,999,0.15947749699999986,five_number,Quartiles,nested
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,999,0.15931692499999994,five_number,Quartiles,independent
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,99,0.226928573,five_number,Quartiles,nested
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,499,0.22849422499999994,five_number,Quartiles,nested
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,999,0.22849422499999994,five_number,Quartiles,nested
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,999,0.23208867000000022,five_number,Quartiles,independent
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,99,0.2444321246499997,five_number,Quartiles,nested
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,499,0.20863224049999995,five_number,Quartiles,nested
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,999,0.20841680350000003,five_number,Quartiles,nested
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,999,0.21722504690499986,five_number,Quartiles,independent
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,99,0.14277204699999996,means,Mean,nested
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,499,0.14089841000000003,means,Mean,nested
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,999,0.14089841000000003,means,Mean,nested
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,999,0.14089841000000003,means,Mean,independent
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,99,0.138318862,means,Mean,nested
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,499,0.138086675,means,Mean,nested
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,999,0.13747115935000004,means,Mean,nested
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,999,0.13812749629999996,means,Mean,independent
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,99,0.13767620559999996,means,Mean,nested
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,499,0.151444845,means,Mean,nested
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,999,0.151444845,means,Mean,nested
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,999,0.151444845,means,Mean,independent
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,99,0.005298244999999979,means,Mean,nested
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,499,0.005462107499999988,means,Mean,nested
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,999,0.005524454999999873,means,Mean,nested
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,999,0.005966440000000017,means,Mean,independent
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,99,0.00814808999999983,means,Mean,nested
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,499,0.00814808999999983,means,Mean,nested
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,999,0.00814808999999983,means,Mean,nested
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,999,0.00814808999999983,means,Mean,independent
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,99,0.012231030499999894,means,Mean,nested
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,499,0.013229301199999917,means,Mean,nested
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,999,0.013377007849999957,means,Mean,nested
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,999,0.014095120999999988,means,Mean,independent
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,99,0.03058134275,bins_4,Quartiles,nested
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,499,0.03197895324999994,bins_4,Quartiles,nested
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,999,0.030780347499999992,bins_4,Quartiles,nested
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,999,0.030714265499999997,bins_4,Quartiles,independent
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,99,0.030267941499999985,five_number,Quartiles,nested
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,499,0.031279742005,five_number,Quartiles,nested
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,999,0.031330337244999985,five_number,Quartiles,nested
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,999,0.031271466505,five_number,Quartiles,independent
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,99,0.043422010258,five_number,Quartiles,nested
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,499,0.04408659013,five_number,Quartiles,nested
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,999,0.04408659013,five_number,Quartiles,nested
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,999,0.04415334185000001,five_number,Quartiles,independent
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,99,0.1702581135000001,five_number,Quartiles,nested
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,499,0.17454795099999984,five_number,Quartiles,nested
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,999,0.18080063720000009,five_number,Quartiles,nested
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,999,0.1703215950000001,five_number,Quartiles,independent
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,99,0.1826261405969999,five_number,Quartiles,nested
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,499,0.1830188623399997,five_number,Quartiles,nested
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,999,0.18263750309699986,five_number,Quartiles,nested
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,999,0.18021070736799982,five_number,Quartiles,independent
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,99,0.22819390379999982,five_number,Quartiles,nested
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,499,0.21423435200000004,five_number,Quartiles,nested
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,999,0.22373674814999941,five_number,Quartiles,nested
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,999,0.22859744532499976,five_number,Quartiles,independent
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,99,0.025188186474999995,means,Mean,nested
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,499,0.025188186474999995,means,Mean,nested
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,999,0.025188186474999995,means,Mean,nested
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,999,0.025188186474999995,means,Mean,independent
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,99,0.014409125300000013,five_number,Quartiles,nested
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,499,0.01511349770000001,five_number,Quartiles,nested
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,999,0.015115994650000016,five_number,Quartiles,nested
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,999,0.014905813899999995,five_number,Quartiles,independent
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,99,0.008238448800000004,five_number,Quartiles,nested
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,499,0.008235530500000005,five_number,Quartiles,nested
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,999,0.008264713500000007,five_number,Quartiles,nested
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,999,0.008235530500000005,five_number,Quartiles,independent
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,99,0.223095118,five_number,Quartiles,nested
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,499,0.2011599462999998,five_number,Quartiles,nested
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,999,0.20279007319999964,five_number,Quartiles,nested
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,999,0.19993814049999978,five_number,Quartiles,independent
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,99,0.25446944145000006,five_number,Quartiles,nested
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,499,0.2550663484500001,five_number,Quartiles,nested
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,999,0.2550663484500001,five_number,Quartiles,nested
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,999,0.2544031184500001,five_number,Quartiles,independent
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,99,0.15135321150000006,five_number,Quartiles,nested
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,499,0.15242260500000004,five_number,Quartiles,nested
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,999,0.15242260500000004,five_number,Quartiles,nested
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,999,0.15242260500000004,five_number,Quartiles,independent
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,99,0.04051891465,five_number,Quartiles,nested
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,499,0.040899929499999994,five_number,Quartiles,nested
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,999,0.040756498,five_number,Quartiles,nested
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,999,0.040516592000000004,five_number,Quartiles,independent
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,99,0.011802287600000006,five_number,Quartiles,nested
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,499,0.011859916500000012,five_number,Quartiles,nested
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,999,0.011861612100000009,five_number,Quartiles,nested
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,999,0.011959624150000002,five_number,Quartiles,independent
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,99,0.03617165829999998,means,Mean,nested
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,499,0.03919063999999999,means,Mean,nested
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,999,0.03919063999999999,means,Mean,nested
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,999,0.038934017499999994,means,Mean,independent
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,99,0.312508899,means,Mean,nested
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,499,0.3050132889999999,means,Mean,nested
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,999,0.3050132889999999,means,Mean,nested
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,999,0.30507796499999984,means,Mean,independent
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,99,0.44910786,means,Mean,nested
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,499,0.44910786,means,Mean,nested
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,999,0.44910786,means,Mean,nested
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,999,0.44910786,means,Mean,independent
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,99,0.16174307450000008,five_number,Quartiles,nested
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,499,0.15994142850000007,five_number,Quartiles,nested
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,999,0.16086562500000012,five_number,Quartiles,nested
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,999,0.15959136500000004,five_number,Quartiles,independent
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,99,0.13341290601000005,five_number,Quartiles,nested
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,499,0.1331814121000001,five_number,Quartiles,nested
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,999,0.13287238209000005,five_number,Quartiles,nested
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,999,0.13509081950000001,five_number,Quartiles,independent
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,99,0.10028222000000003,five_number,Quartiles,nested
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,499,0.10107022450000004,five_number,Quartiles,nested
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,999,0.10368145350000005,five_number,Quartiles,nested
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,999,0.09904607699999991,five_number,Quartiles,independent
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,99,0.13128070015000004,five_number,Quartiles,nested
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,499,0.13526065931499998,five_number,Quartiles,nested
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,999,0.13761758072499997,five_number,Quartiles,nested
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,999,0.13486906215000005,five_number,Quartiles,independent
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,99,0.10093431900000001,five_number,Quartiles,nested
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,499,0.09833060899999997,five_number,Quartiles,nested
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,999,0.09961028149999986,five_number,Quartiles,nested
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,999,0.10292771050000002,five_number,Quartiles,independent
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,99,0.17984170300000002,five_number,Quartiles,nested
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,499,0.18107525800000002,five_number,Quartiles,nested
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,999,0.18107525800000002,five_number,Quartiles,nested
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,999,0.17743473799999998,five_number,Quartiles,independent
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,99,0.15126915299999985,five_number,Quartiles,nested
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,499,0.15136421700000005,five_number,Quartiles,nested
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,999,0.15146679899999993,five_number,Quartiles,nested
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,999,0.1548682965999993,five_number,Quartiles,independent
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,99,0.19983058670000003,five_number,Quartiles,nested
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,499,0.20190093500000006,five_number,Quartiles,nested
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,999,0.20236665449499985,five_number,Quartiles,nested
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,999,0.2000870590647499,five_number,Quartiles,independent
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,99,0.2086278133999999,five_number,Quartiles,nested
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,499,0.21049575200000004,five_number,Quartiles,nested
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,999,0.21755205269999997,five_number,Quartiles,nested
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,999,0.2177907120000001,five_number,Quartiles,independent
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,99,0.23115978219999986,means,Mean,nested
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,499,0.23511018369999992,means,Mean,nested
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,999,0.23513596019999988,means,Mean,nested
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,999,0.23536794869999988,means,Mean,independent
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,99,0.35688971099999994,five_number,Quartiles,nested
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,499,0.367225975,five_number,Quartiles,nested
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,999,0.3655400900000001,five_number,Quartiles,nested
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,999,0.3655400900000001,five_number,Quartiles,independent
+BIDMC__00,BIDMC,mean,True,46,46,99,5.755407325328179,means,Mean,nested
+BIDMC__00,BIDMC,mean,True,46,46,499,5.752598752598743,means,Mean,nested
+BIDMC__00,BIDMC,mean,True,46,46,999,5.752598752598743,means,Mean,nested
+BIDMC__00,BIDMC,mean,True,46,46,999,5.752598752598743,means,Mean,independent
+BIDMC__01,BIDMC,median,True,46,46,99,4.0,means,Mean,nested
+BIDMC__01,BIDMC,median,True,46,46,499,4.0,means,Mean,nested
+BIDMC__01,BIDMC,median,True,46,46,999,4.0,means,Mean,nested
+BIDMC__01,BIDMC,median,True,46,46,999,4.0,means,Mean,independent
+BIDMC__02,BIDMC,q10,True,46,46,99,11.0,means,Mean,nested
+BIDMC__02,BIDMC,q10,True,46,46,499,11.524999999999991,means,Mean,nested
+BIDMC__02,BIDMC,q10,True,46,46,999,11.524999999999977,means,Mean,nested
+BIDMC__02,BIDMC,q10,True,46,46,999,11.0,means,Mean,independent
+BIDMC__03,BIDMC,q90,True,46,46,99,4.0,means,Mean,nested
+BIDMC__03,BIDMC,q90,True,46,46,499,3.099999999999966,means,Mean,nested
+BIDMC__03,BIDMC,q90,True,46,46,999,4.0,means,Mean,nested
+BIDMC__03,BIDMC,q90,True,46,46,999,4.0,means,Mean,independent
+BIDMC__04,BIDMC,SD,True,46,46,99,4.705170373578867,means,Mean,nested
+BIDMC__04,BIDMC,SD,True,46,46,499,4.705170373578867,means,Mean,nested
+BIDMC__04,BIDMC,SD,True,46,46,999,4.705170373578867,means,Mean,nested
+BIDMC__04,BIDMC,SD,True,46,46,999,4.445645441643902,means,Mean,independent
+Wrist__00,Wrist,mean,True,8,8,99,13.161545172692371,means,Mean,nested
+Wrist__00,Wrist,mean,True,8,8,499,13.161545172692371,means,Mean,nested
+Wrist__00,Wrist,mean,True,8,8,999,13.161545172692371,means,Mean,nested
+Wrist__00,Wrist,mean,True,8,8,999,13.161545172692371,means,Mean,independent
+Wrist__01,Wrist,median,True,8,8,99,13.933753575529465,means,Mean,nested
+Wrist__01,Wrist,median,True,8,8,499,13.933753575529465,means,Mean,nested
+Wrist__01,Wrist,median,True,8,8,999,13.933753575529465,means,Mean,nested
+Wrist__01,Wrist,median,True,8,8,999,13.933753575529465,means,Mean,independent
+Wrist__02,Wrist,q10,True,8,8,99,12.509773516521491,means,Mean,nested
+Wrist__02,Wrist,q10,True,8,8,499,12.509773516521491,means,Mean,nested
+Wrist__02,Wrist,q10,True,8,8,999,12.509773516521491,means,Mean,nested
+Wrist__02,Wrist,q10,True,8,8,999,12.509773516521491,means,Mean,independent
+Wrist__03,Wrist,q90,True,8,8,99,12.796523019610092,means,Mean,nested
+Wrist__03,Wrist,q90,True,8,8,499,12.796523019610092,means,Mean,nested
+Wrist__03,Wrist,q90,True,8,8,999,12.796523019610092,means,Mean,nested
+Wrist__03,Wrist,q90,True,8,8,999,12.796523019610092,means,Mean,independent
+Wrist__04,Wrist,SD,True,8,8,99,1.844965413899962,means,Mean,nested
+Wrist__04,Wrist,SD,True,8,8,499,1.8799644651581757,means,Mean,nested
+Wrist__04,Wrist,SD,True,8,8,999,1.8799644651581757,means,Mean,nested
+Wrist__04,Wrist,SD,True,8,8,999,1.846037091341076,means,Mean,independent

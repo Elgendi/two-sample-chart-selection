@@ -1,0 +1,12 @@
+figure,panel,key,dataset,feature,n_A,n_B,citation_key,doi,source_url,source_kind,simulated
+Figure 1,main,WDBC__00,WDBC,mean radius,357,212,wdbc,10.24432/C5DW2B,https://doi.org/10.24432/C5DW2B,public_database,False
+Figure 2,a,HeartFailure__00,HeartFailure,age,203,96,failure,10.24432/C5Z89R,https://doi.org/10.24432/C5Z89R,public_database,False
+Figure 2,b,HAR__05,HAR,tBodyAcc-std()-Z,30,30,har,10.24432/C54S4K,https://doi.org/10.24432/C54S4K,public_database,False
+Figure 2,c,WDBC__00,WDBC,mean radius,357,212,wdbc,10.24432/C5DW2B,https://doi.org/10.24432/C5DW2B,public_database,False
+Figure 3,a,WDBC__07,WDBC,mean concave points,357,212,wdbc,10.24432/C5DW2B,https://doi.org/10.24432/C5DW2B,public_database,False
+Figure 3,b,CKD__08,CKD,pcv,146,183,kidney,10.24432/C5G020,https://doi.org/10.24432/C5G020,public_database,False
+Figure 3,c,HAR__29,HAR,tBodyGyroJerk-std()-Z,30,30,har,10.24432/C54S4K,https://doi.org/10.24432/C54S4K,public_database,False
+Figure 4,a,ILPD__01,ILPD,total_bilirubin,167,416,liver,10.24432/C5D02C,https://doi.org/10.24432/C5D02C,public_database,False
+Figure 4,b,Parkinsons__08,Parkinsons,MDVP:Shimmer,8,24,parkinsons,10.24432/C59C74,https://doi.org/10.24432/C59C74,public_database,False
+Figure 4,c,BIDMC__00,BIDMC,mean,46,46,bidmc,10.13026/C2208R,https://doi.org/10.13026/C2208R,public_database,False
+Figure 4,d,CKD__06,CKD,pot,145,167,kidney,10.24432/C5G020,https://doi.org/10.24432/C5G020,public_database,False

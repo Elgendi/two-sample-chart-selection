@@ -1,0 +1,1061 @@
+task,observer,key,dataset,cluster,default,selected,oracle,default_loss,selected_loss,oracle_loss,gain,regret,retained
+median,hard,BIDMC__00,BIDMC,BIDMC,Interval plot / five,Heatmap / 16,Heatmap / 16,0.0057847625805394,0.0025662156400754,0.0025662156400754,0.003218546940464,0.0,True
+median,hard,BIDMC__01,BIDMC,BIDMC,Interval plot / five,Interval plot / five,Interval plot / five,0.0035919429510578,0.0035919429510578,0.0035919429510578,0.0,0.0,True
+median,hard,BIDMC__02,BIDMC,BIDMC,Interval plot / five,Interval plot / five,Box plot / five,0.0,0.0,0.0,0.0,0.0,True
+median,hard,BIDMC__03,BIDMC,BIDMC,Interval plot / five,Interval plot / five,Interval plot / five,0.0042792683193391,0.0042792683193391,0.0042792683193391,0.0,0.0,True
+median,hard,BIDMC__04,BIDMC,BIDMC,Interval plot / five,Violin plot / 64,Box plot / five,0.0010322515926557,0.0057782248265656,0.001032251592656,-0.0047459732339099,0.0047459732339096,False
+median,hard,CKD__00,CKD,CKD,Interval plot / five,Box plot / five,ECDF / full,0.0054275724570316,0.0082032826555405,0.0027757101985084,-0.0027757101985088992,0.0054275724570321,False
+median,hard,CKD__01,CKD,CKD,Interval plot / five,Box plot / five,Quantile plot / nineteen,0.0090629712924201,0.0142413613376111,0.0071772787135745,-0.005178390045191,0.0070640826240365995,False
+median,hard,CKD__02,CKD,CKD,Interval plot / five,Box plot / five,Interval plot / five,0.0037578415155532,0.0068092542023093,0.0037578415155532,-0.0030514126867561,0.0030514126867561,False
+median,hard,CKD__03,CKD,CKD,Interval plot / five,Heatmap / 16,Heatmap / 16,0.0069226240195886,0.0008115967783657,0.0008115967783657,0.006111027241222901,0.0,True
+median,hard,CKD__04,CKD,CKD,Interval plot / five,ECDF / full,Interval plot / five,0.0050881245506969,0.0112849687576013,0.0050881245506969,-0.006196844206904401,0.006196844206904401,False
+median,hard,CKD__05,CKD,CKD,Interval plot / five,Interval plot / five,Interval plot / five,0.0111396721205134,0.0111396721205134,0.0111396721205134,0.0,0.0,True
+median,hard,CKD__06,CKD,CKD,Interval plot / five,Histogram / 16,Quantile plot / five,0.0076683017329479,0.0091940027184533,0.0072986164084781,-0.0015257009855054,0.0018953863099751998,False
+median,hard,CKD__07,CKD,CKD,Interval plot / five,Box plot / five,Interval plot / five,0.0033728164978737,0.0076045733652155,0.0033728164978737,-0.0042317568673418005,0.0042317568673418005,False
+median,hard,CKD__08,CKD,CKD,Interval plot / five,ECDF / full,Box plot / five,0.0003462475702535,0.0075406013633818,0.0003462475702535,-0.007194353793128301,0.007194353793128301,False
+median,hard,CKD__09,CKD,CKD,Interval plot / five,ECDF / full,Interval plot / five,0.0040994883826749,0.008238996982157,0.0040994883826749,-0.0041395085994821,0.0041395085994821,False
+median,hard,CKD__10,CKD,CKD,Interval plot / five,Box plot / five,Interval plot / five,0.0059730911387866,0.0086395027051992,0.0059730911387866,-0.0026664115664125996,0.0026664115664125996,False
+median,hard,Cleveland__00,Cleveland,Cleveland,Interval plot / five,Interval plot / five,Interval plot / five,0.003187071074149,0.003187071074149,0.003187071074149,0.0,0.0,True
+median,hard,Cleveland__01,Cleveland,Cleveland,Interval plot / five,Interval plot / five,Box plot / five,0.0,0.0,0.0,0.0,0.0,True
+median,hard,Cleveland__02,Cleveland,Cleveland,Interval plot / five,Violin plot / 64,Violin plot / 64,0.0073490416895958,0.0006486167154745,0.0006486167154745,0.0067004249741213,0.0,True
+median,hard,Cleveland__03,Cleveland,Cleveland,Interval plot / five,Interval plot / five,ECDF / full,0.0067041525262115,0.0067041525262115,0.0051826835789172,0.0,0.0015214689472943,False
+median,hard,Cleveland__04,Cleveland,Cleveland,Interval plot / five,ECDF / full,Interval plot / five,0.0034198051795766,0.0065234813965295,0.0034198051795766,-0.0031036762169528997,0.0031036762169528997,False
+median,hard,HAR__00,HAR,HAR,Interval plot / five,Dot plot / raw,Interval plot / five,0.0243356320465993,0.0553108923495403,0.0243356320465993,-0.030975260302941,0.030975260302941,False
+median,hard,HAR__01,HAR,HAR,Interval plot / five,Box plot / five,Interval plot / five,0.0089184649828442,0.0099231399164253,0.0089184649828442,-0.0010046749335811001,0.0010046749335811001,False
+median,hard,HAR__02,HAR,HAR,Interval plot / five,Interval plot / five,Box plot / five,0.0128067015420379,0.0128067015420379,0.0006041016021168,0.0,0.012202599939921099,False
+median,hard,HAR__03,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.0058233889836334,0.0058233889836334,0.0058233889836334,0.0,0.0,True
+median,hard,HAR__04,HAR,HAR,Interval plot / five,Violin plot / 64,Violin plot / 64,0.0084966490468313,0.0050644765447357,0.0050644765447357,0.0034321725020955993,0.0,True
+median,hard,HAR__05,HAR,HAR,Interval plot / five,Interval plot / five,Quantile plot / five,0.0114733199793419,0.0114733199793419,0.0057693096587171,0.0,0.0057040103206248,False
+median,hard,HAR__06,HAR,HAR,Interval plot / five,Dot plot / raw,Interval plot / five,0.012974883374529,0.0346058868739531,0.012974883374529,-0.021631003499424102,0.021631003499424102,False
+median,hard,HAR__07,HAR,HAR,Interval plot / five,ECDF / full,Interval plot / five,0.0062834731596618,0.0101717310888635,0.0062834731596618,-0.0038882579292017,0.0038882579292017,False
+median,hard,HAR__08,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.003335644084911,0.003335644084911,0.003335644084911,0.0,0.0,True
+median,hard,HAR__09,HAR,HAR,Interval plot / five,Violin plot / 64,ECDF / full,0.1570900416856662,0.1400168469768926,0.1324595994348654,0.01707319470877361,0.00755724754202719,False
+median,hard,HAR__10,HAR,HAR,Interval plot / five,Violin plot / 64,Violin plot / 64,0.1494414960862127,0.0324323279055866,0.0324323279055866,0.11700916818062611,0.0,True
+median,hard,HAR__11,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.075228607077352,0.0476355829675057,0.0476355829675057,0.0275930241098463,0.0,True
+median,hard,HAR__12,HAR,HAR,Interval plot / five,Interval plot / five,Quantile plot / five,0.0055031764935401,0.0055031764935401,0.0035996208313565,0.0,0.0019035556621835995,False
+median,hard,HAR__13,HAR,HAR,Interval plot / five,Interval plot / five,Violin plot / 64,0.0030474518947415,0.0030474518947415,0.0016003543530326,0.0,0.0014470975417089002,False
+median,hard,HAR__14,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.0039359525155719,0.0039359525155719,0.0039359525155719,0.0,0.0,True
+median,hard,HAR__15,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / nineteen,0.0064768363815641,0.0064042637352438,0.0058112763523505,7.257264632030015e-05,0.0005929873828933001,False
+median,hard,HAR__16,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.0061592787226347,0.0061592787226347,0.0061592787226347,0.0,0.0,True
+median,hard,HAR__17,HAR,HAR,Interval plot / five,Interval plot / five,Quantile plot / five,0.0060029014189302,0.0060029014189302,0.0033831724957082,0.0,0.002619728923222,False
+median,hard,HAR__18,HAR,HAR,Interval plot / five,Heatmap / 16,Heatmap / 16,0.0072643721103968,0.0004822426502282,0.0004822426502282,0.0067821294601686,0.0,True
+median,hard,HAR__19,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.0021345510651623,0.0021345510651623,0.0021345510651623,0.0,0.0,True
+median,hard,HAR__20,HAR,HAR,Interval plot / five,Quantile plot / five,Interval plot / five,0.0092677677407656,0.0127115126697867,0.0092677677407656,-0.0034437449290211,0.0034437449290211,False
+median,hard,HAR__21,HAR,HAR,Interval plot / five,Violin plot / 64,Interval plot / five,0.0060740191580648,0.0135886133664643,0.0060740191580648,-0.007514594208399499,0.007514594208399499,False
+median,hard,HAR__22,HAR,HAR,Interval plot / five,Interval plot / five,ECDF / full,0.0056578221453675,0.0056578221453675,0.0053854773776304,0.0,0.00027234476773710034,False
+median,hard,HAR__23,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.0120140312138929,0.0060070156069466,0.0060070156069466,0.0060070156069463,0.0,True
+median,hard,HAR__24,HAR,HAR,Interval plot / five,Interval plot / five,Quantile plot / nineteen,0.0070052293178518,0.0070052293178518,0.005464750716828,0.0,0.0015404786010238007,False
+median,hard,HAR__25,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.004444262002169,0.0042304744418201,0.0042304744418201,0.0002137875603489001,0.0,True
+median,hard,HAR__26,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.0048680119928728,0.0034734499682514,0.0034734499682514,0.0013945620246213998,0.0,True
+median,hard,HAR__27,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.0068182570950435,0.0038745828246717,0.0038745828246717,0.0029436742703718003,0.0,True
+median,hard,HAR__28,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.0059250098014423,0.0030242399500248,0.0030242399500248,0.0029007698514175,0.0,True
+median,hard,HAR__29,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.0038739984723907,0.0038739984723907,0.0038739984723907,0.0,0.0,True
+median,hard,HAR__30,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.0163355999752706,0.0079064463635468,0.0079064463635468,0.0084291536117238,0.0,True
+median,hard,HAR__31,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.0108525652653221,0.0064267456310151,0.0064267456310151,0.004425819634306999,0.0,True
+median,hard,HAR__32,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.0163355999752706,0.0079064463635468,0.0079064463635468,0.0084291536117238,0.0,True
+median,hard,HAR__33,HAR,HAR,Interval plot / five,Quantile plot / five,Quantile plot / five,0.0108525652653221,0.0064267456310151,0.0064267456310151,0.004425819634306999,0.0,True
+median,hard,HAR__34,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.0073437646054197,0.0073437646054197,0.0073437646054197,0.0,0.0,True
+median,hard,HAR__35,HAR,HAR,Interval plot / five,Interval plot / five,Quantile plot / five,0.0064169955062465,0.0064169955062465,0.0041404793471944,0.0,0.0022765161590520997,False
+median,hard,HAR__36,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.0082826506683687,0.0082826506683687,0.0082826506683687,0.0,0.0,True
+median,hard,HAR__37,HAR,HAR,Interval plot / five,Violin plot / 64,Violin plot / 64,0.0093933796355549,0.0022331110378453,0.0022331110378453,0.007160268597709601,0.0,True
+median,hard,HAR__38,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.0039838085377881,0.0039838085377881,0.0039838085377881,0.0,0.0,True
+median,hard,HAR__39,HAR,HAR,Interval plot / five,Interval plot / five,Interval plot / five,0.0037018429044141,0.0037018429044141,0.0037018429044141,0.0,0.0,True
+median,hard,HeartFailure__00,HeartFailure,HeartFailure,Interval plot / five,Histogram / 16,Heatmap / 16,0.005781088917939,0.0044049376318729,0.0034138577134841,0.0013761512860661004,0.0009910799183887996,False
+median,hard,HeartFailure__01,HeartFailure,HeartFailure,Interval plot / five,Interval plot / five,ECDF / full,0.0061112576031721,0.0061112576031721,0.00251339228753,0.0,0.0035978653156421,False
+median,hard,HeartFailure__02,HeartFailure,HeartFailure,Interval plot / five,Interval plot / five,ECDF / full,0.0055099012729307,0.0055099012729307,0.0035783139552387,0.0,0.0019315873176920001,False
+median,hard,HeartFailure__03,HeartFailure,HeartFailure,Interval plot / five,Box plot / five,Interval plot / five,0.0069087438854779,0.0087859370843166,0.0069087438854779,-0.001877193198838699,0.001877193198838699,False
+median,hard,HeartFailure__04,HeartFailure,HeartFailure,Interval plot / five,Heatmap / 16,Heatmap / 16,0.0063710805492712,0.0002163277809317,0.0002163277809317,0.0061547527683395,0.0,True
+median,hard,HeartFailure__05,HeartFailure,HeartFailure,Interval plot / five,Interval plot / five,Quantile plot / nineteen,0.0213210075929654,0.0213210075929654,0.0160736707242523,0.0,0.0052473368687131,False
+median,hard,ILPD__00,ILPD,ILPD,Interval plot / five,Interval plot / five,Interval plot / five,0.0049772392150245,0.0049772392150245,0.0049772392150245,0.0,0.0,True
+median,hard,ILPD__01,ILPD,ILPD,Interval plot / five,Box plot / five,Interval plot / five,0.0062915689986227,0.0185705987269345,0.0062915689986227,-0.0122790297283118,0.0122790297283118,False
+median,hard,ILPD__02,ILPD,ILPD,Interval plot / five,Box plot / five,Quantile plot / five,0.0047480832146773,0.0078123133272851,0.0042037089934359,-0.003064230112607799,0.0036086043338491997,False
+median,hard,ILPD__03,ILPD,ILPD,Interval plot / five,Interval plot / five,Interval plot / five,0.0056358474603093,0.0056358474603093,0.0056358474603093,0.0,0.0,True
+median,hard,ILPD__04,ILPD,ILPD,Interval plot / five,Interval plot / five,Quantile plot / five,0.0037877521393179,0.0037877521393179,0.0035676072948821,0.0,0.00022014484443579974,False
+median,hard,ILPD__05,ILPD,ILPD,Interval plot / five,Interval plot / five,ECDF / full,0.0065653325496607,0.0065653325496607,0.0003243511620062,0.0,0.0062409813876545,False
+median,hard,ILPD__06,ILPD,ILPD,Interval plot / five,Violin plot / 64,Violin plot / 64,0.0060711076778642,0.0027675853211361,0.0027675853211361,0.0033035223567281,0.0,True
+median,hard,ILPD__07,ILPD,ILPD,Interval plot / five,Box plot / five,Interval plot / five,0.0042440506341652,0.005940710900781,0.0042440506341652,-0.0016966602666158006,0.0016966602666158006,False
+median,hard,ILPD__08,ILPD,ILPD,Interval plot / five,Interval plot / five,Box plot / five,0.0008257923547382,0.0008257923547382,0.0008257923547381,0.0,9.996344030316351e-17,True
+median,hard,Retinopathy__00,Retinopathy,Retinopathy,Interval plot / five,ECDF / full,Interval plot / five,0.0049122560482507,0.0058582871445614,0.0049122560482507,-0.0009460310963107007,0.0009460310963107007,False
+median,hard,Retinopathy__01,Retinopathy,Retinopathy,Interval plot / five,Interval plot / five,Interval plot / five,0.0047761081221521,0.0047761081221521,0.0047761081221521,0.0,0.0,True
+median,hard,Retinopathy__02,Retinopathy,Retinopathy,Interval plot / five,Interval plot / five,Box plot / five,0.0009719106375554,0.0009719106375554,0.0009719106375556,0.0,-2.0003530082357557e-16,True
+median,hard,Retinopathy__03,Retinopathy,Retinopathy,Interval plot / five,Interval plot / five,Box plot / five,0.0023452426119322,0.0023452426119322,0.0023452426119321,0.0,1.0018028073766061e-16,True
+median,hard,Retinopathy__04,Retinopathy,Retinopathy,Interval plot / five,Interval plot / five,ECDF / full,0.0047260928045801,0.0047260928045801,0.0026052646297019,0.0,0.0021208281748782,False
+median,hard,Retinopathy__05,Retinopathy,Retinopathy,Interval plot / five,Interval plot / five,Box plot / five,0.0007016332714022,0.0007016332714022,0.000701633271402,0.0,2.0003530082357557e-16,True
+median,hard,Retinopathy__06,Retinopathy,Retinopathy,Interval plot / five,ECDF / full,Interval plot / five,0.0030083354892143,0.0065505262367286,0.0030083354892143,-0.0035421907475143,0.0035421907475143,False
+median,hard,Retinopathy__07,Retinopathy,Retinopathy,Interval plot / five,Heatmap / 16,Heatmap / 16,0.0041206746751322,0.0003822822234606,0.0003822822234606,0.0037383924516715995,0.0,True
+median,hard,Retinopathy__08,Retinopathy,Retinopathy,Interval plot / five,Heatmap / 16,ECDF / full,0.0056770180798924,0.0059459952052902,0.0023248251839826,-0.0002689771253977999,0.0036211700213075997,False
+median,hard,Retinopathy__09,Retinopathy,Retinopathy,Interval plot / five,ECDF / full,Interval plot / five,0.0064536778257635,0.0122367550129947,0.0064536778257635,-0.0057830771872311995,0.0057830771872311995,False
+median,hard,Retinopathy__10,Retinopathy,Retinopathy,Interval plot / five,Quantile plot / five,Interval plot / five,0.0086360866101633,0.0088681390373478,0.0086360866101633,-0.00023205242718450127,0.00023205242718450127,False
+median,hard,Retinopathy__11,Retinopathy,Retinopathy,Interval plot / five,Interval plot / five,Quantile plot / five,0.0124789732809552,0.0124789732809552,0.0090685080844909,0.0,0.0034104651964642994,False
+median,hard,Retinopathy__12,Retinopathy,Retinopathy,Interval plot / five,Interval plot / five,Violin plot / 64,0.0028168959153419,0.0028168959153419,0.0024386301887006,0.0,0.0003782657266413001,False
+median,hard,Retinopathy__13,Retinopathy,Retinopathy,Interval plot / five,Interval plot / five,Interval plot / five,0.0023507828634707,0.0023507828634707,0.0023507828634707,0.0,0.0,True
+median,hard,Retinopathy__14,Retinopathy,Retinopathy,Interval plot / five,Box plot / five,Dot plot / raw,0.0111249935794662,0.0151600453683341,0.0074682845607028,-0.004035051788867899,0.0076917608076313,False
+median,hard,Retinopathy__15,Retinopathy,Retinopathy,Interval plot / five,Heatmap / 16,Heatmap / 16,0.0051376508419937,0.0042143855021217,0.0042143855021217,0.0009232653398719998,0.0,True
+median,hard,WDBC__00,WDBC,WDBC,Interval plot / five,Violin plot / 64,Violin plot / 64,0.0068473699987566,9.585262785678092e-05,9.585262785678092e-05,0.006751517370899819,0.0,True
+median,hard,WDBC__01,WDBC,WDBC,Interval plot / five,Interval plot / five,Interval plot / five,0.006724526678505,0.006724526678505,0.006724526678505,0.0,0.0,True
+median,hard,WDBC__02,WDBC,WDBC,Interval plot / five,Heatmap / 16,Heatmap / 16,0.0079445927049147,0.0027840977323837,0.0027840977323837,0.005160494972531,0.0,True
+median,hard,WDBC__03,WDBC,WDBC,Interval plot / five,Interval plot / five,Interval plot / five,0.0080263821030006,0.0080263821030006,0.0080263821030006,0.0,0.0,True
+median,hard,WDBC__04,WDBC,WDBC,Interval plot / five,Interval plot / five,Interval plot / five,0.004915390974732,0.004915390974732,0.004915390974732,0.0,0.0,True
+median,hard,WDBC__05,WDBC,WDBC,Interval plot / five,Interval plot / five,Interval plot / five,0.0048382597125638,0.0048382597125638,0.0048382597125638,0.0,0.0,True
+median,hard,WDBC__06,WDBC,WDBC,Interval plot / five,Interval plot / five,Interval plot / five,0.0036787125351986,0.0036787125351986,0.0036787125351986,0.0,0.0,True
+median,hard,WDBC__07,WDBC,WDBC,Interval plot / five,Histogram / 16,Box plot / five,0.0023460816329059,0.0060500222157384,0.0023460816329058,-0.0037039405828325,0.0037039405828325996,False
+median,hard,WDBC__08,WDBC,WDBC,Interval plot / five,Heatmap / 16,Heatmap / 16,0.005040981658245,0.0010738299852793,0.0010738299852793,0.0039671516729657,0.0,True
+median,hard,WDBC__09,WDBC,WDBC,Interval plot / five,Bar chart / means,Dot plot / raw,0.0079174790783277,0.0153474213072799,0.0048791587499049,-0.007429942228952199,0.010468262557375,False
+median,hard,WDBC__10,WDBC,WDBC,Interval plot / five,Interval plot / five,Interval plot / five,0.0096055835397282,0.0096055835397282,0.0096055835397282,0.0,0.0,True
+median,hard,WDBC__11,WDBC,WDBC,Interval plot / five,Interval plot / five,Interval plot / five,0.0064153214093953,0.0064153214093953,0.0064153214093953,0.0,0.0,True
+median,hard,WDBC__12,WDBC,WDBC,Interval plot / five,ECDF / full,Interval plot / five,0.0055917963705854,0.0115789131221648,0.0055917963705854,-0.005987116751579401,0.005987116751579401,False
+median,hard,WDBC__13,WDBC,WDBC,Interval plot / five,Box plot / five,Quantile plot / five,0.0087807792011948,0.0125857698663405,0.0075514619198046,-0.0038049906651457,0.005034307946535899,False
+median,hard,WDBC__14,WDBC,WDBC,Interval plot / five,Box plot / five,Interval plot / five,0.0059340447280002,0.0084827231942766,0.0059340447280002,-0.002548678466276399,0.002548678466276399,False
+median,hard,WDBC__15,WDBC,WDBC,Interval plot / five,Box plot / five,ECDF / full,0.0056901689920646,0.0072955005519703,0.004450416055938,-0.0016053315599056997,0.0028450844960322998,False
+median,hard,WDBC__16,WDBC,WDBC,Interval plot / five,ECDF / full,ECDF / full,0.0096741274740901,0.004522993570133,0.004522993570133,0.0051511339039571,0.0,True
+median,hard,WDBC__17,WDBC,WDBC,Interval plot / five,Box plot / five,Violin plot / 64,0.0049101953955802,0.0082047846002756,0.0045031442180525,-0.0032945892046954,0.0037016403822230995,False
+median,hard,WDBC__18,WDBC,WDBC,Interval plot / five,Interval plot / five,Interval plot / five,0.0053430787113486,0.0053430787113486,0.0053430787113486,0.0,0.0,True
+median,hard,WDBC__19,WDBC,WDBC,Interval plot / five,Interval plot / five,ECDF / full,0.0081213417182835,0.0081213417182835,0.0057233724320441,0.0,0.002397969286239399,False
+median,hard,WDBC__20,WDBC,WDBC,Interval plot / five,Interval plot / five,Interval plot / five,0.0081434132210783,0.0081434132210783,0.0081434132210783,0.0,0.0,True
+median,hard,WDBC__21,WDBC,WDBC,Interval plot / five,Violin plot / 64,Violin plot / 64,0.0061688445761533,0.0047511471464509,0.0047511471464509,0.0014176974297024003,0.0,True
+median,hard,WDBC__22,WDBC,WDBC,Interval plot / five,ECDF / full,Interval plot / five,0.0043834579834835,0.013362973460001,0.0043834579834835,-0.0089795154765175,0.0089795154765175,False
+median,hard,WDBC__23,WDBC,WDBC,Interval plot / five,Histogram / 16,Histogram / 16,0.0070042911122503,0.003826202840917,0.003826202840917,0.0031780882713333004,0.0,True
+median,hard,WDBC__24,WDBC,WDBC,Interval plot / five,Box plot / five,Interval plot / five,0.0045141998340347,0.0083019911316397,0.0045141998340347,-0.003787791297605001,0.003787791297605001,False
+median,hard,WDBC__25,WDBC,WDBC,Interval plot / five,Heatmap / 16,Interval plot / five,0.0035220422353538,0.0063877397178021,0.0035220422353538,-0.0028656974824483,0.0028656974824483,False
+median,hard,WDBC__26,WDBC,WDBC,Interval plot / five,Box plot / five,Histogram / 16,0.0038733678457199,0.0075932384222501,0.0035171663489919,-0.0037198705765302,0.0040760720732582,False
+median,hard,WDBC__27,WDBC,WDBC,Interval plot / five,ECDF / full,ECDF / full,0.0051538248420597,0.0045853608251839,0.0045853608251839,0.0005684640168758005,0.0,True
+median,hard,WDBC__28,WDBC,WDBC,Interval plot / five,Box plot / five,Heatmap / 16,0.0026864140016804,0.0026864140016806,0.0017047957264992,-1.9992688060632702e-16,0.0009816182751813999,False
+median,hard,WDBC__29,WDBC,WDBC,Interval plot / five,ECDF / full,Interval plot / five,0.0051678159222021,0.0089935313620792,0.0051678159222021,-0.0038257154398771004,0.0038257154398771004,False
+median,hard,Wrist__00,Wrist,Wrist,Interval plot / five,Interval plot / five,Box plot / five,0.0004675471795779,0.0004675471795779,0.0004675471795779,0.0,0.0,True
+median,hard,Wrist__01,Wrist,Wrist,Interval plot / five,Interval plot / five,Interval plot / five,0.005354297623032,0.005354297623032,0.005354297623032,0.0,0.0,True
+median,hard,Wrist__02,Wrist,Wrist,Interval plot / five,Violin plot / 64,Box plot / five,0.000375765572718,0.0006094367140266,0.000375765572718,-0.0002336711413086,0.0002336711413086,False
+median,hard,Wrist__03,Wrist,Wrist,Interval plot / five,Violin plot / 64,Interval plot / five,0.0047539502695771,0.0056181056244016,0.0047539502695771,-0.0008641553548244998,0.0008641553548244998,False
+median,hard,Wrist__04,Wrist,Wrist,Interval plot / five,Interval plot / five,Box plot / five,0.0026854688945003,0.0026854688945003,0.0026854688945005,0.0,-1.9992688060632702e-16,True
+median,soft,BIDMC__00,BIDMC,BIDMC,Quantile plot / nineteen,Heatmap / 16,Heatmap / 16,0.0034114945226629,0.0025662156400754,0.0025662156400754,0.0008452788825875001,0.0,True
+median,soft,BIDMC__01,BIDMC,BIDMC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0011388772771097,0.0011388772771097,0.0011388772771097,0.0,0.0,True
+median,soft,BIDMC__02,BIDMC,BIDMC,Quantile plot / nineteen,Interval plot / five,Box plot / five,9.602591126269408e-05,0.0,0.0,9.602591126269408e-05,0.0,True
+median,soft,BIDMC__03,BIDMC,BIDMC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0027585050174131,0.0027585050174131,0.0027585050174131,0.0,0.0,True
+median,soft,BIDMC__04,BIDMC,BIDMC,Quantile plot / nineteen,ECDF / full,Box plot / five,0.0010322515926557,0.0012529330351626,0.001032251592656,-0.00022068144250689996,0.00022068144250659985,False
+median,soft,CKD__00,CKD,CKD,Quantile plot / nineteen,Box plot / five,Quantile plot / five,0.0029198838483842,0.0082032826555405,0.0029198838483842,-0.0052833988071563,0.0052833988071563,False
+median,soft,CKD__01,CKD,CKD,Quantile plot / nineteen,Quantile plot / nineteen,Quantile plot / nineteen,0.0073893750046235,0.0073893750046235,0.0073893750046235,0.0,0.0,True
+median,soft,CKD__02,CKD,CKD,Quantile plot / nineteen,Box plot / five,Quantile plot / five,0.0024827560120104,0.0068092542023093,0.0024827560120104,-0.0043264981902989,0.0043264981902989,False
+median,soft,CKD__03,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Heatmap / 16,0.0022120153211151,0.0022120153211151,0.0008115967783657,0.0,0.0014004185427494002,False
+median,soft,CKD__04,CKD,CKD,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0004914048227888,0.0108771591018307,0.0004914048227888,-0.0103857542790419,0.0103857542790419,False
+median,soft,CKD__05,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / nineteen,0.0110991321039872,0.0111396721205126,0.0110991321039872,-4.054001652539947e-05,4.054001652539947e-05,False
+median,soft,CKD__06,CKD,CKD,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0019213490418407,0.0019213490418398,0.0019213490418398,9.001046435974658e-16,0.0,True
+median,soft,CKD__07,CKD,CKD,Quantile plot / nineteen,ECDF / full,Quantile plot / nineteen,0.0008364135178358,0.0008589403694683,0.0008364135178358,-2.2526851632500016e-05,2.2526851632500016e-05,False
+median,soft,CKD__08,CKD,CKD,Quantile plot / nineteen,ECDF / full,Box plot / five,0.0003462475702535,0.0003462475702535,0.0003462475702535,0.0,0.0,True
+median,soft,CKD__09,CKD,CKD,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.000321579023753,0.0008146039763156,0.000321579023753,-0.0004930249525626,0.0004930249525626,False
+median,soft,CKD__10,CKD,CKD,Quantile plot / nineteen,Box plot / five,ECDF / full,0.0033066795723733,0.0086395027051992,0.0033066795723738,-0.0053328231328259,0.0053328231328253995,False
+median,soft,Cleveland__00,Cleveland,Cleveland,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0006281814832726,0.0006281814832726,0.0006281814832726,0.0,0.0,True
+median,soft,Cleveland__01,Cleveland,Cleveland,Quantile plot / nineteen,Interval plot / five,Box plot / five,0.0001312761640237,0.0,0.0,0.0001312761640237,0.0,True
+median,soft,Cleveland__02,Cleveland,Cleveland,Quantile plot / nineteen,Violin plot / 64,Violin plot / 64,0.0067445621489529,0.0013585359917748,0.0013585359917748,0.005386026157178101,0.0,True
+median,soft,Cleveland__03,Cleveland,Cleveland,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0026555917526908,0.0026555917526908,0.0026555917526908,0.0,0.0,True
+median,soft,Cleveland__04,Cleveland,Cleveland,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0020179067182404,0.0020179067182409,0.0020179067182409,-5.000340419503146e-16,0.0,True
+median,soft,HAR__00,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Dot plot / raw,0.0145346440768995,0.0146674519878452,0.0111173982383089,-0.0001328079109456995,0.0035500537495363003,False
+median,soft,HAR__01,HAR,HAR,Quantile plot / nineteen,Box plot / five,ECDF / full,0.0079137900492642,0.0099231399164253,0.0055038803701021,-0.0020093498671610987,0.004419259546323199,False
+median,soft,HAR__02,HAR,HAR,Quantile plot / nineteen,ECDF / full,Box plot / five,0.0006041016021151,0.0227657723741668,0.0006041016021168,-0.022161670772051698,0.022161670772049998,False
+median,soft,HAR__03,HAR,HAR,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0046776736999245,0.0042729136447017,0.0042729136447017,0.00040476005522279996,0.0,True
+median,soft,HAR__04,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0007429688682862,0.0007079844964633,0.0007079844964633,3.49843718229e-05,0.0,True
+median,soft,HAR__05,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0009171348939343,0.0008886510731988,0.0008886510731988,2.8483820735500007e-05,0.0,True
+median,soft,HAR__06,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Interval plot / five,0.0129748833745295,0.0129748833745295,0.012974883374529,0.0,5.0133508455729725e-16,True
+median,soft,HAR__07,HAR,HAR,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0047904304609193,0.0077694449767523,0.0047904304609193,-0.002979014515833,0.002979014515833,False
+median,soft,HAR__08,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0003278585757395,0.0003278585757395,0.0003278585757395,0.0,0.0,True
+median,soft,HAR__09,HAR,HAR,Quantile plot / nineteen,Violin plot / 64,ECDF / full,0.1763909674706857,0.149949518447982,0.0339977306276787,0.026441449022703706,0.1159517878203033,False
+median,soft,HAR__10,HAR,HAR,Quantile plot / nineteen,Violin plot / 64,ECDF / full,0.1220991879984857,0.0370235422053682,0.0321769810071238,0.0850756457931175,0.004846561198244399,False
+median,soft,HAR__11,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,ECDF / full,0.0086418672980296,0.0086418672980296,0.0084894909791432,0.0,0.00015237631888640087,False
+median,soft,HAR__12,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / nineteen,0.0026675548289911,0.0028781130362067,0.0026675548289911,-0.00021055820721559973,0.00021055820721559973,False
+median,soft,HAR__13,HAR,HAR,Quantile plot / nineteen,Quantile plot / nineteen,Violin plot / 64,0.0004984512230391,0.0004984512230391,8.778901088364996e-05,0.0,0.00041066221215545006,False
+median,soft,HAR__14,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0034053719144293,0.0034053719144293,0.0034053719144293,0.0,0.0,True
+median,soft,HAR__15,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0016334785010128,0.0013560879482335,0.0013560879482335,0.00027739055277930017,0.0,True
+median,soft,HAR__16,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0005840513358629,0.0005840513358629,0.0005840513358629,0.0,0.0,True
+median,soft,HAR__17,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0017320870287008,0.0017320870287008,0.0017320870287008,0.0,0.0,True
+median,soft,HAR__18,HAR,HAR,Quantile plot / nineteen,Heatmap / 16,Heatmap / 16,0.0056334862548267,0.0004822426502282,0.0004822426502282,0.0051512436045984995,0.0,True
+median,soft,HAR__19,HAR,HAR,Quantile plot / nineteen,Dot plot / raw,Interval plot / five,0.0045300550298224,0.0042749345091091,0.0021345510651623,0.0002551205207132999,0.0021403834439467995,False
+median,soft,HAR__20,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Dot plot / raw,0.0098706288859226,0.0098706288859226,0.0050944817137871,0.0,0.0047761471721355,False
+median,soft,HAR__21,HAR,HAR,Quantile plot / nineteen,Violin plot / 64,Quantile plot / five,0.0009838907200079,0.0104088119163498,0.0009533705284333,-0.0094249211963419,0.0094554413879165,False
+median,soft,HAR__22,HAR,HAR,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0073556455198549,0.0017250495845658,0.0017250495845658,0.0056305959352891,0.0,True
+median,soft,HAR__23,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0020418861327447,0.0020418861327447,0.0020418861327447,0.0,0.0,True
+median,soft,HAR__24,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / nineteen,0.006775764905357,0.0070052293178525,0.006775764905357,-0.00022946441249549997,0.00022946441249549997,False
+median,soft,HAR__25,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0004310780319163,0.0004310780319163,0.0004310780319163,0.0,0.0,True
+median,soft,HAR__26,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0025663156566855,0.0025663156566855,0.0025663156566855,0.0,0.0,True
+median,soft,HAR__27,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.00206287944319,0.0020311198782886,0.0020311198782886,3.175956490140009e-05,0.0,True
+median,soft,HAR__28,HAR,HAR,Quantile plot / nineteen,Quantile plot / nineteen,Quantile plot / five,0.0013216690257415,0.0013216690257415,0.0010795447651117,0.0,0.0002421242606298001,False
+median,soft,HAR__29,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0008351690801578,0.0008351690801578,0.0008351690801578,0.0,0.0,True
+median,soft,HAR__30,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0047035013309948,0.0047035013309948,0.0047035013309948,0.0,0.0,True
+median,soft,HAR__31,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0004969535363981,0.0004969535363981,0.0004969535363981,0.0,0.0,True
+median,soft,HAR__32,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0047035013309948,0.0047035013309948,0.0047035013309948,0.0,0.0,True
+median,soft,HAR__33,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0004969535363981,0.0004969535363981,0.0004969535363981,0.0,0.0,True
+median,soft,HAR__34,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0045688769869343,0.0045688769869343,0.0045688769869343,0.0,0.0,True
+median,soft,HAR__35,HAR,HAR,Quantile plot / nineteen,Quantile plot / nineteen,Quantile plot / nineteen,0.002637196769135,0.002637196769135,0.002637196769135,0.0,0.0,True
+median,soft,HAR__36,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Interval plot / five,0.0092284002603064,0.0092284002603064,0.0082826506683687,0.0,0.0009457495919376994,False
+median,soft,HAR__37,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Violin plot / 64,0.0048388381073646,0.0048388381073646,0.0001667087312076,0.0,0.004672129376156999,False
+median,soft,HAR__38,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Interval plot / five,0.0062072084612444,0.0064731327120892,0.0039838085377881,-0.00026592425084479964,0.0024893241743011,False
+median,soft,HAR__39,HAR,HAR,Quantile plot / nineteen,Quantile plot / five,Quantile plot / nineteen,0.0003155299615645,0.0003344814176727,0.0003155299615645,-1.8951456108199998e-05,1.8951456108199998e-05,False
+median,soft,HeartFailure__00,HeartFailure,HeartFailure,Quantile plot / nineteen,ECDF / full,Histogram / 16,0.0057810889179382,0.005781088917939,0.0027169906232591,-8.005748841632965e-16,0.0030640982946799,False
+median,soft,HeartFailure__01,HeartFailure,HeartFailure,Quantile plot / nineteen,Quantile plot / five,ECDF / full,0.0059597545214478,0.0059597545214478,0.0022394129555357,0.0,0.0037203415659121,False
+median,soft,HeartFailure__02,HeartFailure,HeartFailure,Quantile plot / nineteen,Interval plot / five,ECDF / full,0.0037978642781502,0.0055099012729307,0.0035783139552385,-0.0017120369947804998,0.0019315873176922,False
+median,soft,HeartFailure__03,HeartFailure,HeartFailure,Quantile plot / nineteen,Box plot / five,Quantile plot / five,0.0016817632320318,0.0087859370843166,0.0016817632320318,-0.007104173852284799,0.007104173852284799,False
+median,soft,HeartFailure__04,HeartFailure,HeartFailure,Quantile plot / nineteen,Heatmap / 16,Heatmap / 16,0.0034588032359314,0.0002163277809317,0.0002163277809317,0.0032424754549997,0.0,True
+median,soft,HeartFailure__05,HeartFailure,HeartFailure,Quantile plot / nineteen,Quantile plot / five,Quantile plot / nineteen,0.0021254946316816,0.0027626997758299,0.0021254946316816,-0.0006372051441482997,0.0006372051441482997,False
+median,soft,ILPD__00,ILPD,ILPD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0039450773266329,0.0039450773266329,0.0039450773266329,0.0,0.0,True
+median,soft,ILPD__01,ILPD,ILPD,Quantile plot / nineteen,Box plot / five,Quantile plot / five,0.0064934979239411,0.0185036820368501,0.0062256866347721,-0.012010184112909,0.012277995402078,False
+median,soft,ILPD__02,ILPD,ILPD,Quantile plot / nineteen,Quantile plot / five,ECDF / full,0.0011576696460957,0.0011575421216367,0.0009345136091919,1.2752445900003975e-07,0.00022302851244479993,False
+median,soft,ILPD__03,ILPD,ILPD,Quantile plot / nineteen,Quantile plot / five,ECDF / full,0.0036045257853261,0.0036045257853261,0.0010802159061577,0.0,0.0025243098791684,False
+median,soft,ILPD__04,ILPD,ILPD,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.002127160374394,0.0051410805603643,0.0020991889327326,-0.0030139201859703,0.0030418916276317,False
+median,soft,ILPD__05,ILPD,ILPD,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0006798561045406,0.001144993990553,0.0006489775156695,-0.0004651378860124001,0.0004960164748835001,False
+median,soft,ILPD__06,ILPD,ILPD,Quantile plot / nineteen,Violin plot / 64,Violin plot / 64,0.0041617768591975,0.0027946463614208,0.0027946463614208,0.0013671304977767003,0.0,True
+median,soft,ILPD__07,ILPD,ILPD,Quantile plot / nineteen,Box plot / five,Quantile plot / five,0.0041098773188166,0.005940710900781,0.0040971410373188,-0.0018308335819643999,0.0018435698634622,False
+median,soft,ILPD__08,ILPD,ILPD,Quantile plot / nineteen,ECDF / full,Quantile plot / nineteen,0.0008045146586511,0.0008257923547374,0.0008045146586511,-2.127769608630003e-05,2.127769608630003e-05,False
+median,soft,Retinopathy__00,Retinopathy,Retinopathy,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0039662249519396,0.0039662249519396,0.0039662249519396,0.0,0.0,True
+median,soft,Retinopathy__01,Retinopathy,Retinopathy,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0046588047907308,0.0010583976714163,0.0010583976714163,0.0036004071193145,0.0,True
+median,soft,Retinopathy__02,Retinopathy,Retinopathy,Quantile plot / nineteen,Quantile plot / five,Box plot / five,0.0009719106375548,0.0009719106375548,0.0009719106375556,0.0,-8.000327830770537e-16,True
+median,soft,Retinopathy__03,Retinopathy,Retinopathy,Quantile plot / nineteen,Quantile plot / five,Box plot / five,0.0023452426119326,0.0023452426119326,0.0023452426119321,0.0,5.000340419503146e-16,True
+median,soft,Retinopathy__04,Retinopathy,Retinopathy,Quantile plot / nineteen,Quantile plot / five,ECDF / full,0.0047260928045794,0.0047260928045794,0.0023322998707007,0.0,0.0023937929338787,False
+median,soft,Retinopathy__05,Retinopathy,Retinopathy,Quantile plot / nineteen,Quantile plot / five,Box plot / five,0.0007016332714027,0.0007016332714027,0.000701633271402,0.0,7.000693427738902e-16,True
+median,soft,Retinopathy__06,Retinopathy,Retinopathy,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0003559035055323,0.0021815321187325,0.0003559035055323,-0.0018256286132002,0.0018256286132002,False
+median,soft,Retinopathy__07,Retinopathy,Retinopathy,Quantile plot / nineteen,Heatmap / 16,Heatmap / 16,0.0013549171927193,0.0003822822234606,0.0003822822234606,0.0009726349692586999,0.0,True
+median,soft,Retinopathy__08,Retinopathy,Retinopathy,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0055405200886847,0.0016334878164595,0.0016334878164595,0.0039070322722252,0.0,True
+median,soft,Retinopathy__09,Retinopathy,Retinopathy,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0007771319546406,0.000849308909087,0.0007771319546406,-7.217695444640003e-05,7.217695444640003e-05,False
+median,soft,Retinopathy__10,Retinopathy,Retinopathy,Quantile plot / nineteen,Quantile plot / five,Quantile plot / nineteen,0.0008305862939424,0.0008308908324611,0.0008305862939424,-3.0453851870002654e-07,3.0453851870002654e-07,False
+median,soft,Retinopathy__11,Retinopathy,Retinopathy,Quantile plot / nineteen,Quantile plot / five,Quantile plot / nineteen,0.0110057157528458,0.0110059991756075,0.0110057157528458,-2.834227616991397e-07,2.834227616991397e-07,False
+median,soft,Retinopathy__12,Retinopathy,Retinopathy,Quantile plot / nineteen,ECDF / full,ECDF / full,0.000221664550841,1.872849403648868e-05,1.872849403648868e-05,0.00020293605680451131,0.0,True
+median,soft,Retinopathy__13,Retinopathy,Retinopathy,Quantile plot / nineteen,ECDF / full,ECDF / full,0.000250575191916,2.117116142169089e-05,2.117116142169089e-05,0.00022940403049430915,0.0,True
+median,soft,Retinopathy__14,Retinopathy,Retinopathy,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0070899417905963,0.0038733497606653,0.0038733497606653,0.003216592029931,0.0,True
+median,soft,Retinopathy__15,Retinopathy,Retinopathy,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0035562925025428,0.0046700926054885,0.0035562925025428,-0.0011138001029457004,0.0011138001029457004,False
+median,soft,WDBC__00,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Violin plot / 64,0.0045103683232561,0.0045103683232561,0.0018441741363737,0.0,0.0026661941868823995,False
+median,soft,WDBC__01,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0030073513924452,0.0030073513924452,0.0030073513924452,0.0,0.0,True
+median,soft,WDBC__02,WDBC,WDBC,Quantile plot / nineteen,Heatmap / 16,Quantile plot / five,0.0005630644434579,0.0027840977323837,0.0005630644434579,-0.0022210332889258,0.0022210332889258,False
+median,soft,WDBC__03,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0051730386412387,0.0051730386412387,0.0051730386412387,0.0,0.0,True
+median,soft,WDBC__04,WDBC,WDBC,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0006206291154394,0.0092877175593247,0.0006206291154394,-0.0086670884438853,0.0086670884438853,False
+median,soft,WDBC__05,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0020660587758173,0.0020660587758173,0.0020660587758173,0.0,0.0,True
+median,soft,WDBC__06,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0017972238243799,0.0017972238243799,0.0017972238243799,0.0,0.0,True
+median,soft,WDBC__07,WDBC,WDBC,Quantile plot / nineteen,Histogram / 16,ECDF / full,0.0023460816329061,0.0067864528132764,0.0009547369104237,-0.0044403711803703005,0.0058317159028527,False
+median,soft,WDBC__08,WDBC,WDBC,Quantile plot / nineteen,Heatmap / 16,ECDF / full,0.0050409816582447,0.0010738299852793,0.0008065700075537,0.0039671516729654,0.0002672599777256001,False
+median,soft,WDBC__09,WDBC,WDBC,Quantile plot / nineteen,Box plot / five,Quantile plot / five,0.0054408316686775,0.0103941264879788,0.0054408316686775,-0.0049532948193013,0.0049532948193013,False
+median,soft,WDBC__10,WDBC,WDBC,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0079693106623552,0.0025223570099785,0.0025223570099785,0.0054469536523767004,0.0,True
+median,soft,WDBC__11,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0047935574277783,0.0047935574277783,0.0047935574277783,0.0,0.0,True
+median,soft,WDBC__12,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.000408149587221,0.000408149587221,0.000408149587221,0.0,0.0,True
+median,soft,WDBC__13,WDBC,WDBC,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0004465993440652,0.0008426293537625,0.0004465993440652,-0.0003960300096973,0.0003960300096973,False
+median,soft,WDBC__14,WDBC,WDBC,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0033853662617236,0.0030724567212934,0.0030724567212934,0.00031290954043020026,0.0,True
+median,soft,WDBC__15,WDBC,WDBC,Quantile plot / nineteen,Box plot / five,ECDF / full,0.0056901689920641,0.0072955005519703,0.0007535188602519,-0.0016053315599062002,0.0065419816917184,False
+median,soft,WDBC__16,WDBC,WDBC,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0045229935701309,0.004492186251852,0.004492186251852,3.0807318278900514e-05,0.0,True
+median,soft,WDBC__17,WDBC,WDBC,Quantile plot / nineteen,Violin plot / 64,ECDF / full,0.001615606190885,0.0013490256617471,0.0013435439121183,0.00026658052913789993,5.481749628800112e-06,False
+median,soft,WDBC__18,WDBC,WDBC,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0025637569931055,0.0028573159040189,0.0025637569931055,-0.0002935589109134,0.0002935589109134,False
+median,soft,WDBC__19,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,ECDF / full,0.0021072018880608,0.0021072018880608,0.0013261503095484,0.0,0.0007810515785124001,False
+median,soft,WDBC__20,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0037282539301116,0.0037282539301116,0.0037282539301116,0.0,0.0,True
+median,soft,WDBC__21,WDBC,WDBC,Quantile plot / nineteen,Violin plot / 64,Quantile plot / five,0.0015478083653316,0.0041090800304115,0.0015478083653316,-0.0025612716650799,0.0025612716650799,False
+median,soft,WDBC__22,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0017508849311704,0.0017508849311704,0.0017508849311704,0.0,0.0,True
+median,soft,WDBC__23,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,ECDF / full,0.006585440777963,0.006585440777963,0.0009728412325921,0.0,0.005612599545370901,False
+median,soft,WDBC__24,WDBC,WDBC,Quantile plot / nineteen,ECDF / full,Quantile plot / five,0.0007264085364298,0.0036540866810251,0.0007264085364298,-0.0029276781445953,0.0029276781445953,False
+median,soft,WDBC__25,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.001108228798554,0.001108228798554,0.001108228798554,0.0,0.0,True
+median,soft,WDBC__26,WDBC,WDBC,Quantile plot / nineteen,Box plot / five,Quantile plot / five,0.0021343420749941,0.0075932384222501,0.0021343420749941,-0.0054588963472559995,0.0054588963472559995,False
+median,soft,WDBC__27,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,ECDF / full,0.0050515812287815,0.0050515812287815,0.0011613761309105,0.0,0.0038902050978710002,False
+median,soft,WDBC__28,WDBC,WDBC,Quantile plot / nineteen,Box plot / five,Heatmap / 16,0.0026864140016814,0.0026864140016806,0.0017047957264992,8.001412032943023e-16,0.0009816182751813999,False
+median,soft,WDBC__29,WDBC,WDBC,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0008947336548824,0.0008947336548824,0.0008947336548824,0.0,0.0,True
+median,soft,Wrist__00,Wrist,Wrist,Quantile plot / nineteen,ECDF / full,Box plot / five,0.000467547179578,0.0004975367754713,0.0004675471795779,-2.998959589330005e-05,2.9989595893400067e-05,False
+median,soft,Wrist__01,Wrist,Wrist,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0042462220366669,0.0006148967899208,0.0006148967899208,0.0036313252467460996,0.0,True
+median,soft,Wrist__02,Wrist,Wrist,Quantile plot / nineteen,Violin plot / 64,Violin plot / 64,0.0003757655727173,0.0001649367103797,0.0001649367103797,0.0002108288623376,0.0,True
+median,soft,Wrist__03,Wrist,Wrist,Quantile plot / nineteen,Violin plot / 64,Interval plot / five,0.0047539502695775,0.0066953937065552,0.0047539502695771,-0.0019414434369776998,0.0019414434369780997,False
+median,soft,Wrist__04,Wrist,Wrist,Quantile plot / nineteen,ECDF / full,Box plot / five,0.0026854688944999,0.0056305018091487,0.0026854688945005,-0.0029450329146488,0.0029450329146482,False
+spread,hard,BIDMC__00,BIDMC,BIDMC,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0036796443969071,0.002325917290007,0.002325917290007,0.0013537271069001002,0.0,True
+spread,hard,BIDMC__01,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0067245782220671,0.0067245782220671,0.0067245782220671,0.0,0.0,True
+spread,hard,BIDMC__02,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0069408654589987,0.0069408654589987,0.0069408654589987,0.0,0.0,True
+spread,hard,BIDMC__03,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Box plot / five,0.0087666032777155,0.0087666032777155,0.006927599932775,0.0,0.0018390033449404994,False
+spread,hard,BIDMC__04,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0072852613622619,0.0072852613622619,0.0072852613622619,0.0,0.0,True
+spread,hard,CKD__00,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0044966141963703,0.0044966141963703,0.0044966141963703,0.0,0.0,True
+spread,hard,CKD__01,CKD,CKD,Quantile plot / five,Bar chart / means,Bar chart / means,0.0088011521217509,0.0,0.0,0.0088011521217509,0.0,True
+spread,hard,CKD__02,CKD,CKD,Quantile plot / five,Dot plot / raw,Quantile plot / five,0.0058137710373359,0.0198785722688969,0.0058137710373359,-0.014064801231560998,0.014064801231560998,False
+spread,hard,CKD__03,CKD,CKD,Quantile plot / five,ECDF / full,Quantile plot / five,0.0065457256007445,0.0101149955106324,0.0065457256007445,-0.003569269909887901,0.003569269909887901,False
+spread,hard,CKD__04,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0129219451476574,0.0129219451476574,0.0128409053324223,0.0,8.103981523510141e-05,False
+spread,hard,CKD__05,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0097814028035458,0.0097814028035458,0.0097814028035458,0.0,0.0,True
+spread,hard,CKD__06,CKD,CKD,Quantile plot / five,Quantile plot / five,Interval plot / five,0.0146081510012652,0.0146081510012652,0.012964399875206,0.0,0.0016437511260592001,False
+spread,hard,CKD__07,CKD,CKD,Quantile plot / five,Interval plot / five,Quantile plot / five,0.0060782437339088,0.0086239314388418,0.0060782437339088,-0.0025456877049329996,0.0025456877049329996,False
+spread,hard,CKD__08,CKD,CKD,Quantile plot / five,Heatmap / 16,Quantile plot / five,0.0027506995072132,0.0097983177861803,0.0027506995072132,-0.007047618278967101,0.007047618278967101,False
+spread,hard,CKD__09,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0079359656348149,0.0079359656348149,0.0079359656348149,0.0,0.0,True
+spread,hard,CKD__10,CKD,CKD,Quantile plot / five,Bar chart / means,Bar chart / means,0.0090234806032089,6.046031669844307e-16,6.046031669844307e-16,0.009023480603208294,0.0,True
+spread,hard,Cleveland__00,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0069038647404491,0.0069038647404491,0.0069038647404491,0.0,0.0,True
+spread,hard,Cleveland__01,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Interval plot / five,0.0032467736053668,0.0032467736053668,0.00174078824748,0.0,0.0015059853578868,False
+spread,hard,Cleveland__02,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0060098829817149,0.0060098829817149,0.0060098829817149,0.0,0.0,True
+spread,hard,Cleveland__03,Cleveland,Cleveland,Quantile plot / five,Violin plot / 64,Histogram / 16,0.0036311469445449,0.0024742463547713,0.0012288525921413,0.0011569005897736,0.0012453937626299998,False
+spread,hard,Cleveland__04,Cleveland,Cleveland,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.003944341475554,0.0014708723001178,0.0014708723001178,0.0024734691754362,0.0,True
+spread,hard,HAR__00,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0396431176675047,0.0396431176675047,0.0396431176675047,0.0,0.0,True
+spread,hard,HAR__01,HAR,HAR,Quantile plot / five,Dot plot / raw,Quantile plot / five,0.0120186770438517,0.0264761948101805,0.0120186770438517,-0.0144575177663288,0.0144575177663288,False
+spread,hard,HAR__02,HAR,HAR,Quantile plot / five,Quantile plot / five,Interval plot / five,0.019099930799277,0.019099930799277,0.0155233805859774,0.0,0.0035765502132995997,False
+spread,hard,HAR__03,HAR,HAR,Quantile plot / five,Box plot / five,Quantile plot / nineteen,0.0095502539959871,0.0161012037323495,0.0063238168351808,-0.0065509497363623985,0.0097773868971687,False
+spread,hard,HAR__04,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0137181889706319,0.0137181889706319,0.0130620800682846,0.0,0.0006561089023473,False
+spread,hard,HAR__05,HAR,HAR,Quantile plot / five,ECDF / full,Quantile plot / five,0.0116899133548503,0.0214567234901285,0.0116899133548503,-0.009766810135278201,0.009766810135278201,False
+spread,hard,HAR__06,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.016406587822646,0.016406587822646,0.016406587822646,0.0,0.0,True
+spread,hard,HAR__07,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0087319009108939,0.0087319009108939,0.0087319009108939,0.0,0.0,True
+spread,hard,HAR__08,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0057469228164018,0.0057469228164018,0.0057469228164018,0.0,0.0,True
+spread,hard,HAR__09,HAR,HAR,Quantile plot / five,Violin plot / 64,Quantile plot / five,0.0967781868954843,0.3188970747524424,0.0967781868954843,-0.2221188878569581,0.2221188878569581,False
+spread,hard,HAR__10,HAR,HAR,Quantile plot / five,ECDF / full,ECDF / full,0.1752660824107782,0.0273125473865666,0.0273125473865666,0.1479535350242116,0.0,True
+spread,hard,HAR__11,HAR,HAR,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.09058038856202,0.0064188001904458,0.0064188001904458,0.0841615883715742,0.0,True
+spread,hard,HAR__12,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0057414810878289,0.0057414810878289,0.0057414810878289,0.0,0.0,True
+spread,hard,HAR__13,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0101255488881674,0.0101255488881674,0.0101255488881674,0.0,0.0,True
+spread,hard,HAR__14,HAR,HAR,Quantile plot / five,Quantile plot / five,Box plot / five,0.0056708848707599,0.0056708848707599,0.0047894283742141,0.0,0.0008814564965458002,False
+spread,hard,HAR__15,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0145934413433508,0.0145934413433508,0.0145934413433508,0.0,0.0,True
+spread,hard,HAR__16,HAR,HAR,Quantile plot / five,Quantile plot / five,Box plot / five,0.0091994634297788,0.0091994634297788,0.0017606767471351,0.0,0.007438786682643701,False
+spread,hard,HAR__17,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0092930937950816,0.0092930937950816,0.0092930937950816,0.0,0.0,True
+spread,hard,HAR__18,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0094303043996982,0.0094303043996982,0.0083597240509125,0.0,0.0010705803487856998,False
+spread,hard,HAR__19,HAR,HAR,Quantile plot / five,ECDF / full,Quantile plot / five,0.0045864508352932,0.021207797679681,0.0045864508352932,-0.016621346844387798,0.016621346844387798,False
+spread,hard,HAR__20,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0100902967345033,0.0100902967345033,0.00846741584699,0.0,0.0016228808875133009,False
+spread,hard,HAR__21,HAR,HAR,Quantile plot / five,Box plot / five,Quantile plot / nineteen,0.0084713148059745,0.016170212694896,0.0066107554995501,-0.007698897888921502,0.009559457195345901,False
+spread,hard,HAR__22,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.00745204677977,0.00745204677977,0.0056544595970722,0.0,0.0017975871826977994,False
+spread,hard,HAR__23,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0115233676493277,0.0115233676493277,0.0115233676493277,0.0,0.0,True
+spread,hard,HAR__24,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0070785667226417,0.0070785667226417,0.0057883013708106,0.0,0.0012902653518310995,False
+spread,hard,HAR__25,HAR,HAR,Quantile plot / five,Quantile plot / five,Box plot / five,0.0082159280953236,0.0082159280953236,0.0079709073070072,0.0,0.0002450207883164003,False
+spread,hard,HAR__26,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0080417883297591,0.0080417883297591,0.0080417883297591,0.0,0.0,True
+spread,hard,HAR__27,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0134618453267454,0.0134618453267454,0.0104836964876538,0.0,0.0029781488390916,False
+spread,hard,HAR__28,HAR,HAR,Quantile plot / five,Quantile plot / five,ECDF / full,0.0107660261256977,0.0107660261256977,0.0093167533780077,0.0,0.00144927274769,False
+spread,hard,HAR__29,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0048375920656649,0.0048375920656649,0.0048375920656649,0.0,0.0,True
+spread,hard,HAR__30,HAR,HAR,Quantile plot / five,Dot plot / raw,Quantile plot / nineteen,0.0124791819618574,0.0214680678830546,0.0117670414877481,-0.008988885921197199,0.009701026395306499,False
+spread,hard,HAR__31,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0069917242926555,0.0069917242926555,0.0069917242926555,0.0,0.0,True
+spread,hard,HAR__32,HAR,HAR,Quantile plot / five,Dot plot / raw,Quantile plot / nineteen,0.0124791819618574,0.0214680678830546,0.0117670414877481,-0.008988885921197199,0.009701026395306499,False
+spread,hard,HAR__33,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0069917242926555,0.0069917242926555,0.0069917242926555,0.0,0.0,True
+spread,hard,HAR__34,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0081112099617254,0.0081112099617254,0.0081112099617254,0.0,0.0,True
+spread,hard,HAR__35,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0105388350154185,0.0105388350154185,0.0099782586848105,0.0,0.0005605763306079994,False
+spread,hard,HAR__36,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0092934080301472,0.0092934080301472,0.0072958334679685,0.0,0.0019975745621787005,False
+spread,hard,HAR__37,HAR,HAR,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0111639940488993,0.0020324170898324,0.0020324170898324,0.0091315769590669,0.0,True
+spread,hard,HAR__38,HAR,HAR,Quantile plot / five,Quantile plot / five,Box plot / five,0.0122804377599854,0.0122804377599854,0.0120503124628698,0.0,0.0002301252971155989,False
+spread,hard,HAR__39,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0103965646859763,0.0103965646859763,0.0098712674560667,0.0,0.000525297229909601,False
+spread,hard,HeartFailure__00,HeartFailure,HeartFailure,Quantile plot / five,ECDF / full,Quantile plot / five,0.0048847104854521,0.006869124120167,0.0048847104854521,-0.0019844136347149004,0.0019844136347149004,False
+spread,hard,HeartFailure__01,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0067659435723876,0.0067659435723876,0.0065776514210766,0.0,0.00018829215131099981,False
+spread,hard,HeartFailure__02,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0062110858760967,0.0062110858760967,0.0053113380538498,0.0,0.0008997478222469001,False
+spread,hard,HeartFailure__03,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Interval plot / five,0.0043802857159663,0.0043802857159663,0.0009920727518188,0.0,0.0033882129641475004,False
+spread,hard,HeartFailure__04,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0047866051990011,0.0047866051990011,0.0042663220251964,0.0,0.0005202831738046997,False
+spread,hard,HeartFailure__05,HeartFailure,HeartFailure,Quantile plot / five,Interval plot / five,Box plot / five,0.0374694130418222,0.0490383174638202,0.0231378088439943,-0.011568904421998004,0.0259005086198259,False
+spread,hard,ILPD__00,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0038481818802973,0.0038481818802973,0.0038481818802973,0.0,0.0,True
+spread,hard,ILPD__01,ILPD,ILPD,Quantile plot / five,ECDF / full,Quantile plot / five,0.0084162484551929,0.0093607093641123,0.0084162484551929,-0.0009444609089193992,0.0009444609089193992,False
+spread,hard,ILPD__02,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0078817201678881,0.0078817201678881,0.0078817201678881,0.0,0.0,True
+spread,hard,ILPD__03,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0043146196548811,0.0043146196548811,0.0043146196548811,0.0,0.0,True
+spread,hard,ILPD__04,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0068635566311391,0.0068635566311391,0.0068635566311391,0.0,0.0,True
+spread,hard,ILPD__05,ILPD,ILPD,Quantile plot / five,ECDF / full,Quantile plot / nineteen,0.0099672775221352,0.0101189406632704,0.0074314939155876,-0.00015166314113520055,0.0026874467476828007,False
+spread,hard,ILPD__06,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0072920748886352,0.0072920748886352,0.0072920748886352,0.0,0.0,True
+spread,hard,ILPD__07,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0030363633492878,0.0030363633492878,0.0030363633492878,0.0,0.0,True
+spread,hard,ILPD__08,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Interval plot / five,0.0035116330191461,0.0035116330191461,0.0008257923547387,0.0,0.0026858406644074003,False
+spread,hard,Retinopathy__00,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0073834849265828,0.0073834849265828,0.0073834849265828,0.0,0.0,True
+spread,hard,Retinopathy__01,Retinopathy,Retinopathy,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0047128529077587,0.0039426964453374,0.0039426964453374,0.0007701564624213002,0.0,True
+spread,hard,Retinopathy__02,Retinopathy,Retinopathy,Quantile plot / five,Interval plot / five,Quantile plot / five,0.0046661550563406,0.0158290143804592,0.0046661550563406,-0.0111628593241186,0.0111628593241186,False
+spread,hard,Retinopathy__03,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0037332533095032,0.0037332533095032,0.0037332533095032,0.0,0.0,True
+spread,hard,Retinopathy__04,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0016022774045721,0.0016022774045721,0.0016022774045721,0.0,0.0,True
+spread,hard,Retinopathy__05,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Interval plot / five,0.0027246439357398,0.0027246439357398,0.0005613066171219,0.0,0.0021633373186179,False
+spread,hard,Retinopathy__06,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.0055089646647591,0.0068043793935632,0.0055089646647591,-0.0012954147288041003,0.0012954147288041003,False
+spread,hard,Retinopathy__07,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.0048970184231433,0.0074828532588287,0.0048970184231433,-0.0025858348356853997,0.0025858348356853997,False
+spread,hard,Retinopathy__08,Retinopathy,Retinopathy,Quantile plot / five,Bar chart / means,Quantile plot / five,0.0064670616686367,0.0103743993676226,0.0064670616686367,-0.0039073376989859,0.0039073376989859,False
+spread,hard,Retinopathy__09,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,ECDF / full,0.0141402502372385,0.0141402502372385,0.0136394684860074,0.0,0.0005007817512311004,False
+spread,hard,Retinopathy__10,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0153730716100975,0.0153730716100975,0.0153730716100975,0.0,0.0,True
+spread,hard,Retinopathy__11,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / nineteen,0.0141484282119972,0.0161858641828555,0.0136431272044256,-0.002037435970858299,0.0025427369784299,False
+spread,hard,Retinopathy__12,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Heatmap / 16,0.011561484631229,0.012914562777558,0.010024317238059,-0.0013530781463289999,0.0028902455394990006,False
+spread,hard,Retinopathy__13,Retinopathy,Retinopathy,Quantile plot / five,Histogram / 16,Histogram / 16,0.0090218512782974,0.0085924675008215,0.0085924675008215,0.00042938377747589983,0.0,True
+spread,hard,Retinopathy__14,Retinopathy,Retinopathy,Quantile plot / five,Interval plot / five,Quantile plot / five,0.0077484676327068,0.024520330266591,0.0077484676327068,-0.0167718626338842,0.0167718626338842,False
+spread,hard,Retinopathy__15,Retinopathy,Retinopathy,Quantile plot / five,Heatmap / 16,Heatmap / 16,0.0074743487756988,0.0027665587057571,0.0027665587057571,0.0047077900699417,0.0,True
+spread,hard,WDBC__00,WDBC,WDBC,Quantile plot / five,Violin plot / 64,Quantile plot / five,0.0048426667531607,0.0101877229266741,0.0048426667531607,-0.0053450561735134,0.0053450561735134,False
+spread,hard,WDBC__01,WDBC,WDBC,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0037806783325819,0.0029365688990035,0.0029365688990035,0.0008441094335783998,0.0,True
+spread,hard,WDBC__02,WDBC,WDBC,Quantile plot / five,Quantile plot / five,ECDF / full,0.0102098903190617,0.0102098903190617,0.0091362816106521,0.0,0.0010736087084096003,False
+spread,hard,WDBC__03,WDBC,WDBC,Quantile plot / five,ECDF / full,ECDF / full,0.0093365430651389,0.0047213733559131,0.0047213733559131,0.0046151697092258,0.0,True
+spread,hard,WDBC__04,WDBC,WDBC,Quantile plot / five,Violin plot / 64,Quantile plot / five,0.0082296606494146,0.0096468206775747,0.0082296606494146,-0.0014171600281601,0.0014171600281601,False
+spread,hard,WDBC__05,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0051773878337029,0.0051773878337029,0.0051773878337029,0.0,0.0,True
+spread,hard,WDBC__06,WDBC,WDBC,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.003844897332215,0.0028296803465879,0.0028296803465879,0.0010152169856271001,0.0,True
+spread,hard,WDBC__07,WDBC,WDBC,Quantile plot / five,Box plot / five,Quantile plot / five,0.0110338738805223,0.0164491643260379,0.0110338738805223,-0.0054152904455156,0.0054152904455156,False
+spread,hard,WDBC__08,WDBC,WDBC,Quantile plot / five,Dot plot / raw,Quantile plot / five,0.0116397173667155,0.024687089898025,0.0116397173667155,-0.0130473725313095,0.0130473725313095,False
+spread,hard,WDBC__09,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0097011847221144,0.0097011847221144,0.0097011847221144,0.0,0.0,True
+spread,hard,WDBC__10,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Interval plot / five,0.0036067925880157,0.0036067925880157,0.0013221606049997,0.0,0.002284631983016,False
+spread,hard,WDBC__11,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0027886237800134,0.0027886237800134,0.0027886237800134,0.0,0.0,True
+spread,hard,WDBC__12,WDBC,WDBC,Quantile plot / five,ECDF / full,Histogram / 16,0.0106839970177117,0.0079792424103004,0.0058576465611404,0.0027047546074113003,0.0021215958491600006,False
+spread,hard,WDBC__13,WDBC,WDBC,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0109254719757903,0.0017986731889262,0.0017986731889262,0.0091267987868641,0.0,True
+spread,hard,WDBC__14,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0060321587159308,0.0060321587159308,0.0060321587159308,0.0,0.0,True
+spread,hard,WDBC__15,WDBC,WDBC,Quantile plot / five,Interval plot / five,Quantile plot / five,0.0042868455765089,0.0145910011039405,0.0042868455765089,-0.0103041555274316,0.0103041555274316,False
+spread,hard,WDBC__16,WDBC,WDBC,Quantile plot / five,ECDF / full,Interval plot / five,0.0128558405100139,0.0009062930710015,0.0009062930710014,0.011949547439012399,9.996344030316351e-17,True
+spread,hard,WDBC__17,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Histogram / 16,0.0078245406315383,0.0078245406315383,0.0073249827123432,0.0,0.0004995579191951005,False
+spread,hard,WDBC__18,WDBC,WDBC,Quantile plot / five,Quantile plot / five,ECDF / full,0.0085856827584994,0.0085856827584994,0.0083269739381089,0.0,0.0002587088203905002,False
+spread,hard,WDBC__19,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0076567977728749,0.0076567977728749,0.0076567977728749,0.0,0.0,True
+spread,hard,WDBC__20,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0077000496123755,0.0077000496123755,0.0077000496123755,0.0,0.0,True
+spread,hard,WDBC__21,WDBC,WDBC,Quantile plot / five,Bar chart / means,Bar chart / means,0.0055241760490262,0.0041118290857543,0.0041118290857543,0.0014123469632718998,0.0,True
+spread,hard,WDBC__22,WDBC,WDBC,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0109688537500812,0.0025744872613589,0.0025744872613589,0.008394366488722299,0.0,True
+spread,hard,WDBC__23,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0040848259540035,0.0040848259540035,0.0040848259540035,0.0,0.0,True
+spread,hard,WDBC__24,WDBC,WDBC,Quantile plot / five,Quantile plot / five,ECDF / full,0.0059036381380538,0.0059036381380538,0.0009883034224501,0.0,0.0049153347156037,False
+spread,hard,WDBC__25,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Interval plot / five,0.0092801089985584,0.0092801089985584,0.0040866280580229,0.0,0.0051934809405355,False
+spread,hard,WDBC__26,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0094161506979163,0.0094161506979163,0.0094161506979163,0.0,0.0,True
+spread,hard,WDBC__27,WDBC,WDBC,Quantile plot / five,Heatmap / 16,Heatmap / 16,0.0060049723267525,0.0057348607822287,0.0057348607822287,0.00027011154452380014,0.0,True
+spread,hard,WDBC__28,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Interval plot / five,0.0097269420388058,0.0097269420388058,0.0097269420388059,0.0,-1.0061396160665481e-16,True
+spread,hard,WDBC__29,WDBC,WDBC,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0081078487004757,0.0005409125075242,0.0005409125075242,0.007566936192951501,0.0,True
+spread,hard,Wrist__00,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0057051928759716,0.0057051928759716,0.0057051928759716,0.0,0.0,True
+spread,hard,Wrist__01,Wrist,Wrist,Quantile plot / five,Interval plot / five,Interval plot / five,0.0076012132733284,0.0070398161158747,0.0070398161158747,0.0005613971574536993,0.0,True
+spread,hard,Wrist__02,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0043370914807118,0.0043370914807118,0.0043370914807118,0.0,0.0,True
+spread,hard,Wrist__03,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0057456162692273,0.0057456162692273,0.0057456162692273,0.0,0.0,True
+spread,hard,Wrist__04,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0090702300089908,0.0090702300089908,0.0090702300089908,0.0,0.0,True
+spread,soft,BIDMC__00,BIDMC,BIDMC,Quantile plot / five,Violin plot / 64,Quantile plot / five,0.000404102405561,0.0013809332216965,0.000404102405561,-0.0009768308161354998,0.0009768308161354998,False
+spread,soft,BIDMC__01,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0011388772771091,0.0011388772771091,0.0011388772771091,0.0,0.0,True
+spread,soft,BIDMC__02,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0032576542222694,0.0032576542222694,0.0032576542222694,0.0,0.0,True
+spread,soft,BIDMC__03,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0087666032777155,0.0087666032777155,0.0087666032777155,0.0,0.0,True
+spread,soft,BIDMC__04,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0006578297755384,0.0006578297755384,0.0006578297755384,0.0,0.0,True
+spread,soft,CKD__00,CKD,CKD,Quantile plot / five,ECDF / full,Quantile plot / five,0.0021351616911603,0.005071757734633,0.0021351616911603,-0.0029365960434727,0.0029365960434727,False
+spread,soft,CKD__01,CKD,CKD,Quantile plot / five,Bar chart / means,Bar chart / means,0.0006943854448672,0.0,0.0,0.0006943854448672,0.0,True
+spread,soft,CKD__02,CKD,CKD,Quantile plot / five,Quantile plot / five,ECDF / full,0.0058137710373357,0.0058137710373357,0.0028218848687155,0.0,0.0029918861686202003,False
+spread,soft,CKD__03,CKD,CKD,Quantile plot / five,ECDF / full,Quantile plot / five,0.0036530618463169,0.0079271830746755,0.0036530618463169,-0.0042741212283586,0.0042741212283586,False
+spread,soft,CKD__04,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0128409053324204,0.0128409053324204,0.0128351433174327,0.0,5.762014987699751e-06,False
+spread,soft,CKD__05,CKD,CKD,Quantile plot / five,ECDF / full,Quantile plot / five,0.007702104271361,0.0086389473699991,0.007702104271361,-0.0009368430986381,0.0009368430986381,False
+spread,soft,CKD__06,CKD,CKD,Quantile plot / five,Quantile plot / five,ECDF / full,0.0105642822919735,0.0105642822919735,0.0004952209255753,0.0,0.0100690613663982,False
+spread,soft,CKD__07,CKD,CKD,Quantile plot / five,Box plot / five,Quantile plot / five,0.0055658572179636,0.0086239314388422,0.0055658572179636,-0.0030580742208786,0.0030580742208786,False
+spread,soft,CKD__08,CKD,CKD,Quantile plot / five,Heatmap / 16,Quantile plot / five,0.0022269645352026,0.0097983177861803,0.0022269645352026,-0.007571353250977701,0.007571353250977701,False
+spread,soft,CKD__09,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0009206445652626,0.0009206445652626,0.0009206445652626,0.0,0.0,True
+spread,soft,CKD__10,CKD,CKD,Quantile plot / five,Bar chart / means,Bar chart / means,0.0086395027052001,6.046031669844307e-16,6.046031669844307e-16,0.008639502705199495,0.0,True
+spread,soft,Cleveland__00,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.005404941123013,0.005404941123013,0.005404941123013,0.0,0.0,True
+spread,soft,Cleveland__01,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Box plot / five,0.0017407882474784,0.0017407882474784,0.00174078824748,0.0,-1.6000655661541074e-15,True
+spread,soft,Cleveland__02,Cleveland,Cleveland,Quantile plot / five,ECDF / full,Quantile plot / five,0.0014657011309417,0.0107326801822403,0.0014657011309417,-0.0092669790512986,0.0092669790512986,False
+spread,soft,Cleveland__03,Cleveland,Cleveland,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0029790853306765,0.0002822599155135,0.0002822599155135,0.002696825415163,0.0,True
+spread,soft,Cleveland__04,Cleveland,Cleveland,Quantile plot / five,Box plot / five,Quantile plot / five,0.0022349990741161,0.0109027216318526,0.0022349990741161,-0.0086677225577365,0.0086677225577365,False
+spread,soft,HAR__00,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0103798679236509,0.0103798679236509,0.0093246396729023,0.0,0.001055228250748599,False
+spread,soft,HAR__01,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0074987875603292,0.0074987875603292,0.0074987875603292,0.0,0.0,True
+spread,soft,HAR__02,HAR,HAR,Quantile plot / five,Quantile plot / five,Box plot / five,0.0155233805859712,0.0155233805859712,0.0155233805859774,0.0,-6.1999017031411086e-15,True
+spread,soft,HAR__03,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0026431138720103,0.0026431138720103,0.0023658993627091,0.0,0.00027721450930119976,False
+spread,soft,HAR__04,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0014865989192136,0.0014865989192136,0.0014865989192136,0.0,0.0,True
+spread,soft,HAR__05,HAR,HAR,Quantile plot / five,ECDF / full,Quantile plot / five,0.0022256912944065,0.0214567234901267,0.0022256912944065,-0.0192310321957202,0.0192310321957202,False
+spread,soft,HAR__06,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0013671849146495,0.0013671849146495,0.0013671849146495,0.0,0.0,True
+spread,soft,HAR__07,HAR,HAR,Quantile plot / five,Quantile plot / five,ECDF / full,0.0087319009108919,0.0087319009108919,0.0011198652913216,0.0,0.007612035619570299,False
+spread,soft,HAR__08,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0019484601886014,0.0019484601886014,0.0019484601886014,0.0,0.0,True
+spread,soft,HAR__09,HAR,HAR,Quantile plot / five,ECDF / full,Quantile plot / nineteen,0.0743243589338033,0.074324358933767,0.0664689581356638,3.630429290524262e-14,0.007855400798103207,False
+spread,soft,HAR__10,HAR,HAR,Quantile plot / five,ECDF / full,ECDF / full,0.1272602894258519,0.0273125473865666,0.0273125473865666,0.0999477420392853,0.0,True
+spread,soft,HAR__11,HAR,HAR,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0417825899228077,0.0085548283140429,0.0085548283140429,0.0332277616087648,0.0,True
+spread,soft,HAR__12,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0033808460009577,0.0033808460009577,0.0031729594302808,0.0,0.00020788657067689984,False
+spread,soft,HAR__13,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0100455578098274,0.0100455578098274,0.0100455578098274,0.0,0.0,True
+spread,soft,HAR__14,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0032761706836527,0.0032761706836527,0.0032761706836527,0.0,0.0,True
+spread,soft,HAR__15,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0113972611999144,0.0113972611999144,0.0113972611999144,0.0,0.0,True
+spread,soft,HAR__16,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0019616635035075,0.0019616635035075,0.0019616635035075,0.0,0.0,True
+spread,soft,HAR__17,HAR,HAR,Quantile plot / five,Quantile plot / five,Box plot / five,0.0091469539100695,0.0091469539100695,0.0002922797700264,0.0,0.0088546741400431,False
+spread,soft,HAR__18,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0051571803349337,0.0051571803349337,0.0051571803349337,0.0,0.0,True
+spread,soft,HAR__19,HAR,HAR,Quantile plot / five,ECDF / full,Box plot / five,0.0035174889560044,0.0070864098838357,0.0035174889560049,-0.0035689209278313002,0.0035689209278308,False
+spread,soft,HAR__20,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0022839791862674,0.0022839791862674,0.0022839791862674,0.0,0.0,True
+spread,soft,HAR__21,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0014315740706986,0.0014315740706986,0.0011856778486632,0.0,0.00024589622203540005,False
+spread,soft,HAR__22,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0015811076681621,0.0015811076681621,0.0013722487142573,0.0,0.00020885895390480012,False
+spread,soft,HAR__23,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0058119130527594,0.0058119130527594,0.0058119130527594,0.0,0.0,True
+spread,soft,HAR__24,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.006504802819468,0.006504802819468,0.0063013290789827,0.0,0.00020347374048529984,False
+spread,soft,HAR__25,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.000920116570641,0.000920116570641,0.000920116570641,0.0,0.0,True
+spread,soft,HAR__26,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0007875162640538,0.0007875162640538,0.0007875162640538,0.0,0.0,True
+spread,soft,HAR__27,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0126285762258519,0.0126285762258519,0.0123726945743883,0.0,0.00025588165146359955,False
+spread,soft,HAR__28,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0008533376931525,0.0008533376931525,0.0008533376931525,0.0,0.0,True
+spread,soft,HAR__29,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0025017042079058,0.0025017042079058,0.0022655425865577,0.0,0.00023616162134810006,False
+spread,soft,HAR__30,HAR,HAR,Quantile plot / five,Dot plot / raw,Dot plot / raw,0.0067275677865318,0.006131222177502,0.006131222177502,0.0005963456090298004,0.0,True
+spread,soft,HAR__31,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0056524820265917,0.0056524820265917,0.0056524820265917,0.0,0.0,True
+spread,soft,HAR__32,HAR,HAR,Quantile plot / five,Dot plot / raw,Dot plot / raw,0.0067275677865318,0.006131222177502,0.006131222177502,0.0005963456090298004,0.0,True
+spread,soft,HAR__33,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0056524820265917,0.0056524820265917,0.0056524820265917,0.0,0.0,True
+spread,soft,HAR__34,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0014154174814045,0.0014154174814045,0.0011529898068492,0.0,0.00026242767455530005,False
+spread,soft,HAR__35,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0013256703922616,0.0013256703922616,0.0010848476446437,0.0,0.0002408227476179,False
+spread,soft,HAR__36,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.007068431863913,0.007068431863913,0.007068431863913,0.0,0.0,True
+spread,soft,HAR__37,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0009617913757946,0.0009617913757946,0.0007391553183348,0.0,0.00022263605745980006,False
+spread,soft,HAR__38,HAR,HAR,Quantile plot / five,Quantile plot / five,Box plot / five,0.0065970505890757,0.0065970505890757,0.0036355079158632,0.0,0.0029615426732125,False
+spread,soft,HAR__39,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0018824290952144,0.0018824290952144,0.0018824290952144,0.0,0.0,True
+spread,soft,HeartFailure__00,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0010880352022278,0.0010880352022278,0.0010880352022278,0.0,0.0,True
+spread,soft,HeartFailure__01,HeartFailure,HeartFailure,Quantile plot / five,ECDF / full,ECDF / full,0.0050587403357961,0.0043946509245949,0.0043946509245949,0.0006640894112012003,0.0,True
+spread,soft,HeartFailure__02,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0034104221146881,0.0034104221146881,0.0034104221146881,0.0,0.0,True
+spread,soft,HeartFailure__03,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Box plot / five,0.0009920727518179,0.0009920727518179,0.0009920727518182,0.0,-3.0010716134398763e-16,True
+spread,soft,HeartFailure__04,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0037029713696328,0.0037029713696328,0.0034825466003654,0.0,0.00022042476926739966,False
+spread,soft,HeartFailure__05,HeartFailure,HeartFailure,Quantile plot / five,Dot plot / raw,Quantile plot / five,0.0259005086198259,0.077708113218035,0.0259005086198259,-0.0518076045982091,0.0518076045982091,False
+spread,soft,ILPD__00,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0019725386633161,0.0019725386633161,0.0019725386633161,0.0,0.0,True
+spread,soft,ILPD__01,ILPD,ILPD,Quantile plot / five,Quantile plot / five,ECDF / full,0.0084162484551917,0.0084162484551917,0.0024993816387796,0.0,0.005916866816412099,False
+spread,soft,ILPD__02,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0005225371094903,0.0005225371094903,0.000497868233775,0.0,2.4668875715300013e-05,False
+spread,soft,ILPD__03,ILPD,ILPD,Quantile plot / five,ECDF / full,Quantile plot / five,0.0043146196548801,0.0062110509263542,0.0043146196548801,-0.0018964312714740998,0.0018964312714740998,False
+spread,soft,ILPD__04,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0011042983095103,0.0011042983095103,0.0011042983095103,0.0,0.0,True
+spread,soft,ILPD__05,ILPD,ILPD,Quantile plot / five,ECDF / full,ECDF / full,0.0065881986244431,0.0021958982125346,0.0021958982125346,0.0043923004119084995,0.0,True
+spread,soft,ILPD__06,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0013417798888508,0.0013417798888508,0.0013417798888508,0.0,0.0,True
+spread,soft,ILPD__07,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0021125434713258,0.0021125434713258,0.0021125434713258,0.0,0.0,True
+spread,soft,ILPD__08,ILPD,ILPD,Quantile plot / five,ECDF / full,Box plot / five,0.0008257923547387,0.0009921989360246,0.0008257923547389,-0.00016640658128589997,0.00016640658128569993,False
+spread,soft,Retinopathy__00,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0018787381351291,0.0018787381351291,0.0018787381351291,0.0,0.0,True
+spread,soft,Retinopathy__01,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0045434619573178,0.0045434619573178,0.0045434619573178,0.0,0.0,True
+spread,soft,Retinopathy__02,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,ECDF / full,0.0028834524021238,0.0017347952015728,0.0017347952015728,0.0011486572005509998,0.0,True
+spread,soft,Retinopathy__03,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0025621392828189,0.0025621392828189,0.0025621392828189,0.0,0.0,True
+spread,soft,Retinopathy__04,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0009964165727033,0.0009964165727033,0.0009964165727033,0.0,0.0,True
+spread,soft,Retinopathy__05,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Box plot / five,0.0005613066171214,0.0005613066171214,0.000561306617122,0.0,-5.999974822534782e-16,True
+spread,soft,Retinopathy__06,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,ECDF / full,0.0055089646647593,0.0037199898753542,0.0037199898753542,0.0017889747894051003,0.0,True
+spread,soft,Retinopathy__07,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.000820729053212,0.0075948524710742,0.000820729053212,-0.0067741234178622,0.0067741234178622,False
+spread,soft,Retinopathy__08,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.002509054094956,0.0066981869990195,0.002509054094956,-0.0041891329040635,0.0041891329040635,False
+spread,soft,Retinopathy__09,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0028054269460233,0.0028054269460233,0.0028054269460233,0.0,0.0,True
+spread,soft,Retinopathy__10,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,ECDF / full,0.0112000408521645,0.0078854383553791,0.0078854383553791,0.003314602496785401,0.0,True
+spread,soft,Retinopathy__11,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0020536679114331,0.0020536679114331,0.0014888540016513,0.0,0.0005648139097818,False
+spread,soft,Retinopathy__12,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.0010545156310592,0.0013851568428786,0.0010545156310592,-0.00033064121181940014,0.00033064121181940014,False
+spread,soft,Retinopathy__13,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / nineteen,0.0086556889132748,0.00853163039593,0.0084932419680468,0.00012405851734479875,3.8388427883201404e-05,False
+spread,soft,Retinopathy__14,Retinopathy,Retinopathy,Quantile plot / five,Box plot / five,Quantile plot / five,0.0035605244281806,0.024520330266591,0.0035605244281806,-0.020959805838410398,0.020959805838410398,False
+spread,soft,Retinopathy__15,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.001216917080789,0.0102535579491644,0.001216917080789,-0.0090366408683754,0.0090366408683754,False
+spread,soft,WDBC__00,WDBC,WDBC,Quantile plot / five,ECDF / full,ECDF / full,0.0045829047984007,0.0010913042752466,0.0010913042752466,0.0034916005231541,0.0,True
+spread,soft,WDBC__01,WDBC,WDBC,Quantile plot / five,ECDF / full,ECDF / full,0.0023521044957178,0.0006888481430294,0.0006888481430294,0.0016632563526883999,0.0,True
+spread,soft,WDBC__02,WDBC,WDBC,Quantile plot / five,Quantile plot / five,ECDF / full,0.0074259579029747,0.0074259579029747,0.0016978491660738,0.0,0.0057281087369009,False
+spread,soft,WDBC__03,WDBC,WDBC,Quantile plot / five,ECDF / full,ECDF / full,0.0093365430651378,0.0020215466874075,0.0020215466874075,0.007314996377730301,0.0,True
+spread,soft,WDBC__04,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0014185502879102,0.0014185502879102,0.0014185502879102,0.0,0.0,True
+spread,soft,WDBC__05,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0027443150180961,0.0027443150180961,0.0027443150180961,0.0,0.0,True
+spread,soft,WDBC__06,WDBC,WDBC,Quantile plot / five,ECDF / full,Quantile plot / five,0.0006753788265745,0.003655882568656,0.0006753788265745,-0.0029805037420815,0.0029805037420815,False
+spread,soft,WDBC__07,WDBC,WDBC,Quantile plot / five,ECDF / full,Quantile plot / five,0.0056185834350085,0.0124816358310517,0.0056185834350085,-0.0068630523960432,0.0068630523960432,False
+spread,soft,WDBC__08,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0034953589073354,0.0034953589073354,0.0034953589073354,0.0,0.0,True
+spread,soft,WDBC__09,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.002253432405446,0.002253432405446,0.002253432405446,0.0,0.0,True
+spread,soft,WDBC__10,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Box plot / five,0.0013221606049992,0.0013221606049992,0.0013221606049992,0.0,0.0,True
+spread,soft,WDBC__11,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0014785699929139,0.0014785699929139,0.0014785699929139,0.0,0.0,True
+spread,soft,WDBC__12,WDBC,WDBC,Quantile plot / five,ECDF / full,ECDF / full,0.0045113451587692,0.0006237032225168,0.0006237032225168,0.0038876419362524,0.0,True
+spread,soft,WDBC__13,WDBC,WDBC,Quantile plot / five,ECDF / full,Violin plot / 64,0.0109254719757862,0.0105445184170515,0.0049978116724258,0.000380953558734699,0.0055467067446257,False
+spread,soft,WDBC__14,WDBC,WDBC,Quantile plot / five,ECDF / full,Quantile plot / five,0.0011207973236069,0.0065928260669658,0.0011207973236069,-0.0054720287433589,0.0054720287433589,False
+spread,soft,WDBC__15,WDBC,WDBC,Quantile plot / five,Box plot / five,Quantile plot / five,0.0042868455765088,0.0145910011039407,0.0042868455765088,-0.0103041555274319,0.0103041555274319,False
+spread,soft,WDBC__16,WDBC,WDBC,Quantile plot / five,ECDF / full,Box plot / five,0.0010551393153641,0.0011092728025174,0.0009062930710015,-5.413348715330017e-05,0.0002029797315159001,False
+spread,soft,WDBC__17,WDBC,WDBC,Quantile plot / five,Quantile plot / five,ECDF / full,0.0078245406315368,0.0078245406315368,0.0017423268328873,0.0,0.0060822137986495,False
+spread,soft,WDBC__18,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0083269739381082,0.0083269739381082,0.0083269739381082,0.0,0.0,True
+spread,soft,WDBC__19,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0020306899798462,0.0020306899798462,0.0020306899798462,0.0,0.0,True
+spread,soft,WDBC__20,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.005676323787834,0.005676323787834,0.005676323787834,0.0,0.0,True
+spread,soft,WDBC__21,WDBC,WDBC,Quantile plot / five,Bar chart / means,Bar chart / means,0.0041118290857534,0.0041118290857543,0.0041118290857543,-9.003214840319629e-16,0.0,True
+spread,soft,WDBC__22,WDBC,WDBC,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0042812679262129,0.002103860565624,0.002103860565624,0.0021774073605889,0.0,True
+spread,soft,WDBC__23,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0037060635872113,0.0037060635872113,0.0037060635872113,0.0,0.0,True
+spread,soft,WDBC__24,WDBC,WDBC,Quantile plot / five,ECDF / full,Quantile plot / five,0.0011240779016243,0.0034775529999045,0.0011240779016243,-0.0023534750982802,0.0023534750982802,False
+spread,soft,WDBC__25,WDBC,WDBC,Quantile plot / five,ECDF / full,Box plot / five,0.0040866280580204,0.0107618373581901,0.0040866280580232,-0.0066752093001697,0.0066752093001669005,False
+spread,soft,WDBC__26,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0036458245513313,0.0036458245513313,0.0036458245513313,0.0,0.0,True
+spread,soft,WDBC__27,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0021971636529315,0.0021971636529315,0.0021971636529315,0.0,0.0,True
+spread,soft,WDBC__28,WDBC,WDBC,Quantile plot / five,ECDF / full,ECDF / full,0.0097269420388059,0.0038499952870681,0.0038499952870681,0.0058769467517378,0.0,True
+spread,soft,WDBC__29,WDBC,WDBC,Quantile plot / five,Violin plot / 64,Violin plot / 64,0.0081078487004737,0.0022715565077133,0.0022715565077133,0.005836292192760401,0.0,True
+spread,soft,Wrist__00,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0040213928866305,0.0040213928866305,0.0040213928866305,0.0,0.0,True
+spread,soft,Wrist__01,Wrist,Wrist,Quantile plot / five,Box plot / five,Quantile plot / five,0.0043926945677118,0.0070398161158747,0.0043926945677118,-0.0026471215481629,0.0026471215481629,False
+spread,soft,Wrist__02,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0038563810951125,0.0038563810951125,0.0038563810951125,0.0,0.0,True
+spread,soft,Wrist__03,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0022989961693381,0.0022989961693381,0.0022989961693381,0.0,0.0,True
+spread,soft,Wrist__04,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0088036033874374,0.0088036033874374,0.0088036033874374,0.0,0.0,True
+five,hard,BIDMC__00,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0049490779979969,0.0049490779979969,0.0049490779979969,0.0,0.0,True
+five,hard,BIDMC__01,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0032019452982814,0.0032019452982814,0.0032019452982814,0.0,0.0,True
+five,hard,BIDMC__02,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0029839484626543,0.0029839484626543,0.0029839484626543,0.0,0.0,True
+five,hard,BIDMC__03,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0043508057064289,0.0043508057064289,0.0043508057064289,0.0,0.0,True
+five,hard,BIDMC__04,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0047478465685102,0.0047478465685102,0.0047478465685102,0.0,0.0,True
+five,hard,CKD__00,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0036888907537176,0.0036888907537176,0.0036888907537176,0.0,0.0,True
+five,hard,CKD__01,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / nineteen,0.0056286268813218,0.00729517018167,0.0056286268813218,-0.0016665433003482007,0.0016665433003482007,False
+five,hard,CKD__02,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0034963485257746,0.0034963485257746,0.0034963485257746,0.0,0.0,True
+five,hard,CKD__03,CKD,CKD,Quantile plot / nineteen,ECDF / full,ECDF / full,0.0053592566779771,0.0039474804194408,0.0039474804194408,0.0014117762585363,0.0,True
+five,hard,CKD__04,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0077748274546145,0.0077593564283549,0.0077593564283549,1.5471026259599938e-05,0.0,True
+five,hard,CKD__05,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / nineteen,0.0082351821477478,0.0093613462607757,0.0082351821477478,-0.0011261641130278985,0.0011261641130278985,False
+five,hard,CKD__06,CKD,CKD,Quantile plot / nineteen,Quantile plot / nineteen,Quantile plot / nineteen,0.0075557333222198,0.0075557333222198,0.0075557333222198,0.0,0.0,True
+five,hard,CKD__07,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0037642244294569,0.0037642244294569,0.0037642244294569,0.0,0.0,True
+five,hard,CKD__08,CKD,CKD,Quantile plot / nineteen,Quantile plot / nineteen,Quantile plot / nineteen,0.0025683761092925,0.0025683761092925,0.0025683761092925,0.0,0.0,True
+five,hard,CKD__09,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0056908991377191,0.0056908991377191,0.0056908991377191,0.0,0.0,True
+five,hard,CKD__10,CKD,CKD,Quantile plot / nineteen,Quantile plot / five,Quantile plot / five,0.0048969821776429,0.0048969821776429,0.0048969821776429,0.0,0.0,True
+five,hard,Cleveland__00,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.005234395823937,0.005234395823937,0.005234395823937,0.0,0.0,True
+five,hard,Cleveland__01,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0033508840729975,0.0033508840729975,0.0033508840729975,0.0,0.0,True
+five,hard,Cleveland__02,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0072415393210295,0.0072415393210295,0.0072415393210295,0.0,0.0,True
+five,hard,Cleveland__03,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0044385084639215,0.0044385084639215,0.0044385084639215,0.0,0.0,True
+five,hard,Cleveland__04,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0034066355467191,0.0034066355467191,0.0034066355467191,0.0,0.0,True
+five,hard,HAR__00,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0323572691070757,0.03285541412518,0.0323572691070757,-0.0004981450181043012,0.0004981450181043012,False
+five,hard,HAR__01,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0075400389403298,0.0075400389403298,0.0075400389403298,0.0,0.0,True
+five,hard,HAR__02,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0098040031632044,0.0098040031632044,0.0098040031632044,0.0,0.0,True
+five,hard,HAR__03,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0073600922309303,0.0073600922309303,0.0068006277383664,0.0,0.0005594644925639002,False
+five,hard,HAR__04,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0090518738956916,0.0090518738956916,0.0087894303347526,0.0,0.00026244356093899947,False
+five,hard,HAR__05,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0059577624198701,0.0059577624198701,0.0059577624198701,0.0,0.0,True
+five,hard,HAR__06,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0105419613274353,0.0105419613274353,0.0105419613274353,0.0,0.0,True
+five,hard,HAR__07,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0048560192644387,0.0048560192644387,0.0048560192644387,0.0,0.0,True
+five,hard,HAR__08,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0052294368485557,0.0052294368485557,0.0052294368485557,0.0,0.0,True
+five,hard,HAR__09,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.1290112215103429,0.1159433085123553,0.1159433085123553,0.013067912997987582,0.0,True
+five,hard,HAR__10,HAR,HAR,Quantile plot / five,Dot plot / raw,Quantile plot / five,0.1284604610592204,0.1357079055832508,0.1284604610592204,-0.007247444524030394,0.007247444524030394,False
+five,hard,HAR__11,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0576899794665801,0.0576899794665801,0.0568078390412554,0.0,0.0008821404253247025,False
+five,hard,HAR__12,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0034270843129899,0.003855039198998,0.0034270843129899,-0.00042795488600810014,0.00042795488600810014,False
+five,hard,HAR__13,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0052396610484312,0.005326148675266,0.0052396610484312,-8.648762683480075e-05,8.648762683480075e-05,False
+five,hard,HAR__14,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0056394343595817,0.0056394343595817,0.0056394343595817,0.0,0.0,True
+five,hard,HAR__15,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0084084644717672,0.0084084644717672,0.0081712695186099,0.0,0.00023719495315729922,False
+five,hard,HAR__16,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0072478574871678,0.0072478574871678,0.0072478574871678,0.0,0.0,True
+five,hard,HAR__17,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0048596309397548,0.0048596309397548,0.0048596309397548,0.0,0.0,True
+five,hard,HAR__18,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0068485971038778,0.0068485971038778,0.0059929450884941,0.0,0.0008556520153837005,False
+five,hard,HAR__19,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0056825478649093,0.0056825478649093,0.0056825478649093,0.0,0.0,True
+five,hard,HAR__20,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0110456295845343,0.0110456295845343,0.0107617032509641,0.0,0.0002839263335702013,False
+five,hard,HAR__21,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0059980200736011,0.0059980200736011,0.0056930772893295,0.0,0.0003049427842715998,False
+five,hard,HAR__22,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0064551331520048,0.0069586498263136,0.0064551331520048,-0.0005035166743087996,0.0005035166743087996,False
+five,hard,HAR__23,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0075447978184766,0.0075447978184766,0.0075447978184766,0.0,0.0,True
+five,hard,HAR__24,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0064704025476885,0.0064704025476885,0.0056820310430121,0.0,0.0007883715046764,False
+five,hard,HAR__25,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0056804755003707,0.0056804755003707,0.0056804755003707,0.0,0.0,True
+five,hard,HAR__26,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0044731740715452,0.0044731740715452,0.0044731740715452,0.0,0.0,True
+five,hard,HAR__27,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0076401376618495,0.0076401376618495,0.0068315999488629,0.0,0.0008085377129865992,False
+five,hard,HAR__28,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0055375547180754,0.0055375547180754,0.0052637295146113,0.0,0.00027382520346409985,False
+five,hard,HAR__29,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0049011646101253,0.0049011646101253,0.0046246320282476,0.0,0.0002765325818777,False
+five,hard,HAR__30,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.0089215648526933,0.0081553775325532,0.0081553775325532,0.0007661873201401,0.0,True
+five,hard,HAR__31,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0064348760104603,0.0064348760104603,0.0064348760104603,0.0,0.0,True
+five,hard,HAR__32,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.0089215648526933,0.0081553775325532,0.0081553775325532,0.0007661873201401,0.0,True
+five,hard,HAR__33,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0064348760104603,0.0064348760104603,0.0064348760104603,0.0,0.0,True
+five,hard,HAR__34,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0066147582746169,0.0066147582746169,0.0066147582746169,0.0,0.0,True
+five,hard,HAR__35,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0053711070559752,0.0055296255284051,0.0053711070559752,-0.00015851847242989974,0.00015851847242989974,False
+five,hard,HAR__36,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0074972697222496,0.0074972697222496,0.0067124296900422,0.0,0.0007848400322074001,False
+five,hard,HAR__37,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0068412062923417,0.0068412062923417,0.0067688718042245,0.0,7.233448811720059e-05,False
+five,hard,HAR__38,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.0089984878765112,0.0083163173095152,0.0083163173095152,0.0006821705669959998,0.0,True
+five,hard,HAR__39,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0064228636182092,0.0064228636182092,0.0063178041722273,0.0,0.00010505944598190008,False
+five,hard,HeartFailure__00,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0052393693178412,0.0052393693178412,0.0049990347502757,0.0,0.00024033456756549984,False
+five,hard,HeartFailure__01,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0057444791104026,0.0057444791104026,0.0057068206801404,0.0,3.765843026219944e-05,False
+five,hard,HeartFailure__02,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0052838169281043,0.0052838169281043,0.0046284670812803,0.0,0.0006553498468240002,False
+five,hard,HeartFailure__03,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0050947562272304,0.0050947562272304,0.0050947562272304,0.0,0.0,True
+five,hard,HeartFailure__04,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0057691850986626,0.0057691850986626,0.0057691850986626,0.0,0.0,True
+five,hard,HeartFailure__05,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0169746239847042,0.0169746239847042,0.0156124484995977,0.0,0.001362175485106502,False
+five,hard,ILPD__00,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0045695703147068,0.0045695703147068,0.0045695703147068,0.0,0.0,True
+five,hard,ILPD__01,ILPD,ILPD,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0061921432511642,0.0069299235477466,0.0061921432511642,-0.0007377802965823996,0.0007377802965823996,False
+five,hard,ILPD__02,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0036953822612431,0.0036953822612431,0.0033794481301576,0.0,0.0003159341310855,False
+five,hard,ILPD__03,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0052016139685786,0.0052016139685786,0.0052016139685786,0.0,0.0,True
+five,hard,ILPD__04,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0065469178450401,0.0065469178450401,0.0065469178450401,0.0,0.0,True
+five,hard,ILPD__05,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0083693661885923,0.0083693661885923,0.0083693661885923,0.0,0.0,True
+five,hard,ILPD__06,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0057569420562981,0.0057569420562981,0.0057569420562981,0.0,0.0,True
+five,hard,ILPD__07,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0039486386751151,0.0039486386751151,0.0039486386751151,0.0,0.0,True
+five,hard,ILPD__08,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0031528159313515,0.0031528159313515,0.0031528159313515,0.0,0.0,True
+five,hard,Retinopathy__00,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0045144490730568,0.0045144490730568,0.0045144490730568,0.0,0.0,True
+five,hard,Retinopathy__01,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0037479635793849,0.0037479635793849,0.0037479635793849,0.0,0.0,True
+five,hard,Retinopathy__02,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0034646279484075,0.0034646279484075,0.0034646279484075,0.0,0.0,True
+five,hard,Retinopathy__03,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0025309613335376,0.0025309613335376,0.0025309613335376,0.0,0.0,True
+five,hard,Retinopathy__04,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0030154858758948,0.0030154858758948,0.0030154858758948,0.0,0.0,True
+five,hard,Retinopathy__05,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0016537121013275,0.0016537121013275,0.0016537121013275,0.0,0.0,True
+five,hard,Retinopathy__06,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0041485102150685,0.0041485102150685,0.0041485102150685,0.0,0.0,True
+five,hard,Retinopathy__07,Retinopathy,Retinopathy,Quantile plot / five,Heatmap / 16,Quantile plot / five,0.0050806566140103,0.0072198713200646,0.0050806566140103,-0.0021392147060542996,0.0021392147060542996,False
+five,hard,Retinopathy__08,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0049723768088709,0.0049723768088709,0.0049723768088709,0.0,0.0,True
+five,hard,Retinopathy__09,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0067811248982337,0.0067811248982337,0.0067811248982337,0.0,0.0,True
+five,hard,Retinopathy__10,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0086042517924342,0.0086042517924342,0.0086042517924342,0.0,0.0,True
+five,hard,Retinopathy__11,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0078099402400775,0.0078099402400775,0.0071025188294778,0.0,0.0007074214105996998,False
+five,hard,Retinopathy__12,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0060906654476615,0.0060906654476615,0.0060906654476615,0.0,0.0,True
+five,hard,Retinopathy__13,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0048447960892071,0.0048447960892071,0.0048447960892071,0.0,0.0,True
+five,hard,Retinopathy__14,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0083876217463019,0.0083876217463019,0.0083876217463019,0.0,0.0,True
+five,hard,Retinopathy__15,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0060146008367903,0.0060146008367903,0.0060146008367903,0.0,0.0,True
+five,hard,WDBC__00,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0058292336662899,0.0058292336662899,0.0058292336662899,0.0,0.0,True
+five,hard,WDBC__01,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0043987694592849,0.0043987694592849,0.0043987694592849,0.0,0.0,True
+five,hard,WDBC__02,WDBC,WDBC,Quantile plot / five,Quantile plot / five,ECDF / full,0.0075580552316456,0.0075580552316456,0.0060099132866061,0.0,0.0015481419450395,False
+five,hard,WDBC__03,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0063408462725174,0.0063408462725174,0.0063408462725174,0.0,0.0,True
+five,hard,WDBC__04,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0060889627859226,0.0060889627859226,0.0060889627859226,0.0,0.0,True
+five,hard,WDBC__05,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0046951963725981,0.0046951963725981,0.0046951963725981,0.0,0.0,True
+five,hard,WDBC__06,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0044599521451413,0.0044599521451413,0.0044599521451413,0.0,0.0,True
+five,hard,WDBC__07,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0048297032593963,0.0048297032593963,0.0048297032593963,0.0,0.0,True
+five,hard,WDBC__08,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0061416075480689,0.0061416075480689,0.0061416075480689,0.0,0.0,True
+five,hard,WDBC__09,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0060290871860814,0.0060290871860814,0.0060290871860814,0.0,0.0,True
+five,hard,WDBC__10,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0076306231770891,0.0076306231770891,0.0076306231770891,0.0,0.0,True
+five,hard,WDBC__11,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0048409168785372,0.0048409168785372,0.0048409168785372,0.0,0.0,True
+five,hard,WDBC__12,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.005810165849328,0.005810165849328,0.005810165849328,0.0,0.0,True
+five,hard,WDBC__13,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0072371743645597,0.0072371743645597,0.0072371743645597,0.0,0.0,True
+five,hard,WDBC__14,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0062279330729567,0.0062279330729567,0.0062279330729567,0.0,0.0,True
+five,hard,WDBC__15,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0049650293042651,0.0049650293042651,0.0049650293042651,0.0,0.0,True
+five,hard,WDBC__16,WDBC,WDBC,Quantile plot / five,ECDF / full,ECDF / full,0.0091209289617897,0.0090246676772762,0.0090246676772762,9.626128451349983e-05,0.0,True
+five,hard,WDBC__17,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0056506262593175,0.0056506262593175,0.0056506262593175,0.0,0.0,True
+five,hard,WDBC__18,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0056794810271351,0.0056794810271351,0.0056794810271351,0.0,0.0,True
+five,hard,WDBC__19,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0074136517698798,0.0074136517698798,0.0074136517698798,0.0,0.0,True
+five,hard,WDBC__20,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0060286599765845,0.0060286599765845,0.0060286599765845,0.0,0.0,True
+five,hard,WDBC__21,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0044663835720545,0.0044663835720545,0.0044663835720545,0.0,0.0,True
+five,hard,WDBC__22,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0070195950910358,0.0070195950910358,0.0070195950910358,0.0,0.0,True
+five,hard,WDBC__23,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0063331150504121,0.0063331150504121,0.0063331150504121,0.0,0.0,True
+five,hard,WDBC__24,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0052681128858901,0.0052681128858901,0.0052681128858901,0.0,0.0,True
+five,hard,WDBC__25,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0048251522646947,0.0048251522646947,0.0048251522646947,0.0,0.0,True
+five,hard,WDBC__26,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0054248990687956,0.0054248990687956,0.0054248990687956,0.0,0.0,True
+five,hard,WDBC__27,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0047005516682782,0.0047005516682782,0.0047005516682782,0.0,0.0,True
+five,hard,WDBC__28,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0051899681303579,0.0051899681303579,0.0051899681303579,0.0,0.0,True
+five,hard,WDBC__29,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0058925059489847,0.0058925059489847,0.0058925059489847,0.0,0.0,True
+five,hard,Wrist__00,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0038727943103825,0.0038727943103825,0.0038727943103825,0.0,0.0,True
+five,hard,Wrist__01,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.00538940837743,0.00538940837743,0.00538940837743,0.0,0.0,True
+five,hard,Wrist__02,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0039151252179277,0.0039151252179277,0.0039151252179277,0.0,0.0,True
+five,hard,Wrist__03,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0040714986396462,0.0040714986396462,0.0040714986396462,0.0,0.0,True
+five,hard,Wrist__04,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0053855108041368,0.0053855108041368,0.0053855108041368,0.0,0.0,True
+five,soft,BIDMC__00,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0019293588680344,0.0019293588680344,0.0019293588680344,0.0,0.0,True
+five,soft,BIDMC__01,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.000540878340182,0.000540878340182,0.000540878340182,0.0,0.0,True
+five,soft,BIDMC__02,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0007227022553823,0.0007227022553823,0.0007227022553823,0.0,0.0,True
+five,soft,BIDMC__03,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0025077950090049,0.0025077950090049,0.0025077950090049,0.0,0.0,True
+five,soft,BIDMC__04,BIDMC,BIDMC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0026381922511936,0.0026381922511936,0.0026381922511936,0.0,0.0,True
+five,soft,CKD__00,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0021632616129351,0.0021632616129351,0.0021632616129351,0.0,0.0,True
+five,soft,CKD__01,CKD,CKD,Quantile plot / five,ECDF / full,Quantile plot / nineteen,0.0038029638936478,0.0037583519193658,0.0037536537183329,4.4611974282000085e-05,4.698201032899991e-06,False
+five,soft,CKD__02,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0025841209820475,0.0025841209820475,0.0025841209820475,0.0,0.0,True
+five,soft,CKD__03,CKD,CKD,Quantile plot / five,ECDF / full,Quantile plot / five,0.0022978913571317,0.0035917111594007,0.0022978913571317,-0.0012938198022690002,0.0012938198022690002,False
+five,soft,CKD__04,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0036605806654966,0.0036605806654966,0.0035454375990429,0.0,0.00011514306645370002,False
+five,soft,CKD__05,CKD,CKD,Quantile plot / five,ECDF / full,Quantile plot / nineteen,0.0076000389206539,0.0089261634236641,0.0074355677291408,-0.0013261245030101992,0.001490595694523299,False
+five,soft,CKD__06,CKD,CKD,Quantile plot / five,Quantile plot / nineteen,ECDF / full,0.0040704818177604,0.0041237821200682,0.0021734161509126,-5.33003023077995e-05,0.0019503659691555994,False
+five,soft,CKD__07,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0015706235033545,0.0015706235033545,0.0015661181330279,0.0,4.505370326600032e-06,False
+five,soft,CKD__08,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0008227185336025,0.0008227185336025,0.0007880371090962,0.0,3.468142450630007e-05,False
+five,soft,CKD__09,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0014273340664785,0.0014273340664785,0.0014273340664785,0.0,0.0,True
+five,soft,CKD__10,CKD,CKD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0026625880791745,0.0026625880791745,0.0026625880791745,0.0,0.0,True
+five,soft,Cleveland__00,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0030897390560733,0.0030897390560733,0.0030897390560733,0.0,0.0,True
+five,soft,Cleveland__01,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0015388187592571,0.0015388187592571,0.0015388187592571,0.0,0.0,True
+five,soft,Cleveland__02,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0059362587539222,0.0059362587539222,0.0059362587539222,0.0,0.0,True
+five,soft,Cleveland__03,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0020118903972061,0.0020118903972061,0.0020118903972061,0.0,0.0,True
+five,soft,Cleveland__04,Cleveland,Cleveland,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0009531575565792,0.0009531575565792,0.0009531575565792,0.0,0.0,True
+five,soft,HAR__00,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0197497908474063,0.0199342749153669,0.0197497908474063,-0.0001844840679605976,0.0001844840679605976,False
+five,soft,HAR__01,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0033927063471189,0.0033927063471189,0.0033927063471189,0.0,0.0,True
+five,soft,HAR__02,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0073361022489291,0.0073361022489291,0.0073361022489291,0.0,0.0,True
+five,soft,HAR__03,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0035415032620047,0.0035415032620047,0.0034326141197607,0.0,0.00010888914224400003,False
+five,soft,HAR__04,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0041908593896616,0.0041908593896616,0.0040889945512095,0.0,0.00010186483845209954,False
+five,soft,HAR__05,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0027226645299377,0.0027226645299377,0.0027226645299377,0.0,0.0,True
+five,soft,HAR__06,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0068304034501359,0.0068304034501359,0.0068304034501359,0.0,0.0,True
+five,soft,HAR__07,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0040783848181221,0.0040783848181221,0.0040783848181221,0.0,0.0,True
+five,soft,HAR__08,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0025860755007602,0.0025860755007602,0.0025860755007602,0.0,0.0,True
+five,soft,HAR__09,HAR,HAR,Quantile plot / five,ECDF / full,ECDF / full,0.1029796195589189,0.0639019470549046,0.0639019470549046,0.03907767250401431,0.0,True
+five,soft,HAR__10,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0653447906388988,0.0653447906388988,0.0646691459842482,0.0,0.0006756446546506006,False
+five,soft,HAR__11,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0230832509970947,0.0230832509970947,0.0227173387327502,0.0,0.00036591226434450064,False
+five,soft,HAR__12,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.0013452581120265,0.001261569156448,0.001261569156448,8.368895557849996e-05,0.0,True
+five,soft,HAR__13,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.0030527453045124,0.0030122876973048,0.0030122876973048,4.045760720759999e-05,0.0,True
+five,soft,HAR__14,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0026854083791733,0.0026854083791733,0.0026474406403031,0.0,3.796773887020013e-05,False
+five,soft,HAR__15,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0045504515011582,0.0045504515011582,0.0045504515011582,0.0,0.0,True
+five,soft,HAR__16,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0014460542696412,0.0015196332004434,0.0014460542696412,-7.35789308022e-05,7.35789308022e-05,False
+five,soft,HAR__17,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.003823653556697,0.003823653556697,0.003823653556697,0.0,0.0,True
+five,soft,HAR__18,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.0039876196744135,0.0039416751274604,0.0039416751274604,4.594454695310002e-05,0.0,True
+five,soft,HAR__19,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0021721634091044,0.0021721634091044,0.0021721634091044,0.0,0.0,True
+five,soft,HAR__20,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0049528074620886,0.0049528074620886,0.0048811281134026,0.0,7.167934868600005e-05,False
+five,soft,HAR__21,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0035690160564579,0.0035690160564579,0.0035259408503657,0.0,4.307520609219979e-05,False
+five,soft,HAR__22,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0038285065383437,0.0038702783291247,0.0038285065383437,-4.177179078100005e-05,4.177179078100005e-05,False
+five,soft,HAR__23,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0027386483809413,0.0027386483809413,0.0027386483809413,0.0,0.0,True
+five,soft,HAR__24,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0040451299827396,0.0040451299827396,0.0039178476040465,0.0,0.00012728237869310058,False
+five,soft,HAR__25,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0019910432160091,0.0019910432160091,0.0019910432160091,0.0,0.0,True
+five,soft,HAR__26,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0026203165557578,0.0026203165557578,0.0026203165557578,0.0,0.0,True
+five,soft,HAR__27,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0048128207101844,0.0048128207101844,0.0047185827911675,0.0,9.423791901689953e-05,False
+five,soft,HAR__28,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.0025431286457301,0.0025047561858698,0.0025047561858698,3.837245986030007e-05,0.0,True
+five,soft,HAR__29,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0024117226653351,0.0024117226653351,0.0024100956926496,0.0,1.6269726855000846e-06,False
+five,soft,HAR__30,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0060942726519097,0.0060942726519097,0.005976114170139,0.0,0.00011815848177069987,False
+five,soft,HAR__31,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0030506971191718,0.0030506971191718,0.0030506971191718,0.0,0.0,True
+five,soft,HAR__32,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0060942726519097,0.0060942726519097,0.005976114170139,0.0,0.00011815848177069987,False
+five,soft,HAR__33,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0030506971191718,0.0030506971191718,0.0030506971191718,0.0,0.0,True
+five,soft,HAR__34,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0035362163001727,0.0035362163001727,0.0035362163001727,0.0,0.0,True
+five,soft,HAR__35,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.002790375174079,0.0026897647942704,0.0026897647942704,0.00010061037980859961,0.0,True
+five,soft,HAR__36,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.004146187779743,0.004146187779743,0.004146187779743,0.0,0.0,True
+five,soft,HAR__37,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0033204758008933,0.0033204758008933,0.0032759485894014,0.0,4.452721149189988e-05,False
+five,soft,HAR__38,HAR,HAR,Quantile plot / five,Quantile plot / nineteen,Quantile plot / nineteen,0.0044022412144563,0.0043978996057033,0.0043978996057033,4.3416087529999856e-06,0.0,True
+five,soft,HAR__39,HAR,HAR,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0022965413834727,0.0022965413834727,0.0022476884257049,0.0,4.88529577677998e-05,False
+five,soft,HeartFailure__00,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0025342215824575,0.0025342215824575,0.0025342215824575,0.0,0.0,True
+five,soft,HeartFailure__01,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,ECDF / full,0.0042789183234056,0.0042789183234056,0.0028145838983602,0.0,0.0014643344250453998,False
+five,soft,HeartFailure__02,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.002431282538061,0.002431282538061,0.0023843356917392,0.0,4.694684632180037e-05,False
+five,soft,HeartFailure__03,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0021689642481011,0.0021689642481011,0.0021689642481011,0.0,0.0,True
+five,soft,HeartFailure__04,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0033958026651259,0.0033958026651259,0.0033958026651259,0.0,0.0,True
+five,soft,HeartFailure__05,HeartFailure,HeartFailure,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0082881521865353,0.0082881521865353,0.0081607111577056,0.0,0.00012744102882969975,False
+five,soft,ILPD__00,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.003020408236437,0.003020408236437,0.003020408236437,0.0,0.0,True
+five,soft,ILPD__01,ILPD,ILPD,Quantile plot / five,Quantile plot / nineteen,Quantile plot / five,0.0053441082845069,0.005469075897661,0.0053441082845069,-0.00012496761315409968,0.00012496761315409968,False
+five,soft,ILPD__02,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0013237396833447,0.0013237396833447,0.0012860240397085,0.0,3.7715643636200124e-05,False
+five,soft,ILPD__03,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0031709774930219,0.0031709774930219,0.0031709774930219,0.0,0.0,True
+five,soft,ILPD__04,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0013494942118445,0.0013494942118445,0.0013494942118445,0.0,0.0,True
+five,soft,ILPD__05,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0031266641289289,0.0031266641289289,0.0031266641289289,0.0,0.0,True
+five,soft,ILPD__06,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0033567089258871,0.0033567089258871,0.0033567089258871,0.0,0.0,True
+five,soft,ILPD__07,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0032239181082823,0.0032239181082823,0.0032239181082823,0.0,0.0,True
+five,soft,ILPD__08,ILPD,ILPD,Quantile plot / five,Quantile plot / five,Quantile plot / nineteen,0.0019320525570393,0.0019320525570393,0.0019277970178219,0.0,4.255539217399998e-06,False
+five,soft,Retinopathy__00,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0032243230192819,0.0032243230192819,0.0032243230192819,0.0,0.0,True
+five,soft,Retinopathy__01,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0021016274234077,0.0021016274234077,0.0021016274234077,0.0,0.0,True
+five,soft,Retinopathy__02,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0016399270255753,0.0016399270255753,0.0016399270255753,0.0,0.0,True
+five,soft,Retinopathy__03,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0019412630908119,0.0019412630908119,0.0019412630908119,0.0,0.0,True
+five,soft,Retinopathy__04,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.002385891041878,0.002385891041878,0.002385891041878,0.0,0.0,True
+five,soft,Retinopathy__05,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0005436284549993,0.0005436284549993,0.0005436284549993,0.0,0.0,True
+five,soft,Retinopathy__06,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0013615715579398,0.0013615715579398,0.0013615715579398,0.0,0.0,True
+five,soft,Retinopathy__07,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0008433677275187,0.0008433677275187,0.0008433677275187,0.0,0.0,True
+five,soft,Retinopathy__08,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0024948462415641,0.0024948462415641,0.0024948462415641,0.0,0.0,True
+five,soft,Retinopathy__09,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.0031874489012654,0.0039177646674041,0.0031874489012654,-0.0007303157661386998,0.0007303157661386998,False
+five,soft,Retinopathy__10,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / nineteen,0.0039140951753006,0.0065950866048195,0.0038812415696368,-0.0026809914295189002,0.0027138450351827,False
+five,soft,Retinopathy__11,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,ECDF / full,0.0033578957106549,0.0032422943367444,0.0032422943367444,0.00011560137391050012,0.0,True
+five,soft,Retinopathy__12,Retinopathy,Retinopathy,Quantile plot / five,Quantile plot / five,ECDF / full,0.0020347040129338,0.0020347040129338,0.0018372636812842,0.0,0.00019744033164959983,False
+five,soft,Retinopathy__13,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.0026382733541017,0.0045265023593228,0.0026382733541017,-0.0018882290052211,0.0018882290052211,False
+five,soft,Retinopathy__14,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.0034673148731437,0.0065680331141798,0.0034673148731437,-0.0031007182410361,0.0031007182410361,False
+five,soft,Retinopathy__15,Retinopathy,Retinopathy,Quantile plot / five,ECDF / full,Quantile plot / five,0.0032772213921897,0.0042003896043561,0.0032772213921897,-0.0009231682121663997,0.0009231682121663997,False
+five,soft,WDBC__00,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0028831559747219,0.0028831559747219,0.0028831559747219,0.0,0.0,True
+five,soft,WDBC__01,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0019533433756032,0.0019533433756032,0.0019533433756032,0.0,0.0,True
+five,soft,WDBC__02,WDBC,WDBC,Quantile plot / five,Quantile plot / five,ECDF / full,0.0037161989695748,0.0037161989695748,0.0021777412277934,0.0,0.0015384577417814002,False
+five,soft,WDBC__03,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0039543709365704,0.0039543709365704,0.0039543709365704,0.0,0.0,True
+five,soft,WDBC__04,WDBC,WDBC,Quantile plot / five,ECDF / full,Quantile plot / five,0.0017061489644073,0.0042490988390385,0.0017061489644073,-0.0025429498746312,0.0025429498746312,False
+five,soft,WDBC__05,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0024735354447803,0.0024735354447803,0.0024735354447803,0.0,0.0,True
+five,soft,WDBC__06,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0019209241128201,0.0019209241128201,0.0019209241128201,0.0,0.0,True
+five,soft,WDBC__07,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0026370531786001,0.0026370531786001,0.0026370531786001,0.0,0.0,True
+five,soft,WDBC__08,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0040827991673883,0.0040827991673883,0.0040827991673883,0.0,0.0,True
+five,soft,WDBC__09,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0020839844303495,0.0020839844303495,0.0020839844303495,0.0,0.0,True
+five,soft,WDBC__10,WDBC,WDBC,Quantile plot / five,Quantile plot / five,ECDF / full,0.0056122926511307,0.0056122926511307,0.0027470034293144,0.0,0.0028652892218163,False
+five,soft,WDBC__11,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0034924515655832,0.0034924515655832,0.0034924515655832,0.0,0.0,True
+five,soft,WDBC__12,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0023611117687087,0.0023611117687087,0.0023611117687087,0.0,0.0,True
+five,soft,WDBC__13,WDBC,WDBC,Quantile plot / five,Quantile plot / five,ECDF / full,0.0038340839951272,0.0038340839951272,0.0034587449155817,0.0,0.0003753390795455001,False
+five,soft,WDBC__14,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.002356007690787,0.002356007690787,0.002356007690787,0.0,0.0,True
+five,soft,WDBC__15,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0039604438367749,0.0039604438367749,0.0039604438367749,0.0,0.0,True
+five,soft,WDBC__16,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0049716318137046,0.0049716318137046,0.0049716318137046,0.0,0.0,True
+five,soft,WDBC__17,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0025726767286509,0.0025726767286509,0.0025726767286509,0.0,0.0,True
+five,soft,WDBC__18,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0029178331488913,0.0029178331488913,0.0029178331488913,0.0,0.0,True
+five,soft,WDBC__19,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0032384210435773,0.0032384210435773,0.0032384210435773,0.0,0.0,True
+five,soft,WDBC__20,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0037293987635265,0.0037293987635265,0.0037293987635265,0.0,0.0,True
+five,soft,WDBC__21,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0027768153326668,0.0027768153326668,0.0027768153326668,0.0,0.0,True
+five,soft,WDBC__22,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0037406581704164,0.0037406581704164,0.0037406581704164,0.0,0.0,True
+five,soft,WDBC__23,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0045003143400714,0.0045003143400714,0.0045003143400714,0.0,0.0,True
+five,soft,WDBC__24,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.00242457779828,0.00242457779828,0.00242457779828,0.0,0.0,True
+five,soft,WDBC__25,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0031063821409558,0.0031063821409558,0.0031063821409558,0.0,0.0,True
+five,soft,WDBC__26,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0027536153505426,0.0027536153505426,0.0027536153505426,0.0,0.0,True
+five,soft,WDBC__27,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0029268506088484,0.0029268506088484,0.0029268506088484,0.0,0.0,True
+five,soft,WDBC__28,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0036450073724202,0.0036450073724202,0.0036450073724202,0.0,0.0,True
+five,soft,WDBC__29,WDBC,WDBC,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0030713297242821,0.0030713297242821,0.0030713297242821,0.0,0.0,True
+five,soft,Wrist__00,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0018667553119318,0.0018667553119318,0.0018667553119318,0.0,0.0,True
+five,soft,Wrist__01,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.002571940251394,0.002571940251394,0.002571940251394,0.0,0.0,True
+five,soft,Wrist__02,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0017227833860425,0.0017227833860425,0.0017227833860425,0.0,0.0,True
+five,soft,Wrist__03,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.002403284898345,0.002403284898345,0.002403284898345,0.0,0.0,True
+five,soft,Wrist__04,Wrist,Wrist,Quantile plot / five,Quantile plot / five,Quantile plot / five,0.0031307839894376,0.0031307839894376,0.0031307839894376,0.0,0.0,True
+composition,hard,comp_BIDMC_0,BIDMC,comp_BIDMC_0,Pie chart,Donut chart,Donut chart,0.0014798491405371,0.0014304422834023,0.0014304422834023,4.940685713480009e-05,0.0,True
+composition,hard,comp_BIDMC_1,BIDMC,comp_BIDMC_1,Pie chart,Pie chart,Pie chart,0.001592318137713,0.001592318137713,0.001592318137713,0.0,0.0,True
+composition,hard,cohort_CKD,CKD,CKD,Pie chart,Pie chart,Pie chart,0.0005678239641626,0.0005678239641626,0.0005678239641626,0.0,0.0,True
+composition,hard,comp_CKD_0,CKD,CKD,Pie chart,Pie chart,Pie chart,0.0015934626718681,0.0015934626718681,0.0015934626718681,0.0,0.0,True
+composition,hard,comp_CKD_1,CKD,CKD,Pie chart,Donut chart,Pie chart,0.0014002128650702,0.0014317386581208,0.0014002128650702,-3.152579305059993e-05,3.152579305059993e-05,False
+composition,hard,cohort_Cleveland,Cleveland,Cleveland,Pie chart,Pie chart,Pie chart,0.0004886801275239,0.0004886801275239,0.0004886801275239,0.0,0.0,True
+composition,hard,comp_Cleveland_0,Cleveland,Cleveland,Pie chart,Pie chart,Pie chart,0.0016057400931997,0.0016057400931997,0.0016057400931997,0.0,0.0,True
+composition,hard,comp_Cleveland_1,Cleveland,Cleveland,Pie chart,Donut chart,Pie chart,0.0013870783010006,0.0014353019712009,0.0013870783010006,-4.8223670200300004e-05,4.8223670200300004e-05,False
+composition,hard,comp_HAR_0,HAR,HAR,Pie chart,Pie chart,Pie chart,0.0007035861965315,0.0007035861965315,0.0007035861965315,0.0,0.0,True
+composition,hard,comp_HAR_1,HAR,HAR,Pie chart,Pie chart,Pie chart,0.0023395926446923,0.0023395926446923,0.0023395926446923,0.0,0.0,True
+composition,hard,cohort_HeartFailure,HeartFailure,HeartFailure,Pie chart,Pie chart,Pie chart,0.000457706932418,0.000457706932418,0.000457706932418,0.0,0.0,True
+composition,hard,comp_HeartFailure_0,HeartFailure,HeartFailure,Pie chart,Pie chart,Pie chart,0.0015279576450306,0.0015279576450306,0.0015279576450306,0.0,0.0,True
+composition,hard,comp_HeartFailure_1,HeartFailure,HeartFailure,Pie chart,Pie chart,Pie chart,0.0014549674409354,0.0014549674409354,0.0014549674409354,0.0,0.0,True
+composition,hard,cohort_ILPD,ILPD,ILPD,Pie chart,Pie chart,Pie chart,0.0004857033052632,0.0004857033052632,0.0004857033052632,0.0,0.0,True
+composition,hard,comp_ILPD_0,ILPD,ILPD,Pie chart,Pie chart,Pie chart,0.001645210285163,0.001645210285163,0.001645210285163,0.0,0.0,True
+composition,hard,comp_ILPD_1,ILPD,ILPD,Pie chart,Donut chart,Pie chart,0.0014677844158018,0.0014920858496194,0.0014677844158018,-2.430143381759991e-05,2.430143381759991e-05,False
+composition,hard,cohort_Retinopathy,Retinopathy,Retinopathy,Pie chart,Pie chart,Pie chart,0.0005433415060078,0.0005433415060078,0.0005433415060078,0.0,0.0,True
+composition,hard,comp_Retinopathy_0,Retinopathy,Retinopathy,Pie chart,Pie chart,Pie chart,0.0015754780561219,0.0015754780561219,0.0015754780561219,0.0,0.0,True
+composition,hard,comp_Retinopathy_1,Retinopathy,Retinopathy,Pie chart,Donut chart,Pie chart,0.0014592034763239,0.0014928630026803,0.0014592034763239,-3.365952635639999e-05,3.365952635639999e-05,False
+composition,hard,cohort_WDBC,WDBC,WDBC,Pie chart,Pie chart,Pie chart,0.0004615136012269,0.0004615136012269,0.0004615136012269,0.0,0.0,True
+composition,hard,comp_WDBC_0,WDBC,WDBC,Pie chart,Pie chart,Pie chart,0.0013400804623201,0.0013400804623201,0.0013400804623201,0.0,0.0,True
+composition,hard,comp_WDBC_1,WDBC,WDBC,Pie chart,Donut chart,Donut chart,0.00153558793581,0.0013378093940591,0.0013378093940591,0.00019777854175090002,0.0,True
+composition,hard,comp_Wrist_0,Wrist,Wrist,Pie chart,Donut chart,Donut chart,0.0021049420850569,0.002088486944508,0.002088486944508,1.6455140548900064e-05,0.0,True
+composition,hard,comp_Wrist_1,Wrist,Wrist,Pie chart,Donut chart,Donut chart,0.0021934550720766,0.0021754644898648,0.0021754644898648,1.7990582211799885e-05,0.0,True
+composition,soft,comp_BIDMC_0,BIDMC,comp_BIDMC_0,Pie chart,Pie chart,Pie chart,0.0033671437932171,0.0033671437932171,0.0033671437932171,0.0,0.0,True
+composition,soft,comp_BIDMC_1,BIDMC,comp_BIDMC_1,Pie chart,Pie chart,Pie chart,0.0036021128135794,0.0036021128135794,0.0036021128135794,0.0,0.0,True
+composition,soft,cohort_CKD,CKD,CKD,Pie chart,Bar chart,Bar chart,0.0006431355971811,0.0002802856631936,0.0002802856631936,0.0003628499339875,0.0,True
+composition,soft,comp_CKD_0,CKD,CKD,Pie chart,Pie chart,Pie chart,0.0042745786633453,0.0042745786633453,0.0042745786633453,0.0,0.0,True
+composition,soft,comp_CKD_1,CKD,CKD,Pie chart,Pie chart,Pie chart,0.0031830588462401,0.0031830588462401,0.0031830588462401,0.0,0.0,True
+composition,soft,cohort_Cleveland,Cleveland,Cleveland,Pie chart,Pie chart,Bar chart,0.0006792480471589,0.0006792480471589,0.0006229030026518,0.0,5.634504450710001e-05,False
+composition,soft,comp_Cleveland_0,Cleveland,Cleveland,Pie chart,Pie chart,Pie chart,0.0037376518626803,0.0037376518626803,0.0037376518626803,0.0,0.0,True
+composition,soft,comp_Cleveland_1,Cleveland,Cleveland,Pie chart,Pie chart,Pie chart,0.003257128916013,0.003257128916013,0.003257128916013,0.0,0.0,True
+composition,soft,comp_HAR_0,HAR,HAR,Pie chart,Pie chart,Pie chart,0.0031308983453396,0.0031308983453396,0.0031308983453396,0.0,0.0,True
+composition,soft,comp_HAR_1,HAR,HAR,Pie chart,Pie chart,Pie chart,0.0041404297109907,0.0041404297109907,0.0041404297109907,0.0,0.0,True
+composition,soft,cohort_HeartFailure,HeartFailure,HeartFailure,Pie chart,Pie chart,Pie chart,0.0006054561211683,0.0006054561211683,0.0006054561211683,0.0,0.0,True
+composition,soft,comp_HeartFailure_0,HeartFailure,HeartFailure,Pie chart,Pie chart,Pie chart,0.0039564892051636,0.0039564892051636,0.0039564892051636,0.0,0.0,True
+composition,soft,comp_HeartFailure_1,HeartFailure,HeartFailure,Pie chart,Pie chart,Pie chart,0.0031013711976682,0.0031013711976682,0.0031013711976682,0.0,0.0,True
+composition,soft,cohort_ILPD,ILPD,ILPD,Pie chart,Bar chart,Bar chart,0.0005792008590408,0.0002332718914472,0.0002332718914472,0.0003459289675936,0.0,True
+composition,soft,comp_ILPD_0,ILPD,ILPD,Pie chart,Pie chart,Pie chart,0.0037843279802875,0.0037843279802875,0.0037843279802875,0.0,0.0,True
+composition,soft,comp_ILPD_1,ILPD,ILPD,Pie chart,Pie chart,Pie chart,0.003546719263378,0.003546719263378,0.003546719263378,0.0,0.0,True
+composition,soft,cohort_Retinopathy,Retinopathy,Retinopathy,Pie chart,Bar chart,Pie chart,0.0006735161653699,0.0007954535376632,0.0006735161653699,-0.00012193737229329994,0.00012193737229329994,False
+composition,soft,comp_Retinopathy_0,Retinopathy,Retinopathy,Pie chart,Pie chart,Pie chart,0.004127072035603,0.004127072035603,0.004127072035603,0.0,0.0,True
+composition,soft,comp_Retinopathy_1,Retinopathy,Retinopathy,Pie chart,Pie chart,Pie chart,0.0030065917034267,0.0030065917034267,0.0030065917034267,0.0,0.0,True
+composition,soft,cohort_WDBC,WDBC,WDBC,Pie chart,Pie chart,Pie chart,0.0006180977998335,0.0006180977998335,0.0006180977998335,0.0,0.0,True
+composition,soft,comp_WDBC_0,WDBC,WDBC,Pie chart,Pie chart,Pie chart,0.0046977825367488,0.0046977825367488,0.0046977825367488,0.0,0.0,True
+composition,soft,comp_WDBC_1,WDBC,WDBC,Pie chart,Pie chart,Pie chart,0.0023122519857494,0.0023122519857494,0.0023122519857494,0.0,0.0,True
+composition,soft,comp_Wrist_0,Wrist,Wrist,Pie chart,Pie chart,Pie chart,0.0040462313411464,0.0040462313411464,0.0040462313411464,0.0,0.0,True
+composition,soft,comp_Wrist_1,Wrist,Wrist,Pie chart,Pie chart,Pie chart,0.0045301660501299,0.0045301660501299,0.0045301660501299,0.0,0.0,True
+profile,hard,profile_bidmc_01,BIDMC,s01182,Dot plot,Dot plot,Dot plot,0.0863566445214733,0.0863566445214733,0.0863566445214733,0.0,0.0,True
+profile,hard,profile_bidmc_02,BIDMC,s01241,Dot plot,Dot plot,Dot plot,0.0764294771250465,0.0764294771250465,0.0764294771250465,0.0,0.0,True
+profile,hard,profile_bidmc_03,BIDMC,s01795,Dot plot,Dot plot,Dot plot,0.0566993412556026,0.0566993412556026,0.0566993412556026,0.0,0.0,True
+profile,hard,profile_bidmc_04,BIDMC,s01840,Dot plot,Line chart,Dot plot,0.0237469649437183,0.0278662928478294,0.0237469649437183,-0.004119327904111101,0.004119327904111101,False
+profile,hard,profile_bidmc_05,BIDMC,s01995,Dot plot,Dot plot,Dot plot,0.1598969132843849,0.1598969132843849,0.1598969132843849,0.0,0.0,True
+profile,hard,profile_bidmc_06,BIDMC,s03386,Dot plot,Line chart,Dot plot,0.1345818464643755,0.169697692054415,0.1345818464643755,-0.035115845590039524,0.035115845590039524,False
+profile,hard,profile_bidmc_07,BIDMC,s03386,Dot plot,Line chart,Dot plot,0.4675717173036339,0.6217410969478486,0.4675717173036339,-0.15416937964421473,0.15416937964421473,False
+profile,hard,profile_bidmc_08,BIDMC,s03386,Dot plot,Dot plot,Dot plot,0.173836278513054,0.173836278513054,0.173836278513054,0.0,0.0,True
+profile,hard,profile_bidmc_09,BIDMC,s03386,Dot plot,Line chart,Dot plot,0.1179489778355625,0.1535939408475237,0.1179489778355625,-0.0356449630119612,0.0356449630119612,False
+profile,hard,profile_bidmc_10,BIDMC,s03516,Dot plot,Dot plot,Dot plot,0.0540066614336234,0.0540066614336234,0.0540066614336234,0.0,0.0,True
+profile,hard,profile_bidmc_11,BIDMC,s04641,Dot plot,Dot plot,Dot plot,0.0459118410429643,0.0459118410429643,0.0459118410429643,0.0,0.0,True
+profile,hard,profile_bidmc_12,BIDMC,s06914,Dot plot,Dot plot,Dot plot,0.0315028616921928,0.0315028616921928,0.0315028616921928,0.0,0.0,True
+profile,hard,profile_bidmc_13,BIDMC,s07432,Dot plot,Dot plot,Dot plot,0.190027434908792,0.190027434908792,0.190027434908792,0.0,0.0,True
+profile,hard,profile_bidmc_14,BIDMC,s07784,Dot plot,Dot plot,Dot plot,0.1448953057041646,0.1448953057041646,0.1448953057041646,0.0,0.0,True
+profile,hard,profile_bidmc_15,BIDMC,s08452,Dot plot,Line chart,Dot plot,0.0931482653381566,0.11634185262784,0.0931482653381566,-0.023193587289683404,0.023193587289683404,False
+profile,hard,profile_bidmc_16,BIDMC,s08915,Dot plot,Dot plot,Dot plot,0.0925856313572787,0.0925856313572787,0.0925856313572787,0.0,0.0,True
+profile,hard,profile_bidmc_17,BIDMC,s08936,Dot plot,Dot plot,Dot plot,0.0303833193107287,0.0303833193107287,0.0303833193107287,0.0,0.0,True
+profile,hard,profile_bidmc_18,BIDMC,s09483,Dot plot,Dot plot,Dot plot,0.3536716214081563,0.3536716214081563,0.3536716214081563,0.0,0.0,True
+profile,hard,profile_bidmc_19,BIDMC,s09968,Dot plot,Dot plot,Dot plot,0.1291523861632028,0.1291523861632028,0.1291523861632028,0.0,0.0,True
+profile,hard,profile_bidmc_20,BIDMC,s11342,Dot plot,Dot plot,Dot plot,0.2377742202542523,0.2377742202542523,0.2377742202542523,0.0,0.0,True
+profile,hard,profile_bidmc_21,BIDMC,s11342,Dot plot,Dot plot,Dot plot,0.0392992867667183,0.0392992867667183,0.0392992867667183,0.0,0.0,True
+profile,hard,profile_bidmc_22,BIDMC,s11342,Dot plot,Dot plot,Dot plot,0.0357450328235364,0.0357450328235364,0.0357450328235364,0.0,0.0,True
+profile,hard,profile_bidmc_23,BIDMC,s11342,Dot plot,Dot plot,Dot plot,0.0291669286282179,0.0291669286282179,0.0291669286282179,0.0,0.0,True
+profile,hard,profile_bidmc_24,BIDMC,s12531,Dot plot,Dot plot,Dot plot,0.0511844052026958,0.0511844052026958,0.0511844052026958,0.0,0.0,True
+profile,hard,profile_bidmc_25,BIDMC,s12589,Dot plot,Dot plot,Dot plot,0.0496422799646068,0.0496422799646068,0.0496422799646068,0.0,0.0,True
+profile,hard,profile_bidmc_26,BIDMC,s13314,Dot plot,Dot plot,Dot plot,0.1038644018755094,0.1038644018755094,0.1038644018755094,0.0,0.0,True
+profile,hard,profile_bidmc_27,BIDMC,s13927,Dot plot,Dot plot,Dot plot,0.1049380697925389,0.1049380697925389,0.1049380697925389,0.0,0.0,True
+profile,hard,profile_bidmc_28,BIDMC,s15646,Dot plot,Dot plot,Dot plot,0.023973811657,0.023973811657,0.023973811657,0.0,0.0,True
+profile,hard,profile_bidmc_29,BIDMC,s17236,Dot plot,Dot plot,Dot plot,0.1426122625581521,0.1426122625581521,0.1426122625581521,0.0,0.0,True
+profile,hard,profile_bidmc_30,BIDMC,s17497,Dot plot,Dot plot,Dot plot,0.1113078848412704,0.1113078848412704,0.1113078848412704,0.0,0.0,True
+profile,hard,profile_bidmc_31,BIDMC,s17735,Dot plot,Dot plot,Dot plot,0.052086114266698,0.052086114266698,0.052086114266698,0.0,0.0,True
+profile,hard,profile_bidmc_32,BIDMC,s17756,Dot plot,Dot plot,Dot plot,0.7248799062764735,0.7248799062764735,0.7248799062764735,0.0,0.0,True
+profile,hard,profile_bidmc_33,BIDMC,s19981,Dot plot,Dot plot,Dot plot,0.0472147569490126,0.0472147569490126,0.0472147569490126,0.0,0.0,True
+profile,hard,profile_bidmc_34,BIDMC,s20471,Dot plot,Dot plot,Dot plot,0.033059922184855,0.033059922184855,0.033059922184855,0.0,0.0,True
+profile,hard,profile_bidmc_35,BIDMC,s20486,Dot plot,Dot plot,Dot plot,0.0320692880435827,0.0320692880435827,0.0320692880435827,0.0,0.0,True
+profile,hard,profile_bidmc_36,BIDMC,s22348,Dot plot,Dot plot,Dot plot,0.0486234834319398,0.0486234834319398,0.0486234834319398,0.0,0.0,True
+profile,hard,profile_bidmc_37,BIDMC,s24455,Dot plot,Dot plot,Dot plot,0.1777231874798289,0.1777231874798289,0.1777231874798289,0.0,0.0,True
+profile,hard,profile_bidmc_38,BIDMC,s25323,Dot plot,Dot plot,Dot plot,0.022063434532504,0.022063434532504,0.022063434532504,0.0,0.0,True
+profile,hard,profile_bidmc_39,BIDMC,s25323,Dot plot,Dot plot,Dot plot,0.0349439608712893,0.0349439608712893,0.0349439608712893,0.0,0.0,True
+profile,hard,profile_bidmc_40,BIDMC,s26845,Dot plot,Dot plot,Dot plot,0.1622681069532454,0.1622681069532454,0.1622681069532454,0.0,0.0,True
+profile,hard,profile_bidmc_41,BIDMC,s26868,Dot plot,Dot plot,Dot plot,0.0114002177288351,0.0114002177288351,0.0114002177288351,0.0,0.0,True
+profile,hard,profile_bidmc_42,BIDMC,s29093,Dot plot,Dot plot,Dot plot,0.2458589365675461,0.2458589365675461,0.2458589365675461,0.0,0.0,True
+profile,hard,profile_bidmc_43,BIDMC,s29125,Dot plot,Dot plot,Dot plot,0.0274843655801676,0.0274843655801676,0.0274843655801676,0.0,0.0,True
+profile,hard,profile_bidmc_44,BIDMC,s29503,Dot plot,Line chart,Dot plot,0.0464928106688044,0.0517512049097513,0.0464928106688044,-0.005258394240946894,0.005258394240946894,False
+profile,hard,profile_bidmc_45,BIDMC,s29622,Dot plot,Dot plot,Dot plot,0.0279007306120554,0.0279007306120554,0.0279007306120554,0.0,0.0,True
+profile,hard,profile_bidmc_46,BIDMC,s29866,Dot plot,Dot plot,Dot plot,0.1292097226344945,0.1292097226344945,0.1292097226344945,0.0,0.0,True
+profile,hard,profile_bidmc_47,BIDMC,s30026,Dot plot,Dot plot,Dot plot,0.0915577918395263,0.0915577918395263,0.0915577918395263,0.0,0.0,True
+profile,hard,profile_bidmc_48,BIDMC,s30243,Dot plot,Dot plot,Dot plot,0.0264291299325088,0.0264291299325088,0.0264291299325088,0.0,0.0,True
+profile,hard,profile_bidmc_49,BIDMC,s31106,Dot plot,Dot plot,Dot plot,0.0706469822986859,0.0706469822986859,0.0706469822986859,0.0,0.0,True
+profile,hard,profile_bidmc_50,BIDMC,s31141,Dot plot,Dot plot,Dot plot,0.1035779086946336,0.1035779086946336,0.1035779086946336,0.0,0.0,True
+profile,hard,profile_bidmc_51,BIDMC,s31400,Dot plot,Dot plot,Dot plot,0.0596008491771748,0.0596008491771748,0.0596008491771748,0.0,0.0,True
+profile,hard,profile_bidmc_52,BIDMC,s32195,Dot plot,Dot plot,Dot plot,0.1149622923259841,0.1149622923259841,0.1149622923259841,0.0,0.0,True
+profile,hard,profile_bidmc_53,BIDMC,s32628,Dot plot,Dot plot,Dot plot,0.0333513208941015,0.0333513208941015,0.0333513208941015,0.0,0.0,True
+profile,hard,profile_s1_high_resistance_bike,Wrist,s1,Dot plot,Dot plot,Dot plot,0.0071404247708625,0.0071404247708625,0.0071404247708625,0.0,0.0,True
+profile,hard,profile_s1_low_resistance_bike,Wrist,s1,Dot plot,Dot plot,Dot plot,0.017904923569665,0.017904923569665,0.017904923569665,0.0,0.0,True
+profile,hard,profile_s1_walk,Wrist,s1,Dot plot,Dot plot,Dot plot,0.0328439218397316,0.0328439218397316,0.0328439218397316,0.0,0.0,True
+profile,hard,profile_s2_high_resistance_bike,Wrist,s2,Dot plot,Dot plot,Dot plot,0.0116534957768099,0.0116534957768099,0.0116534957768099,0.0,0.0,True
+profile,hard,profile_s2_low_resistance_bike,Wrist,s2,Dot plot,Dot plot,Dot plot,0.0144989953767982,0.0144989953767982,0.0144989953767982,0.0,0.0,True
+profile,hard,profile_s2_walk,Wrist,s2,Dot plot,Dot plot,Dot plot,0.032149594812113,0.032149594812113,0.032149594812113,0.0,0.0,True
+profile,hard,profile_s3_high_resistance_bike,Wrist,s3,Dot plot,Dot plot,Dot plot,0.0240217502982668,0.0240217502982668,0.0240217502982668,0.0,0.0,True
+profile,hard,profile_s3_low_resistance_bike,Wrist,s3,Dot plot,Dot plot,Dot plot,0.034599956957883,0.034599956957883,0.034599956957883,0.0,0.0,True
+profile,hard,profile_s3_run,Wrist,s3,Dot plot,Dot plot,Dot plot,0.0472432090629936,0.0472432090629936,0.0472432090629936,0.0,0.0,True
+profile,hard,profile_s3_walk,Wrist,s3,Dot plot,Dot plot,Dot plot,0.0390428033367293,0.0390428033367293,0.0390428033367293,0.0,0.0,True
+profile,hard,profile_s4_run,Wrist,s4,Dot plot,Dot plot,Dot plot,0.0412818535228255,0.0412818535228255,0.0412818535228255,0.0,0.0,True
+profile,hard,profile_s5_low_resistance_bike,Wrist,s5,Dot plot,Dot plot,Dot plot,0.0299895031323818,0.0299895031323818,0.0299895031323818,0.0,0.0,True
+profile,hard,profile_s5_run,Wrist,s5,Dot plot,Dot plot,Dot plot,0.0387893775455391,0.0387893775455391,0.0387893775455391,0.0,0.0,True
+profile,hard,profile_s6_low_resistance_bike,Wrist,s6,Dot plot,Dot plot,Dot plot,0.0148762713268367,0.0148762713268367,0.0148762713268367,0.0,0.0,True
+profile,hard,profile_s6_run,Wrist,s6,Dot plot,Dot plot,Dot plot,0.0260701360206892,0.0260701360206892,0.0260701360206892,0.0,0.0,True
+profile,hard,profile_s6_walk,Wrist,s6,Dot plot,Dot plot,Dot plot,0.0415392739559683,0.0415392739559683,0.0415392739559683,0.0,0.0,True
+profile,hard,profile_s8_run,Wrist,s8,Dot plot,Dot plot,Dot plot,0.0176276489164881,0.0176276489164881,0.0176276489164881,0.0,0.0,True
+profile,hard,profile_s8_walk,Wrist,s8,Dot plot,Dot plot,Dot plot,0.0352997496636044,0.0352997496636044,0.0352997496636044,0.0,0.0,True
+profile,hard,profile_s9_walk,Wrist,s9,Dot plot,Dot plot,Dot plot,0.0565411082360172,0.0565411082360172,0.0565411082360172,0.0,0.0,True
+profile,soft,profile_bidmc_01,BIDMC,s01182,Dot plot,Dot plot,Dot plot,0.0885001392497035,0.0885001392497035,0.0885001392497035,0.0,0.0,True
+profile,soft,profile_bidmc_02,BIDMC,s01241,Dot plot,Dot plot,Dot plot,0.0792198269801826,0.0792198269801826,0.0792198269801826,0.0,0.0,True
+profile,soft,profile_bidmc_03,BIDMC,s01795,Dot plot,Dot plot,Dot plot,0.0507246249956506,0.0507246249956506,0.0507246249956506,0.0,0.0,True
+profile,soft,profile_bidmc_04,BIDMC,s01840,Dot plot,Dot plot,Dot plot,0.0233009260861506,0.0233009260861506,0.0233009260861506,0.0,0.0,True
+profile,soft,profile_bidmc_05,BIDMC,s01995,Dot plot,Dot plot,Dot plot,0.1566223373359603,0.1566223373359603,0.1566223373359603,0.0,0.0,True
+profile,soft,profile_bidmc_06,BIDMC,s03386,Dot plot,Dot plot,Dot plot,0.1273189973313507,0.1273189973313507,0.1273189973313507,0.0,0.0,True
+profile,soft,profile_bidmc_07,BIDMC,s03386,Dot plot,Dot plot,Dot plot,0.4504134027846309,0.4504134027846309,0.4504134027846309,0.0,0.0,True
+profile,soft,profile_bidmc_08,BIDMC,s03386,Dot plot,Dot plot,Dot plot,0.1668901670284468,0.1668901670284468,0.1668901670284468,0.0,0.0,True
+profile,soft,profile_bidmc_09,BIDMC,s03386,Dot plot,Dot plot,Dot plot,0.1180927974492506,0.1180927974492506,0.1180927974492506,0.0,0.0,True
+profile,soft,profile_bidmc_10,BIDMC,s03516,Dot plot,Dot plot,Dot plot,0.0535088903101305,0.0535088903101305,0.0535088903101305,0.0,0.0,True
+profile,soft,profile_bidmc_11,BIDMC,s04641,Dot plot,Dot plot,Dot plot,0.045865740216148,0.045865740216148,0.045865740216148,0.0,0.0,True
+profile,soft,profile_bidmc_12,BIDMC,s06914,Dot plot,Dot plot,Dot plot,0.0315751229334642,0.0315751229334642,0.0315751229334642,0.0,0.0,True
+profile,soft,profile_bidmc_13,BIDMC,s07432,Dot plot,Dot plot,Dot plot,0.1979082864804923,0.1979082864804923,0.1979082864804923,0.0,0.0,True
+profile,soft,profile_bidmc_14,BIDMC,s07784,Dot plot,Dot plot,Dot plot,0.1348650649576181,0.1348650649576181,0.1348650649576181,0.0,0.0,True
+profile,soft,profile_bidmc_15,BIDMC,s08452,Dot plot,Dot plot,Dot plot,0.0864268007460173,0.0864268007460173,0.0864268007460173,0.0,0.0,True
+profile,soft,profile_bidmc_16,BIDMC,s08915,Dot plot,Dot plot,Dot plot,0.0931091076407965,0.0931091076407965,0.0931091076407965,0.0,0.0,True
+profile,soft,profile_bidmc_17,BIDMC,s08936,Dot plot,Dot plot,Dot plot,0.0303174365905503,0.0303174365905503,0.0303174365905503,0.0,0.0,True
+profile,soft,profile_bidmc_18,BIDMC,s09483,Dot plot,Dot plot,Dot plot,0.3476206532110077,0.3476206532110077,0.3476206532110077,0.0,0.0,True
+profile,soft,profile_bidmc_19,BIDMC,s09968,Dot plot,Dot plot,Dot plot,0.1202663799894108,0.1202663799894108,0.1202663799894108,0.0,0.0,True
+profile,soft,profile_bidmc_20,BIDMC,s11342,Dot plot,Dot plot,Dot plot,0.2271665616665817,0.2271665616665817,0.2271665616665817,0.0,0.0,True
+profile,soft,profile_bidmc_21,BIDMC,s11342,Dot plot,Dot plot,Dot plot,0.0394617845235958,0.0394617845235958,0.0394617845235958,0.0,0.0,True
+profile,soft,profile_bidmc_22,BIDMC,s11342,Dot plot,Dot plot,Dot plot,0.0337222697831639,0.0337222697831639,0.0337222697831639,0.0,0.0,True
+profile,soft,profile_bidmc_23,BIDMC,s11342,Dot plot,Dot plot,Dot plot,0.0291373912131146,0.0291373912131146,0.0291373912131146,0.0,0.0,True
+profile,soft,profile_bidmc_24,BIDMC,s12531,Dot plot,Dot plot,Dot plot,0.0496191529408847,0.0496191529408847,0.0496191529408847,0.0,0.0,True
+profile,soft,profile_bidmc_25,BIDMC,s12589,Dot plot,Dot plot,Dot plot,0.0528577275124175,0.0528577275124175,0.0528577275124175,0.0,0.0,True
+profile,soft,profile_bidmc_26,BIDMC,s13314,Dot plot,Dot plot,Dot plot,0.0991989783571384,0.0991989783571384,0.0991989783571384,0.0,0.0,True
+profile,soft,profile_bidmc_27,BIDMC,s13927,Dot plot,Dot plot,Dot plot,0.0995609754016378,0.0995609754016378,0.0995609754016378,0.0,0.0,True
+profile,soft,profile_bidmc_28,BIDMC,s15646,Dot plot,Dot plot,Dot plot,0.0236982548603751,0.0236982548603751,0.0236982548603751,0.0,0.0,True
+profile,soft,profile_bidmc_29,BIDMC,s17236,Dot plot,Dot plot,Dot plot,0.134489598938916,0.134489598938916,0.134489598938916,0.0,0.0,True
+profile,soft,profile_bidmc_30,BIDMC,s17497,Dot plot,Dot plot,Dot plot,0.10435821100307,0.10435821100307,0.10435821100307,0.0,0.0,True
+profile,soft,profile_bidmc_31,BIDMC,s17735,Dot plot,Dot plot,Dot plot,0.0482828943009481,0.0482828943009481,0.0482828943009481,0.0,0.0,True
+profile,soft,profile_bidmc_32,BIDMC,s17756,Dot plot,Dot plot,Dot plot,0.7258566569730863,0.7258566569730863,0.7258566569730863,0.0,0.0,True
+profile,soft,profile_bidmc_33,BIDMC,s19981,Dot plot,Dot plot,Dot plot,0.0434804879844153,0.0434804879844153,0.0434804879844153,0.0,0.0,True
+profile,soft,profile_bidmc_34,BIDMC,s20471,Dot plot,Dot plot,Dot plot,0.0316782033698342,0.0316782033698342,0.0316782033698342,0.0,0.0,True
+profile,soft,profile_bidmc_35,BIDMC,s20486,Dot plot,Dot plot,Dot plot,0.0312605755526605,0.0312605755526605,0.0312605755526605,0.0,0.0,True
+profile,soft,profile_bidmc_36,BIDMC,s22348,Dot plot,Dot plot,Dot plot,0.0520822501414674,0.0520822501414674,0.0520822501414674,0.0,0.0,True
+profile,soft,profile_bidmc_37,BIDMC,s24455,Dot plot,Dot plot,Dot plot,0.1755703384693219,0.1755703384693219,0.1755703384693219,0.0,0.0,True
+profile,soft,profile_bidmc_38,BIDMC,s25323,Dot plot,Dot plot,Dot plot,0.0225235662711702,0.0225235662711702,0.0225235662711702,0.0,0.0,True
+profile,soft,profile_bidmc_39,BIDMC,s25323,Dot plot,Dot plot,Dot plot,0.0354020102177238,0.0354020102177238,0.0354020102177238,0.0,0.0,True
+profile,soft,profile_bidmc_40,BIDMC,s26845,Dot plot,Dot plot,Dot plot,0.1412725417225253,0.1412725417225253,0.1412725417225253,0.0,0.0,True
+profile,soft,profile_bidmc_41,BIDMC,s26868,Dot plot,Dot plot,Dot plot,0.0107474678165868,0.0107474678165868,0.0107474678165868,0.0,0.0,True
+profile,soft,profile_bidmc_42,BIDMC,s29093,Dot plot,Dot plot,Dot plot,0.2617192265885038,0.2617192265885038,0.2617192265885038,0.0,0.0,True
+profile,soft,profile_bidmc_43,BIDMC,s29125,Dot plot,Dot plot,Dot plot,0.0265824964290409,0.0265824964290409,0.0265824964290409,0.0,0.0,True
+profile,soft,profile_bidmc_44,BIDMC,s29503,Dot plot,Dot plot,Dot plot,0.0450192509194554,0.0450192509194554,0.0450192509194554,0.0,0.0,True
+profile,soft,profile_bidmc_45,BIDMC,s29622,Dot plot,Dot plot,Dot plot,0.027373300851901,0.027373300851901,0.027373300851901,0.0,0.0,True
+profile,soft,profile_bidmc_46,BIDMC,s29866,Dot plot,Dot plot,Dot plot,0.1220560328368822,0.1220560328368822,0.1220560328368822,0.0,0.0,True
+profile,soft,profile_bidmc_47,BIDMC,s30026,Dot plot,Dot plot,Dot plot,0.0863038801905907,0.0863038801905907,0.0863038801905907,0.0,0.0,True
+profile,soft,profile_bidmc_48,BIDMC,s30243,Dot plot,Dot plot,Dot plot,0.0257835880384452,0.0257835880384452,0.0257835880384452,0.0,0.0,True
+profile,soft,profile_bidmc_49,BIDMC,s31106,Dot plot,Dot plot,Dot plot,0.0758460769212438,0.0758460769212438,0.0758460769212438,0.0,0.0,True
+profile,soft,profile_bidmc_50,BIDMC,s31141,Dot plot,Dot plot,Dot plot,0.1083730924849015,0.1083730924849015,0.1083730924849015,0.0,0.0,True
+profile,soft,profile_bidmc_51,BIDMC,s31400,Dot plot,Dot plot,Dot plot,0.059038699356825,0.059038699356825,0.059038699356825,0.0,0.0,True
+profile,soft,profile_bidmc_52,BIDMC,s32195,Dot plot,Dot plot,Dot plot,0.1016031424306394,0.1016031424306394,0.1016031424306394,0.0,0.0,True
+profile,soft,profile_bidmc_53,BIDMC,s32628,Dot plot,Dot plot,Dot plot,0.0326413546328858,0.0326413546328858,0.0326413546328858,0.0,0.0,True
+profile,soft,profile_s1_high_resistance_bike,Wrist,s1,Dot plot,Dot plot,Dot plot,0.0072042013026833,0.0072042013026833,0.0072042013026833,0.0,0.0,True
+profile,soft,profile_s1_low_resistance_bike,Wrist,s1,Dot plot,Dot plot,Dot plot,0.0168586694201343,0.0168586694201343,0.0168586694201343,0.0,0.0,True
+profile,soft,profile_s1_walk,Wrist,s1,Dot plot,Dot plot,Dot plot,0.0317159507493667,0.0317159507493667,0.0317159507493667,0.0,0.0,True
+profile,soft,profile_s2_high_resistance_bike,Wrist,s2,Dot plot,Dot plot,Dot plot,0.0114163308968988,0.0114163308968988,0.0114163308968988,0.0,0.0,True
+profile,soft,profile_s2_low_resistance_bike,Wrist,s2,Dot plot,Dot plot,Dot plot,0.0140475884076729,0.0140475884076729,0.0140475884076729,0.0,0.0,True
+profile,soft,profile_s2_walk,Wrist,s2,Dot plot,Dot plot,Dot plot,0.0298610625588993,0.0298610625588993,0.0298610625588993,0.0,0.0,True
+profile,soft,profile_s3_high_resistance_bike,Wrist,s3,Dot plot,Dot plot,Dot plot,0.0243053565369283,0.0243053565369283,0.0243053565369283,0.0,0.0,True
+profile,soft,profile_s3_low_resistance_bike,Wrist,s3,Dot plot,Dot plot,Dot plot,0.0352601024069303,0.0352601024069303,0.0352601024069303,0.0,0.0,True
+profile,soft,profile_s3_run,Wrist,s3,Dot plot,Dot plot,Dot plot,0.047462457880103,0.047462457880103,0.047462457880103,0.0,0.0,True
+profile,soft,profile_s3_walk,Wrist,s3,Dot plot,Dot plot,Dot plot,0.0371173737031134,0.0371173737031134,0.0371173737031134,0.0,0.0,True
+profile,soft,profile_s4_run,Wrist,s4,Dot plot,Dot plot,Dot plot,0.0414949157209718,0.0414949157209718,0.0414949157209718,0.0,0.0,True
+profile,soft,profile_s5_low_resistance_bike,Wrist,s5,Dot plot,Dot plot,Dot plot,0.0285316530561465,0.0285316530561465,0.0285316530561465,0.0,0.0,True
+profile,soft,profile_s5_run,Wrist,s5,Dot plot,Dot plot,Dot plot,0.0394023834689379,0.0394023834689379,0.0394023834689379,0.0,0.0,True
+profile,soft,profile_s6_low_resistance_bike,Wrist,s6,Dot plot,Dot plot,Dot plot,0.0140118693570261,0.0140118693570261,0.0140118693570261,0.0,0.0,True
+profile,soft,profile_s6_run,Wrist,s6,Dot plot,Dot plot,Dot plot,0.0239224240890827,0.0239224240890827,0.0239224240890827,0.0,0.0,True
+profile,soft,profile_s6_walk,Wrist,s6,Dot plot,Dot plot,Dot plot,0.040422576908914,0.040422576908914,0.040422576908914,0.0,0.0,True
+profile,soft,profile_s8_run,Wrist,s8,Dot plot,Dot plot,Dot plot,0.0168458866792508,0.0168458866792508,0.0168458866792508,0.0,0.0,True
+profile,soft,profile_s8_walk,Wrist,s8,Dot plot,Dot plot,Dot plot,0.0346604123136014,0.0346604123136014,0.0346604123136014,0.0,0.0,True
+profile,soft,profile_s9_walk,Wrist,s9,Dot plot,Dot plot,Dot plot,0.0572653595748794,0.0572653595748794,0.0572653595748794,0.0,0.0,True
+association,hard,assoc_bidmc_01,BIDMC,s01182,Heatmap,Heatmap,Heatmap,1.6653345369377348e-16,1.6653345369377348e-16,1.6653345369377348e-16,0.0,0.0,True
+association,hard,assoc_bidmc_02,BIDMC,s01241,Heatmap,Heatmap,Heatmap,0.0049643179946184,0.0049643179946184,0.0049643179946184,0.0,0.0,True
+association,hard,assoc_bidmc_03,BIDMC,s01795,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,hard,assoc_bidmc_04,BIDMC,s01840,Heatmap,Heatmap,Heatmap,0.0020146526356396,0.0020146526356396,0.0020146526356396,0.0,0.0,True
+association,hard,assoc_bidmc_05,BIDMC,s01995,Heatmap,Heatmap,Heatmap,2.775557561562892e-17,2.775557561562892e-17,2.775557561562892e-17,0.0,0.0,True
+association,hard,assoc_bidmc_06,BIDMC,s03386,Heatmap,Heatmap,Heatmap,0.016639207607604,0.016639207607604,0.016639207607604,0.0,0.0,True
+association,hard,assoc_bidmc_07,BIDMC,s03386,Heatmap,Heatmap,Heatmap,0.0044175893490983,0.0044175893490983,0.0044175893490983,0.0,0.0,True
+association,hard,assoc_bidmc_08,BIDMC,s03386,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,hard,assoc_bidmc_09,BIDMC,s03386,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,hard,assoc_bidmc_10,BIDMC,s03516,Heatmap,Heatmap,Heatmap,0.0030298606677039,0.0030298606677039,0.0030298606677039,0.0,0.0,True
+association,hard,assoc_bidmc_11,BIDMC,s04641,Heatmap,Scatter plot,Heatmap,0.0055721948455796,0.0081495609473444,0.0055721948455796,-0.002577366101764799,0.002577366101764799,False
+association,hard,assoc_bidmc_12,BIDMC,s06914,Heatmap,Heatmap,Heatmap,0.0024115377141146,0.0024115377141146,0.0024115377141146,0.0,0.0,True
+association,hard,assoc_bidmc_13,BIDMC,s07432,Heatmap,Heatmap,Heatmap,0.0053090472496508,0.0053090472496508,0.0053090472496508,0.0,0.0,True
+association,hard,assoc_bidmc_14,BIDMC,s07784,Heatmap,Heatmap,Heatmap,2.775557561562892e-17,2.775557561562892e-17,2.775557561562892e-17,0.0,0.0,True
+association,hard,assoc_bidmc_15,BIDMC,s08452,Heatmap,Heatmap,Heatmap,0.0032579491967362,0.0032579491967362,0.0032579491967362,0.0,0.0,True
+association,hard,assoc_bidmc_16,BIDMC,s08915,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,hard,assoc_bidmc_17,BIDMC,s08936,Heatmap,Heatmap,Heatmap,0.0022878695193928,0.0022878695193928,0.0022878695193928,0.0,0.0,True
+association,hard,assoc_bidmc_18,BIDMC,s09483,Heatmap,Heatmap,Heatmap,0.0033898930093492,0.0033898930093492,0.0033898930093492,0.0,0.0,True
+association,hard,assoc_bidmc_19,BIDMC,s09968,Heatmap,Scatter plot,Heatmap,0.0056150605104809,0.0082966463656678,0.0056150605104809,-0.0026815858551869,0.0026815858551869,False
+association,hard,assoc_bidmc_20,BIDMC,s11342,Heatmap,Heatmap,Heatmap,0.0107107788938143,0.0107107788938143,0.0107107788938143,0.0,0.0,True
+association,hard,assoc_bidmc_21,BIDMC,s11342,Heatmap,Scatter plot,Scatter plot,0.0064096254182525,0.0056649348601555,0.0056649348601555,0.0007446905580970001,0.0,True
+association,hard,assoc_bidmc_22,BIDMC,s11342,Heatmap,Scatter plot,Scatter plot,0.0080042509446125,0.0055144369839501,0.0055144369839501,0.0024898139606624,0.0,True
+association,hard,assoc_bidmc_23,BIDMC,s11342,Heatmap,Heatmap,Heatmap,0.0139357955159788,0.0139357955159788,0.0139357955159788,0.0,0.0,True
+association,hard,assoc_bidmc_24,BIDMC,s12531,Heatmap,Heatmap,Scatter plot,0.005038913507511,0.005038913507511,0.00300989268266,0.0,0.0020290208248510003,False
+association,hard,assoc_bidmc_25,BIDMC,s12589,Heatmap,Heatmap,Heatmap,0.0146490366002705,0.0146490366002705,0.0146490366002705,0.0,0.0,True
+association,hard,assoc_bidmc_26,BIDMC,s13314,Heatmap,Scatter plot,Scatter plot,0.008045686418926,0.0038531527166659,0.0038531527166659,0.004192533702260099,0.0,True
+association,hard,assoc_bidmc_27,BIDMC,s13927,Heatmap,Heatmap,Heatmap,0.0098206547826783,0.0098206547826783,0.0098206547826783,0.0,0.0,True
+association,hard,assoc_bidmc_28,BIDMC,s15646,Heatmap,Scatter plot,Scatter plot,0.0097413118305852,0.0078001756805657,0.0078001756805657,0.0019411361500195007,0.0,True
+association,hard,assoc_bidmc_29,BIDMC,s17236,Heatmap,Heatmap,Heatmap,8.326672684688674e-17,8.326672684688674e-17,8.326672684688674e-17,0.0,0.0,True
+association,hard,assoc_bidmc_30,BIDMC,s17497,Heatmap,Heatmap,Heatmap,0.0084667024885644,0.0084667024885644,0.0084667024885644,0.0,0.0,True
+association,hard,assoc_bidmc_31,BIDMC,s17735,Heatmap,Heatmap,Heatmap,0.0093816450070556,0.0093816450070556,0.0093816450070556,0.0,0.0,True
+association,hard,assoc_bidmc_32,BIDMC,s17756,Heatmap,Heatmap,Heatmap,0.0110381083112549,0.0110381083112549,0.0110381083112549,0.0,0.0,True
+association,hard,assoc_bidmc_33,BIDMC,s19981,Heatmap,Scatter plot,Heatmap,0.0076974462852224,0.0079198676176794,0.0076974462852224,-0.00022242133245699985,0.00022242133245699985,False
+association,hard,assoc_bidmc_34,BIDMC,s20471,Heatmap,Heatmap,Heatmap,0.0061000697046477,0.0061000697046477,0.0061000697046477,0.0,0.0,True
+association,hard,assoc_bidmc_35,BIDMC,s20486,Heatmap,Scatter plot,Scatter plot,0.0048511308367937,0.0039921016280605,0.0039921016280605,0.0008590292087331999,0.0,True
+association,hard,assoc_bidmc_36,BIDMC,s22348,Heatmap,Heatmap,Heatmap,0.0123040292829402,0.0123040292829402,0.0123040292829402,0.0,0.0,True
+association,hard,assoc_bidmc_37,BIDMC,s24455,Heatmap,Heatmap,Heatmap,0.0023676948793319,0.0023676948793319,0.0023676948793319,0.0,0.0,True
+association,hard,assoc_bidmc_38,BIDMC,s25323,Heatmap,Heatmap,Heatmap,0.0008255724909026,0.0008255724909026,0.0008255724909026,0.0,0.0,True
+association,hard,assoc_bidmc_39,BIDMC,s25323,Heatmap,Heatmap,Heatmap,0.0028050892247148,0.0028050892247148,0.0028050892247148,0.0,0.0,True
+association,hard,assoc_bidmc_40,BIDMC,s26845,Heatmap,Heatmap,Heatmap,0.0044632112029799,0.0044632112029799,0.0044632112029799,0.0,0.0,True
+association,hard,assoc_bidmc_41,BIDMC,s26868,Heatmap,Scatter plot,Heatmap,0.0083703465512281,0.0112901444677319,0.0083703465512281,-0.0029197979165038,0.0029197979165038,False
+association,hard,assoc_bidmc_42,BIDMC,s29093,Heatmap,Heatmap,Heatmap,0.0022498768353889,0.0022498768353889,0.0022498768353889,0.0,0.0,True
+association,hard,assoc_bidmc_43,BIDMC,s29125,Heatmap,Heatmap,Heatmap,0.006933022713731,0.006933022713731,0.006933022713731,0.0,0.0,True
+association,hard,assoc_bidmc_44,BIDMC,s29503,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,hard,assoc_bidmc_45,BIDMC,s29622,Heatmap,Heatmap,Heatmap,0.0035672527995416,0.0035672527995416,0.0035672527995416,0.0,0.0,True
+association,hard,assoc_bidmc_46,BIDMC,s29866,Heatmap,Heatmap,Heatmap,0.0012055054551249,0.0012055054551249,0.0012055054551249,0.0,0.0,True
+association,hard,assoc_bidmc_47,BIDMC,s30026,Heatmap,Heatmap,Heatmap,0.0001414542526609,0.0001414542526609,0.0001414542526609,0.0,0.0,True
+association,hard,assoc_bidmc_48,BIDMC,s30243,Heatmap,Heatmap,Heatmap,0.0057838407459837,0.0057838407459837,0.0057838407459837,0.0,0.0,True
+association,hard,assoc_bidmc_49,BIDMC,s31106,Heatmap,Heatmap,Heatmap,1.1102230246251563e-16,1.1102230246251563e-16,1.1102230246251563e-16,0.0,0.0,True
+association,hard,assoc_bidmc_50,BIDMC,s31141,Heatmap,Heatmap,Heatmap,0.0015937647189853,0.0015937647189853,0.0015937647189853,0.0,0.0,True
+association,hard,assoc_bidmc_51,BIDMC,s31400,Heatmap,Heatmap,Heatmap,0.0019535719248429,0.0019535719248429,0.0019535719248429,0.0,0.0,True
+association,hard,assoc_bidmc_52,BIDMC,s32195,Heatmap,Heatmap,Heatmap,0.0019266540715243,0.0019266540715243,0.0019266540715243,0.0,0.0,True
+association,hard,assoc_bidmc_53,BIDMC,s32628,Heatmap,Heatmap,Heatmap,0.0024588401099694,0.0024588401099694,0.0024588401099694,0.0,0.0,True
+association,soft,assoc_bidmc_01,BIDMC,s01182,Heatmap,Heatmap,Heatmap,1.6653345369377348e-16,1.6653345369377348e-16,1.6653345369377348e-16,0.0,0.0,True
+association,soft,assoc_bidmc_02,BIDMC,s01241,Heatmap,Heatmap,Heatmap,0.0049643179946184,0.0049643179946184,0.0049643179946184,0.0,0.0,True
+association,soft,assoc_bidmc_03,BIDMC,s01795,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,soft,assoc_bidmc_04,BIDMC,s01840,Heatmap,Heatmap,Heatmap,0.0020146526356396,0.0020146526356396,0.0020146526356396,0.0,0.0,True
+association,soft,assoc_bidmc_05,BIDMC,s01995,Heatmap,Heatmap,Heatmap,2.775557561562892e-17,2.775557561562892e-17,2.775557561562892e-17,0.0,0.0,True
+association,soft,assoc_bidmc_06,BIDMC,s03386,Heatmap,Heatmap,Heatmap,0.016639207607604,0.016639207607604,0.016639207607604,0.0,0.0,True
+association,soft,assoc_bidmc_07,BIDMC,s03386,Heatmap,Heatmap,Heatmap,0.0044175893490983,0.0044175893490983,0.0044175893490983,0.0,0.0,True
+association,soft,assoc_bidmc_08,BIDMC,s03386,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,soft,assoc_bidmc_09,BIDMC,s03386,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,soft,assoc_bidmc_10,BIDMC,s03516,Heatmap,Heatmap,Heatmap,0.0030298606677039,0.0030298606677039,0.0030298606677039,0.0,0.0,True
+association,soft,assoc_bidmc_11,BIDMC,s04641,Heatmap,Scatter plot,Scatter plot,0.0055721948455796,0.0052728162592956,0.0052728162592956,0.00029937858628399996,0.0,True
+association,soft,assoc_bidmc_12,BIDMC,s06914,Heatmap,Heatmap,Heatmap,0.0024115377141146,0.0024115377141146,0.0024115377141146,0.0,0.0,True
+association,soft,assoc_bidmc_13,BIDMC,s07432,Heatmap,Heatmap,Heatmap,0.0053090472496508,0.0053090472496508,0.0053090472496508,0.0,0.0,True
+association,soft,assoc_bidmc_14,BIDMC,s07784,Heatmap,Heatmap,Heatmap,2.775557561562892e-17,2.775557561562892e-17,2.775557561562892e-17,0.0,0.0,True
+association,soft,assoc_bidmc_15,BIDMC,s08452,Heatmap,Heatmap,Heatmap,0.0032579491967362,0.0032579491967362,0.0032579491967362,0.0,0.0,True
+association,soft,assoc_bidmc_16,BIDMC,s08915,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,soft,assoc_bidmc_17,BIDMC,s08936,Heatmap,Heatmap,Heatmap,0.0022878695193928,0.0022878695193928,0.0022878695193928,0.0,0.0,True
+association,soft,assoc_bidmc_18,BIDMC,s09483,Heatmap,Heatmap,Heatmap,0.0033898930093492,0.0033898930093492,0.0033898930093492,0.0,0.0,True
+association,soft,assoc_bidmc_19,BIDMC,s09968,Heatmap,Scatter plot,Scatter plot,0.0056150605104809,0.0044644271401775,0.0044644271401775,0.0011506333703033998,0.0,True
+association,soft,assoc_bidmc_20,BIDMC,s11342,Heatmap,Heatmap,Heatmap,0.0107107788938143,0.0107107788938143,0.0107107788938143,0.0,0.0,True
+association,soft,assoc_bidmc_21,BIDMC,s11342,Heatmap,Scatter plot,Scatter plot,0.0064096254182525,0.0009575230751322,0.0009575230751322,0.0054521023431203,0.0,True
+association,soft,assoc_bidmc_22,BIDMC,s11342,Heatmap,Scatter plot,Scatter plot,0.0080042509446125,0.0015161086353065,0.0015161086353065,0.006488142309306,0.0,True
+association,soft,assoc_bidmc_23,BIDMC,s11342,Heatmap,Heatmap,Heatmap,0.0139357955159788,0.0139357955159788,0.0139357955159788,0.0,0.0,True
+association,soft,assoc_bidmc_24,BIDMC,s12531,Heatmap,Scatter plot,Scatter plot,0.005038913507511,0.00406854303456,0.00406854303456,0.0009703704729510003,0.0,True
+association,soft,assoc_bidmc_25,BIDMC,s12589,Heatmap,Heatmap,Heatmap,0.0146490366002705,0.0146490366002705,0.0146490366002705,0.0,0.0,True
+association,soft,assoc_bidmc_26,BIDMC,s13314,Heatmap,Scatter plot,Scatter plot,0.008045686418926,0.0029376768422801,0.0029376768422801,0.0051080095766459,0.0,True
+association,soft,assoc_bidmc_27,BIDMC,s13927,Heatmap,Heatmap,Heatmap,0.0098206547826783,0.0098206547826783,0.0098206547826783,0.0,0.0,True
+association,soft,assoc_bidmc_28,BIDMC,s15646,Heatmap,Scatter plot,Scatter plot,0.0097413118305852,0.0059532903663364,0.0059532903663364,0.0037880214642488,0.0,True
+association,soft,assoc_bidmc_29,BIDMC,s17236,Heatmap,Heatmap,Heatmap,8.326672684688674e-17,8.326672684688674e-17,8.326672684688674e-17,0.0,0.0,True
+association,soft,assoc_bidmc_30,BIDMC,s17497,Heatmap,Heatmap,Heatmap,0.0084667024885644,0.0084667024885644,0.0084667024885644,0.0,0.0,True
+association,soft,assoc_bidmc_31,BIDMC,s17735,Heatmap,Heatmap,Heatmap,0.0093816450070556,0.0093816450070556,0.0093816450070556,0.0,0.0,True
+association,soft,assoc_bidmc_32,BIDMC,s17756,Heatmap,Heatmap,Heatmap,0.0110381083112549,0.0110381083112549,0.0110381083112549,0.0,0.0,True
+association,soft,assoc_bidmc_33,BIDMC,s19981,Heatmap,Scatter plot,Scatter plot,0.0076974462852224,0.0042946677921542,0.0042946677921542,0.0034027784930681995,0.0,True
+association,soft,assoc_bidmc_34,BIDMC,s20471,Heatmap,Heatmap,Heatmap,0.0061000697046477,0.0061000697046477,0.0061000697046477,0.0,0.0,True
+association,soft,assoc_bidmc_35,BIDMC,s20486,Heatmap,Scatter plot,Scatter plot,0.0048511308367937,0.0005631782258932,0.0005631782258932,0.0042879526109005,0.0,True
+association,soft,assoc_bidmc_36,BIDMC,s22348,Heatmap,Heatmap,Heatmap,0.0123040292829402,0.0123040292829402,0.0123040292829402,0.0,0.0,True
+association,soft,assoc_bidmc_37,BIDMC,s24455,Heatmap,Heatmap,Heatmap,0.0023676948793319,0.0023676948793319,0.0023676948793319,0.0,0.0,True
+association,soft,assoc_bidmc_38,BIDMC,s25323,Heatmap,Heatmap,Heatmap,0.0008255724909026,0.0008255724909026,0.0008255724909026,0.0,0.0,True
+association,soft,assoc_bidmc_39,BIDMC,s25323,Heatmap,Heatmap,Heatmap,0.0028050892247148,0.0028050892247148,0.0028050892247148,0.0,0.0,True
+association,soft,assoc_bidmc_40,BIDMC,s26845,Heatmap,Heatmap,Heatmap,0.0044632112029799,0.0044632112029799,0.0044632112029799,0.0,0.0,True
+association,soft,assoc_bidmc_41,BIDMC,s26868,Heatmap,Scatter plot,Scatter plot,0.0083703465512281,0.0006378407768034,0.0006378407768034,0.0077325057744247,0.0,True
+association,soft,assoc_bidmc_42,BIDMC,s29093,Heatmap,Heatmap,Heatmap,0.0022498768353889,0.0022498768353889,0.0022498768353889,0.0,0.0,True
+association,soft,assoc_bidmc_43,BIDMC,s29125,Heatmap,Heatmap,Heatmap,0.006933022713731,0.006933022713731,0.006933022713731,0.0,0.0,True
+association,soft,assoc_bidmc_44,BIDMC,s29503,Heatmap,Heatmap,Heatmap,5.551115123125783e-17,5.551115123125783e-17,5.551115123125783e-17,0.0,0.0,True
+association,soft,assoc_bidmc_45,BIDMC,s29622,Heatmap,Heatmap,Heatmap,0.0035672527995416,0.0035672527995416,0.0035672527995416,0.0,0.0,True
+association,soft,assoc_bidmc_46,BIDMC,s29866,Heatmap,Heatmap,Heatmap,0.0012055054551249,0.0012055054551249,0.0012055054551249,0.0,0.0,True
+association,soft,assoc_bidmc_47,BIDMC,s30026,Heatmap,Heatmap,Heatmap,0.0001414542526609,0.0001414542526609,0.0001414542526609,0.0,0.0,True
+association,soft,assoc_bidmc_48,BIDMC,s30243,Heatmap,Heatmap,Heatmap,0.0057838407459837,0.0057838407459837,0.0057838407459837,0.0,0.0,True
+association,soft,assoc_bidmc_49,BIDMC,s31106,Heatmap,Heatmap,Heatmap,1.1102230246251563e-16,1.1102230246251563e-16,1.1102230246251563e-16,0.0,0.0,True
+association,soft,assoc_bidmc_50,BIDMC,s31141,Heatmap,Heatmap,Heatmap,0.0015937647189853,0.0015937647189853,0.0015937647189853,0.0,0.0,True
+association,soft,assoc_bidmc_51,BIDMC,s31400,Heatmap,Heatmap,Heatmap,0.0019535719248429,0.0019535719248429,0.0019535719248429,0.0,0.0,True
+association,soft,assoc_bidmc_52,BIDMC,s32195,Heatmap,Heatmap,Heatmap,0.0019266540715243,0.0019266540715243,0.0019266540715243,0.0,0.0,True
+association,soft,assoc_bidmc_53,BIDMC,s32628,Heatmap,Scatter plot,Scatter plot,0.0024588401099694,0.0018062153538895,0.0018062153538895,0.0006526247560798997,0.0,True

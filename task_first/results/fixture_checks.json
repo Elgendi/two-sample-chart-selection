@@ -1,0 +1,142 @@
+[
+  {
+    "task": "composition",
+    "family": "Bar chart",
+    "observer": "hard",
+    "fixture_loss": 0.003826384922901216,
+    "blank_rejected": true
+  },
+  {
+    "task": "composition",
+    "family": "Bar chart",
+    "observer": "soft",
+    "fixture_loss": 0.0018099000903662038,
+    "blank_rejected": true
+  },
+  {
+    "task": "composition",
+    "family": "Pie chart",
+    "observer": "hard",
+    "fixture_loss": 0.0008743062036445926,
+    "blank_rejected": true
+  },
+  {
+    "task": "composition",
+    "family": "Pie chart",
+    "observer": "soft",
+    "fixture_loss": 0.0010881997978578334,
+    "blank_rejected": true
+  },
+  {
+    "task": "composition",
+    "family": "Donut chart",
+    "observer": "hard",
+    "fixture_loss": 0.0006695069993913755,
+    "blank_rejected": true
+  },
+  {
+    "task": "composition",
+    "family": "Donut chart",
+    "observer": "soft",
+    "fixture_loss": 0.001885703129369351,
+    "blank_rejected": true
+  },
+  {
+    "task": "composition",
+    "family": "Stacked bar",
+    "observer": "hard",
+    "fixture_loss": 0.0,
+    "blank_rejected": true
+  },
+  {
+    "task": "composition",
+    "family": "Stacked bar",
+    "observer": "soft",
+    "fixture_loss": 0.002225651209934121,
+    "blank_rejected": true
+  },
+  {
+    "task": "profile",
+    "family": "Line chart",
+    "observer": "hard",
+    "fixture_loss": 0.011440691547145379,
+    "blank_rejected": true
+  },
+  {
+    "task": "profile",
+    "family": "Line chart",
+    "observer": "soft",
+    "fixture_loss": 0.011981166862345509,
+    "blank_rejected": true
+  },
+  {
+    "task": "profile",
+    "family": "Area chart",
+    "observer": "hard",
+    "fixture_loss": 0.009822815974821776,
+    "blank_rejected": true
+  },
+  {
+    "task": "profile",
+    "family": "Area chart",
+    "observer": "soft",
+    "fixture_loss": 0.026001571698057658,
+    "blank_rejected": true
+  },
+  {
+    "task": "profile",
+    "family": "Dot plot",
+    "observer": "hard",
+    "fixture_loss": 0.006706754604657742,
+    "blank_rejected": true
+  },
+  {
+    "task": "profile",
+    "family": "Dot plot",
+    "observer": "soft",
+    "fixture_loss": 0.007884339714494946,
+    "blank_rejected": true
+  },
+  {
+    "task": "profile",
+    "family": "Bar chart",
+    "observer": "hard",
+    "fixture_loss": 0.0069337524528153135,
+    "blank_rejected": true
+  },
+  {
+    "task": "profile",
+    "family": "Bar chart",
+    "observer": "soft",
+    "fixture_loss": 0.020801257358446144,
+    "blank_rejected": true
+  },
+  {
+    "task": "association",
+    "family": "Scatter plot",
+    "observer": "hard",
+    "fixture_loss": 0.00010837066751639979,
+    "blank_rejected": true
+  },
+  {
+    "task": "association",
+    "family": "Scatter plot",
+    "observer": "soft",
+    "fixture_loss": 0.000172472328004325,
+    "blank_rejected": true
+  },
+  {
+    "task": "association",
+    "family": "Heatmap",
+    "observer": "hard",
+    "fixture_loss": 0.0,
+    "blank_rejected": true
+  },
+  {
+    "task": "association",
+    "family": "Heatmap",
+    "observer": "soft",
+    "fixture_loss": 0.0,
+    "blank_rejected": true
+  }
+]

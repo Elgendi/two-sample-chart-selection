@@ -1,0 +1,150 @@
+key,dataset,feature,paired,n_x,n_y,missing_x,missing_y,source_rows
+WDBC__00,WDBC,mean radius,False,357,212,0,0,569
+WDBC__01,WDBC,mean texture,False,357,212,0,0,569
+WDBC__02,WDBC,mean perimeter,False,357,212,0,0,569
+WDBC__03,WDBC,mean area,False,357,212,0,0,569
+WDBC__04,WDBC,mean smoothness,False,357,212,0,0,569
+WDBC__05,WDBC,mean compactness,False,357,212,0,0,569
+WDBC__06,WDBC,mean concavity,False,357,212,0,0,569
+WDBC__07,WDBC,mean concave points,False,357,212,0,0,569
+WDBC__08,WDBC,mean symmetry,False,357,212,0,0,569
+WDBC__09,WDBC,mean fractal dimension,False,357,212,0,0,569
+WDBC__10,WDBC,radius error,False,357,212,0,0,569
+WDBC__11,WDBC,texture error,False,357,212,0,0,569
+WDBC__12,WDBC,perimeter error,False,357,212,0,0,569
+WDBC__13,WDBC,area error,False,357,212,0,0,569
+WDBC__14,WDBC,smoothness error,False,357,212,0,0,569
+WDBC__15,WDBC,compactness error,False,357,212,0,0,569
+WDBC__16,WDBC,concavity error,False,357,212,0,0,569
+WDBC__17,WDBC,concave points error,False,357,212,0,0,569
+WDBC__18,WDBC,symmetry error,False,357,212,0,0,569
+WDBC__19,WDBC,fractal dimension error,False,357,212,0,0,569
+WDBC__20,WDBC,worst radius,False,357,212,0,0,569
+WDBC__21,WDBC,worst texture,False,357,212,0,0,569
+WDBC__22,WDBC,worst perimeter,False,357,212,0,0,569
+WDBC__23,WDBC,worst area,False,357,212,0,0,569
+WDBC__24,WDBC,worst smoothness,False,357,212,0,0,569
+WDBC__25,WDBC,worst compactness,False,357,212,0,0,569
+WDBC__26,WDBC,worst concavity,False,357,212,0,0,569
+WDBC__27,WDBC,worst concave points,False,357,212,0,0,569
+WDBC__28,WDBC,worst symmetry,False,357,212,0,0,569
+WDBC__29,WDBC,worst fractal dimension,False,357,212,0,0,569
+Cleveland__00,Cleveland,age,False,164,139,0,0,303
+Cleveland__01,Cleveland,trestbps,False,164,139,0,0,303
+Cleveland__02,Cleveland,chol,False,164,139,0,0,303
+Cleveland__03,Cleveland,thalach,False,164,139,0,0,303
+Cleveland__04,Cleveland,oldpeak,False,164,139,0,0,303
+HeartFailure__00,HeartFailure,age,False,203,96,0,0,299
+HeartFailure__01,HeartFailure,creatinine_phosphokinase,False,203,96,0,0,299
+HeartFailure__02,HeartFailure,ejection_fraction,False,203,96,0,0,299
+HeartFailure__03,HeartFailure,platelets,False,203,96,0,0,299
+HeartFailure__04,HeartFailure,serum_creatinine,False,203,96,0,0,299
+HeartFailure__05,HeartFailure,serum_sodium,False,203,96,0,0,299
+CKD__00,CKD,age,False,149,242,1,8,400
+CKD__01,CKD,bp,False,148,240,2,10,400
+CKD__02,CKD,bgr,False,144,212,6,38,400
+CKD__03,CKD,bu,False,144,237,6,13,400
+CKD__04,CKD,sc,False,145,238,5,12,400
+CKD__05,CKD,sod,False,145,168,5,82,400
+CKD__06,CKD,pot,False,145,167,5,83,400
+CKD__07,CKD,hemo,False,144,204,6,46,400
+CKD__08,CKD,pcv,False,146,183,4,67,400
+CKD__09,CKD,wc,False,143,151,7,99,400
+CKD__10,CKD,rc,False,143,126,7,124,400
+ILPD__00,ILPD,age,False,167,416,0,0,583
+ILPD__01,ILPD,total_bilirubin,False,167,416,0,0,583
+ILPD__02,ILPD,direct_bilirubin,False,167,416,0,0,583
+ILPD__03,ILPD,alkaline_phosphatase,False,167,416,0,0,583
+ILPD__04,ILPD,ALT,False,167,416,0,0,583
+ILPD__05,ILPD,AST,False,167,416,0,0,583
+ILPD__06,ILPD,total_protein,False,167,416,0,0,583
+ILPD__07,ILPD,albumin,False,167,416,0,0,583
+ILPD__08,ILPD,albumin_globulin_ratio,False,165,414,2,2,583
+Parkinsons__00,Parkinsons,MDVP:Fo(Hz),False,8,24,0,0,32
+Parkinsons__01,Parkinsons,MDVP:Fhi(Hz),False,8,24,0,0,32
+Parkinsons__02,Parkinsons,MDVP:Flo(Hz),False,8,24,0,0,32
+Parkinsons__03,Parkinsons,MDVP:Jitter(%),False,8,24,0,0,32
+Parkinsons__04,Parkinsons,MDVP:Jitter(Abs),False,8,24,0,0,32
+Parkinsons__05,Parkinsons,MDVP:RAP,False,8,24,0,0,32
+Parkinsons__06,Parkinsons,MDVP:PPQ,False,8,24,0,0,32
+Parkinsons__07,Parkinsons,Jitter:DDP,False,8,24,0,0,32
+Parkinsons__08,Parkinsons,MDVP:Shimmer,False,8,24,0,0,32
+Parkinsons__09,Parkinsons,MDVP:Shimmer(dB),False,8,24,0,0,32
+Parkinsons__10,Parkinsons,Shimmer:APQ3,False,8,24,0,0,32
+Parkinsons__11,Parkinsons,Shimmer:APQ5,False,8,24,0,0,32
+Parkinsons__12,Parkinsons,MDVP:APQ,False,8,24,0,0,32
+Parkinsons__13,Parkinsons,Shimmer:DDA,False,8,24,0,0,32
+Parkinsons__14,Parkinsons,NHR,False,8,24,0,0,32
+Parkinsons__15,Parkinsons,HNR,False,8,24,0,0,32
+Parkinsons__16,Parkinsons,RPDE,False,8,24,0,0,32
+Parkinsons__17,Parkinsons,DFA,False,8,24,0,0,32
+Parkinsons__18,Parkinsons,spread1,False,8,24,0,0,32
+Parkinsons__19,Parkinsons,spread2,False,8,24,0,0,32
+Parkinsons__20,Parkinsons,D2,False,8,24,0,0,32
+Parkinsons__21,Parkinsons,PPE,False,8,24,0,0,32
+Retinopathy__00,Retinopathy,feature_2,False,540,611,0,0,1151
+Retinopathy__01,Retinopathy,feature_3,False,540,611,0,0,1151
+Retinopathy__02,Retinopathy,feature_4,False,540,611,0,0,1151
+Retinopathy__03,Retinopathy,feature_5,False,540,611,0,0,1151
+Retinopathy__04,Retinopathy,feature_6,False,540,611,0,0,1151
+Retinopathy__05,Retinopathy,feature_7,False,540,611,0,0,1151
+Retinopathy__06,Retinopathy,feature_8,False,540,611,0,0,1151
+Retinopathy__07,Retinopathy,feature_9,False,540,611,0,0,1151
+Retinopathy__08,Retinopathy,feature_10,False,540,611,0,0,1151
+Retinopathy__09,Retinopathy,feature_11,False,540,611,0,0,1151
+Retinopathy__10,Retinopathy,feature_12,False,540,611,0,0,1151
+Retinopathy__11,Retinopathy,feature_13,False,540,611,0,0,1151
+Retinopathy__12,Retinopathy,feature_14,False,540,611,0,0,1151
+Retinopathy__13,Retinopathy,feature_15,False,540,611,0,0,1151
+Retinopathy__14,Retinopathy,feature_16,False,540,611,0,0,1151
+Retinopathy__15,Retinopathy,feature_17,False,540,611,0,0,1151
+HAR__00,HAR,tBodyAcc-mean()-X,True,30,30,0,0,10299
+HAR__01,HAR,tBodyAcc-mean()-Y,True,30,30,0,0,10299
+HAR__02,HAR,tBodyAcc-mean()-Z,True,30,30,0,0,10299
+HAR__03,HAR,tBodyAcc-std()-X,True,30,30,0,0,10299
+HAR__04,HAR,tBodyAcc-std()-Y,True,30,30,0,0,10299
+HAR__05,HAR,tBodyAcc-std()-Z,True,30,30,0,0,10299
+HAR__06,HAR,tGravityAcc-mean()-X,True,30,30,0,0,10299
+HAR__07,HAR,tGravityAcc-mean()-Y,True,30,30,0,0,10299
+HAR__08,HAR,tGravityAcc-mean()-Z,True,30,30,0,0,10299
+HAR__09,HAR,tGravityAcc-std()-X,True,30,30,0,0,10299
+HAR__10,HAR,tGravityAcc-std()-Y,True,30,30,0,0,10299
+HAR__11,HAR,tGravityAcc-std()-Z,True,30,30,0,0,10299
+HAR__12,HAR,tBodyAccJerk-mean()-X,True,30,30,0,0,10299
+HAR__13,HAR,tBodyAccJerk-mean()-Y,True,30,30,0,0,10299
+HAR__14,HAR,tBodyAccJerk-mean()-Z,True,30,30,0,0,10299
+HAR__15,HAR,tBodyAccJerk-std()-X,True,30,30,0,0,10299
+HAR__16,HAR,tBodyAccJerk-std()-Y,True,30,30,0,0,10299
+HAR__17,HAR,tBodyAccJerk-std()-Z,True,30,30,0,0,10299
+HAR__18,HAR,tBodyGyro-mean()-X,True,30,30,0,0,10299
+HAR__19,HAR,tBodyGyro-mean()-Y,True,30,30,0,0,10299
+HAR__20,HAR,tBodyGyro-mean()-Z,True,30,30,0,0,10299
+HAR__21,HAR,tBodyGyro-std()-X,True,30,30,0,0,10299
+HAR__22,HAR,tBodyGyro-std()-Y,True,30,30,0,0,10299
+HAR__23,HAR,tBodyGyro-std()-Z,True,30,30,0,0,10299
+HAR__24,HAR,tBodyGyroJerk-mean()-X,True,30,30,0,0,10299
+HAR__25,HAR,tBodyGyroJerk-mean()-Y,True,30,30,0,0,10299
+HAR__26,HAR,tBodyGyroJerk-mean()-Z,True,30,30,0,0,10299
+HAR__27,HAR,tBodyGyroJerk-std()-X,True,30,30,0,0,10299
+HAR__28,HAR,tBodyGyroJerk-std()-Y,True,30,30,0,0,10299
+HAR__29,HAR,tBodyGyroJerk-std()-Z,True,30,30,0,0,10299
+HAR__30,HAR,tBodyAccMag-mean(),True,30,30,0,0,10299
+HAR__31,HAR,tBodyAccMag-std(),True,30,30,0,0,10299
+HAR__32,HAR,tGravityAccMag-mean(),True,30,30,0,0,10299
+HAR__33,HAR,tGravityAccMag-std(),True,30,30,0,0,10299
+HAR__34,HAR,tBodyAccJerkMag-mean(),True,30,30,0,0,10299
+HAR__35,HAR,tBodyAccJerkMag-std(),True,30,30,0,0,10299
+HAR__36,HAR,tBodyGyroMag-mean(),True,30,30,0,0,10299
+HAR__37,HAR,tBodyGyroMag-std(),True,30,30,0,0,10299
+HAR__38,HAR,tBodyGyroJerkMag-mean(),True,30,30,0,0,10299
+HAR__39,HAR,tBodyGyroJerkMag-std(),True,30,30,0,0,10299
+BIDMC__00,BIDMC,mean,True,46,46,0,0,53
+BIDMC__01,BIDMC,median,True,46,46,0,0,53
+BIDMC__02,BIDMC,q10,True,46,46,0,0,53
+BIDMC__03,BIDMC,q90,True,46,46,0,0,53
+BIDMC__04,BIDMC,SD,True,46,46,0,0,53
+Wrist__00,Wrist,mean,True,8,8,0,0,19
+Wrist__01,Wrist,median,True,8,8,0,0,19
+Wrist__02,Wrist,q10,True,8,8,0,0,19
+Wrist__03,Wrist,q90,True,8,8,0,0,19
+Wrist__04,Wrist,SD,True,8,8,0,0,19

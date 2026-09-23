@@ -1,0 +1,14 @@
+{
+  "primary_evaluations": 92456,
+  "synthetic_evaluations": 5184,
+  "synthetic_cases_including_null": 72,
+  "task_aggregates": 6858,
+  "five_task_matches_primary": true,
+  "robust_choices_verified": 127,
+  "new_display_aggregates": 762,
+  "benchmark_source_hashes_match": true,
+  "input_hash_matches": true,
+  "protocol_hash_matches": true,
+  "decoder_fixture_checks": 46,
+  "no_fabricated_reader_responses": true
+}

@@ -1,0 +1,169 @@
+\begin{thebibliography}{23}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Amar et~al.(2005)Amar, Eagan, \& Stasko]{amar2005}
+Amar, R., Eagan, J., \& Stasko, J.
+\newblock Low-level components of analytic activity in information
+  visualization.
+\newblock In \emph{IEEE Symposium on Information Visualization}, pages
+  111--117, (2005).
+\newblock \doi{10.1109/INFVIS.2005.1532136}.
+
+\bibitem[Brehmer and Munzner(2013)Brehmer \& Munzner]{brehmer2013}
+Brehmer, M. \& Munzner, T.
+\newblock A multi-level typology of abstract visualization tasks.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
+  \textbf{19}, 2376--2385, (2013).
+\newblock \doi{10.1109/TVCG.2013.124}.
+
+\bibitem[Mackinlay(1986)]{mackinlay1986}
+Mackinlay, J.
+\newblock Automating the design of graphical presentations of relational
+  information.
+\newblock \emph{ACM Transactions on Graphics}, \textbf{5}, 110--141, (1986).
+\newblock \doi{10.1145/22949.22950}.
+
+\bibitem[Moritz et~al.(2019)Moritz, Wang, Nelson, Lin, Smith, Howe, \&
+  Heer]{draco}
+Moritz, D., Wang, C., Nelson, G., Lin, H., Smith, A.~M., Howe, B., \& Heer, J.
+\newblock Formalizing visualization design knowledge as constraints: Actionable
+  and extensible models in {Draco}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
+  (2019).
+\newblock \doi{10.1109/TVCG.2018.2865240}.
+
+\bibitem[Hu et~al.(2019)Hu, Bakker, Li, Kraska, \& Hidalgo]{vizml}
+Hu, K., Bakker, M.~A., Li, S., Kraska, T., \& Hidalgo, C.~A.
+\newblock {VizML}: A machine learning approach to visualization recommendation.
+\newblock In \emph{Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, (2019).
+\newblock \doi{10.1145/3290605.3300358}.
+
+\bibitem[Cleveland and McGill(1984)Cleveland \& McGill]{cleveland1984}
+Cleveland, W.~S. \& McGill, R.
+\newblock Graphical perception: Theory, experimentation, and application to the
+  development of graphical methods.
+\newblock \emph{Journal of the American Statistical Association}, \textbf{79},
+  531--554, (1984).
+\newblock \doi{10.1080/01621459.1984.10478080}.
+
+\bibitem[Heer and Bostock(2010)Heer \& Bostock]{heer2010}
+Heer, J. \& Bostock, M.
+\newblock Crowdsourcing graphical perception: Using mechanical turk to assess
+  visualization design.
+\newblock In \emph{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 203--212, (2010).
+\newblock \doi{10.1145/1753326.1753357}.
+
+\bibitem[Masry et~al.(2022)Masry, Long, Tan, Joty, \& Hoque]{chartqa}
+Masry, A., Long, D.~X., Tan, J.~Q., Joty, S., \& Hoque, E.
+\newblock {ChartQA}: A benchmark for question answering about charts with
+  visual and logical reasoning.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2022}, pages 2263--2279, (2022).
+\newblock \doi{10.18653/v1/2022.findings-acl.177}.
+
+\bibitem[Xu et~al.(2024)Xu, Du, Qi, Xu, Yuan, \& Guo]{chartbench}
+Xu, Z., Du, S., Qi, Y., Xu, C., Yuan, C., \& Guo, J.
+\newblock {ChartBench}: A benchmark for complex visual reasoning in charts.
+\newblock arXiv:2312.15915v3, (2024).
+\newblock \doi{10.48550/arXiv.2312.15915}.
+
+\bibitem[Crameri et~al.(2020)Crameri, Shephard, \& Heron]{crameri2020}
+Crameri, F., Shephard, G.~E., \& Heron, P.~J.
+\newblock The misuse of colour in science communication.
+\newblock \emph{Nature Communications}, \textbf{11}, 5444, (2020).
+\newblock \doi{10.1038/s41467-020-19160-7}.
+
+\bibitem[Weissgerber et~al.(2015)Weissgerber, Milic, Winham, \&
+  Garovic]{weissgerber2015}
+Weissgerber, T.~L., Milic, N.~M., Winham, S.~J., \& Garovic, V.~D.
+\newblock Beyond bar and line graphs: Time for a new data presentation
+  paradigm.
+\newblock \emph{PLOS Biology}, \textbf{13}, e1002128, (2015).
+\newblock \doi{10.1371/journal.pbio.1002128}.
+
+\bibitem[Rousselet et~al.(2017)Rousselet, Pernet, \& Wilcox]{rousselet2017}
+Rousselet, G.~A., Pernet, C.~R., \& Wilcox, R.~R.
+\newblock Beyond differences in means: robust graphical methods to compare two
+  groups in neuroscience.
+\newblock \emph{European Journal of Neuroscience}, \textbf{46}, 1738--1748,
+  (2017).
+\newblock \doi{10.1111/ejn.13610}.
+
+\bibitem[Wolberg et~al.(1993)Wolberg, Mangasarian, Street, \& Street]{wdbc}
+Wolberg, W., Mangasarian, O., Street, N., \& Street, W.
+\newblock Breast cancer wisconsin (diagnostic).
+\newblock UCI Machine Learning Repository, (1993).
+\newblock \doi{10.24432/C5DW2B}.
+\newblock Dataset; CC BY 4.0.
+
+\bibitem[Janosi et~al.(1989)Janosi, Steinbrunn, Pfisterer, \& Detrano]{heart}
+Janosi, A., Steinbrunn, W., Pfisterer, M., \& Detrano, R.
+\newblock Heart disease.
+\newblock UCI Machine Learning Repository, (1989).
+\newblock \doi{10.24432/C52P4X}.
+
+\bibitem[Chicco and Jurman(2020)Chicco \& Jurman]{failure}
+Chicco, D. \& Jurman, G.
+\newblock Heart failure clinical records.
+\newblock UCI Machine Learning Repository, (2020).
+\newblock \doi{10.24432/C5Z89R}.
+
+\bibitem[Rubini et~al.(2015)Rubini, Soundarapandian, \& Eswaran]{kidney}
+Rubini, L., Soundarapandian, P., \& Eswaran, P.
+\newblock Chronic kidney disease.
+\newblock UCI Machine Learning Repository, (2015).
+\newblock \doi{10.24432/C5G020}.
+
+\bibitem[Ramana and Venkateswarlu(2022)Ramana \& Venkateswarlu]{liver}
+Ramana, B. \& Venkateswarlu, N.
+\newblock {ILPD} (indian liver patient dataset).
+\newblock UCI Machine Learning Repository, (2022).
+\newblock \doi{10.24432/C5D02C}.
+
+\bibitem[Antal and Hajdu(2014)Antal \& Hajdu]{retina}
+Antal, B. \& Hajdu, A.
+\newblock Diabetic retinopathy debrecen.
+\newblock UCI Machine Learning Repository, (2014).
+\newblock \doi{10.24432/C5XP4P}.
+
+\bibitem[Reyes-Ortiz et~al.(2013)Reyes-Ortiz, Anguita, Ghio, Oneto, \&
+  Parra]{har}
+Reyes-Ortiz, J., Anguita, D., Ghio, A., Oneto, L., \& Parra, X.
+\newblock Human activity recognition using smartphones.
+\newblock UCI Machine Learning Repository, (2013).
+\newblock \doi{10.24432/C54S4K}.
+
+\bibitem[Pimentel et~al.(2018)Pimentel, Johnson, Charlton, \& Clifton]{bidmc}
+Pimentel, M., Johnson, A., Charlton, P., \& Clifton, D.
+\newblock {BIDMC PPG} and respiration dataset (version 1.0.0).
+\newblock PhysioNet, (2018).
+\newblock \doi{10.13026/C2208R}.
+
+\bibitem[Casson(2017)]{wrist}
+Casson, A.~J.
+\newblock Wrist {PPG} during exercise (version 1.0.0).
+\newblock PhysioNet, (2017).
+\newblock \doi{10.13026/C2PQ1X}.
+
+\bibitem[Pimentel et~al.(2017)]{pimentel2017}
+Pimentel, M. A.~F. et~al.
+\newblock Towards a robust estimation of respiratory rate from pulse oximeters.
+\newblock \emph{IEEE Transactions on Biomedical Engineering}, \textbf{64},
+  1914--1923, (2017).
+\newblock \doi{10.1109/TBME.2016.2613124}.
+
+\bibitem[Jarchi and Casson(2017)Jarchi \& Casson]{jarchi2017}
+Jarchi, D. \& Casson, A.~J.
+\newblock Description of a database containing wrist {PPG} signals recorded
+  during physical exercise with both accelerometer and gyroscope measures of
+  motion.
+\newblock \emph{Data}, \textbf{2}, 1, (2017).
+\newblock \doi{10.3390/data2010001}.
+
+\end{thebibliography}
