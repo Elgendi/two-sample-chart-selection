@@ -1,44 +1,111 @@
-# Choosing scientific visualizations through task-first optimization — v5.0.1
+# Choosing scientific visualizations through task-first optimization
 
-Read `main.pdf` and `supp.pdf`. The manuscript retains the worked-score example, eight familiar-chart examples and coverage overview, with full strong-default, decoder and synthetic comparisons in the main paper. `REVISION_REPORT.md` maps reviewer concerns to changes and remaining limits.
+**Version 5.0.1** · Mohamed Elgendi
 
-## Reproduce
+A reproducible computational framework for comparing scientific charts according to the numerical information they need to communicate.
 
-Verified with Python 3.12.14. Use Python 3.12 with the pinned dependencies. From the repository root:
+The workflow is simple: **define the task → render candidate charts → recover the target information → compare errors**. Candidates are scored under an explicit computational decoder, and selected charts are evaluated against strong fixed defaults under changed display conditions.
+
+## Start here
+
+| Your goal | Where to start |
+|---|---|
+| Read the paper | [Main manuscript](main.pdf) · [Supplementary information](supp.pdf) |
+| Score your own data | [CSV formats and examples](QUICKSTART.md) |
+| Reproduce the study | [Installation](#installation) and [Reproduction](#reproduction) below |
+| Trace figures to results | [Results map](benchmark_release/RESULTS_MAP.md) |
+| Check data sources and terms | [Data provenance](DATA_PROVENANCE.md) |
+
+## What the framework evaluates
+
+The benchmark covers six numerical tasks: median differences, spread differences, five-percentile differences, composition, ordered profiles, and association. It includes empirical data, synthetic stress tests, alternative decoders, and comparisons against strong defaults.
+
+The paper uses simple worked examples and familiar charts to explain how task-specific selection works. **Higher scores indicate lower recovery error for the specified task and decoder.** Scores are not percentages of readers who understand a chart.
+
+## Installation
+
+Verified with **Python 3.12.14**. Use Python 3.12 and the pinned dependencies in `requirements.txt`. Run the following commands from the repository root.
+
+**1. Create a virtual environment**
 
 ```bash
 python -m venv .venv
-# Linux/macOS:
+```
+
+**2. Activate it**
+
+Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Linux or macOS:
+
+```bash
 source .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
+```
+
+**3. Install dependencies**
+
+```bash
 python -m pip install -r requirements.txt
 ```
 
-Then run:
+## Try an example
+
+Score the included spread-comparison example:
 
 ```bash
-python reproduce_benchmark.py --full --pdf
+python benchmark_release/score_and_compare.py task_first/examples/spread.csv --task spread --output-dir example_spread
 ```
 
-The numerical run is offline and uses the bundled source data. PDF compilation requires TeX Live and latexmk. Use `--verify` to audit saved results or `--figures --pdf` to regenerate figures and documents. `python benchmark_release/check_examples.py` checks all four user-facing CSV examples. `QUICKSTART.md` describes those examples. Runtime depends on hardware; allow roughly 10–25 minutes for a full rebuild.
+The output folder contains candidate scores, trial losses, the selected chart, and its comparison with the frozen default. For other tasks and your own CSV files, see [QUICKSTART.md](QUICKSTART.md).
 
-Main figures and claims map to their source data in `benchmark_release/RESULTS_MAP.md`. The scoring example uses a retained secondary tuning search; the full inference uses fixed configurations and strong defaults. Archived analyses are provenance, not independent validation.
+## Reproduction
 
-This release contains the complete computational record, including `rendered_study/`, raw inputs, saved benchmark outputs, and verification reports. See `GITHUB_UPDATE.md` for instructions to synchronize an existing checkout. Preparing this package does not update the remote repository.
+The numerical pipeline runs **offline using the bundled data** after dependency installation. A full numerical rebuild typically takes approximately **10–25 minutes**, depending on hardware.
 
-## Interpretation
+| Action | Command |
+|---|---|
+| Rebuild the primary numerical results, tables, and figures | `python reproduce_benchmark.py --full` |
+| Audit saved results | `python reproduce_benchmark.py --verify` |
+| Check the four documented CSV examples | `python benchmark_release/check_examples.py` |
+| Regenerate tables and figures and compile the PDFs | `python reproduce_benchmark.py --figures --pdf` |
+| Rebuild the primary results and compile the PDFs | `python reproduce_benchmark.py --full --pdf` |
 
-Losses measure algorithmic recovery of specified numerical information. They do not measure human comprehension. Neither the main results nor the synthetic stress tests establish universal benefit from adaptive chart selection. Genuine ties and all candidate failures remain reported. The planned reader study is unperformed; see `READER_STUDY_PROTOCOL.md`.
+**PDF compilation additionally requires TeX Live and `latexmk`.** These are not needed to run the numerical benchmark.
 
-Before journal submission, read `SUBMISSION_NOTES.md`. No top-percentile placement or acceptance is guaranteed. Dataset terms and inherited code rights are in `DATA_PROVENANCE.md` and `LICENSE_NOTICE.md`.
+Validation details are recorded in [REPRODUCIBILITY_REPORT.md](REPRODUCIBILITY_REPORT.md) and [GITHUB_PACKAGE_CHECK.md](GITHUB_PACKAGE_CHECK.md). The [results map](benchmark_release/RESULTS_MAP.md) connects manuscript figures and claims to their supporting outputs.
 
-## Repository guide
+## Interpreting the results
 
-- `benchmark_release/`: final comparisons, independent audits, scoring interface, and result-to-figure map.
-- `rendered_study/`, `validation_v3/`, `task_first/`: rendering and primary benchmark implementations.
-- `data/`: bundled inputs and dataset attribution; see `DATA_PROVENANCE.md`.
-- `main.tex`, `supp.tex`, `figures/`, `reader_figures/`: manuscript and presentation sources.
-- `archive/`, `validation_v2/`, `revision/`, `legacy_compression/`: historical analyses retained for provenance.
-- `reader_study/`: planned reader-study materials; no completed human experiment is claimed.
+- **What is measured:** recovery of specified numerical information from rendered chart pixels using explicit computational decoders.
+- **How selection is evaluated:** comparison against strong defaults under changed display conditions, with sensitivity analyses for decoder choice and synthetic inputs.
+- **What the evidence supports:** task- and decoder-specific comparisons; it does not establish a universal advantage for case-specific chart selection.
+- **What remains untested:** human comprehension, reading speed, and reader preferences. The [reader-study protocol](READER_STUDY_PROTOCOL.md) describes planned work; no human-reader study was performed.
 
-Start with `QUICKSTART.md` to score your own CSV. `select_chart.py` is a historical interface; use `benchmark_release/score_and_compare.py` for the current comparison.
+Genuine ties and candidate failures are retained. The worked scoring example uses a secondary tuning search, while the primary inference uses fixed configurations and strong defaults. Historical analyses are retained for provenance and are not additional independent validation.
+
+## Repository structure
+
+| Location | Contents |
+|---|---|
+| `benchmark_release/` | Current scoring interface, default comparisons, audits, reports, and result-to-figure map |
+| `rendered_study/` | Chart rendering and pixel-recovery implementation |
+| `validation_v3/`, `task_first/` | Primary benchmark implementations and task examples |
+| `data/` | Bundled source data and prepared inputs |
+| `main.tex`, `supp.tex`, `references.bib` | Manuscript and supplementary source files |
+| `figures/`, `reader_figures/` | Manuscript figures and example galleries |
+| `reader_study/` | Materials for the planned reader study |
+| `archive/`, `validation_v2/`, `revision/`, `legacy_compression/` | Historical analyses and development provenance |
+
+Use `benchmark_release/score_and_compare.py` for the current scoring comparison. Earlier interfaces, including `select_chart.py`, are retained for provenance.
+
+## Data and code rights
+
+Original datasets retain their source-specific terms and attribution requirements. See [DATA_PROVENANCE.md](DATA_PROVENANCE.md) for details and [LICENSE_NOTICE.md](LICENSE_NOTICE.md) for code rights. Public availability does not itself grant an open-source licence.
+
+## Citation
+
+Citation metadata are provided in [CITATION.cff](CITATION.cff). Please also cite the original datasets used in your analysis.
